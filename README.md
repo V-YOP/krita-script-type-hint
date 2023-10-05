@@ -18,10 +18,6 @@ Krita Script Python Type Hint used for IDE auto complete, inspired by [scottpetr
 6. modify `build.py`, setup variable `XML_PATH` and `PLUGIN_PATH` to corresponding path
 7. run `python build.py`, then `krita.pyi` will be generated in `PLUGIN_PATH`
 
-# limitation
-
-Some class have real super class like `QObject`, but protocol is not allowed to have such a super class, dont know how to solve it.
-
 # TODO
 
 - [ ] class comment format
