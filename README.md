@@ -10,7 +10,7 @@ Krita Script Python Type Hint used for IDE auto complete, inspired by [scottpetr
 
 # "build" manually
 
-1. download krita source code's `libs/libkis`` directory, you can download it directly from [there](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FKDE%2Fkrita%2Ftree%2Fmaster%2Flibs%2Flibkis)
+1. download krita source code's `libs/libkis` directory, you can download it directly from [there](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FKDE%2Fkrita%2Ftree%2Fmaster%2Flibs%2Flibkis)
 2. download [doxygen](https://github.com/doxygen/doxygen/actions/workflows/build_cmake.yml) for xml documentation generation
 3. cd to `libs/libkis`, run `doxygen -s -g` to generate Doxygen Configuration file
 4. modify `Doxyfile`, set `GENERATE_XML` to `YES`
