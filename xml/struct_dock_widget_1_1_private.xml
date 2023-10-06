@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_dock_widget_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>DockWidget::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_dock_widget_1_1_private_1a0950c7b585d60619077a40eba6c34b0e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_canvas" kindref="compound">Canvas</ref> *</type>
+        <definition>Canvas* DockWidget::Private::canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <qualifiedname>DockWidget::Private::canvas</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.cpp" line="16" column="12" bodyfile="DockWidget.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_dock_widget_1_1_private_1ac658f37bb3f854eebe6f25bb17a64d7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DockWidget::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>DockWidget::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.cpp" line="14" column="5" bodyfile="DockWidget.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Canvas</label>
+        <link refid="class_canvas"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DockWidget::Private</label>
+        <link refid="struct_dock_widget_1_1_private"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>canvas</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="DockWidget.cpp" line="13" column="1" bodyfile="DockWidget.cpp" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_dock_widget_1_1_private_1a0950c7b585d60619077a40eba6c34b0e" prot="public" virt="non-virtual"><scope>DockWidget::Private</scope><name>canvas</name></member>
+      <member refid="struct_dock_widget_1_1_private_1ac658f37bb3f854eebe6f25bb17a64d7f" prot="public" virt="non-virtual"><scope>DockWidget::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

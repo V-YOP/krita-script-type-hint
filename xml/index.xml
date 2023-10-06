@@ -1,0 +1,1002 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="class_canvas" kind="class"><name>Canvas</name>
+    <member refid="class_canvas_1a944be00db0ae07d95f00efdc8db036e3" kind="friend"><name>ManagedColor</name></member>
+    <member refid="class_canvas_1ae9df4750825a1d5873f5b58f2454e80a" kind="variable"><name>d</name></member>
+    <member refid="class_canvas_1aeac63b8e913e0596f2c17605ae2ae369" kind="function"><name>Canvas</name></member>
+    <member refid="class_canvas_1ac05e46c7b874bfedbf7c98df97965aef" kind="function"><name>~Canvas</name></member>
+    <member refid="class_canvas_1ad80f2d88e56d6d0f773c0067de711ff2" kind="function"><name>operator==</name></member>
+    <member refid="class_canvas_1a90bc5cc31a732aec8e4178106e11c0f5" kind="function"><name>operator!=</name></member>
+    <member refid="class_canvas_1aac55c17eba53f1b4b49c23759c61174b" kind="slot"><name>zoomLevel</name></member>
+    <member refid="class_canvas_1ad5dc2852848a82be509b84d4b07f5015" kind="slot"><name>setZoomLevel</name></member>
+    <member refid="class_canvas_1afe46d22d824c72fae2e598a00e964aa2" kind="slot"><name>resetZoom</name></member>
+    <member refid="class_canvas_1a32c3031fa460b467c59b3b3824cf1bc1" kind="slot"><name>rotation</name></member>
+    <member refid="class_canvas_1a406503d884c3333a09877820bacbdeae" kind="slot"><name>setRotation</name></member>
+    <member refid="class_canvas_1aa2884065af5aa0d89f18fad4e144dd21" kind="slot"><name>resetRotation</name></member>
+    <member refid="class_canvas_1a0ae53f7af681988d28349f96aa1b34f2" kind="slot"><name>mirror</name></member>
+    <member refid="class_canvas_1a3260ecc8ea9f67074d300505f5dcf3de" kind="slot"><name>setMirror</name></member>
+    <member refid="class_canvas_1ad133ca24a0f1d7c3d375ef37f1c09b3b" kind="slot"><name>wrapAroundMode</name></member>
+    <member refid="class_canvas_1a7be07e28f3300af87c4757b8ae96417c" kind="slot"><name>setWrapAroundMode</name></member>
+    <member refid="class_canvas_1a84ce542dccceedda42c6697f6fa91ab8" kind="slot"><name>levelOfDetailMode</name></member>
+    <member refid="class_canvas_1aa16e71ac99501523f6b1e85b37829f03" kind="slot"><name>setLevelOfDetailMode</name></member>
+    <member refid="class_canvas_1a4b1e62f9192d268d36a913e5ef0fc0c3" kind="slot"><name>view</name></member>
+    <member refid="class_canvas_1abecb36ddd105aca91ae401796bcc0037" kind="function"><name>displayColorConverter</name></member>
+  </compound>
+  <compound refid="class_channel" kind="class"><name>Channel</name>
+    <member refid="class_channel_1aefa84b18623f8df4071e19d33c02d02b" kind="variable"><name>d</name></member>
+    <member refid="class_channel_1a54353e4d5c8d68707527f2b52704d2f7" kind="function"><name>Channel</name></member>
+    <member refid="class_channel_1aee8f50152fdf71d78eeb5d8ce82eced7" kind="function"><name>~Channel</name></member>
+    <member refid="class_channel_1a21d6adf4b745535f7842e0f5b00f7213" kind="function"><name>operator==</name></member>
+    <member refid="class_channel_1a8b87f344de6e2351c20a7936b0762ad6" kind="function"><name>operator!=</name></member>
+    <member refid="class_channel_1a9846cec445cb3fccdbf1b243613ddf69" kind="function"><name>visible</name></member>
+    <member refid="class_channel_1a407b3ee90824a72b19569d6d967f9913" kind="function"><name>setVisible</name></member>
+    <member refid="class_channel_1ad1e9654765bb4cae3eb63566e21b4a13" kind="function"><name>name</name></member>
+    <member refid="class_channel_1a3843cb5d6e418aaa19295584a58214ed" kind="function"><name>position</name></member>
+    <member refid="class_channel_1aea137c691e5a3689349f9cab4c4040d3" kind="function"><name>channelSize</name></member>
+    <member refid="class_channel_1aab1f8fc244b6a81c44301e0b70a3483e" kind="function"><name>bounds</name></member>
+    <member refid="class_channel_1abb43c7a78a1366da856170d9da173050" kind="function"><name>pixelData</name></member>
+    <member refid="class_channel_1aa0ccf6e79bce5016715fce955b95eeb3" kind="function"><name>setPixelData</name></member>
+  </compound>
+  <compound refid="class_clone_layer" kind="class"><name>CloneLayer</name>
+    <member refid="class_clone_layer_1ac15aa7ec0406ee785eaa9be56aa8aa53" kind="function"><name>CloneLayer</name></member>
+    <member refid="class_clone_layer_1a70e80dab6ba20303db25956dcd7adfcb" kind="function"><name>CloneLayer</name></member>
+    <member refid="class_clone_layer_1ab355efea57fe59f7398fc1684a8267a7" kind="function"><name>~CloneLayer</name></member>
+    <member refid="class_clone_layer_1a64fd1e3180c998aa6bbe9eedf90326b0" kind="slot"><name>type</name></member>
+    <member refid="class_clone_layer_1aeecc5e55e30372d934d60d8a573f3c9c" kind="slot"><name>sourceNode</name></member>
+    <member refid="class_clone_layer_1aa9754ee3a3de759a851b6a1493bef01f" kind="slot"><name>setSourceNode</name></member>
+  </compound>
+  <compound refid="class_colorize_mask" kind="class"><name>ColorizeMask</name>
+    <member refid="class_colorize_mask_1a167228c7d77d39f93c15734c5649d438" kind="function"><name>ColorizeMask</name></member>
+    <member refid="class_colorize_mask_1aa5cd502f42306c104e601ca1a69d0277" kind="function"><name>ColorizeMask</name></member>
+    <member refid="class_colorize_mask_1abf1a0d963d022c9b30b7f5e5a9c29335" kind="function"><name>~ColorizeMask</name></member>
+    <member refid="class_colorize_mask_1ab3ebd6a9b18bb9570183a8f49ae7ded6" kind="slot"><name>type</name></member>
+    <member refid="class_colorize_mask_1a6a311ec5313b4b8e16ccab7d42ab7836" kind="slot"><name>keyStrokesColors</name></member>
+    <member refid="class_colorize_mask_1aac3240ca2358c922947c852dea09e790" kind="slot"><name>initializeKeyStrokeColors</name></member>
+    <member refid="class_colorize_mask_1adc55b4506273124ddcfba606fc8c6498" kind="slot"><name>removeKeyStroke</name></member>
+    <member refid="class_colorize_mask_1a53d49bf5da50251e392f2f9f12320870" kind="slot"><name>transparencyIndex</name></member>
+    <member refid="class_colorize_mask_1a11b77f620d0dfff50cf1273d75ef25fb" kind="slot"><name>keyStrokePixelData</name></member>
+    <member refid="class_colorize_mask_1a773c8fe3406cf982d44d0146c4802399" kind="slot"><name>setKeyStrokePixelData</name></member>
+    <member refid="class_colorize_mask_1a8ac47faed512ecfd12a02368d7bad314" kind="slot"><name>setUseEdgeDetection</name></member>
+    <member refid="class_colorize_mask_1a09b11c16b646af4d012fd2221640bafd" kind="slot"><name>useEdgeDetection</name></member>
+    <member refid="class_colorize_mask_1a30b109acefa508a0404164079e74f36e" kind="slot"><name>setEdgeDetectionSize</name></member>
+    <member refid="class_colorize_mask_1a63c81cd9acd012f7301ac83c6d2e321e" kind="slot"><name>edgeDetectionSize</name></member>
+    <member refid="class_colorize_mask_1a69398fcd52922c605abeb2f182aab64f" kind="slot"><name>setCleanUpAmount</name></member>
+    <member refid="class_colorize_mask_1a5b58ece6ed3fbca5729d07fe8241cc4f" kind="slot"><name>cleanUpAmount</name></member>
+    <member refid="class_colorize_mask_1a789df64b52c7fb5d215c3f8558b84b5a" kind="slot"><name>setLimitToDeviceBounds</name></member>
+    <member refid="class_colorize_mask_1a7da0fa22e43d524c85412d07e3aba27d" kind="slot"><name>limitToDeviceBounds</name></member>
+    <member refid="class_colorize_mask_1a7aaa88a80c2600f310cdea75d2419655" kind="slot"><name>updateMask</name></member>
+    <member refid="class_colorize_mask_1ade5a975043daec222325eb84f3acfcc0" kind="slot"><name>resetCache</name></member>
+    <member refid="class_colorize_mask_1a29f60b32983ef8292ad1c362259339d0" kind="slot"><name>showOutput</name></member>
+    <member refid="class_colorize_mask_1a677c6394a3de69403cab7add8b5c7866" kind="slot"><name>setShowOutput</name></member>
+    <member refid="class_colorize_mask_1a2e0bbe6b926b5412278c6ac1150dcb71" kind="slot"><name>editKeyStrokes</name></member>
+    <member refid="class_colorize_mask_1a14b6112eb3237d6991e9ed1a9276babd" kind="slot"><name>setEditKeyStrokes</name></member>
+  </compound>
+  <compound refid="class_dock_widget" kind="class"><name>DockWidget</name>
+    <member refid="class_dock_widget_1aff580ddbadca20e65273c7e6363df1ef" kind="variable"><name>d</name></member>
+    <member refid="class_dock_widget_1a9241fb313ef4da08fd03a55f8fc12662" kind="function"><name>DockWidget</name></member>
+    <member refid="class_dock_widget_1ad6be65291c2fa96d1d51d765661c1d9b" kind="function"><name>~DockWidget</name></member>
+    <member refid="class_dock_widget_1a32150bebfc467135fa21b9bdcf761bc3" kind="slot"><name>setCanvas</name></member>
+    <member refid="class_dock_widget_1a5f366b610b55de8f16c0aba756fb36d8" kind="slot"><name>unsetCanvas</name></member>
+    <member refid="class_dock_widget_1a6135e785a8465ed54536773d18428614" kind="slot"><name>canvas</name></member>
+    <member refid="class_dock_widget_1a7380260bb3fc1c31437078b5462b1216" kind="slot"><name>canvasChanged</name></member>
+  </compound>
+  <compound refid="class_dock_widget_factory_base" kind="class"><name>DockWidgetFactoryBase</name>
+    <member refid="class_dock_widget_factory_base_1ada9365399532e14bc5b930b57c0cac64" kind="variable"><name>m_id</name></member>
+    <member refid="class_dock_widget_factory_base_1aa400ff0825c4cab7cf0eb8b794bcd9e6" kind="variable"><name>m_dockPosition</name></member>
+    <member refid="class_dock_widget_factory_base_1aae5b8cf15947405e4394ad537afbf699" kind="function"><name>DockWidgetFactoryBase</name></member>
+    <member refid="class_dock_widget_factory_base_1a222ef8622b3b33511fa074ebff71c110" kind="function"><name>~DockWidgetFactoryBase</name></member>
+    <member refid="class_dock_widget_factory_base_1a5bd1764e801c67784f0509b72ca689c1" kind="function"><name>id</name></member>
+    <member refid="class_dock_widget_factory_base_1aa7db26051d5e97d6cd2b9e65dfecbaad" kind="function"><name>defaultDockPosition</name></member>
+  </compound>
+  <compound refid="class_document" kind="class"><name>Document</name>
+    <member refid="class_document_1a875629509806a360029018f5a9cbaf6f" kind="friend"><name>Krita</name></member>
+    <member refid="class_document_1a553f958a25683445088050a69d3de8e9" kind="friend"><name>Window</name></member>
+    <member refid="class_document_1a34f7bc7cd29643e53d23b7d500d21739" kind="friend"><name>Filter</name></member>
+    <member refid="class_document_1a018ff8a950133459fda57a235706a80b" kind="friend"><name>View</name></member>
+    <member refid="class_document_1aa470056f72d93178e709c6dc936f98aa" kind="friend"><name>VectorLayer</name></member>
+    <member refid="class_document_1a1e1ef8352d0a310bace7f7a3307d1378" kind="friend"><name>Shape</name></member>
+    <member refid="class_document_1aa7203a921d720f09a0fa8ca9fc310139" kind="variable"><name>d</name></member>
+    <member refid="class_document_1a4db7132c10025c39a8d5669a8086f9c3" kind="function"><name>Document</name></member>
+    <member refid="class_document_1aacbeebde0dea142096b48b3ec3cf748d" kind="function"><name>~Document</name></member>
+    <member refid="class_document_1a65ba42f6e17ea29eddb833dcd9f14bfb" kind="function"><name>operator==</name></member>
+    <member refid="class_document_1a3c6b7bd2d552ec9f38730953915e6f1b" kind="function"><name>operator!=</name></member>
+    <member refid="class_document_1aa78509a280eac278a787b3699b323098" kind="function"><name>horizontalGuides</name></member>
+    <member refid="class_document_1a8d51ceb6f54c696a3dffa1a42cf07532" kind="function"><name>verticalGuides</name></member>
+    <member refid="class_document_1a047471b983ac42cb1f2e9d63079a2d36" kind="function"><name>guidesVisible</name></member>
+    <member refid="class_document_1a90f86452915fabb8fbfb61b2e71bf749" kind="function"><name>guidesLocked</name></member>
+    <member refid="class_document_1a68ae4fc363bd83064e5e81d3cf2116ed" kind="slot"><name>clone</name></member>
+    <member refid="class_document_1a81fc9b650731cdba56d98567aa8b19e5" kind="slot"><name>batchmode</name></member>
+    <member refid="class_document_1ac0986f4a125d3e279ab597494f6c6cbe" kind="slot"><name>setBatchmode</name></member>
+    <member refid="class_document_1a47adaa12bbc954dc0a321a87414cd1ee" kind="slot"><name>activeNode</name></member>
+    <member refid="class_document_1a29b65d5bbcc6a3598e7f1f3cc37ccc30" kind="slot"><name>setActiveNode</name></member>
+    <member refid="class_document_1a155fc10246c22284bc86fe79bb123843" kind="slot"><name>topLevelNodes</name></member>
+    <member refid="class_document_1ad8ed446d59179f65695f9f458b6220cd" kind="slot"><name>nodeByName</name></member>
+    <member refid="class_document_1a9f69f227907599d6a565a677e03c4c05" kind="slot"><name>nodeByUniqueID</name></member>
+    <member refid="class_document_1ab31f8f4d264d21f1a0654758903293b1" kind="slot"><name>colorDepth</name></member>
+    <member refid="class_document_1a3ad830f106f8fca68fbd1e4caae4a398" kind="slot"><name>colorModel</name></member>
+    <member refid="class_document_1a353d64799dd2b0d28a1096b8376d5f96" kind="slot"><name>colorProfile</name></member>
+    <member refid="class_document_1a4f1403744fdf70dc6cbe687fbeba4893" kind="slot"><name>setColorProfile</name></member>
+    <member refid="class_document_1a7c21d5382994f86397d2a1bbcffd5360" kind="slot"><name>setColorSpace</name></member>
+    <member refid="class_document_1ac9b5eddf81e502b63dc7d2c6efc58b72" kind="slot"><name>backgroundColor</name></member>
+    <member refid="class_document_1a297d80d5da3870a6519f25712e6dc8ea" kind="slot"><name>setBackgroundColor</name></member>
+    <member refid="class_document_1a9b6e49c77a3be2057cc8d051543319bf" kind="slot"><name>documentInfo</name></member>
+    <member refid="class_document_1a1f67e6186727284b1886bcfe0eb16b27" kind="slot"><name>setDocumentInfo</name></member>
+    <member refid="class_document_1a43b524bd6c269c67bb808e4ef40293a4" kind="slot"><name>fileName</name></member>
+    <member refid="class_document_1ab9e04f2f12a31d7ec6d3bc5a1022d073" kind="slot"><name>setFileName</name></member>
+    <member refid="class_document_1a128e829bb24b055de57026223326b815" kind="slot"><name>height</name></member>
+    <member refid="class_document_1af108092810b0ed079a37b4fa8523977b" kind="slot"><name>setHeight</name></member>
+    <member refid="class_document_1a2e566b3a96b81f300f9a409e84f9eb07" kind="slot"><name>name</name></member>
+    <member refid="class_document_1a6e5f546ad95c06e192f82e58b0af4927" kind="slot"><name>setName</name></member>
+    <member refid="class_document_1a08b6c8e6e160f9229f36540ad3d84807" kind="slot"><name>resolution</name></member>
+    <member refid="class_document_1ac95799577e5ab54714768455cc4d52a0" kind="slot"><name>setResolution</name></member>
+    <member refid="class_document_1a35dd582b73479dbc79847326de510640" kind="slot"><name>rootNode</name></member>
+    <member refid="class_document_1ac920de30e9d3d817e6c2fe61ca1e25ee" kind="slot"><name>selection</name></member>
+    <member refid="class_document_1a0fc9fffcb7107b3f5796d9ae084b8369" kind="slot"><name>setSelection</name></member>
+    <member refid="class_document_1aac01dc47c514bfa5eff0284011e1d17d" kind="slot"><name>width</name></member>
+    <member refid="class_document_1aab6dfa77a9ec6e87127d9bb36eefc0ce" kind="slot"><name>setWidth</name></member>
+    <member refid="class_document_1ac8776ca65040584553dbfc3825363fe7" kind="slot"><name>xOffset</name></member>
+    <member refid="class_document_1a24bb072eba4939b7133fcfafc4ca4d62" kind="slot"><name>setXOffset</name></member>
+    <member refid="class_document_1a7cb75e4e283ca0d1fa0e174011634c53" kind="slot"><name>yOffset</name></member>
+    <member refid="class_document_1a29e0958a34e384130aaf4baea4053dd0" kind="slot"><name>setYOffset</name></member>
+    <member refid="class_document_1ae25a768a5a198b6bf07945472e708c1d" kind="slot"><name>xRes</name></member>
+    <member refid="class_document_1a71c0a9a745c4e1b17f7bbcb4d3eca1c4" kind="slot"><name>setXRes</name></member>
+    <member refid="class_document_1a63c7a48f667c7d063bd62b3b783c87a3" kind="slot"><name>yRes</name></member>
+    <member refid="class_document_1ab480128d3849a9a4f68bddf5fdfb3398" kind="slot"><name>setYRes</name></member>
+    <member refid="class_document_1aca1d1874a0ca18658f4bb130de735b20" kind="slot"><name>pixelData</name></member>
+    <member refid="class_document_1a1e6ae3aa647783af3298351725f52649" kind="slot"><name>close</name></member>
+    <member refid="class_document_1ac522dcff08ffba00d287a965fffcd2a0" kind="slot"><name>crop</name></member>
+    <member refid="class_document_1abda324b9beee9384879af8b7e7807cfa" kind="slot"><name>exportImage</name></member>
+    <member refid="class_document_1a24b2184ed0e6e2a22f12455b674ff0cb" kind="slot"><name>flatten</name></member>
+    <member refid="class_document_1a35900d72f16669e76886e25c154cb329" kind="slot"><name>resizeImage</name></member>
+    <member refid="class_document_1a551478c89e1f505bdd7d5902d18c3a96" kind="slot"><name>scaleImage</name></member>
+    <member refid="class_document_1a4dbe5faf96b18d226c37ff22d836add9" kind="slot"><name>rotateImage</name></member>
+    <member refid="class_document_1ad588ffd3f2f21f32275b48d43bf0a4ea" kind="slot"><name>shearImage</name></member>
+    <member refid="class_document_1ab3688d7332c79fb5553a259edfe49ae9" kind="slot"><name>save</name></member>
+    <member refid="class_document_1a3d5231b032ce674a8b42036db3c66206" kind="slot"><name>saveAs</name></member>
+    <member refid="class_document_1aa1631e73169ba8f683a58f3e98003493" kind="slot"><name>createNode</name></member>
+    <member refid="class_document_1aef5a97ba7a846833987d3134c4e84529" kind="slot"><name>createGroupLayer</name></member>
+    <member refid="class_document_1abaca7e44a32810bc075b5b61a07be315" kind="slot"><name>createFileLayer</name></member>
+    <member refid="class_document_1ad8e1f26cb819aea4486ecd7e597e0364" kind="slot"><name>createFilterLayer</name></member>
+    <member refid="class_document_1a4e8741dbfa8911d6bf0bd691eef863f1" kind="slot"><name>createFillLayer</name></member>
+    <member refid="class_document_1a75a68fd60041dc990cefd731777b59f4" kind="slot"><name>createCloneLayer</name></member>
+    <member refid="class_document_1a9fbf5ba51d8800b26fc2f4001f5236f5" kind="slot"><name>createVectorLayer</name></member>
+    <member refid="class_document_1ae1d2e159374cae2f25bfa24531dbe814" kind="slot"><name>createFilterMask</name></member>
+    <member refid="class_document_1a00be8454032e36f9084a35b425b258b1" kind="slot"><name>createFilterMask</name></member>
+    <member refid="class_document_1a12a3332c98429df0559bd5be569768ec" kind="slot"><name>createSelectionMask</name></member>
+    <member refid="class_document_1abbd8e5ca62dd2952623c2d5cbc6faf5f" kind="slot"><name>createTransparencyMask</name></member>
+    <member refid="class_document_1a0a6f9de929e7d26b301d8b783b020391" kind="slot"><name>createTransformMask</name></member>
+    <member refid="class_document_1a230bb260030a6dddee8166fd6712b86e" kind="slot"><name>createColorizeMask</name></member>
+    <member refid="class_document_1a00a314a39fa727401b891add13e1e9d1" kind="slot"><name>projection</name></member>
+    <member refid="class_document_1a22eb5d71a63b6bb49f37ed6dd46ffc03" kind="slot"><name>thumbnail</name></member>
+    <member refid="class_document_1ad195c0ceb939a77fa61958ea7f750e87" kind="slot"><name>lock</name></member>
+    <member refid="class_document_1a453e1d004961ee80b3ce5e0cd0d81d67" kind="slot"><name>unlock</name></member>
+    <member refid="class_document_1a843e1dd149b4c23f29cff528e81a28e0" kind="slot"><name>waitForDone</name></member>
+    <member refid="class_document_1ab15cba7c760590f94f78bc0ebbe8dcc2" kind="slot"><name>tryBarrierLock</name></member>
+    <member refid="class_document_1a90f8065fa35298a1634ca9a818aa2d4a" kind="slot"><name>refreshProjection</name></member>
+    <member refid="class_document_1a3417f75f20608385c1d056d538b6148e" kind="slot"><name>setHorizontalGuides</name></member>
+    <member refid="class_document_1ab00bfba1ff1261a083abe5516b930b53" kind="slot"><name>setVerticalGuides</name></member>
+    <member refid="class_document_1a87fa583189e57a60b63349a41e2aedef" kind="slot"><name>setGuidesVisible</name></member>
+    <member refid="class_document_1a0c3541ac01af75be0dbb782c40623853" kind="slot"><name>setGuidesLocked</name></member>
+    <member refid="class_document_1a1eac9c1a6a388559e949130c25362b7b" kind="slot"><name>modified</name></member>
+    <member refid="class_document_1a89622dd480142497a747eddda752dfe2" kind="slot"><name>setModified</name></member>
+    <member refid="class_document_1ad0151e34bca74b36414d89ff35e122ee" kind="slot"><name>bounds</name></member>
+    <member refid="class_document_1a25d83acddc8c4aac7ef8d7e6bb03a0bf" kind="slot"><name>importAnimation</name></member>
+    <member refid="class_document_1ac342615d709c91b8c2dc39666c67d1f9" kind="slot"><name>framesPerSecond</name></member>
+    <member refid="class_document_1a0e170aea326eb9bfafc8e5ba9d1b51b4" kind="slot"><name>setFramesPerSecond</name></member>
+    <member refid="class_document_1a1191798a181070b563e0ae8958d1503d" kind="slot"><name>setFullClipRangeStartTime</name></member>
+    <member refid="class_document_1a2808154f87dd5084359ace73cce4404d" kind="slot"><name>fullClipRangeStartTime</name></member>
+    <member refid="class_document_1a0e6b4140a9fa8234ca863d8cc38a1711" kind="slot"><name>setFullClipRangeEndTime</name></member>
+    <member refid="class_document_1a220ff2207595616c59e8bfc9eccd478b" kind="slot"><name>fullClipRangeEndTime</name></member>
+    <member refid="class_document_1a0b7eb880488fdcfe5b189d2b2bd86a1d" kind="slot"><name>animationLength</name></member>
+    <member refid="class_document_1a4f7469e9e152a6a4bddb3c47d416a518" kind="slot"><name>setPlayBackRange</name></member>
+    <member refid="class_document_1abb82652117a8d4a63d9daca5ee8e7abe" kind="slot"><name>playBackStartTime</name></member>
+    <member refid="class_document_1a4e246c53d6102d3360eda947855abd19" kind="slot"><name>playBackEndTime</name></member>
+    <member refid="class_document_1a160e8e942f1ddc2c55906f7c793e2f0f" kind="slot"><name>currentTime</name></member>
+    <member refid="class_document_1ae68fd5ef0831ee06e94d7fca9f074dd8" kind="slot"><name>setCurrentTime</name></member>
+    <member refid="class_document_1a484016e481d9aafe8b15225c2ebd4281" kind="slot"><name>annotationTypes</name></member>
+    <member refid="class_document_1ad4b61dff3fe5fbbb84863794ba8d4ffc" kind="slot"><name>annotationDescription</name></member>
+    <member refid="class_document_1ae32a697218e1dc97243518626e8ce9c3" kind="slot"><name>annotation</name></member>
+    <member refid="class_document_1ac14a7967cae6208045d29034b969dd02" kind="slot"><name>setAnnotation</name></member>
+    <member refid="class_document_1a7f00eb295da0131886522cef8f4f1a64" kind="slot"><name>removeAnnotation</name></member>
+    <member refid="class_document_1a0f9a625dc1a4b2bf0f9f1719e7e64c9d" kind="function"><name>document</name></member>
+    <member refid="class_document_1af62cf1923acb777e79274ca19a31600c" kind="function"><name>setOwnsDocument</name></member>
+  </compound>
+  <compound refid="class_extension" kind="class"><name>Extension</name>
+    <member refid="class_extension_1a8ccfa7876f4a45b46739534ac3ac2401" kind="function"><name>Extension</name></member>
+    <member refid="class_extension_1a00f4a172bb6d8a7ee0c45e0292e2c4dd" kind="function"><name>~Extension</name></member>
+    <member refid="class_extension_1a6cff8cdb3ed68deb71c34994d203e5ba" kind="function"><name>setup</name></member>
+    <member refid="class_extension_1a041bbafb817a67f8742ccd2b5011b77d" kind="function"><name>createActions</name></member>
+  </compound>
+  <compound refid="class_file_layer" kind="class"><name>FileLayer</name>
+    <member refid="class_file_layer_1ada4b4b316f6e4790f967dfd4a1b0fd73" kind="variable"><name>m_baseName</name></member>
+    <member refid="class_file_layer_1ae765df8ad0d52c61168ef14a3b183c47" kind="function"><name>FileLayer</name></member>
+    <member refid="class_file_layer_1a2c2214e7c963c9830c6e76ff60cf2bc8" kind="function"><name>FileLayer</name></member>
+    <member refid="class_file_layer_1a2bfdcae68407de10fcff2be7e309049a" kind="function"><name>~FileLayer</name></member>
+    <member refid="class_file_layer_1a76027bcadf654ffed69b4a794781d562" kind="slot"><name>type</name></member>
+    <member refid="class_file_layer_1aa609774472ba42d49ced8cc20a58e9f0" kind="slot"><name>setProperties</name></member>
+    <member refid="class_file_layer_1a540742acbaec0fb2192bc14697dd08dc" kind="slot"><name>resetCache</name></member>
+    <member refid="class_file_layer_1affa7278d04240b51a9f9d32e40206574" kind="slot"><name>path</name></member>
+    <member refid="class_file_layer_1a58429a5a5b6ccb14c062d3ee0fc4cb17" kind="slot"><name>scalingMethod</name></member>
+    <member refid="class_file_layer_1a543e167055d2a2b9ff02e6924cca369a" kind="slot"><name>scalingFilter</name></member>
+    <member refid="class_file_layer_1a3aaa1fd284432e1ef402c8ae0d96928a" kind="function"><name>getFileNameFromAbsolute</name></member>
+  </compound>
+  <compound refid="class_fill_layer" kind="class"><name>FillLayer</name>
+    <member refid="class_fill_layer_1a599ca0e87764e33523ba628c59cfee7c" kind="function"><name>FillLayer</name></member>
+    <member refid="class_fill_layer_1ad25d55a0da6d8c7c28b61b983cbd4326" kind="function"><name>FillLayer</name></member>
+    <member refid="class_fill_layer_1aba4752ace941ed597e85bd5404316ae3" kind="function"><name>~FillLayer</name></member>
+    <member refid="class_fill_layer_1a1a2df50d49bdf693b0cf205b565e5dc7" kind="slot"><name>type</name></member>
+    <member refid="class_fill_layer_1ae3584eca0e8570f7369886fbbfc5b2d9" kind="slot"><name>setGenerator</name></member>
+    <member refid="class_fill_layer_1a1dd2e66917c44646ba19d901cf1383d4" kind="slot"><name>generatorName</name></member>
+    <member refid="class_fill_layer_1a3ded164ee2fd921c5dc1373293a0d3fe" kind="slot"><name>filterConfig</name></member>
+  </compound>
+  <compound refid="class_filter" kind="class"><name>Filter</name>
+    <member refid="class_filter_1a9695208225d79ba78b593cf000dd5336" kind="friend"><name>FilterLayer</name></member>
+    <member refid="class_filter_1a4fe02ebc16353b42253f2253af00f19f" kind="friend"><name>FilterMask</name></member>
+    <member refid="class_filter_1aaebdd44cf55810aab9a7c6b0d5f7980f" kind="variable"><name>d</name></member>
+    <member refid="class_filter_1ad15994c30d497afd567a6445446a249e" kind="function"><name>Filter</name></member>
+    <member refid="class_filter_1a0728afe794b927c294af47a4b1be7407" kind="function"><name>~Filter</name></member>
+    <member refid="class_filter_1a1941e6d724f116ee37c7075886585af5" kind="function"><name>operator==</name></member>
+    <member refid="class_filter_1a977bbd737ef69bb20a3bf90305072514" kind="function"><name>operator!=</name></member>
+    <member refid="class_filter_1a245b791dc6ff8c89055cfea310176944" kind="slot"><name>name</name></member>
+    <member refid="class_filter_1af2bcec6892cae524d6c62f93c664bb8b" kind="slot"><name>setName</name></member>
+    <member refid="class_filter_1a971c58413648649b9fbe7c3588c2f157" kind="slot"><name>configuration</name></member>
+    <member refid="class_filter_1a4cbfa99015dd53dfe70de3b041841229" kind="slot"><name>setConfiguration</name></member>
+    <member refid="class_filter_1afc389ce21c87f9e1fd525b66fca1241b" kind="slot"><name>apply</name></member>
+    <member refid="class_filter_1a1ec563dd83e1688f19b5fe46039b6b51" kind="slot"><name>startFilter</name></member>
+    <member refid="class_filter_1a02a5eb458d2a34136565bf8356df1d74" kind="function"><name>filterConfig</name></member>
+  </compound>
+  <compound refid="class_filter_layer" kind="class"><name>FilterLayer</name>
+    <member refid="class_filter_layer_1a82661578e9857bf433bcd669dca6f720" kind="function"><name>FilterLayer</name></member>
+    <member refid="class_filter_layer_1aa27084b657a1261205d102f5eb4b8588" kind="function"><name>FilterLayer</name></member>
+    <member refid="class_filter_layer_1a63c48830cc7346c25246c43679f8613a" kind="function"><name>~FilterLayer</name></member>
+    <member refid="class_filter_layer_1a6c568340a847e278988de6ab8944e835" kind="slot"><name>type</name></member>
+    <member refid="class_filter_layer_1acec1ba1765b9c65807b38a5207fe2c0d" kind="slot"><name>setFilter</name></member>
+    <member refid="class_filter_layer_1a09f5d28f38138a9d536ffe38629b6e34" kind="slot"><name>filter</name></member>
+  </compound>
+  <compound refid="class_filter_mask" kind="class"><name>FilterMask</name>
+    <member refid="class_filter_mask_1aefa1e9021f5ca590c587c1699982489b" kind="function"><name>FilterMask</name></member>
+    <member refid="class_filter_mask_1a70ad5bc611b31b01f458127734501241" kind="function"><name>FilterMask</name></member>
+    <member refid="class_filter_mask_1a3729a2eb6668e502e179701a5418038d" kind="function"><name>~FilterMask</name></member>
+    <member refid="class_filter_mask_1a237a97199a46468fa118b79ac7b58ffd" kind="slot"><name>type</name></member>
+    <member refid="class_filter_mask_1a10f3c602d885e3bc3963d919c195689a" kind="slot"><name>setFilter</name></member>
+    <member refid="class_filter_mask_1aa9caa2f5ba1b830d5a641acc95219e2d" kind="slot"><name>filter</name></member>
+  </compound>
+  <compound refid="class_group_layer" kind="class"><name>GroupLayer</name>
+    <member refid="class_group_layer_1aa59ac54fc433b4d458e1a92be0c72640" kind="function"><name>GroupLayer</name></member>
+    <member refid="class_group_layer_1ad7064f1a92c8e5402db9b736ec226a17" kind="function"><name>GroupLayer</name></member>
+    <member refid="class_group_layer_1ae4fc9fae0a00a507018ace4cbf088df7" kind="function"><name>~GroupLayer</name></member>
+    <member refid="class_group_layer_1ae4da0fec288003c11eb11dac312bc517" kind="slot"><name>type</name></member>
+    <member refid="class_group_layer_1ad34ec6042b2d2d8b8d595172ae9c6ed4" kind="slot"><name>setPassThroughMode</name></member>
+    <member refid="class_group_layer_1a298c875f3c6b5640b04d3c300fa7655a" kind="slot"><name>passThroughMode</name></member>
+  </compound>
+  <compound refid="class_group_shape" kind="class"><name>GroupShape</name>
+    <member refid="class_group_shape_1a216f3a8a4fc1e3a97ce1bda62bc2f2c8" kind="function"><name>GroupShape</name></member>
+    <member refid="class_group_shape_1a1acbf656b7e8e384230dfccfa7ba2d49" kind="function"><name>GroupShape</name></member>
+    <member refid="class_group_shape_1a94cf6b88eab2a08a92c9c86d954d4587" kind="function"><name>~GroupShape</name></member>
+    <member refid="class_group_shape_1a083f2c571f014d702bd02c2cb8ff4a60" kind="slot"><name>type</name></member>
+    <member refid="class_group_shape_1a8b00840b8cc751d7c501b33dbad205d5" kind="slot"><name>children</name></member>
+  </compound>
+  <compound refid="class_info_object" kind="class"><name>InfoObject</name>
+    <member refid="class_info_object_1a34f7bc7cd29643e53d23b7d500d21739" kind="friend"><name>Filter</name></member>
+    <member refid="class_info_object_1a883538034e58fc5c0de7d4e4cab3cef7" kind="friend"><name>Document</name></member>
+    <member refid="class_info_object_1a6db9d28bd448a131448276ee03de1e6d" kind="friend"><name>Node</name></member>
+    <member refid="class_info_object_1a780446285c45446a5a8fc27666a197f7" kind="variable"><name>d</name></member>
+    <member refid="class_info_object_1a5adcaacb553d5bdb20846599b1528b1e" kind="function"><name>InfoObject</name></member>
+    <member refid="class_info_object_1a47fa7c7f9a8aa859f85c46df590e52f0" kind="function"><name>InfoObject</name></member>
+    <member refid="class_info_object_1ac14a8cdbf6317f4fa23b340a4aab0469" kind="function"><name>~InfoObject</name></member>
+    <member refid="class_info_object_1afa43b3f201147637f6d99ecaaa7d4cb6" kind="function"><name>operator==</name></member>
+    <member refid="class_info_object_1a1fa550821a74ddb60b3f4658034b069f" kind="function"><name>operator!=</name></member>
+    <member refid="class_info_object_1acb2f510647d4d88873cb7f14a88c8367" kind="function"><name>properties</name></member>
+    <member refid="class_info_object_1ad8ae015465827f43d76b34fe29469ac8" kind="function"><name>setProperties</name></member>
+    <member refid="class_info_object_1a45fd7051d88d4d02221cb81d54189bc3" kind="slot"><name>setProperty</name></member>
+    <member refid="class_info_object_1a4c7c32dd2695d12dab60bfc64a187ac7" kind="slot"><name>property</name></member>
+    <member refid="class_info_object_1ace7facdd40a6afb614f6924c5bfcdd25" kind="function"><name>configuration</name></member>
+  </compound>
+  <compound refid="class_krita" kind="class"><name>Krita</name>
+    <member refid="class_krita_1a348047da560279dafc7af783b02fc35a" kind="variable"><name>d</name></member>
+    <member refid="class_krita_1a0e52037525213e5934cc304f7d248ad9" kind="variable"><name>s_instance</name></member>
+    <member refid="class_krita_1a6676a1024038a4ce7d08021f29398c74" kind="function"><name>Krita</name></member>
+    <member refid="class_krita_1af7f2ace97c154bbcf148d80c062be42e" kind="function"><name>~Krita</name></member>
+    <member refid="class_krita_1a2a0a89595639e3ab0b2a715cbe1f08fc" kind="slot"><name>activeDocument</name></member>
+    <member refid="class_krita_1ab1d718b25b35f7d9fbe29a6fe8269180" kind="slot"><name>setActiveDocument</name></member>
+    <member refid="class_krita_1aeb749a0a1fc28af49fb855426628026f" kind="slot"><name>batchmode</name></member>
+    <member refid="class_krita_1a4b4a744432b42eccda560c227b433886" kind="slot"><name>setBatchmode</name></member>
+    <member refid="class_krita_1a1b1af6a9a25b9a3ce4bf7b46812f818e" kind="slot"><name>actions</name></member>
+    <member refid="class_krita_1abfc5a2a879d3c67040c5aa7a9eb42256" kind="slot"><name>action</name></member>
+    <member refid="class_krita_1ab4b0f55bd912ece5501d3e18898834fc" kind="slot"><name>documents</name></member>
+    <member refid="class_krita_1a44bcf4ff15185ad5824ec5d643fe997e" kind="slot"><name>dockers</name></member>
+    <member refid="class_krita_1ae746a1b502e5e5f6050c5201aa45c6ee" kind="slot"><name>filters</name></member>
+    <member refid="class_krita_1a88d6e9fd6319b13a3560819622ba7a81" kind="slot"><name>filter</name></member>
+    <member refid="class_krita_1adcabca2e3103c23aa6e7a41c7fd2c968" kind="slot"><name>colorModels</name></member>
+    <member refid="class_krita_1a53d5c6d60d0d216f1f3b05dcc25819fa" kind="slot"><name>colorDepths</name></member>
+    <member refid="class_krita_1a786c37610ea65a5045e82c1586d88015" kind="slot"><name>filterStrategies</name></member>
+    <member refid="class_krita_1a3e9feb2d63bdc615df11682e669d6bf4" kind="slot"><name>profiles</name></member>
+    <member refid="class_krita_1aee27f3c680f59c6c8d3a26c8612c6e49" kind="slot"><name>addProfile</name></member>
+    <member refid="class_krita_1a14d539c74ae099268c912f5735f3cf0b" kind="slot"><name>notifier</name></member>
+    <member refid="class_krita_1a071dc792d4f2cc74307410ae0629c08c" kind="slot"><name>version</name></member>
+    <member refid="class_krita_1a7ca2fd17b78f2bf28ecb1a5b281da29f" kind="slot"><name>views</name></member>
+    <member refid="class_krita_1acdb04b2222f257b13727090737416f0c" kind="slot"><name>activeWindow</name></member>
+    <member refid="class_krita_1a3cdc210faa2dfc0695ed8d4d05660a53" kind="slot"><name>windows</name></member>
+    <member refid="class_krita_1a8e8252a3cf378e9752be76a1d48965c0" kind="slot"><name>resources</name></member>
+    <member refid="class_krita_1a4ae7f4cdec3adbfe8cbfdd7fe8cfa5eb" kind="slot"><name>recentDocuments</name></member>
+    <member refid="class_krita_1ac6e4d03d3ef97d5d8423e854d0f288b1" kind="slot"><name>createDocument</name></member>
+    <member refid="class_krita_1a7eaa3e6ee1da2272272c951cc4319a77" kind="slot"><name>openDocument</name></member>
+    <member refid="class_krita_1a2474c822b892cbce692e173cffcb0bab" kind="slot"><name>openWindow</name></member>
+    <member refid="class_krita_1aec4b19f9254727a57388881c1b5c21a6" kind="slot"><name>addExtension</name></member>
+    <member refid="class_krita_1ad0eba6175078f5f907828b22119ec1d4" kind="slot"><name>extensions</name></member>
+    <member refid="class_krita_1a1f8385ce69571a52c5ae3d40ea8e9702" kind="slot"><name>addDockWidgetFactory</name></member>
+    <member refid="class_krita_1a028e00ec9ef353947b24c8a504d4cb6d" kind="slot"><name>writeSetting</name></member>
+    <member refid="class_krita_1ac3b31cb5af51c9f945d285923d36c061" kind="slot"><name>readSetting</name></member>
+    <member refid="class_krita_1a19dff764ee70f8c4bdd061fd7255fbce" kind="slot"><name>icon</name></member>
+    <member refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kind="slot"><name>instance</name></member>
+    <member refid="class_krita_1a329edc1a444e24b12092101c622a73c3" kind="slot"><name>fromVariant</name></member>
+    <member refid="class_krita_1ac6e08ee495dc82337a92dbac03302fa7" kind="slot"><name>krita_i18n</name></member>
+    <member refid="class_krita_1ae7f36760bcf7a590517b8595b5955523" kind="slot"><name>krita_i18nc</name></member>
+    <member refid="class_krita_1a5673203e6569d3f6638c4259ec31a6c1" kind="slot"><name>getAppDataLocation</name></member>
+    <member refid="class_krita_1a2b01a5a03ec64b1bd09fbdcf4a839678" kind="slot"><name>mainWindowIsBeingCreated</name></member>
+  </compound>
+  <compound refid="class_managed_color" kind="class"><name>ManagedColor</name>
+    <member refid="class_managed_color_1a018ff8a950133459fda57a235706a80b" kind="friend"><name>View</name></member>
+    <member refid="class_managed_color_1a60683b9c5b46c483ea04874dd0b7298f" kind="friend"><name>PaletteView</name></member>
+    <member refid="class_managed_color_1a6fa9c795fdb30a1eea81db0ddab97936" kind="friend"><name>Swatch</name></member>
+    <member refid="class_managed_color_1aff3ee479468ffd4b90815a88304b2abd" kind="friend"><name>ColorizeMask</name></member>
+    <member refid="class_managed_color_1a93cb599e634527170d38447f223038b1" kind="variable"><name>d</name></member>
+    <member refid="class_managed_color_1a280deb3e0dafd4b759fa6b016e4bd54e" kind="function"><name>ManagedColor</name></member>
+    <member refid="class_managed_color_1a9e06e8a9f14a7dbfe78f7b85f2513a07" kind="function"><name>ManagedColor</name></member>
+    <member refid="class_managed_color_1a5f61dd2e43dd9274603605dd31530f26" kind="function"><name>ManagedColor</name></member>
+    <member refid="class_managed_color_1a9d4e6941b859ab8967e8b8a00c153711" kind="function"><name>~ManagedColor</name></member>
+    <member refid="class_managed_color_1a310079e5cacaf913b2cd23a06c1c4914" kind="function"><name>operator==</name></member>
+    <member refid="class_managed_color_1a460edcb83e95e24931e559da793bbd00" kind="function"><name>colorForCanvas</name></member>
+    <member refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" kind="function"><name>colorDepth</name></member>
+    <member refid="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" kind="function"><name>colorModel</name></member>
+    <member refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kind="function"><name>colorProfile</name></member>
+    <member refid="class_managed_color_1a3a141d55357cc55540092121ceaed8f8" kind="function"><name>setColorProfile</name></member>
+    <member refid="class_managed_color_1a685dfd64121795b65e8f9dc71f75cb0c" kind="function"><name>setColorSpace</name></member>
+    <member refid="class_managed_color_1a428fe292713b264af5112ae98d74c29c" kind="function"><name>components</name></member>
+    <member refid="class_managed_color_1ac5d6f72572fec815a37fe4011fdd4961" kind="function"><name>componentsOrdered</name></member>
+    <member refid="class_managed_color_1a9f133c4bb3b2024426082fedf071ed74" kind="function"><name>setComponents</name></member>
+    <member refid="class_managed_color_1a61f286b8abd83e7927860d75e9b0a27c" kind="function"><name>toXML</name></member>
+    <member refid="class_managed_color_1a8f68128850da66f3f33385b19f753ee7" kind="function"><name>fromXML</name></member>
+    <member refid="class_managed_color_1a85a9b000167898e06870c63cc895c7d4" kind="function"><name>toQString</name></member>
+    <member refid="class_managed_color_1a5ddab87a57e83c9de0f73ad01afdd525" kind="function"><name>fromQColor</name></member>
+    <member refid="class_managed_color_1ac490afbdd202dbaf36fcd486dbfd4cae" kind="function"><name>color</name></member>
+  </compound>
+  <compound refid="class_node" kind="class"><name>Node</name>
+    <member refid="class_node_1a34f7bc7cd29643e53d23b7d500d21739" kind="friend"><name>Filter</name></member>
+    <member refid="class_node_1a883538034e58fc5c0de7d4e4cab3cef7" kind="friend"><name>Document</name></member>
+    <member refid="class_node_1a2cdc8668db7c69ccbcc3bab6a5d51d17" kind="friend"><name>Selection</name></member>
+    <member refid="class_node_1af3ed5003e5f70125a38c97cb85f4253f" kind="friend"><name>GroupLayer</name></member>
+    <member refid="class_node_1aa071b208bb503e951c43c40c5f42cdcd" kind="friend"><name>FileLayer</name></member>
+    <member refid="class_node_1a9695208225d79ba78b593cf000dd5336" kind="friend"><name>FilterLayer</name></member>
+    <member refid="class_node_1ab251dd9a1d9bccc208aab066e0f79293" kind="friend"><name>FillLayer</name></member>
+    <member refid="class_node_1aa470056f72d93178e709c6dc936f98aa" kind="friend"><name>VectorLayer</name></member>
+    <member refid="class_node_1a4fe02ebc16353b42253f2253af00f19f" kind="friend"><name>FilterMask</name></member>
+    <member refid="class_node_1a7b25d238353a453159ebfa9578e095ea" kind="friend"><name>SelectionMask</name></member>
+    <member refid="class_node_1a5090b50c9c5ccd4093b30762a1e769dc" kind="friend"><name>TransparencyMask</name></member>
+    <member refid="class_node_1abcac3449fc23cca5fd181c12f2bf0d2e" kind="friend"><name>TransformMask</name></member>
+    <member refid="class_node_1aff3ee479468ffd4b90815a88304b2abd" kind="friend"><name>ColorizeMask</name></member>
+    <member refid="class_node_1adce2b750fba11a1725f966070900a995" kind="friend"><name>CloneLayer</name></member>
+    <member refid="class_node_1a3eeb1b213b72252f7f4d30f07dc6853a" kind="variable"><name>d</name></member>
+    <member refid="class_node_1a88822eff44c10beb55a96f693753676f" kind="function"><name>createNode</name></member>
+    <member refid="class_node_1a5d129d27d74d8d16302ca48624135407" kind="function"><name>~Node</name></member>
+    <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" kind="function"><name>operator==</name></member>
+    <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" kind="function"><name>operator!=</name></member>
+    <member refid="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" kind="slot"><name>clone</name></member>
+    <member refid="class_node_1a03331f9c2993922444607feda85e9a2a" kind="slot"><name>alphaLocked</name></member>
+    <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" kind="slot"><name>setAlphaLocked</name></member>
+    <member refid="class_node_1a95c04d37237c262bb077f1c00f9d4db8" kind="slot"><name>blendingMode</name></member>
+    <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" kind="slot"><name>setBlendingMode</name></member>
+    <member refid="class_node_1a130fcc7ba378905bce08dbbf8496446c" kind="slot"><name>channels</name></member>
+    <member refid="class_node_1a057e12453b0981b9124379427f86d477" kind="slot"><name>childNodes</name></member>
+    <member refid="class_node_1a168345a41614daec033ff3b8670e1d91" kind="slot"><name>findChildNodes</name></member>
+    <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" kind="slot"><name>addChildNode</name></member>
+    <member refid="class_node_1ac16d48268bf1699b5293f605cb394f42" kind="slot"><name>removeChildNode</name></member>
+    <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" kind="slot"><name>setChildNodes</name></member>
+    <member refid="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" kind="slot"><name>colorDepth</name></member>
+    <member refid="class_node_1a3cdf805651043386ab90da663af56f98" kind="slot"><name>colorModel</name></member>
+    <member refid="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" kind="slot"><name>colorProfile</name></member>
+    <member refid="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" kind="slot"><name>setColorProfile</name></member>
+    <member refid="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" kind="slot"><name>setColorSpace</name></member>
+    <member refid="class_node_1a5fc11982bb591e5f98c64f214fa1488b" kind="slot"><name>animated</name></member>
+    <member refid="class_node_1a18aa2116f2bba210fbdd495f169edd99" kind="slot"><name>enableAnimation</name></member>
+    <member refid="class_node_1a334d811e485663294a6b1d4222af954d" kind="slot"><name>setPinnedToTimeline</name></member>
+    <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" kind="slot"><name>isPinnedToTimeline</name></member>
+    <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" kind="slot"><name>setCollapsed</name></member>
+    <member refid="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" kind="slot"><name>collapsed</name></member>
+    <member refid="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" kind="slot"><name>colorLabel</name></member>
+    <member refid="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" kind="slot"><name>setColorLabel</name></member>
+    <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" kind="slot"><name>inheritAlpha</name></member>
+    <member refid="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" kind="slot"><name>setInheritAlpha</name></member>
+    <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" kind="slot"><name>locked</name></member>
+    <member refid="class_node_1a5f9a6effbadc69fe963e2113b98abd39" kind="slot"><name>setLocked</name></member>
+    <member refid="class_node_1ab01953eeffb53428265c1dc83027712f" kind="slot"><name>hasExtents</name></member>
+    <member refid="class_node_1ac40f16db9ad108a3d8a029802899104c" kind="slot"><name>name</name></member>
+    <member refid="class_node_1a76b36df00e311f88cc65e849b66f1e3b" kind="slot"><name>setName</name></member>
+    <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" kind="slot"><name>opacity</name></member>
+    <member refid="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" kind="slot"><name>setOpacity</name></member>
+    <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" kind="slot"><name>parentNode</name></member>
+    <member refid="class_node_1a58f4025f31c1bb44df0eb6df7b559e70" kind="slot"><name>type</name></member>
+    <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" kind="slot"><name>icon</name></member>
+    <member refid="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" kind="slot"><name>visible</name></member>
+    <member refid="class_node_1a46e221328b859524d40ce8544fcf48f7" kind="slot"><name>hasKeyframeAtTime</name></member>
+    <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" kind="slot"><name>setVisible</name></member>
+    <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" kind="slot"><name>pixelData</name></member>
+    <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" kind="slot"><name>pixelDataAtTime</name></member>
+    <member refid="class_node_1ad938d65c6b8bbceb31c00ddd64987279" kind="slot"><name>projectionPixelData</name></member>
+    <member refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" kind="slot"><name>setPixelData</name></member>
+    <member refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" kind="slot"><name>bounds</name></member>
+    <member refid="class_node_1a34e40db057a6f4cff4c9967a0e948b93" kind="slot"><name>move</name></member>
+    <member refid="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" kind="slot"><name>position</name></member>
+    <member refid="class_node_1a631faa515a707b35de62698e0c9e62ae" kind="slot"><name>remove</name></member>
+    <member refid="class_node_1abb7a8b7c4d12cceb35e85456c088c033" kind="slot"><name>duplicate</name></member>
+    <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" kind="slot"><name>save</name></member>
+    <member refid="class_node_1a0db840fc17c54244a98e24c5fb049a53" kind="slot"><name>mergeDown</name></member>
+    <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" kind="slot"><name>scaleNode</name></member>
+    <member refid="class_node_1a88b80903cdee9d66142a091cb09d00d4" kind="slot"><name>rotateNode</name></member>
+    <member refid="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" kind="slot"><name>cropNode</name></member>
+    <member refid="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" kind="slot"><name>shearNode</name></member>
+    <member refid="class_node_1aaee855a1d7a10f9198d03ff222809b6c" kind="slot"><name>thumbnail</name></member>
+    <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" kind="slot"><name>layerStyleToAsl</name></member>
+    <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" kind="slot"><name>setLayerStyleFromAsl</name></member>
+    <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" kind="slot"><name>index</name></member>
+    <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" kind="slot"><name>uniqueId</name></member>
+    <member refid="class_node_1a1b8f854db8d50e4a91038a7532ac9952" kind="function"><name>Node</name></member>
+    <member refid="class_node_1ab373c1a89af40d4da1a1b01d7c2a1cdd" kind="function"><name>paintDevice</name></member>
+    <member refid="class_node_1a78929231e337e96acc4c725dcbd4727c" kind="function"><name>image</name></member>
+    <member refid="class_node_1a50c7957662a4adc6bb919f8f994f96eb" kind="function"><name>node</name></member>
+  </compound>
+  <compound refid="class_notifier" kind="class"><name>Notifier</name>
+    <member refid="class_notifier_1a02aea68595189d9cc00a3020a6e7f201" kind="property"><name>Active</name></member>
+    <member refid="class_notifier_1a3529ca795f989e64312c1b21ee9db9c4" kind="variable"><name>d</name></member>
+    <member refid="class_notifier_1a952feb3d7ae1285b55b5959e731ffdaa" kind="function"><name>Notifier</name></member>
+    <member refid="class_notifier_1a492a2c25ba22447e74f94560cb12a1b0" kind="function"><name>~Notifier</name></member>
+    <member refid="class_notifier_1a098192324a13d0b4ba3aecb1664bacea" kind="function"><name>active</name></member>
+    <member refid="class_notifier_1a970789e5cacca83096b94cc749e34f85" kind="function"><name>setActive</name></member>
+    <member refid="class_notifier_1a18e2a5bfb03bf84c87aceddda95e2309" kind="signal"><name>applicationClosing</name></member>
+    <member refid="class_notifier_1a59440dce7fa9d4916f924f414ccd9a45" kind="signal"><name>imageCreated</name></member>
+    <member refid="class_notifier_1a9f4086ee2a5d97cb94de0517edc18f2c" kind="signal"><name>imageSaved</name></member>
+    <member refid="class_notifier_1a964315b24fee9715d2e9418fdbdb855b" kind="signal"><name>imageClosed</name></member>
+    <member refid="class_notifier_1a1acf8f910223aebc212440faf196e0ed" kind="signal"><name>viewCreated</name></member>
+    <member refid="class_notifier_1a7ff56289ade63245704149cbb72e1fb3" kind="signal"><name>viewClosed</name></member>
+    <member refid="class_notifier_1aab17707e80874ad8061001f711459d61" kind="signal"><name>windowIsBeingCreated</name></member>
+    <member refid="class_notifier_1a72ce2e22de9cfd3e327f9604a7cc9301" kind="signal"><name>windowCreated</name></member>
+    <member refid="class_notifier_1a4d30c3a060480402b5ad0edbd2d96313" kind="signal"><name>configurationChanged</name></member>
+    <member refid="class_notifier_1a88721b96417e165f62eba68fa528a605" kind="slot"><name>imageCreated</name></member>
+    <member refid="class_notifier_1a1bf5a048ec21a8c84acf08f36941f069" kind="slot"><name>viewCreated</name></member>
+    <member refid="class_notifier_1a37214da8e01f2d6f7bb67e5bfd02bc47" kind="slot"><name>viewClosed</name></member>
+    <member refid="class_notifier_1a6470a89858dcb38480ffbd5e2297673b" kind="slot"><name>windowIsBeingCreated</name></member>
+  </compound>
+  <compound refid="class_palette" kind="class"><name>Palette</name>
+    <member refid="class_palette_1a60683b9c5b46c483ea04874dd0b7298f" kind="friend"><name>PaletteView</name></member>
+    <member refid="class_palette_1a1875dfa4de68619b9fea8305e4ba5a24" kind="variable"><name>d</name></member>
+    <member refid="class_palette_1adf23b57b3932e7ed8abe2904e97ffd5f" kind="function"><name>Palette</name></member>
+    <member refid="class_palette_1ac825150e0f48e6b548251d153c21ac04" kind="function"><name>~Palette</name></member>
+    <member refid="class_palette_1a4f7d4ae377c007921aba8587b4e2068a" kind="function"><name>numberOfEntries</name></member>
+    <member refid="class_palette_1aa4a1692384fad19290fbacad428e1976" kind="function"><name>columnCount</name></member>
+    <member refid="class_palette_1a1df8cd5812bbd2fdb00074b630f8a4ae" kind="function"><name>setColumnCount</name></member>
+    <member refid="class_palette_1a90430a37493dcea1254e1d236c0d87ae" kind="function"><name>comment</name></member>
+    <member refid="class_palette_1adf98dde5e3c98f2f38ee3d4055c4217c" kind="function"><name>setComment</name></member>
+    <member refid="class_palette_1af416b9a7261dac292e7ae0a38de1ed3a" kind="function"><name>groupNames</name></member>
+    <member refid="class_palette_1a42273af7febf84600f27099ef40c6322" kind="function"><name>addGroup</name></member>
+    <member refid="class_palette_1ab7aaa1d021f8428d627caf8d89e0faa3" kind="function"><name>removeGroup</name></member>
+    <member refid="class_palette_1a9cd0dc8d44a457e24c0e48753ee558ad" kind="function"><name>colorsCountTotal</name></member>
+    <member refid="class_palette_1a884d7c1e2196818176185d60b2f5449b" kind="function"><name>colorSetEntryByIndex</name></member>
+    <member refid="class_palette_1a5d0f39d86b690c3464fa49c433213bc3" kind="function"><name>colorSetEntryFromGroup</name></member>
+    <member refid="class_palette_1aef8a606c04b86c08ec7f0583a9c9ffea" kind="function"><name>addEntry</name></member>
+    <member refid="class_palette_1a34cd5b0581ecee77e443294f388a27c1" kind="function"><name>removeEntry</name></member>
+    <member refid="class_palette_1a39ba7d689fa0b42deada95edbe9c5918" kind="function"><name>changeGroupName</name></member>
+    <member refid="class_palette_1a0d67cb6899650bbfa01f7177dc39046e" kind="function"><name>moveGroup</name></member>
+    <member refid="class_palette_1a113a430b0dad2ef0cf3061f872cc9c13" kind="function"><name>save</name></member>
+    <member refid="class_palette_1ac4a1706326a009897f3ff4777fa7375d" kind="function"><name>colorSet</name></member>
+  </compound>
+  <compound refid="class_palette_view" kind="class"><name>PaletteView</name>
+    <member refid="class_palette_view_1ae5111209e5d49bfaf39dd93d43366693" kind="variable"><name>d</name></member>
+    <member refid="class_palette_view_1a2e6c6aad26c498ee41c8929f8f8bc4a5" kind="function"><name>PaletteView</name></member>
+    <member refid="class_palette_view_1a8b61805ccbde12bb0494801ec2b54c69" kind="function"><name>~PaletteView</name></member>
+    <member refid="class_palette_view_1a79f29b7666cb028ae846f6531b2a9a9b" kind="slot"><name>setPalette</name></member>
+    <member refid="class_palette_view_1a0b41a25c3d0cc883d9a3716104c3d3f2" kind="slot"><name>addEntryWithDialog</name></member>
+    <member refid="class_palette_view_1acd8251b5dfac0e25e6c3cb66e5fd26e7" kind="slot"><name>addGroupWithDialog</name></member>
+    <member refid="class_palette_view_1a6ae64f979bba278189896d25da213c4f" kind="slot"><name>removeSelectedEntryWithDialog</name></member>
+    <member refid="class_palette_view_1a94739533dae4bc8c2ffe098fddb16a29" kind="slot"><name>trySelectClosestColor</name></member>
+    <member refid="class_palette_view_1a0655b8406939098ca9392ac8b44dc80c" kind="signal"><name>entrySelectedForeGround</name></member>
+    <member refid="class_palette_view_1ab48ccabd5f7383f2725e62d9a41d73be" kind="signal"><name>entrySelectedBackGround</name></member>
+    <member refid="class_palette_view_1a9dd4b42af8237d2b6dc4dc99f51d367c" kind="slot"><name>fgSelected</name></member>
+    <member refid="class_palette_view_1af2c239eeac90ef87cf372293f9b548d1" kind="slot"><name>bgSelected</name></member>
+  </compound>
+  <compound refid="class_preset" kind="class"><name>Preset</name>
+    <member refid="class_preset_1a936c01fd033d53ea2368d6b5f6a944e3" kind="variable"><name>d</name></member>
+    <member refid="class_preset_1afa563cd756e4724ca354c571428d9f24" kind="function"><name>Preset</name></member>
+    <member refid="class_preset_1a12526712e2e4e0a3ff94901c7b30897e" kind="function"><name>~Preset</name></member>
+    <member refid="class_preset_1a7995db5f345a8fc515e773d810da349a" kind="function"><name>toXML</name></member>
+    <member refid="class_preset_1a093dd046601ed927d7a6afc56a3d9d04" kind="function"><name>fromXML</name></member>
+    <member refid="class_preset_1a98a56d3b6f6d1fad2ea3527b6ee6e5fd" kind="function"><name>paintOpPreset</name></member>
+  </compound>
+  <compound refid="class_preset_chooser" kind="class"><name>PresetChooser</name>
+    <member refid="class_preset_chooser_1aa775c35a1137f0b365eb481ae136a2a1" kind="function"><name>PresetChooser</name></member>
+    <member refid="class_preset_chooser_1ab8605f6339abcca06abfc221561f1b03" kind="function"><name>~PresetChooser</name></member>
+    <member refid="class_preset_chooser_1a6452e5c15de81fa7ef5b71c22d2e56be" kind="slot"><name>setCurrentPreset</name></member>
+    <member refid="class_preset_chooser_1a7257cd743ef896e0f39c9f8a0a8c59a5" kind="slot"><name>currentPreset</name></member>
+    <member refid="class_preset_chooser_1a0b65c059ed2d57a4e020926b2ff55c0d" kind="signal"><name>presetSelected</name></member>
+    <member refid="class_preset_chooser_1abbead2d8b7ce60ab364067865eaeb194" kind="signal"><name>presetClicked</name></member>
+    <member refid="class_preset_chooser_1a699ddb4c64264064c7e7f4e913fa1e2a" kind="slot"><name>slotResourceSelected</name></member>
+    <member refid="class_preset_chooser_1a7c99385fcde0f0681e9e1d889dc9af02" kind="slot"><name>slotResourceClicked</name></member>
+  </compound>
+  <compound refid="struct_canvas_1_1_private" kind="struct"><name>Canvas::Private</name>
+    <member refid="struct_canvas_1_1_private_1a4d4ff9ce71244626a9cb9d45064d7f17" kind="variable"><name>canvas</name></member>
+    <member refid="struct_canvas_1_1_private_1ad29a20222412d3824355e974b60bc156" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_channel_1_1_private" kind="struct"><name>Channel::Private</name>
+    <member refid="struct_channel_1_1_private_1ae8136eda82e98a18d9329cdf244a7a5d" kind="variable"><name>node</name></member>
+    <member refid="struct_channel_1_1_private_1a270b50676bff1f61fa8ce7eab9aea4ca" kind="variable"><name>channel</name></member>
+    <member refid="struct_channel_1_1_private_1a4fdb9695d4bd44e1704fc1dadcec420b" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_dock_widget_1_1_private" kind="struct"><name>DockWidget::Private</name>
+    <member refid="struct_dock_widget_1_1_private_1a0950c7b585d60619077a40eba6c34b0e" kind="variable"><name>canvas</name></member>
+    <member refid="struct_dock_widget_1_1_private_1ac658f37bb3f854eebe6f25bb17a64d7f" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_document_1_1_private" kind="struct"><name>Document::Private</name>
+    <member refid="struct_document_1_1_private_1a5b2488b78168a5341fe8190b5951c143" kind="variable"><name>document</name></member>
+    <member refid="struct_document_1_1_private_1af9cba9733e36c0da6420632bc1a91178" kind="variable"><name>ownsDocument</name></member>
+    <member refid="struct_document_1_1_private_1ad568ed02dfa6314d916bdbcac1f93df0" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_filter_1_1_private" kind="struct"><name>Filter::Private</name>
+    <member refid="struct_filter_1_1_private_1adad23cfd4f2b6a0887d2eac9c9a06365" kind="variable"><name>name</name></member>
+    <member refid="struct_filter_1_1_private_1afb255bd66fe11ff8dcf80ac26a117a00" kind="variable"><name>configuration</name></member>
+    <member refid="struct_filter_1_1_private_1ab5601c3a1cb355b4c55cf08cc26c6916" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_info_object_1_1_private" kind="struct"><name>InfoObject::Private</name>
+    <member refid="struct_info_object_1_1_private_1a5a8bd59e02ddef45aa3de95624447859" kind="variable"><name>properties</name></member>
+    <member refid="struct_info_object_1_1_private_1a935674c1177e026ac901fce71084c31d" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_krita_1_1_private" kind="struct"><name>Krita::Private</name>
+    <member refid="struct_krita_1_1_private_1ac1839996234eabdfa0912300d41a32ec" kind="variable"><name>extensions</name></member>
+    <member refid="struct_krita_1_1_private_1a5206a4f08bdcc8124b0f773b89d4202c" kind="variable"><name>batchMode</name></member>
+    <member refid="struct_krita_1_1_private_1a13879fa3d80a8cdc4af9a1351789828c" kind="variable"><name>notifier</name></member>
+    <member refid="struct_krita_1_1_private_1adcbcf80f8314ca74a45537d2ecaf3a76" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_managed_color_1_1_private" kind="struct"><name>ManagedColor::Private</name>
+    <member refid="struct_managed_color_1_1_private_1a41d1c65667b9d63b0184eac230f554ce" kind="variable"><name>color</name></member>
+  </compound>
+  <compound refid="struct_node_1_1_private" kind="struct"><name>Node::Private</name>
+    <member refid="struct_node_1_1_private_1a27204ec83b2215d641bbb64c443e19a5" kind="variable"><name>image</name></member>
+    <member refid="struct_node_1_1_private_1a8c4184ff102bbc29054e2fd2c55ac767" kind="variable"><name>node</name></member>
+    <member refid="struct_node_1_1_private_1a58e6f4e7662c8a999414f85998ae4a6d" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_notifier_1_1_private" kind="struct"><name>Notifier::Private</name>
+    <member refid="struct_notifier_1_1_private_1a9e7abd616972ecdf3e5da6c22ec673b7" kind="variable"><name>active</name></member>
+    <member refid="struct_notifier_1_1_private_1a9bc4d4624a3f2a5e5107ea9c28e734e0" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_palette_1_1_private" kind="struct"><name>Palette::Private</name>
+    <member refid="struct_palette_1_1_private_1a8b72f3ccfeb1b4ad9e1a3be42697c5b6" kind="variable"><name>palette</name></member>
+  </compound>
+  <compound refid="struct_palette_view_1_1_private" kind="struct"><name>PaletteView::Private</name>
+    <member refid="struct_palette_view_1_1_private_1a4cffad812534b9cf48a157c8a89ded0b" kind="variable"><name>model</name></member>
+    <member refid="struct_palette_view_1_1_private_1ad9b7904b37f5134a9f8c095716a0c60f" kind="variable"><name>widget</name></member>
+    <member refid="struct_palette_view_1_1_private_1ad1014de1fea568e78d304d332c9099be" kind="variable"><name>allowPaletteModification</name></member>
+  </compound>
+  <compound refid="struct_preset_1_1_private" kind="struct"><name>Preset::Private</name>
+    <member refid="struct_preset_1_1_private_1aa349abacea8e90e90f4b48bba8e84fb5" kind="variable"><name>preset</name></member>
+  </compound>
+  <compound refid="struct_resource_1_1_private" kind="struct"><name>Resource::Private</name>
+    <member refid="struct_resource_1_1_private_1a7599e05f2dee9cde85e22e94b781c41c" kind="variable"><name>id</name></member>
+    <member refid="struct_resource_1_1_private_1a3bfbedb20342631e42d69933101635fe" kind="variable"><name>type</name></member>
+    <member refid="struct_resource_1_1_private_1ae6fe52b71128edee278603647b4ccaaa" kind="variable"><name>name</name></member>
+    <member refid="struct_resource_1_1_private_1a72f28fcb04ea12c18926b401860dce29" kind="variable"><name>filename</name></member>
+    <member refid="struct_resource_1_1_private_1ad25b03c9a20aa1609586f696b8fd886e" kind="variable"><name>image</name></member>
+    <member refid="struct_resource_1_1_private_1a40697af31259ae505a393050a2119fec" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_scratchpad_1_1_private" kind="struct"><name>Scratchpad::Private</name>
+    <member refid="struct_scratchpad_1_1_private_1a1efaea2e64a4edab9c727bf890eae5c6" kind="variable"><name>scratchpad</name></member>
+  </compound>
+  <compound refid="struct_selection_1_1_private" kind="struct"><name>Selection::Private</name>
+    <member refid="struct_selection_1_1_private_1a7985bb5da288e8f483f22fa397c7300c" kind="variable"><name>selection</name></member>
+    <member refid="struct_selection_1_1_private_1a26beaf5d0afd4dd2221d72c83f0b1e9c" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_shape_1_1_private" kind="struct"><name>Shape::Private</name>
+    <member refid="struct_shape_1_1_private_1a2a9110b0b4546b7a911cb5d384e35056" kind="variable"><name>shape</name></member>
+    <member refid="struct_shape_1_1_private_1a150144f498a90f9ced1393007a17aad3" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_swatch_1_1_private" kind="struct"><name>Swatch::Private</name>
+    <member refid="struct_swatch_1_1_private_1a2da98a8756df82c3310c87407603101f" kind="variable"><name>swatch</name></member>
+  </compound>
+  <compound refid="struct_view_1_1_private" kind="struct"><name>View::Private</name>
+    <member refid="struct_view_1_1_private_1ab6e6a7ae9620761588dfa639ab0126c4" kind="variable"><name>view</name></member>
+    <member refid="struct_view_1_1_private_1a276843c794c9b2bf2a5853a81f80ff19" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_window_1_1_private" kind="struct"><name>Window::Private</name>
+    <member refid="struct_window_1_1_private_1a9cc9898872b0b4681247cd58782485e7" kind="variable"><name>window</name></member>
+    <member refid="struct_window_1_1_private_1a8dc255181f496f9f37be64642395b41c" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="class_resource" kind="class"><name>Resource</name>
+    <member refid="class_resource_1adc6116f1906ffab2ec6999a6e52df0b7" kind="friend"><name>PresetChooser</name></member>
+    <member refid="class_resource_1a018ff8a950133459fda57a235706a80b" kind="friend"><name>View</name></member>
+    <member refid="class_resource_1a2b0840855555be34f5b522592031d1af" kind="friend"><name>Palette</name></member>
+    <member refid="class_resource_1ad3f56d18622fd9af0064d524c0b50d7a" kind="friend"><name>Preset</name></member>
+    <member refid="class_resource_1a12ad4f275dc739792be4335e11a7a45f" kind="variable"><name>d</name></member>
+    <member refid="class_resource_1a08cfe065cadf585802e9e8fd01500cf5" kind="function"><name>Resource</name></member>
+    <member refid="class_resource_1ae710e1cbd9388fba470ad35e8e5d7c76" kind="function"><name>Resource</name></member>
+    <member refid="class_resource_1a82b84bab09fd9b9be8a56af0bda43f35" kind="function"><name>~Resource</name></member>
+    <member refid="class_resource_1ababb9fe80f024a4f03a19fa00372757c" kind="function"><name>Resource</name></member>
+    <member refid="class_resource_1a5a2b169aedbdc269d4966f5bb023fd74" kind="function"><name>operator==</name></member>
+    <member refid="class_resource_1abcd1e7ccb0a947f519b2bbc7fad1fd17" kind="function"><name>operator!=</name></member>
+    <member refid="class_resource_1ada42ecac30377a1270b16eca17a75a9f" kind="function"><name>operator=</name></member>
+    <member refid="class_resource_1a6e294d52be9bcbe01a52c61a9f967c36" kind="slot"><name>type</name></member>
+    <member refid="class_resource_1a05c867777670d0eb14767319fba14dc3" kind="slot"><name>name</name></member>
+    <member refid="class_resource_1a14c600896ae7fc78a443645e09042089" kind="slot"><name>setName</name></member>
+    <member refid="class_resource_1aeef17a630621dd054e6493531e090a62" kind="slot"><name>filename</name></member>
+    <member refid="class_resource_1a96f9d1edbe52d44fc78aa835b53ca3e5" kind="slot"><name>image</name></member>
+    <member refid="class_resource_1afd53d2d6a680e0b033a5bc9df9ae0e41" kind="slot"><name>setImage</name></member>
+    <member refid="class_resource_1adb733f32769a07e0b1748844b0dcceec" kind="function"><name>resource</name></member>
+  </compound>
+  <compound refid="class_scratchpad" kind="class"><name>Scratchpad</name>
+    <member refid="class_scratchpad_1ad14c8668a74ac1bfdd064e1825c6b0f1" kind="variable"><name>d</name></member>
+    <member refid="class_scratchpad_1ad0cfa2a4fc0a082be4597ea23b9d86b8" kind="function"><name>Scratchpad</name></member>
+    <member refid="class_scratchpad_1a4b445c03d298cc484b599eb5d39089cf" kind="function"><name>~Scratchpad</name></member>
+    <member refid="class_scratchpad_1af0ca32712f6315e4013dc5a94c1a9214" kind="slot"><name>clear</name></member>
+    <member refid="class_scratchpad_1a918b99aec6c8c88a22636b54e0e66896" kind="slot"><name>setFillColor</name></member>
+    <member refid="class_scratchpad_1a528753f96e576779230ac978b9c27093" kind="slot"><name>setModeManually</name></member>
+    <member refid="class_scratchpad_1acb508de32241af1351881518cdffb9f8" kind="slot"><name>setMode</name></member>
+    <member refid="class_scratchpad_1a6d48412ef18d9a6b8c9fd00fcd4ec84c" kind="slot"><name>linkCanvasZoom</name></member>
+    <member refid="class_scratchpad_1afa1cb389afc43d758ea8910141a475cd" kind="slot"><name>loadScratchpadImage</name></member>
+    <member refid="class_scratchpad_1a417c504e17f6959d5844ba9634d7993d" kind="slot"><name>copyScratchpadImageData</name></member>
+  </compound>
+  <compound refid="class_selection" kind="class"><name>Selection</name>
+    <member refid="class_selection_1a883538034e58fc5c0de7d4e4cab3cef7" kind="friend"><name>Document</name></member>
+    <member refid="class_selection_1a9695208225d79ba78b593cf000dd5336" kind="friend"><name>FilterLayer</name></member>
+    <member refid="class_selection_1ab251dd9a1d9bccc208aab066e0f79293" kind="friend"><name>FillLayer</name></member>
+    <member refid="class_selection_1a7b25d238353a453159ebfa9578e095ea" kind="friend"><name>SelectionMask</name></member>
+    <member refid="class_selection_1a5090b50c9c5ccd4093b30762a1e769dc" kind="friend"><name>TransparencyMask</name></member>
+    <member refid="class_selection_1a4fe02ebc16353b42253f2253af00f19f" kind="friend"><name>FilterMask</name></member>
+    <member refid="class_selection_1a8aab14c1e315bbc029da15a9a42f474b" kind="variable"><name>d</name></member>
+    <member refid="class_selection_1a23af3e010cef9e92da2c71565e3919bb" kind="function"><name>Selection</name></member>
+    <member refid="class_selection_1ad5c5603b27185fc441c841274caa3b73" kind="function"><name>Selection</name></member>
+    <member refid="class_selection_1a5da4c438b8a7ef6295bc1d542305d373" kind="function"><name>~Selection</name></member>
+    <member refid="class_selection_1a3e926836ea432d8a526af6f25e8405a4" kind="function"><name>operator==</name></member>
+    <member refid="class_selection_1ae8befe9ec8e3342781f114455e4c53c4" kind="function"><name>operator!=</name></member>
+    <member refid="class_selection_1a5632fc2a2a1c0837d105ee6964a2ca44" kind="slot"><name>duplicate</name></member>
+    <member refid="class_selection_1a272d8037d9c5dbba114fe0931232ee4c" kind="slot"><name>width</name></member>
+    <member refid="class_selection_1af0f6f0f83581d93af89b7928bd940821" kind="slot"><name>height</name></member>
+    <member refid="class_selection_1a7823336404ae5c486f80d90831c87749" kind="slot"><name>x</name></member>
+    <member refid="class_selection_1a0f2c6261591c1656ccfc5210d828bc68" kind="slot"><name>y</name></member>
+    <member refid="class_selection_1a02e7406ccd627978281b0d571468c174" kind="slot"><name>move</name></member>
+    <member refid="class_selection_1a42c62cee4f889ef466446b408054ea19" kind="slot"><name>clear</name></member>
+    <member refid="class_selection_1a44745ab7e6cb775ae3d4c44bfe56dfcc" kind="slot"><name>contract</name></member>
+    <member refid="class_selection_1a1d83f93d752d14ed8ebb23d200823330" kind="slot"><name>copy</name></member>
+    <member refid="class_selection_1a077eda8c5bcf4e3d21b41181f11b8d27" kind="slot"><name>cut</name></member>
+    <member refid="class_selection_1a2539341007525c6013739d1df9040c62" kind="slot"><name>paste</name></member>
+    <member refid="class_selection_1aa7968ce2bb64685bb1ec8a8a390a889c" kind="slot"><name>erode</name></member>
+    <member refid="class_selection_1a884bc1ff6d8f6e28c58fd210b689af35" kind="slot"><name>dilate</name></member>
+    <member refid="class_selection_1ac111f4acbd04d762e6141bc6da12e775" kind="slot"><name>border</name></member>
+    <member refid="class_selection_1aa9fe635130efac610af0774b3a158d99" kind="slot"><name>feather</name></member>
+    <member refid="class_selection_1ae37b7e1c5132df469b843acb90d97f07" kind="slot"><name>grow</name></member>
+    <member refid="class_selection_1a4fa46883dada30d4c1c2b783fda35ee4" kind="slot"><name>shrink</name></member>
+    <member refid="class_selection_1a5c4f082416f5527b18661fdebf3708da" kind="slot"><name>smooth</name></member>
+    <member refid="class_selection_1abd772b69215ac54679d6716088d57668" kind="slot"><name>invert</name></member>
+    <member refid="class_selection_1a036b95b7ccf09d8800cb66f9ffe20f4e" kind="slot"><name>resize</name></member>
+    <member refid="class_selection_1aeb3fa6d4798bda68696776a72674c454" kind="slot"><name>select</name></member>
+    <member refid="class_selection_1a2a435eefaf5949ab363e797d5c25110b" kind="slot"><name>selectAll</name></member>
+    <member refid="class_selection_1af78133c23180060cb5fd3b6551b997f2" kind="slot"><name>replace</name></member>
+    <member refid="class_selection_1ae9cfda5228b362975d3faa5d18fb241a" kind="slot"><name>add</name></member>
+    <member refid="class_selection_1a6f2a922e2371975b0d8116539fcb3bf3" kind="slot"><name>subtract</name></member>
+    <member refid="class_selection_1a11c6eb0657de4c02003090eb73af7a11" kind="slot"><name>intersect</name></member>
+    <member refid="class_selection_1af9b6d1bba8188facfcdc9969b585c335" kind="slot"><name>symmetricdifference</name></member>
+    <member refid="class_selection_1ac60a4eee7f1ec180bbaf03325d14808e" kind="slot"><name>pixelData</name></member>
+    <member refid="class_selection_1ab34dc5c78c34b96061c65a8ab448a2ea" kind="slot"><name>setPixelData</name></member>
+    <member refid="class_selection_1a2b9fa0a7a367a5f4bbc87007b44ef0af" kind="function"><name>selection</name></member>
+  </compound>
+  <compound refid="class_selection_mask" kind="class"><name>SelectionMask</name>
+    <member refid="class_selection_mask_1ab40672fe4a30b86c485cdf6a1646db09" kind="function"><name>SelectionMask</name></member>
+    <member refid="class_selection_mask_1a4fac3a8de55b863eef08509ddd073f18" kind="function"><name>SelectionMask</name></member>
+    <member refid="class_selection_mask_1a6d799d5d2d27571e715dc8e1d4c90cf7" kind="function"><name>~SelectionMask</name></member>
+    <member refid="class_selection_mask_1a18457e55737de35b00602189b7d651bb" kind="slot"><name>type</name></member>
+    <member refid="class_selection_mask_1a80dffe00dfb0736f08a72e02d63f8b30" kind="slot"><name>selection</name></member>
+    <member refid="class_selection_mask_1a8563f5d86b45bfbc5f214abed024f493" kind="slot"><name>setSelection</name></member>
+  </compound>
+  <compound refid="class_shape" kind="class"><name>Shape</name>
+    <member refid="class_shape_1a6fc1180ef44749ca9b36e428dd478f19" kind="friend"><name>GroupShape</name></member>
+    <member refid="class_shape_1aa470056f72d93178e709c6dc936f98aa" kind="friend"><name>VectorLayer</name></member>
+    <member refid="class_shape_1a89c8d10b336e9daa9ba2328200a1d7a5" kind="variable"><name>d</name></member>
+    <member refid="class_shape_1acefb3de113508a4db9362a7c28c56969" kind="function"><name>Shape</name></member>
+    <member refid="class_shape_1a935afc9e576015f967d90de56977167d" kind="function"><name>~Shape</name></member>
+    <member refid="class_shape_1a1a50887d4b2c04dee887e69c59b4ab7f" kind="function"><name>operator==</name></member>
+    <member refid="class_shape_1a4ce5c9fe06d40a8bf751cfc53755288a" kind="function"><name>operator!=</name></member>
+    <member refid="class_shape_1aa02274c9cdfb8a8825d0c56a939e5886" kind="slot"><name>name</name></member>
+    <member refid="class_shape_1a876a01e85fd8466314c2c88c80dc1440" kind="slot"><name>setName</name></member>
+    <member refid="class_shape_1a68910f4e984ce35fe3bc177a0dad7141" kind="slot"><name>type</name></member>
+    <member refid="class_shape_1a7d93570bfa42a357679e87392abb34fd" kind="slot"><name>zIndex</name></member>
+    <member refid="class_shape_1a87dc1abcab1835398a7b56ecfc101053" kind="slot"><name>setZIndex</name></member>
+    <member refid="class_shape_1a4273880024656d4b368af6f8d26a25c3" kind="slot"><name>selectable</name></member>
+    <member refid="class_shape_1abb7ed4a2f0690ba8cd941d826d3f11a1" kind="slot"><name>setSelectable</name></member>
+    <member refid="class_shape_1aaab99a77095c96308fa202a427a6eb10" kind="slot"><name>geometryProtected</name></member>
+    <member refid="class_shape_1ab3831cd0241a4ef24eefca272b29a01c" kind="slot"><name>setGeometryProtected</name></member>
+    <member refid="class_shape_1ae3c924f1cd861985cae2cfedcdaea382" kind="slot"><name>visible</name></member>
+    <member refid="class_shape_1a041930633ef5b42e9ba2aa714a098540" kind="slot"><name>setVisible</name></member>
+    <member refid="class_shape_1a4d81a074fa955e7ee360c0df2b3ef3a6" kind="slot"><name>boundingBox</name></member>
+    <member refid="class_shape_1aa146e1f9869e3e9dda865380508a31d1" kind="slot"><name>position</name></member>
+    <member refid="class_shape_1a9a533542a4767bcf84bc2100437cad2b" kind="slot"><name>setPosition</name></member>
+    <member refid="class_shape_1a33271b28d12feeb5d7fa0cb76404eb79" kind="slot"><name>transformation</name></member>
+    <member refid="class_shape_1a5db8dddaa891ea5f8c61318950b4b6f6" kind="slot"><name>setTransformation</name></member>
+    <member refid="class_shape_1a1eb4bd772f4f5328ab36ebf175580aab" kind="slot"><name>absoluteTransformation</name></member>
+    <member refid="class_shape_1a1cd600095ba0f8bbd5c1ee53c00e827f" kind="slot"><name>remove</name></member>
+    <member refid="class_shape_1a2529ca668908be63f160a88dad62f42a" kind="slot"><name>update</name></member>
+    <member refid="class_shape_1a992d7ef0d623a3f26e3d06ecce17cadb" kind="slot"><name>updateAbsolute</name></member>
+    <member refid="class_shape_1aa9cc7dbe137e7edb123f0611f6fd9555" kind="slot"><name>toSvg</name></member>
+    <member refid="class_shape_1ad8a86219486a6471e72d11068ea4ec85" kind="slot"><name>select</name></member>
+    <member refid="class_shape_1aea4eaced67662fc4c3165160c11b9dea" kind="slot"><name>deselect</name></member>
+    <member refid="class_shape_1a511bfc385622fcd4272a3d6bc13be9cd" kind="slot"><name>isSelected</name></member>
+    <member refid="class_shape_1a887d3555ac8e7205a28e09389c4ee67e" kind="slot"><name>parentShape</name></member>
+    <member refid="class_shape_1a7cf7d1aa63b5222a18c75dca88bd6517" kind="function"><name>shape</name></member>
+  </compound>
+  <compound refid="class_swatch" kind="class"><name>Swatch</name>
+    <member refid="class_swatch_1aafe548b2907c73c87d743ba67d4b92d7" kind="friend"><name>Palette</name></member>
+    <member refid="class_swatch_1a60683b9c5b46c483ea04874dd0b7298f" kind="friend"><name>PaletteView</name></member>
+    <member refid="class_swatch_1a1fa426539b7f822e43d317e7037c3ec8" kind="variable"><name>d</name></member>
+    <member refid="class_swatch_1a0b9ce16b476fce6ff8fcb892b98f32a1" kind="function"><name>Swatch</name></member>
+    <member refid="class_swatch_1a5b1a3477e39bc33de7b6530760c66494" kind="function"><name>kisSwatch</name></member>
+    <member refid="class_swatch_1abc6d531a1b5089ff1a0971806d067e43" kind="function"><name>Swatch</name></member>
+    <member refid="class_swatch_1a4c274e2eed3aa7010e4a076d64f91032" kind="function"><name>~Swatch</name></member>
+    <member refid="class_swatch_1a338447525dd2216b46e73826f7465d8f" kind="function"><name>Swatch</name></member>
+    <member refid="class_swatch_1abb02248697902913a96313b1cf9f8131" kind="function"><name>operator=</name></member>
+    <member refid="class_swatch_1a4763b7796c0179c04362ce3cc87fbd77" kind="function"><name>name</name></member>
+    <member refid="class_swatch_1a2fb9851c1c5b137693ca5648d6925c29" kind="function"><name>setName</name></member>
+    <member refid="class_swatch_1a00e39cafd2add324bed55345667043a9" kind="function"><name>id</name></member>
+    <member refid="class_swatch_1a34d5523f138f68fc0b8591cdd2a6c4ad" kind="function"><name>setId</name></member>
+    <member refid="class_swatch_1a7c7da234adbe8d22a658465518d3c969" kind="function"><name>color</name></member>
+    <member refid="class_swatch_1aeb9dff41601d59760b0c8c674a38ecea" kind="function"><name>setColor</name></member>
+    <member refid="class_swatch_1a0b04109e78d7afbcdbd412243b3e0822" kind="function"><name>spotColor</name></member>
+    <member refid="class_swatch_1af1776e959d243ee142d3ab77197509c2" kind="function"><name>setSpotColor</name></member>
+    <member refid="class_swatch_1afdd08bed2a7f1bce3fc5aec7d04755d2" kind="function"><name>isValid</name></member>
+  </compound>
+  <compound refid="class_transform_mask" kind="class"><name>TransformMask</name>
+    <member refid="class_transform_mask_1a7f09a5d1845123fd102bdd9644f10d74" kind="function"><name>TransformMask</name></member>
+    <member refid="class_transform_mask_1a7432ff77ae1bf955d8a174af3ce2f97c" kind="function"><name>TransformMask</name></member>
+    <member refid="class_transform_mask_1af9d69e24d11283bf992545e4e7948e4a" kind="function"><name>~TransformMask</name></member>
+    <member refid="class_transform_mask_1a935e6fbe9be3f3ca4baee63113f7fab5" kind="slot"><name>type</name></member>
+    <member refid="class_transform_mask_1ad152edbbbb1a08333f8b72d7928cf1d4" kind="slot"><name>finalAffineTransform</name></member>
+    <member refid="class_transform_mask_1a7aa137772e6d43334e73e5cdef43ee71" kind="slot"><name>toXML</name></member>
+    <member refid="class_transform_mask_1a3135087444d0e4140eb1506ee4980df3" kind="slot"><name>fromXML</name></member>
+  </compound>
+  <compound refid="class_transparency_mask" kind="class"><name>TransparencyMask</name>
+    <member refid="class_transparency_mask_1aba90c631742766f71d10f767a9586165" kind="function"><name>TransparencyMask</name></member>
+    <member refid="class_transparency_mask_1a254cadfa643a4e221f8094cb50b5ac7e" kind="function"><name>TransparencyMask</name></member>
+    <member refid="class_transparency_mask_1a3754883ca0d5b8677479fc29466dbdc9" kind="function"><name>~TransparencyMask</name></member>
+    <member refid="class_transparency_mask_1a6ce4f4eb6aa67991ae3661fe82000478" kind="slot"><name>type</name></member>
+    <member refid="class_transparency_mask_1a70f42673e47dffed9bd0125c103ab2b4" kind="slot"><name>selection</name></member>
+    <member refid="class_transparency_mask_1a7149c61af63ca8c57c4c7f7b84efddf5" kind="slot"><name>setSelection</name></member>
+  </compound>
+  <compound refid="class_vector_layer" kind="class"><name>VectorLayer</name>
+    <member refid="class_vector_layer_1a0dda06f021125a6b8870fa6c12631847" kind="function"><name>VectorLayer</name></member>
+    <member refid="class_vector_layer_1aa052c12519ba82bab862f915e73758ce" kind="function"><name>VectorLayer</name></member>
+    <member refid="class_vector_layer_1ace13c5cc692584e2f3c6e8142e118222" kind="function"><name>~VectorLayer</name></member>
+    <member refid="class_vector_layer_1a4e3a3ad7718dfcdf03826187c00557db" kind="slot"><name>type</name></member>
+    <member refid="class_vector_layer_1a8b0efcc0a73ea138cef50de46b9d33f4" kind="slot"><name>shapes</name></member>
+    <member refid="class_vector_layer_1abfd08c100e462e5480ba0860ba830d51" kind="slot"><name>toSvg</name></member>
+    <member refid="class_vector_layer_1a508e74fee672036d9f934e31caecaad9" kind="slot"><name>addShapesFromSvg</name></member>
+    <member refid="class_vector_layer_1affd8474580fb1a40640e8bd99c206fc1" kind="slot"><name>shapeAtPosition</name></member>
+    <member refid="class_vector_layer_1a8926d833982e2b4f9073c6aca3bba6e9" kind="slot"><name>shapesInRect</name></member>
+    <member refid="class_vector_layer_1ace11d831969e7d94b185baff02784eeb" kind="slot"><name>createGroupShape</name></member>
+  </compound>
+  <compound refid="class_view" kind="class"><name>View</name>
+    <member refid="class_view_1a553f958a25683445088050a69d3de8e9" kind="friend"><name>Window</name></member>
+    <member refid="class_view_1a4c09e157d0e3941dd526f3ced7f3d6f7" kind="friend"><name>Scratchpad</name></member>
+    <member refid="class_view_1a2d195884b16e2da027910229c28073e2" kind="variable"><name>d</name></member>
+    <member refid="class_view_1a1f20f994975aff14d01c86de535ab80e" kind="function"><name>View</name></member>
+    <member refid="class_view_1a03c7de75b3d338c79b0fd0100153ca1d" kind="function"><name>~View</name></member>
+    <member refid="class_view_1ab2ea7b4391850f95a99eabcff24da48c" kind="function"><name>operator==</name></member>
+    <member refid="class_view_1ae6f9598634dbfdddbac8918283e3cafb" kind="function"><name>operator!=</name></member>
+    <member refid="class_view_1aa9ae34c5b6b7340c05547a716ee3da38" kind="slot"><name>window</name></member>
+    <member refid="class_view_1afb79e5ff78dcecb2c9b38b53389f7eda" kind="slot"><name>document</name></member>
+    <member refid="class_view_1a4093039939fd6f9f55b942ebe0f82836" kind="slot"><name>setDocument</name></member>
+    <member refid="class_view_1a25efd59adc30472912be0345bd273761" kind="slot"><name>visible</name></member>
+    <member refid="class_view_1ae5c04a6c590e1c2de2ceea7ab2db6b9f" kind="slot"><name>setVisible</name></member>
+    <member refid="class_view_1a99a088b993877ba6188f114d223b0d64" kind="slot"><name>canvas</name></member>
+    <member refid="class_view_1a93b1f781d18cdc8d5ed463190fbafc06" kind="slot"><name>activateResource</name></member>
+    <member refid="class_view_1a51e2829282079de9c30f496430b033ed" kind="slot"><name>foregroundColor</name></member>
+    <member refid="class_view_1af24996f7c120d102d451cbbc5a4da116" kind="slot"><name>setForeGroundColor</name></member>
+    <member refid="class_view_1a692583f994437dc7c99a7b1180281a1e" kind="slot"><name>backgroundColor</name></member>
+    <member refid="class_view_1a27c29c2ecfc2005183fecd06ab283fe7" kind="slot"><name>setBackGroundColor</name></member>
+    <member refid="class_view_1aac55de71e884732e62ebcc1f5a12c157" kind="slot"><name>currentBrushPreset</name></member>
+    <member refid="class_view_1a2d00737b10840da6d0994601e45cab09" kind="slot"><name>setCurrentBrushPreset</name></member>
+    <member refid="class_view_1a598a400048c450a851d3f6bbba76c480" kind="slot"><name>currentPattern</name></member>
+    <member refid="class_view_1a4c191d34781c257fd92de44f0bc19261" kind="slot"><name>setCurrentPattern</name></member>
+    <member refid="class_view_1ad7c252c3254754ac458b31cc69d21344" kind="slot"><name>currentGradient</name></member>
+    <member refid="class_view_1af7ccfe73e61fb4d49d56f6da4f7e5c65" kind="slot"><name>setCurrentGradient</name></member>
+    <member refid="class_view_1a72f0c1287b50223a948b49de40f68b94" kind="slot"><name>currentBlendingMode</name></member>
+    <member refid="class_view_1a60e2805bd14cc5765d622b21fa1b67b5" kind="slot"><name>setCurrentBlendingMode</name></member>
+    <member refid="class_view_1a0ffa6c8384429bd51254644a1a57d11a" kind="slot"><name>HDRExposure</name></member>
+    <member refid="class_view_1aa023b0febceefc5fe2b34868a86db385" kind="slot"><name>setHDRExposure</name></member>
+    <member refid="class_view_1a4eee99c0d30b2ba782d5cce71d29dbbb" kind="slot"><name>HDRGamma</name></member>
+    <member refid="class_view_1a1d8df11e392d34bcf3a1c80860d248a2" kind="slot"><name>setHDRGamma</name></member>
+    <member refid="class_view_1a92cec2910cdba5dda3507a7f7412e5dc" kind="slot"><name>paintingOpacity</name></member>
+    <member refid="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" kind="slot"><name>setPaintingOpacity</name></member>
+    <member refid="class_view_1afde6199aea404549c344dd531c556a8c" kind="slot"><name>brushSize</name></member>
+    <member refid="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" kind="slot"><name>setBrushSize</name></member>
+    <member refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" kind="slot"><name>paintingFlow</name></member>
+    <member refid="class_view_1ab04ace4224618b8f46059f3d4a85a546" kind="slot"><name>setPaintingFlow</name></member>
+    <member refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" kind="slot"><name>showFloatingMessage</name></member>
+    <member refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kind="slot"><name>selectedNodes</name></member>
+    <member refid="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" kind="slot"><name>flakeToDocumentTransform</name></member>
+    <member refid="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" kind="slot"><name>flakeToCanvasTransform</name></member>
+    <member refid="class_view_1a87b0192a7aa2176455a7a4653858c41f" kind="slot"><name>flakeToImageTransform</name></member>
+    <member refid="class_view_1aa6656cb36ef7ea405798f94456509dc4" kind="function"><name>view</name></member>
+  </compound>
+  <compound refid="class_window" kind="class"><name>Window</name>
+    <member refid="class_window_1a37c02e10d952fe1e928055e6e8ad8717" kind="variable"><name>d</name></member>
+    <member refid="class_window_1a1b663df9be5ffb269f7f4a638dd1fd12" kind="function"><name>Window</name></member>
+    <member refid="class_window_1a5388fe1ea0247653def5810c2998c270" kind="function"><name>~Window</name></member>
+    <member refid="class_window_1a7ba23fb8fcfcfab31e54a3393d953d65" kind="function"><name>operator==</name></member>
+    <member refid="class_window_1a26bb72877e46c302e886ec704441d5cd" kind="function"><name>operator!=</name></member>
+    <member refid="class_window_1a99d38be2aff3bd79b04d03f51e501265" kind="slot"><name>qwindow</name></member>
+    <member refid="class_window_1a5e1bc0e9da0d92f6dba586b9ee5c19d4" kind="slot"><name>dockers</name></member>
+    <member refid="class_window_1a6a567e4898b290c141eb5ef94f784221" kind="slot"><name>views</name></member>
+    <member refid="class_window_1af3dfb2c3a8feca3f94be9658fd125a99" kind="slot"><name>addView</name></member>
+    <member refid="class_window_1a8c1a0b11e3ae1c7ec37eb8fbc53d22de" kind="slot"><name>showView</name></member>
+    <member refid="class_window_1a586ace18f4be797f92af47a92195a084" kind="slot"><name>activeView</name></member>
+    <member refid="class_window_1ac03c0847a4488cf2ae4b7e5203b3a8fe" kind="slot"><name>activate</name></member>
+    <member refid="class_window_1a35055c04498121d39741bfcd5082705b" kind="slot"><name>close</name></member>
+    <member refid="class_window_1a72ec58e53844076c1461966c34a9115c" kind="slot"><name>createAction</name></member>
+    <member refid="class_window_1a28b30166dc3ffa76619ab60442a9a851" kind="signal"><name>windowClosed</name></member>
+    <member refid="class_window_1a05608b0d47638b86d7e56baa1cec9da3" kind="signal"><name>themeChanged</name></member>
+    <member refid="class_window_1aea828021c95c083b96a481b5329a3f05" kind="signal"><name>activeViewChanged</name></member>
+  </compound>
+  <compound refid="namespace_lib_kis_utils" kind="namespace"><name>LibKisUtils</name>
+    <member refid="_lib_kis_utils_8h_1a5043def4f7f77080ce3eb0cdc15a65c7" kind="function"><name>createNodeList</name></member>
+    <member refid="_lib_kis_utils_8h_1ae0965c969d51d7d8a65332b8cdaf1d98" kind="function"><name>findNodeInDocuments</name></member>
+  </compound>
+  <compound refid="_canvas_8cpp" kind="file"><name>Canvas.cpp</name>
+  </compound>
+  <compound refid="_canvas_8h" kind="file"><name>Canvas.h</name>
+  </compound>
+  <compound refid="_channel_8cpp" kind="file"><name>Channel.cpp</name>
+  </compound>
+  <compound refid="_channel_8h" kind="file"><name>Channel.h</name>
+  </compound>
+  <compound refid="_clone_layer_8cpp" kind="file"><name>CloneLayer.cpp</name>
+  </compound>
+  <compound refid="_clone_layer_8h" kind="file"><name>CloneLayer.h</name>
+  </compound>
+  <compound refid="_colorize_mask_8cpp" kind="file"><name>ColorizeMask.cpp</name>
+  </compound>
+  <compound refid="_colorize_mask_8h" kind="file"><name>ColorizeMask.h</name>
+  </compound>
+  <compound refid="_dock_widget_8cpp" kind="file"><name>DockWidget.cpp</name>
+  </compound>
+  <compound refid="_dock_widget_8h" kind="file"><name>DockWidget.h</name>
+  </compound>
+  <compound refid="_dock_widget_factory_base_8cpp" kind="file"><name>DockWidgetFactoryBase.cpp</name>
+  </compound>
+  <compound refid="_dock_widget_factory_base_8h" kind="file"><name>DockWidgetFactoryBase.h</name>
+  </compound>
+  <compound refid="_document_8cpp" kind="file"><name>Document.cpp</name>
+  </compound>
+  <compound refid="_document_8h" kind="file"><name>Document.h</name>
+  </compound>
+  <compound refid="_extension_8cpp" kind="file"><name>Extension.cpp</name>
+  </compound>
+  <compound refid="_extension_8h" kind="file"><name>Extension.h</name>
+  </compound>
+  <compound refid="_file_layer_8cpp" kind="file"><name>FileLayer.cpp</name>
+  </compound>
+  <compound refid="_file_layer_8h" kind="file"><name>FileLayer.h</name>
+  </compound>
+  <compound refid="_fill_layer_8cpp" kind="file"><name>FillLayer.cpp</name>
+  </compound>
+  <compound refid="_fill_layer_8h" kind="file"><name>FillLayer.h</name>
+  </compound>
+  <compound refid="_filter_8cpp" kind="file"><name>Filter.cpp</name>
+  </compound>
+  <compound refid="_filter_8h" kind="file"><name>Filter.h</name>
+  </compound>
+  <compound refid="_filter_layer_8cpp" kind="file"><name>FilterLayer.cpp</name>
+  </compound>
+  <compound refid="_filter_layer_8h" kind="file"><name>FilterLayer.h</name>
+  </compound>
+  <compound refid="_filter_mask_8cpp" kind="file"><name>FilterMask.cpp</name>
+  </compound>
+  <compound refid="_filter_mask_8h" kind="file"><name>FilterMask.h</name>
+  </compound>
+  <compound refid="_group_layer_8cpp" kind="file"><name>GroupLayer.cpp</name>
+  </compound>
+  <compound refid="_group_layer_8h" kind="file"><name>GroupLayer.h</name>
+  </compound>
+  <compound refid="_group_shape_8cpp" kind="file"><name>GroupShape.cpp</name>
+  </compound>
+  <compound refid="_group_shape_8h" kind="file"><name>GroupShape.h</name>
+  </compound>
+  <compound refid="_info_object_8cpp" kind="file"><name>InfoObject.cpp</name>
+  </compound>
+  <compound refid="_info_object_8h" kind="file"><name>InfoObject.h</name>
+  </compound>
+  <compound refid="_krita_8cpp" kind="file"><name>Krita.cpp</name>
+  </compound>
+  <compound refid="_krita_8h" kind="file"><name>Krita.h</name>
+    <member refid="_krita_8h_1aec5ce4551a2ac75feb6109dbac340319" kind="function"><name>Q_DECLARE_METATYPE</name></member>
+  </compound>
+  <compound refid="libkis_8h" kind="file"><name>libkis.h</name>
+  </compound>
+  <compound refid="_lib_kis_utils_8cpp" kind="file"><name>LibKisUtils.cpp</name>
+  </compound>
+  <compound refid="_lib_kis_utils_8h" kind="file"><name>LibKisUtils.h</name>
+  </compound>
+  <compound refid="_mainpage_8dox" kind="file"><name>Mainpage.dox</name>
+  </compound>
+  <compound refid="_managed_color_8cpp" kind="file"><name>ManagedColor.cpp</name>
+  </compound>
+  <compound refid="_managed_color_8h" kind="file"><name>ManagedColor.h</name>
+  </compound>
+  <compound refid="_node_8cpp" kind="file"><name>Node.cpp</name>
+  </compound>
+  <compound refid="_node_8h" kind="file"><name>Node.h</name>
+    <member refid="_node_8h_1a803d6f1c9fc4e5325d3aa9c43991cd92" kind="typedef"><name>NodeSP</name></member>
+  </compound>
+  <compound refid="_notifier_8cpp" kind="file"><name>Notifier.cpp</name>
+  </compound>
+  <compound refid="_notifier_8h" kind="file"><name>Notifier.h</name>
+  </compound>
+  <compound refid="_palette_8cpp" kind="file"><name>Palette.cpp</name>
+  </compound>
+  <compound refid="_palette_8h" kind="file"><name>Palette.h</name>
+  </compound>
+  <compound refid="_palette_view_8cpp" kind="file"><name>PaletteView.cpp</name>
+  </compound>
+  <compound refid="_palette_view_8h" kind="file"><name>PaletteView.h</name>
+  </compound>
+  <compound refid="_preset_8cpp" kind="file"><name>Preset.cpp</name>
+  </compound>
+  <compound refid="_preset_8h" kind="file"><name>Preset.h</name>
+  </compound>
+  <compound refid="_preset_chooser_8cpp" kind="file"><name>PresetChooser.cpp</name>
+  </compound>
+  <compound refid="_preset_chooser_8h" kind="file"><name>PresetChooser.h</name>
+  </compound>
+  <compound refid="res_8cpp" kind="file"><name>res.cpp</name>
+  </compound>
+  <compound refid="res_8hpp" kind="file"><name>res.hpp</name>
+  </compound>
+  <compound refid="_resource_8cpp" kind="file"><name>Resource.cpp</name>
+  </compound>
+  <compound refid="_resource_8h" kind="file"><name>Resource.h</name>
+  </compound>
+  <compound refid="_scratchpad_8cpp" kind="file"><name>Scratchpad.cpp</name>
+  </compound>
+  <compound refid="_scratchpad_8h" kind="file"><name>Scratchpad.h</name>
+  </compound>
+  <compound refid="_selection_8cpp" kind="file"><name>Selection.cpp</name>
+  </compound>
+  <compound refid="_selection_8h" kind="file"><name>Selection.h</name>
+  </compound>
+  <compound refid="_selection_mask_8cpp" kind="file"><name>SelectionMask.cpp</name>
+  </compound>
+  <compound refid="_selection_mask_8h" kind="file"><name>SelectionMask.h</name>
+  </compound>
+  <compound refid="_shape_8cpp" kind="file"><name>Shape.cpp</name>
+  </compound>
+  <compound refid="_shape_8h" kind="file"><name>Shape.h</name>
+  </compound>
+  <compound refid="_swatch_8cpp" kind="file"><name>Swatch.cpp</name>
+  </compound>
+  <compound refid="_swatch_8h" kind="file"><name>Swatch.h</name>
+  </compound>
+  <compound refid="_transform_mask_8cpp" kind="file"><name>TransformMask.cpp</name>
+  </compound>
+  <compound refid="_transform_mask_8h" kind="file"><name>TransformMask.h</name>
+  </compound>
+  <compound refid="_transparency_mask_8cpp" kind="file"><name>TransparencyMask.cpp</name>
+  </compound>
+  <compound refid="_transparency_mask_8h" kind="file"><name>TransparencyMask.h</name>
+  </compound>
+  <compound refid="_vector_layer_8cpp" kind="file"><name>VectorLayer.cpp</name>
+  </compound>
+  <compound refid="_vector_layer_8h" kind="file"><name>VectorLayer.h</name>
+  </compound>
+  <compound refid="_view_8cpp" kind="file"><name>View.cpp</name>
+  </compound>
+  <compound refid="_view_8h" kind="file"><name>View.h</name>
+  </compound>
+  <compound refid="_window_8cpp" kind="file"><name>Window.cpp</name>
+  </compound>
+  <compound refid="_window_8h" kind="file"><name>Window.h</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_group_shape" kind="class" language="C++" prot="public">
+    <compoundname>GroupShape</compoundname>
+    <basecompoundref refid="class_shape" prot="public" virt="non-virtual">Shape</basecompoundref>
+    <includes refid="_group_shape_8h" local="no">GroupShape.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_group_shape_1a216f3a8a4fc1e3a97ce1bda62bc2f2c8" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupShape::GroupShape</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>GroupShape</name>
+        <qualifiedname>GroupShape::GroupShape</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupShape.h" line="25" column="14" bodyfile="GroupShape.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_group_shape_1a1acbf656b7e8e384230dfccfa7ba2d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupShape::GroupShape</definition>
+        <argsstring>(KoShapeGroup *shape, QObject *parent=0)</argsstring>
+        <name>GroupShape</name>
+        <qualifiedname>GroupShape::GroupShape</qualifiedname>
+        <param>
+          <type>KoShapeGroup *</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupShape.h" line="26" column="5" bodyfile="GroupShape.cpp" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_group_shape_1a94cf6b88eab2a08a92c9c86d954d4587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupShape::~GroupShape</definition>
+        <argsstring>()</argsstring>
+        <name>~GroupShape</name>
+        <qualifiedname>GroupShape::~GroupShape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupShape.h" line="27" column="5" bodyfile="GroupShape.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_group_shape_1a083f2c571f014d702bd02c2cb8ff4a60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GroupShape::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <qualifiedname>GroupShape::type</qualifiedname>
+        <briefdescription>
+<para>type returns the type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>&quot;groupshape&quot; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupShape.h" line="34" column="13" bodyfile="GroupShape.cpp" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_group_shape_1a8b00840b8cc751d7c501b33dbad205d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_shape" kindref="compound">Shape</ref> * &gt;</type>
+        <definition>QList&lt; Shape * &gt; GroupShape::children</definition>
+        <argsstring>()</argsstring>
+        <name>children</name>
+        <qualifiedname>GroupShape::children</qualifiedname>
+        <briefdescription>
+<para>children </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the child shapes of this group shape. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupShape.h" line="40" column="11" bodyfile="GroupShape.cpp" bodystart="30" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_group_shape" kindref="compound">GroupShape</ref> class A group shape is a vector object with child shapes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GroupShape</label>
+        <link refid="class_group_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="2">
+        <label>Shape</label>
+        <link refid="class_shape"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GroupShape</label>
+        <link refid="class_group_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="2">
+        <label>Shape</label>
+        <link refid="class_shape"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="GroupShape.h" line="20" column="1" bodyfile="GroupShape.h" bodystart="21" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_shape_1a1eb4bd772f4f5328ab36ebf175580aab" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>absoluteTransformation</name></member>
+      <member refid="class_shape_1a4d81a074fa955e7ee360c0df2b3ef3a6" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>boundingBox</name></member>
+      <member refid="class_group_shape_1a8b00840b8cc751d7c501b33dbad205d5" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>children</name></member>
+      <member refid="class_shape_1aea4eaced67662fc4c3165160c11b9dea" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>deselect</name></member>
+      <member refid="class_shape_1aaab99a77095c96308fa202a427a6eb10" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>geometryProtected</name></member>
+      <member refid="class_group_shape_1a216f3a8a4fc1e3a97ce1bda62bc2f2c8" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>GroupShape</name></member>
+      <member refid="class_group_shape_1a1acbf656b7e8e384230dfccfa7ba2d49" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>GroupShape</name></member>
+      <member refid="class_shape_1a511bfc385622fcd4272a3d6bc13be9cd" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>isSelected</name></member>
+      <member refid="class_shape_1aa02274c9cdfb8a8825d0c56a939e5886" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>name</name></member>
+      <member refid="class_shape_1a4ce5c9fe06d40a8bf751cfc53755288a" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>operator!=</name></member>
+      <member refid="class_shape_1a1a50887d4b2c04dee887e69c59b4ab7f" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>operator==</name></member>
+      <member refid="class_shape_1a887d3555ac8e7205a28e09389c4ee67e" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>parentShape</name></member>
+      <member refid="class_shape_1aa146e1f9869e3e9dda865380508a31d1" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>position</name></member>
+      <member refid="class_shape_1a1cd600095ba0f8bbd5c1ee53c00e827f" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>remove</name></member>
+      <member refid="class_shape_1ad8a86219486a6471e72d11068ea4ec85" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>select</name></member>
+      <member refid="class_shape_1a4273880024656d4b368af6f8d26a25c3" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>selectable</name></member>
+      <member refid="class_shape_1ab3831cd0241a4ef24eefca272b29a01c" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>setGeometryProtected</name></member>
+      <member refid="class_shape_1a876a01e85fd8466314c2c88c80dc1440" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>setName</name></member>
+      <member refid="class_shape_1a9a533542a4767bcf84bc2100437cad2b" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>setPosition</name></member>
+      <member refid="class_shape_1abb7ed4a2f0690ba8cd941d826d3f11a1" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>setSelectable</name></member>
+      <member refid="class_shape_1a5db8dddaa891ea5f8c61318950b4b6f6" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>setTransformation</name></member>
+      <member refid="class_shape_1a041930633ef5b42e9ba2aa714a098540" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>setVisible</name></member>
+      <member refid="class_shape_1a87dc1abcab1835398a7b56ecfc101053" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>setZIndex</name></member>
+      <member refid="class_shape_1acefb3de113508a4db9362a7c28c56969" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>Shape</name></member>
+      <member refid="class_shape_1aa9cc7dbe137e7edb123f0611f6fd9555" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>toSvg</name></member>
+      <member refid="class_shape_1a33271b28d12feeb5d7fa0cb76404eb79" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>transformation</name></member>
+      <member refid="class_group_shape_1a083f2c571f014d702bd02c2cb8ff4a60" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>type</name></member>
+      <member refid="class_shape_1a2529ca668908be63f160a88dad62f42a" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>update</name></member>
+      <member refid="class_shape_1a992d7ef0d623a3f26e3d06ecce17cadb" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>updateAbsolute</name></member>
+      <member refid="class_shape_1ae3c924f1cd861985cae2cfedcdaea382" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>visible</name></member>
+      <member refid="class_shape_1a7d93570bfa42a357679e87392abb34fd" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>zIndex</name></member>
+      <member refid="class_group_shape_1a94cf6b88eab2a08a92c9c86d954d4587" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>~GroupShape</name></member>
+      <member refid="class_shape_1a935afc9e576015f967d90de56977167d" prot="public" virt="non-virtual"><scope>GroupShape</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

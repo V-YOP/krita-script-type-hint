@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_resource_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Resource::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_resource_1_1_private_1a7599e05f2dee9cde85e22e94b781c41c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Resource::Private::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>Resource::Private::id</qualifiedname>
+        <initializer>{-1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.cpp" line="22" column="9" bodyfile="Resource.cpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_resource_1_1_private_1a3bfbedb20342631e42d69933101635fe" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Resource::Private::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>Resource::Private::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.cpp" line="23" column="13" bodyfile="Resource.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_resource_1_1_private_1ae6fe52b71128edee278603647b4ccaaa" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Resource::Private::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Resource::Private::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.cpp" line="24" column="13" bodyfile="Resource.cpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_resource_1_1_private_1a72f28fcb04ea12c18926b401860dce29" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Resource::Private::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <qualifiedname>Resource::Private::filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.cpp" line="25" column="13" bodyfile="Resource.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_resource_1_1_private_1ad25b03c9a20aa1609586f696b8fd886e" prot="public" static="no" mutable="no">
+        <type>QImage</type>
+        <definition>QImage Resource::Private::image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <qualifiedname>Resource::Private::image</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.cpp" line="26" column="12" bodyfile="Resource.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_resource_1_1_private_1a40697af31259ae505a393050a2119fec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Resource::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Resource::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.cpp" line="20" column="5" bodyfile="Resource.cpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Resource.cpp" line="19" column="1" bodyfile="Resource.cpp" bodystart="19" bodyend="27"/>
+    <listofallmembers>
+      <member refid="struct_resource_1_1_private_1a72f28fcb04ea12c18926b401860dce29" prot="public" virt="non-virtual"><scope>Resource::Private</scope><name>filename</name></member>
+      <member refid="struct_resource_1_1_private_1a7599e05f2dee9cde85e22e94b781c41c" prot="public" virt="non-virtual"><scope>Resource::Private</scope><name>id</name></member>
+      <member refid="struct_resource_1_1_private_1ad25b03c9a20aa1609586f696b8fd886e" prot="public" virt="non-virtual"><scope>Resource::Private</scope><name>image</name></member>
+      <member refid="struct_resource_1_1_private_1ae6fe52b71128edee278603647b4ccaaa" prot="public" virt="non-virtual"><scope>Resource::Private</scope><name>name</name></member>
+      <member refid="struct_resource_1_1_private_1a40697af31259ae505a393050a2119fec" prot="public" virt="non-virtual"><scope>Resource::Private</scope><name>Private</name></member>
+      <member refid="struct_resource_1_1_private_1a3bfbedb20342631e42d69933101635fe" prot="public" virt="non-virtual"><scope>Resource::Private</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

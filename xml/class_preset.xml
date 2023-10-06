@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_preset" kind="class" language="C++" prot="public">
+    <compoundname>Preset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_preset_8h" local="no">Preset.h</includes>
+    <innerclass refid="struct_preset_1_1_private" prot="public">Preset::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_preset_1a936c01fd033d53ea2368d6b5f6a944e3" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_preset_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Preset::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Preset::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preset.h" line="56" column="19" bodyfile="Preset.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_preset_1afa563cd756e4724ca354c571428d9f24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Preset::Preset</definition>
+        <argsstring>(Resource *resource)</argsstring>
+        <name>Preset</name>
+        <qualifiedname>Preset::Preset</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preset.h" line="37" column="5" bodyfile="Preset.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_preset_1a12526712e2e4e0a3ff94901c7b30897e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Preset::~Preset</definition>
+        <argsstring>() override</argsstring>
+        <name>~Preset</name>
+        <qualifiedname>Preset::~Preset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preset.h" line="38" column="5" bodyfile="Preset.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_preset_1a7995db5f345a8fc515e773d810da349a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Preset::toXML</definition>
+        <argsstring>() const</argsstring>
+        <name>toXML</name>
+        <qualifiedname>Preset::toXML</qualifiedname>
+        <briefdescription>
+<para>toXML convert the preset settings into a preset formatted xml. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the xml in a string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preset.h" line="45" column="13" bodyfile="Preset.cpp" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_preset_1a093dd046601ed927d7a6afc56a3d9d04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Preset::fromXML</definition>
+        <argsstring>(const QString &amp;xml)</argsstring>
+        <name>fromXML</name>
+        <qualifiedname>Preset::fromXML</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <briefdescription>
+<para>fromXML convert the preset settings into a preset formatted xml. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valid xml preset string. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preset.h" line="52" column="10" bodyfile="Preset.cpp" bodystart="35" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_preset_1a98a56d3b6f6d1fad2ea3527b6ee6e5fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>KisPaintOpPresetSP</type>
+        <definition>KisPaintOpPresetSP Preset::paintOpPreset</definition>
+        <argsstring>()</argsstring>
+        <name>paintOpPreset</name>
+        <qualifiedname>Preset::paintOpPreset</qualifiedname>
+        <briefdescription>
+<para>paintOpPreset </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>gives a KisPaintOpPreset object back </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preset.h" line="62" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_preset" kindref="compound">Preset</ref> class <ref refid="class_preset" kindref="compound">Preset</ref> is a resource object that stores brush preset data. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>An example for printing the current brush preset and all its settings:</para>
+<para><programlisting><codeline><highlight class="normal">from<sp/>krita<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">view<sp/>=<sp/>Krita.instance().activeWindow().activeView()</highlight></codeline>
+<codeline><highlight class="normal">preset<sp/>=<sp/>Preset(view.currentBrushPreset())</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">print<sp/>(<sp/>preset.toXML()<sp/>)</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Preset</label>
+        <link refid="class_preset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Preset</label>
+        <link refid="class_preset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Preset.h" line="34" column="1" bodyfile="Preset.h" bodystart="35" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_preset_1a936c01fd033d53ea2368d6b5f6a944e3" prot="private" virt="non-virtual"><scope>Preset</scope><name>d</name></member>
+      <member refid="class_preset_1a093dd046601ed927d7a6afc56a3d9d04" prot="public" virt="non-virtual"><scope>Preset</scope><name>fromXML</name></member>
+      <member refid="class_preset_1a98a56d3b6f6d1fad2ea3527b6ee6e5fd" prot="private" virt="non-virtual"><scope>Preset</scope><name>paintOpPreset</name></member>
+      <member refid="class_preset_1afa563cd756e4724ca354c571428d9f24" prot="public" virt="non-virtual"><scope>Preset</scope><name>Preset</name></member>
+      <member refid="class_preset_1a7995db5f345a8fc515e773d810da349a" prot="public" virt="non-virtual"><scope>Preset</scope><name>toXML</name></member>
+      <member refid="class_preset_1a12526712e2e4e0a3ff94901c7b30897e" prot="public" virt="non-virtual"><scope>Preset</scope><name>~Preset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

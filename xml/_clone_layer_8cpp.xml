@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_clone_layer_8cpp" kind="file" language="C++">
+    <compoundname>CloneLayer.cpp</compoundname>
+    <includes refid="_clone_layer_8h" local="yes">CloneLayer.h</includes>
+    <includes local="no">kis_clone_layer.h</includes>
+    <includes local="no">kis_image.h</includes>
+    <includes local="no">kis_layer.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>CloneLayer.cpp</label>
+        <link refid="_clone_layer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CloneLayer.h</label>
+        <link refid="_clone_layer_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Node.h</label>
+        <link refid="_node_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>libkis.h</label>
+        <link refid="libkis_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>QAction</label>
+      </node>
+      <node id="12">
+        <label>QByteArray</label>
+      </node>
+      <node id="8">
+        <label>QList</label>
+      </node>
+      <node id="11">
+        <label>QMap</label>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="9">
+        <label>QString</label>
+      </node>
+      <node id="10">
+        <label>QVariant</label>
+      </node>
+      <node id="14">
+        <label>kis_clone_layer.h</label>
+      </node>
+      <node id="15">
+        <label>kis_image.h</label>
+      </node>
+      <node id="16">
+        <label>kis_layer.h</label>
+      </node>
+      <node id="5">
+        <label>kis_types.h</label>
+      </node>
+      <node id="6">
+        <label>kritalibkis_export.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-FileCopyrightText:<sp/>2017<sp/>Wolthera<sp/>van<sp/>Hövell<sp/>tot<sp/>Westerflier<sp/>&lt;griffinvalley@gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-License-Identifier:<sp/>LGPL-2.0-or-later</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CloneLayer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_clone_layer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_image.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_layer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">CloneLayer::CloneLayer(KisImageSP<sp/>image,<sp/>QString<sp/>name,<sp/>KisLayerSP<sp/>source,<sp/>QObject<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>(image,<sp/>new<sp/>KisCloneLayer(source,<sp/>image,<sp/>name,<sp/>OPACITY_OPAQUE_U8),<sp/>parent)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">CloneLayer::CloneLayer(KisCloneLayerSP<sp/>layer,<sp/>QObject<sp/>*parent):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>(layer-&gt;image(),<sp/>layer,<sp/>parent)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">CloneLayer::~CloneLayer()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="class_node" kindref="compound">Node</ref>*<sp/><ref refid="class_clone_layer_1aeecc5e55e30372d934d60d8a573f3c9c" kindref="member">CloneLayer::sourceNode</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisCloneLayer*<sp/>layer<sp/>=<sp/>qobject_cast&lt;const<sp/>KisCloneLayer*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(layer,<sp/>0);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Node::createNode(0,<sp/>layer-&gt;copyFrom());</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_clone_layer_1aa9754ee3a3de759a851b6a1493bef01f" kindref="member">CloneLayer::setSourceNode</ref>(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>node)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!node-&gt;node())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>KisCloneLayerSP<sp/>layer<sp/>=<sp/>qobject_cast&lt;KisCloneLayer*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(layer);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>KisLayerSP<sp/>source<sp/>=<sp/>qobject_cast&lt;KisLayer*&gt;(node-&gt;node().data());</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>layer-&gt;setCopyFrom(source);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">QString<sp/><ref refid="class_clone_layer_1a64fd1e3180c998aa6bbe9eedf90326b0" kindref="member">CloneLayer::type</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="49"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;clonelayer&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="CloneLayer.cpp"/>
+  </compounddef>
+</doxygen>

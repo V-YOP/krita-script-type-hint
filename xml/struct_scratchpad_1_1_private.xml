@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_scratchpad_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Scratchpad::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_scratchpad_1_1_private_1a1efaea2e64a4edab9c727bf890eae5c6" prot="public" static="no" mutable="no">
+        <type>KisScratchPad *</type>
+        <definition>KisScratchPad* Scratchpad::Private::scratchpad</definition>
+        <argsstring></argsstring>
+        <name>scratchpad</name>
+        <qualifiedname>Scratchpad::Private::scratchpad</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.cpp" line="22" column="19" bodyfile="Scratchpad.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scratchpad.cpp" line="20" column="1" bodyfile="Scratchpad.cpp" bodystart="21" bodyend="23"/>
+    <listofallmembers>
+      <member refid="struct_scratchpad_1_1_private_1a1efaea2e64a4edab9c727bf890eae5c6" prot="public" virt="non-virtual"><scope>Scratchpad::Private</scope><name>scratchpad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

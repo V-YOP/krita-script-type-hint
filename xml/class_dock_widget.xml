@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_dock_widget" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>DockWidget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDockWidget</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">KoCanvasObserverBase</basecompoundref>
+    <includes refid="_dock_widget_8h" local="no">DockWidget.h</includes>
+    <innerclass refid="struct_dock_widget_1_1_private" prot="public">DockWidget::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dock_widget_1aff580ddbadca20e65273c7e6363df1ef" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_dock_widget_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const DockWidget::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>DockWidget::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.h" line="72" column="19" bodyfile="DockWidget.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dock_widget_1a9241fb313ef4da08fd03a55f8fc12662" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DockWidget::DockWidget</definition>
+        <argsstring>()</argsstring>
+        <name>DockWidget</name>
+        <qualifiedname>DockWidget::DockWidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.h" line="48" column="14" bodyfile="DockWidget.cpp" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dock_widget_1ad6be65291c2fa96d1d51d765661c1d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DockWidget::~DockWidget</definition>
+        <argsstring>() override</argsstring>
+        <name>~DockWidget</name>
+        <qualifiedname>DockWidget::~DockWidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.h" line="49" column="5" bodyfile="DockWidget.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="class_dock_widget_1a32150bebfc467135fa21b9bdcf761bc3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DockWidget::setCanvas</definition>
+        <argsstring>(KoCanvasBase *canvas) override</argsstring>
+        <name>setCanvas</name>
+        <qualifiedname>DockWidget::setCanvas</qualifiedname>
+        <param>
+          <type>KoCanvasBase *</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.h" line="53" column="10" bodyfile="DockWidget.cpp" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_dock_widget_1a5f366b610b55de8f16c0aba756fb36d8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DockWidget::unsetCanvas</definition>
+        <argsstring>() override</argsstring>
+        <name>unsetCanvas</name>
+        <qualifiedname>DockWidget::unsetCanvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.h" line="54" column="10" bodyfile="DockWidget.cpp" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_dock_widget_1a6135e785a8465ed54536773d18428614" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_canvas" kindref="compound">Canvas</ref> *</type>
+        <definition>Canvas * DockWidget::canvas</definition>
+        <argsstring>() const</argsstring>
+        <name>canvas</name>
+        <qualifiedname>DockWidget::canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@return the canvas object that this docker is currently associated with </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.h" line="61" column="12" bodyfile="DockWidget.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_dock_widget_1a7380260bb3fc1c31437078b5462b1216" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void DockWidget::canvasChanged</definition>
+        <argsstring>(Canvas *canvas)=0</argsstring>
+        <name>canvasChanged</name>
+        <qualifiedname>DockWidget::canvasChanged</qualifiedname>
+        <param>
+          <type><ref refid="class_canvas" kindref="compound">Canvas</ref> *</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+<para>canvasChanged is called whenever the current canvas is changed in the mainwindow this dockwidget instance is shown in. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>canvas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new canvas. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidget.h" line="68" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_dock_widget" kindref="compound">DockWidget</ref> is the base class for custom Dockers. Dockers are created by a factory class which needs to be registered by calling Application.addDockWidgetFactory:</para>
+<para><programlisting><codeline><highlight class="keyword">class<sp/></highlight><highlight class="normal">HelloDocker(DockWidget):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>def<sp/>__init__(self):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>super().__init__()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>label<sp/>=<sp/>QLabel(&quot;Hello&quot;,<sp/>self)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>self.setWidget(label)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>self.label<sp/>=<sp/>label</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>self.setWindowTitle(&quot;Hello<sp/>Docker&quot;)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/>canvasChanged(self,<sp/>canvas):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setText(&quot;Hellodocker:<sp/>canvas<sp/>changed&quot;);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">Application.addDockWidgetFactory(DockWidgetFactory(&quot;hello&quot;,<sp/>DockWidgetFactoryBase.DockRight,<sp/>HelloDocker))</highlight></codeline>
+</programlisting></para>
+<para>One docker per window will be created, not one docker per canvas or view. When the user switches between views/canvases, canvasChanged will be called. You can override that method to reset your docker&apos;s internal state, if necessary. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DockWidget</label>
+        <link refid="class_dock_widget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>KoCanvasObserverBase</label>
+      </node>
+      <node id="2">
+        <label>QDockWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DockWidget</label>
+        <link refid="class_dock_widget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>KoCanvasObserverBase</label>
+      </node>
+      <node id="2">
+        <label>QDockWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="DockWidget.h" line="42" column="1" bodyfile="DockWidget.h" bodystart="43" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_dock_widget_1a6135e785a8465ed54536773d18428614" prot="protected" virt="non-virtual"><scope>DockWidget</scope><name>canvas</name></member>
+      <member refid="class_dock_widget_1a7380260bb3fc1c31437078b5462b1216" prot="protected" virt="pure-virtual"><scope>DockWidget</scope><name>canvasChanged</name></member>
+      <member refid="class_dock_widget_1aff580ddbadca20e65273c7e6363df1ef" prot="private" virt="non-virtual"><scope>DockWidget</scope><name>d</name></member>
+      <member refid="class_dock_widget_1a9241fb313ef4da08fd03a55f8fc12662" prot="public" virt="non-virtual"><scope>DockWidget</scope><name>DockWidget</name></member>
+      <member refid="class_dock_widget_1a32150bebfc467135fa21b9bdcf761bc3" prot="protected" virt="non-virtual"><scope>DockWidget</scope><name>setCanvas</name></member>
+      <member refid="class_dock_widget_1a5f366b610b55de8f16c0aba756fb36d8" prot="protected" virt="non-virtual"><scope>DockWidget</scope><name>unsetCanvas</name></member>
+      <member refid="class_dock_widget_1ad6be65291c2fa96d1d51d765661c1d9b" prot="public" virt="non-virtual"><scope>DockWidget</scope><name>~DockWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

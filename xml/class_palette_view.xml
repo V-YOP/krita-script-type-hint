@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_palette_view" kind="class" language="C++" prot="public">
+    <compoundname>PaletteView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="_palette_view_8h" local="no">PaletteView.h</includes>
+    <innerclass refid="struct_palette_view_1_1_private" prot="public">PaletteView::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_palette_view_1ae5111209e5d49bfaf39dd93d43366693" prot="private" static="no" mutable="no">
+        <type>const QScopedPointer&lt; <ref refid="struct_palette_view_1_1_private" kindref="compound">Private</ref> &gt;</type>
+        <definition>const QScopedPointer&lt;Private&gt; PaletteView::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>PaletteView::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="96" column="26" bodyfile="PaletteView.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_palette_view_1a2e6c6aad26c498ee41c8929f8f8bc4a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PaletteView::PaletteView</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>PaletteView</name>
+        <qualifiedname>PaletteView::PaletteView</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="35" column="5" bodyfile="PaletteView.cpp" bodystart="17" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_view_1a8b61805ccbde12bb0494801ec2b54c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PaletteView::~PaletteView</definition>
+        <argsstring>()</argsstring>
+        <name>~PaletteView</name>
+        <qualifiedname>PaletteView::~PaletteView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="36" column="5" bodyfile="PaletteView.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_palette_view_1a79f29b7666cb028ae846f6531b2a9a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PaletteView::setPalette</definition>
+        <argsstring>(Palette *palette)</argsstring>
+        <name>setPalette</name>
+        <qualifiedname>PaletteView::setPalette</qualifiedname>
+        <param>
+          <type><ref refid="class_palette" kindref="compound">Palette</ref> *</type>
+          <declname>palette</declname>
+        </param>
+        <briefdescription>
+<para>setPalette Set a new palette. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>palette</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="43" column="10" bodyfile="PaletteView.cpp" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_palette_view_1a0b41a25c3d0cc883d9a3716104c3d3f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PaletteView::addEntryWithDialog</definition>
+        <argsstring>(ManagedColor *color)</argsstring>
+        <name>addEntryWithDialog</name>
+        <qualifiedname>PaletteView::addEntryWithDialog</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>addEntryWithDialog This gives a simple dialog for adding colors, with options like adding name, id, and to which group the color should be added. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the default color to add </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>whether it was successful. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="51" column="10" bodyfile="PaletteView.cpp" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_palette_view_1acd8251b5dfac0e25e6c3cb66e5fd26e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PaletteView::addGroupWithDialog</definition>
+        <argsstring>()</argsstring>
+        <name>addGroupWithDialog</name>
+        <qualifiedname>PaletteView::addGroupWithDialog</qualifiedname>
+        <briefdescription>
+<para>addGroupWithDialog gives a little dialog to ask for the desired groupname. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether this was successful. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="57" column="10" bodyfile="PaletteView.cpp" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_palette_view_1a6ae64f979bba278189896d25da213c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PaletteView::removeSelectedEntryWithDialog</definition>
+        <argsstring>()</argsstring>
+        <name>removeSelectedEntryWithDialog</name>
+        <qualifiedname>PaletteView::removeSelectedEntryWithDialog</qualifiedname>
+        <briefdescription>
+<para>removeSelectedEntryWithDialog removes the selected entry. If it is a group, it pop up a dialog asking whether the colors should also be removed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether this was successful </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="64" column="10" bodyfile="PaletteView.cpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_palette_view_1a94739533dae4bc8c2ffe098fddb16a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PaletteView::trySelectClosestColor</definition>
+        <argsstring>(ManagedColor *color)</argsstring>
+        <name>trySelectClosestColor</name>
+        <qualifiedname>PaletteView::trySelectClosestColor</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>trySelectClosestColor tries to select the closest color to the one given. It does not force a change on the active color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color to compare to. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="71" column="10" bodyfile="PaletteView.cpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_palette_view_1a0655b8406939098ca9392ac8b44dc80c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PaletteView::entrySelectedForeGround</definition>
+        <argsstring>(Swatch entry)</argsstring>
+        <name>entrySelectedForeGround</name>
+        <qualifiedname>PaletteView::entrySelectedForeGround</qualifiedname>
+        <param>
+          <type><ref refid="class_swatch" kindref="compound">Swatch</ref></type>
+          <declname>entry</declname>
+        </param>
+        <briefdescription>
+<para>entrySelectedForeGround fires when a swatch is selected with leftclick. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_palette_view_1ab48ccabd5f7383f2725e62d9a41d73be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PaletteView::entrySelectedBackGround</definition>
+        <argsstring>(Swatch entry)</argsstring>
+        <name>entrySelectedBackGround</name>
+        <qualifiedname>PaletteView::entrySelectedBackGround</qualifiedname>
+        <param>
+          <type><ref refid="class_swatch" kindref="compound">Swatch</ref></type>
+          <declname>entry</declname>
+        </param>
+        <briefdescription>
+<para>entrySelectedBackGround fires when a swatch is selected with rightclick. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="84" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_palette_view_1a9dd4b42af8237d2b6dc4dc99f51d367c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PaletteView::fgSelected</definition>
+        <argsstring>(KisSwatch swatch)</argsstring>
+        <name>fgSelected</name>
+        <qualifiedname>PaletteView::fgSelected</qualifiedname>
+        <param>
+          <type>KisSwatch</type>
+          <declname>swatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="88" column="10" bodyfile="PaletteView.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_palette_view_1af2c239eeac90ef87cf372293f9b548d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PaletteView::bgSelected</definition>
+        <argsstring>(KisSwatch swatch)</argsstring>
+        <name>bgSelected</name>
+        <qualifiedname>PaletteView::bgSelected</qualifiedname>
+        <param>
+          <type>KisSwatch</type>
+          <declname>swatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaletteView.h" line="89" column="10" bodyfile="PaletteView.cpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_palette_view" kindref="compound">PaletteView</ref> class is a wrapper around a MVC method for handling palettes. This class shows a nice widget that can drag and drop, edit colors in a colorset and will handle adding and removing entries if you&apos;d like it to. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PaletteView</label>
+        <link refid="class_palette_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PaletteView</label>
+        <link refid="class_palette_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="PaletteView.h" line="31" column="1" bodyfile="PaletteView.h" bodystart="32" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_palette_view_1a0b41a25c3d0cc883d9a3716104c3d3f2" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>addEntryWithDialog</name></member>
+      <member refid="class_palette_view_1acd8251b5dfac0e25e6c3cb66e5fd26e7" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>addGroupWithDialog</name></member>
+      <member refid="class_palette_view_1af2c239eeac90ef87cf372293f9b548d1" prot="private" virt="non-virtual"><scope>PaletteView</scope><name>bgSelected</name></member>
+      <member refid="class_palette_view_1ae5111209e5d49bfaf39dd93d43366693" prot="private" virt="non-virtual"><scope>PaletteView</scope><name>d</name></member>
+      <member refid="class_palette_view_1ab48ccabd5f7383f2725e62d9a41d73be" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>entrySelectedBackGround</name></member>
+      <member refid="class_palette_view_1a0655b8406939098ca9392ac8b44dc80c" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>entrySelectedForeGround</name></member>
+      <member refid="class_palette_view_1a9dd4b42af8237d2b6dc4dc99f51d367c" prot="private" virt="non-virtual"><scope>PaletteView</scope><name>fgSelected</name></member>
+      <member refid="class_palette_view_1a2e6c6aad26c498ee41c8929f8f8bc4a5" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>PaletteView</name></member>
+      <member refid="class_palette_view_1a6ae64f979bba278189896d25da213c4f" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>removeSelectedEntryWithDialog</name></member>
+      <member refid="class_palette_view_1a79f29b7666cb028ae846f6531b2a9a9b" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>setPalette</name></member>
+      <member refid="class_palette_view_1a94739533dae4bc8c2ffe098fddb16a29" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>trySelectClosestColor</name></member>
+      <member refid="class_palette_view_1a8b61805ccbde12bb0494801ec2b54c69" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>~PaletteView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

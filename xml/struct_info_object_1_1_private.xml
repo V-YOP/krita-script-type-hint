@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_info_object_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>InfoObject::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_info_object_1_1_private_1a5a8bd59e02ddef45aa3de95624447859" prot="public" static="no" mutable="no">
+        <type>KisPropertiesConfigurationSP</type>
+        <definition>KisPropertiesConfigurationSP InfoObject::Private::properties</definition>
+        <argsstring></argsstring>
+        <name>properties</name>
+        <qualifiedname>InfoObject::Private::properties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.cpp" line="13" column="34" bodyfile="InfoObject.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_info_object_1_1_private_1a935674c1177e026ac901fce71084c31d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InfoObject::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>InfoObject::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.cpp" line="11" column="5" bodyfile="InfoObject.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="InfoObject.cpp" line="10" column="1" bodyfile="InfoObject.cpp" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="struct_info_object_1_1_private_1a935674c1177e026ac901fce71084c31d" prot="public" virt="non-virtual"><scope>InfoObject::Private</scope><name>Private</name></member>
+      <member refid="struct_info_object_1_1_private_1a5a8bd59e02ddef45aa3de95624447859" prot="public" virt="non-virtual"><scope>InfoObject::Private</scope><name>properties</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

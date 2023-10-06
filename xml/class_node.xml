@@ -1,0 +1,2507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_node" kind="class" language="C++" prot="public">
+    <compoundname>Node</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="class_clone_layer" prot="public" virt="non-virtual">CloneLayer</derivedcompoundref>
+    <derivedcompoundref refid="class_colorize_mask" prot="public" virt="non-virtual">ColorizeMask</derivedcompoundref>
+    <derivedcompoundref refid="class_file_layer" prot="public" virt="non-virtual">FileLayer</derivedcompoundref>
+    <derivedcompoundref refid="class_fill_layer" prot="public" virt="non-virtual">FillLayer</derivedcompoundref>
+    <derivedcompoundref refid="class_filter_layer" prot="public" virt="non-virtual">FilterLayer</derivedcompoundref>
+    <derivedcompoundref refid="class_filter_mask" prot="public" virt="non-virtual">FilterMask</derivedcompoundref>
+    <derivedcompoundref refid="class_group_layer" prot="public" virt="non-virtual">GroupLayer</derivedcompoundref>
+    <derivedcompoundref refid="class_selection_mask" prot="public" virt="non-virtual">SelectionMask</derivedcompoundref>
+    <derivedcompoundref refid="class_transform_mask" prot="public" virt="non-virtual">TransformMask</derivedcompoundref>
+    <derivedcompoundref refid="class_transparency_mask" prot="public" virt="non-virtual">TransparencyMask</derivedcompoundref>
+    <derivedcompoundref refid="class_vector_layer" prot="public" virt="non-virtual">VectorLayer</derivedcompoundref>
+    <includes refid="_node_8h" local="no">Node.h</includes>
+    <innerclass refid="struct_node_1_1_private" prot="public">Node::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_node_1a34f7bc7cd29643e53d23b7d500d21739" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Filter</definition>
+        <argsstring></argsstring>
+        <name>Filter</name>
+        <qualifiedname>Node::Filter</qualifiedname>
+        <param>
+          <type><ref refid="class_filter" kindref="compound">Filter</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="576" column="18" bodyfile="Node.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Document</definition>
+        <argsstring></argsstring>
+        <name>Document</name>
+        <qualifiedname>Node::Document</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="577" column="18" bodyfile="Node.h" bodystart="577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1a2cdc8668db7c69ccbcc3bab6a5d51d17" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Selection</definition>
+        <argsstring></argsstring>
+        <name>Selection</name>
+        <qualifiedname>Node::Selection</qualifiedname>
+        <param>
+          <type><ref refid="class_selection" kindref="compound">Selection</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="578" column="18" bodyfile="Node.h" bodystart="578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1af3ed5003e5f70125a38c97cb85f4253f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GroupLayer</definition>
+        <argsstring></argsstring>
+        <name>GroupLayer</name>
+        <qualifiedname>Node::GroupLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_group_layer" kindref="compound">GroupLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="579" column="18" bodyfile="Node.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1aa071b208bb503e951c43c40c5f42cdcd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FileLayer</definition>
+        <argsstring></argsstring>
+        <name>FileLayer</name>
+        <qualifiedname>Node::FileLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_file_layer" kindref="compound">FileLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="580" column="18" bodyfile="Node.h" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1a9695208225d79ba78b593cf000dd5336" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FilterLayer</definition>
+        <argsstring></argsstring>
+        <name>FilterLayer</name>
+        <qualifiedname>Node::FilterLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_filter_layer" kindref="compound">FilterLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="581" column="18" bodyfile="Node.h" bodystart="581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1ab251dd9a1d9bccc208aab066e0f79293" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FillLayer</definition>
+        <argsstring></argsstring>
+        <name>FillLayer</name>
+        <qualifiedname>Node::FillLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_fill_layer" kindref="compound">FillLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="582" column="18" bodyfile="Node.h" bodystart="582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1aa470056f72d93178e709c6dc936f98aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class VectorLayer</definition>
+        <argsstring></argsstring>
+        <name>VectorLayer</name>
+        <qualifiedname>Node::VectorLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_vector_layer" kindref="compound">VectorLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="583" column="18" bodyfile="Node.h" bodystart="583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1a4fe02ebc16353b42253f2253af00f19f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FilterMask</definition>
+        <argsstring></argsstring>
+        <name>FilterMask</name>
+        <qualifiedname>Node::FilterMask</qualifiedname>
+        <param>
+          <type><ref refid="class_filter_mask" kindref="compound">FilterMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="584" column="18" bodyfile="Node.h" bodystart="584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1a7b25d238353a453159ebfa9578e095ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class SelectionMask</definition>
+        <argsstring></argsstring>
+        <name>SelectionMask</name>
+        <qualifiedname>Node::SelectionMask</qualifiedname>
+        <param>
+          <type><ref refid="class_selection_mask" kindref="compound">SelectionMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="585" column="18" bodyfile="Node.h" bodystart="585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1a5090b50c9c5ccd4093b30762a1e769dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class TransparencyMask</definition>
+        <argsstring></argsstring>
+        <name>TransparencyMask</name>
+        <qualifiedname>Node::TransparencyMask</qualifiedname>
+        <param>
+          <type><ref refid="class_transparency_mask" kindref="compound">TransparencyMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="586" column="18" bodyfile="Node.h" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1abcac3449fc23cca5fd181c12f2bf0d2e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class TransformMask</definition>
+        <argsstring></argsstring>
+        <name>TransformMask</name>
+        <qualifiedname>Node::TransformMask</qualifiedname>
+        <param>
+          <type><ref refid="class_transform_mask" kindref="compound">TransformMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="587" column="18" bodyfile="Node.h" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1aff3ee479468ffd4b90815a88304b2abd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ColorizeMask</definition>
+        <argsstring></argsstring>
+        <name>ColorizeMask</name>
+        <qualifiedname>Node::ColorizeMask</qualifiedname>
+        <param>
+          <type><ref refid="class_colorize_mask" kindref="compound">ColorizeMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="588" column="18" bodyfile="Node.h" bodystart="588" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_node_1adce2b750fba11a1725f966070900a995" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CloneLayer</definition>
+        <argsstring></argsstring>
+        <name>CloneLayer</name>
+        <qualifiedname>Node::CloneLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_clone_layer" kindref="compound">CloneLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="589" column="18" bodyfile="Node.h" bodystart="589" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_node_1a3eeb1b213b72252f7f4d30f07dc6853a" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_node_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Node::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Node::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="602" column="19" bodyfile="Node.h" bodystart="602" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_node_1a88822eff44c10beb55a96f693753676f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Node::createNode</definition>
+        <argsstring>(KisImageSP image, KisNodeSP node, QObject *parent=0)</argsstring>
+        <name>createNode</name>
+        <qualifiedname>Node::createNode</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>KisNodeSP</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="27" column="17" bodyfile="Node.cpp" bodystart="84" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_node_1a5d129d27d74d8d16302ca48624135407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Node::~Node</definition>
+        <argsstring>() override</argsstring>
+        <name>~Node</name>
+        <qualifiedname>Node::~Node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="28" column="5" bodyfile="Node.cpp" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::operator==</definition>
+        <argsstring>(const Node &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Node::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_node" kindref="compound">Node</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="29" column="10" bodyfile="Node.cpp" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::operator!=</definition>
+        <argsstring>(const Node &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Node::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_node" kindref="compound">Node</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="30" column="10" bodyfile="Node.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Node::clone</definition>
+        <argsstring>() const</argsstring>
+        <name>clone</name>
+        <qualifiedname>Node::clone</qualifiedname>
+        <briefdescription>
+<para>clone clone the current node. The node is not associated with any image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="37" column="10" bodyfile="Node.cpp" bodystart="143" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a03331f9c2993922444607feda85e9a2a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::alphaLocked</definition>
+        <argsstring>() const</argsstring>
+        <name>alphaLocked</name>
+        <qualifiedname>Node::alphaLocked</qualifiedname>
+        <briefdescription>
+<para>alphaLocked checks whether the node is a paint layer and returns whether it is alpha locked </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether the paint layer is alpha locked, or false if the node is not a paint layer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="43" column="10" bodyfile="Node.cpp" bodystart="151" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setAlphaLocked</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setAlphaLocked</name>
+        <qualifiedname>Node::setAlphaLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setAlphaLocked set the layer to value if the node is paint layer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="48" column="10" bodyfile="Node.cpp" bodystart="161" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a95c04d37237c262bb077f1c00f9d4db8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Node::blendingMode</definition>
+        <argsstring>() const</argsstring>
+        <name>blendingMode</name>
+        <qualifiedname>Node::blendingMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the blending mode of the layer. The values of the blending modes are defined in </para>
+</simplesect>
+<simplesect kind="see"><para>KoCompositeOpRegistry.h </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="53" column="13" bodyfile="Node.cpp" bodystart="171" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setBlendingMode</definition>
+        <argsstring>(QString value)</argsstring>
+        <name>setBlendingMode</name>
+        <qualifiedname>Node::setBlendingMode</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setBlendingMode set the blending mode of the node to the given value </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>one of the string values from </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>KoCompositeOpRegistry.h </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="59" column="10" bodyfile="Node.cpp" bodystart="178" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a130fcc7ba378905bce08dbbf8496446c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_channel" kindref="compound">Channel</ref> * &gt;</type>
+        <definition>QList&lt; Channel * &gt; Node::channels</definition>
+        <argsstring>() const</argsstring>
+        <name>channels</name>
+        <qualifiedname>Node::channels</qualifiedname>
+        <briefdescription>
+<para>channels creates a list of <ref refid="class_channel" kindref="compound">Channel</ref> objects that can be used individually to show or hide certain channels, and to retrieve the contents of each channel in a node separately. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Only layers have channels, masks do not, and calling channels on a <ref refid="class_node" kindref="compound">Node</ref> that is a mask will return an empty list.</para>
+<para><simplesect kind="return"><para>the list of channels ordered in by position of the channels in pixel position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="71" column="11" bodyfile="Node.cpp" bodystart="190" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a057e12453b0981b9124379427f86d477" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>QList&lt; Node * &gt; Node::childNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>childNodes</name>
+        <qualifiedname>Node::childNodes</qualifiedname>
+        <briefdescription>
+<para>childNodes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns a list of child nodes of the current node. The nodes are ordered from the bottommost up. The function is not recursive. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="78" column="11" bodyfile="Node.cpp" bodystart="205" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a168345a41614daec033ff3b8670e1d91" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>QList&lt; Node * &gt; Node::findChildNodes</definition>
+        <argsstring>(const QString &amp;name=QString(), bool recursive=false, bool partialMatch=false, const QString &amp;type=QString(), int colorLabelIndex=0) const</argsstring>
+        <name>findChildNodes</name>
+        <qualifiedname>Node::findChildNodes</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>recursive</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>partialMatch</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>type</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>colorLabelIndex</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>findChildNodes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the child node to search for. Leaving this blank will return all nodes. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recursive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether or not to search recursively. Defaults to false. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>partialMatch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>return if the name partially contains the string (case insensitive). Defaults to false. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>filter returned nodes based on type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colorLabelIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>filter returned nodes based on color label index </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns a list of child nodes and grand child nodes of the current node that match the search criteria. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="89" column="11" bodyfile="Node.cpp" bodystart="219" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::addChildNode</definition>
+        <argsstring>(Node *child, Node *above)</argsstring>
+        <name>addChildNode</name>
+        <qualifiedname>Node::addChildNode</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>above</declname>
+        </param>
+        <briefdescription>
+<para>addChildNode adds the given node in the list of children. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>child</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node to be added </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>above</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node above which this node will be placed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if adding the node failed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="97" column="10" bodyfile="Node.cpp" bodystart="258" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ac16d48268bf1699b5293f605cb394f42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::removeChildNode</definition>
+        <argsstring>(Node *child)</argsstring>
+        <name>removeChildNode</name>
+        <qualifiedname>Node::removeChildNode</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+<para>removeChildNode removes the given node from the list of children. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>child</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node to be removed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="103" column="10" bodyfile="Node.cpp" bodystart="276" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setChildNodes</definition>
+        <argsstring>(QList&lt; Node * &gt; nodes)</argsstring>
+        <name>setChildNodes</name>
+        <qualifiedname>Node::setChildNodes</qualifiedname>
+        <param>
+          <type>QList&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+<para>setChildNodes this replaces the existing set of child nodes with the new set. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of nodes that will become children, bottom-up <ndash/> the first node, is the bottom-most node in the stack. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="110" column="10" bodyfile="Node.cpp" bodystart="282" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Node::colorDepth</definition>
+        <argsstring>() const</argsstring>
+        <name>colorDepth</name>
+        <qualifiedname>Node::colorDepth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>colorDepth A string describing the color depth of the image: <itemizedlist>
+<listitem>
+<para>U8: unsigned 8 bits integer, the most common type </para>
+</listitem>
+<listitem>
+<para>U16: unsigned 16 bits integer </para>
+</listitem>
+<listitem>
+<para>F16: half, 16 bits floating point. Only available if <ref refid="class_krita" kindref="compound">Krita</ref> was built with OpenEXR </para>
+</listitem>
+<listitem>
+<para>F32: 32 bits floating point </para>
+</listitem>
+</itemizedlist>
+<simplesect kind="return"><para>the color depth. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="122" column="13" bodyfile="Node.cpp" bodystart="307" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a3cdf805651043386ab90da663af56f98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Node::colorModel</definition>
+        <argsstring>() const</argsstring>
+        <name>colorModel</name>
+        <qualifiedname>Node::colorModel</qualifiedname>
+        <briefdescription>
+<para>colorModel retrieve the current color model of this document: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem>
+<para>A: Alpha mask </para>
+</listitem>
+<listitem>
+<para>RGBA: RGB with alpha channel (The actual order of channels is most often BGR!) </para>
+</listitem>
+<listitem>
+<para>XYZA: XYZ with alpha channel </para>
+</listitem>
+<listitem>
+<para>LABA: LAB with alpha channel </para>
+</listitem>
+<listitem>
+<para>CMYKA: CMYK with alpha channel </para>
+</listitem>
+<listitem>
+<para>GRAYA: Gray with alpha channel </para>
+</listitem>
+<listitem>
+<para>YCbCrA: YCbCr with alpha channel </para>
+</listitem>
+</itemizedlist>
+<simplesect kind="return"><para>the internal color model string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="137" column="13" bodyfile="Node.cpp" bodystart="314" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Node::colorProfile</definition>
+        <argsstring>() const</argsstring>
+        <name>colorProfile</name>
+        <qualifiedname>Node::colorProfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the name of the current color profile </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="142" column="13" bodyfile="Node.cpp" bodystart="322" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::setColorProfile</definition>
+        <argsstring>(const QString &amp;colorProfile)</argsstring>
+        <name>setColorProfile</name>
+        <qualifiedname>Node::setColorProfile</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorProfile</declname>
+        </param>
+        <briefdescription>
+<para>setColorProfile set the color profile of the image to the given profile. The profile has to be registered with krita and be compatible with the current color model and depth; the image data is <emphasis>not</emphasis> converted. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colorProfile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>if assigning the color profile worked </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="151" column="10" bodyfile="Node.cpp" bodystart="329" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::setColorSpace</definition>
+        <argsstring>(const QString &amp;colorModel, const QString &amp;colorDepth, const QString &amp;colorProfile)</argsstring>
+        <name>setColorSpace</name>
+        <qualifiedname>Node::setColorSpace</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorModel</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorDepth</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorProfile</declname>
+        </param>
+        <briefdescription>
+<para>setColorSpace convert the node to the given colorspace </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colorModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing the color model of the node: <itemizedlist>
+<listitem>
+<para>A: Alpha mask </para>
+</listitem>
+<listitem>
+<para>RGBA: RGB with alpha channel (The actual order of channels is most often BGR!) </para>
+</listitem>
+<listitem>
+<para>XYZA: XYZ with alpha channel </para>
+</listitem>
+<listitem>
+<para>LABA: LAB with alpha channel </para>
+</listitem>
+<listitem>
+<para>CMYKA: CMYK with alpha channel </para>
+</listitem>
+<listitem>
+<para>GRAYA: Gray with alpha channel </para>
+</listitem>
+<listitem>
+<para>YCbCrA: YCbCr with alpha channel </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colorDepth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing the color depth of the image: <itemizedlist>
+<listitem>
+<para>U8: unsigned 8 bits integer, the most common type </para>
+</listitem>
+<listitem>
+<para>U16: unsigned 16 bits integer </para>
+</listitem>
+<listitem>
+<para>F16: half, 16 bits floating point. Only available if <ref refid="class_krita" kindref="compound">Krita</ref> was built with OpenEXR </para>
+</listitem>
+<listitem>
+<para>F32: 32 bits floating point </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colorProfile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a valid color profile for this color model and color depth combination. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="174" column="10" bodyfile="Node.cpp" bodystart="340" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a5fc11982bb591e5f98c64f214fa1488b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::animated</definition>
+        <argsstring>() const</argsstring>
+        <name>animated</name>
+        <qualifiedname>Node::animated</qualifiedname>
+        <briefdescription>
+<para><ref refid="class_krita" kindref="compound">Krita</ref> layers can be animated, i.e., have frames. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>return true if the layer has frames. Currently, the scripting framework does not give access to the animation features. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="181" column="10" bodyfile="Node.cpp" bodystart="354" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a18aa2116f2bba210fbdd495f169edd99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::enableAnimation</definition>
+        <argsstring>() const</argsstring>
+        <name>enableAnimation</name>
+        <qualifiedname>Node::enableAnimation</qualifiedname>
+        <briefdescription>
+<para>enableAnimation make the current layer animated, so it can have frames. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="186" column="10" bodyfile="Node.cpp" bodystart="360" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a334d811e485663294a6b1d4222af954d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setPinnedToTimeline</definition>
+        <argsstring>(bool pinned) const</argsstring>
+        <name>setPinnedToTimeline</name>
+        <qualifiedname>Node::setPinnedToTimeline</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>pinned</declname>
+        </param>
+        <briefdescription>
+<para>Sets whether or not node should be pinned to the Timeline Docker, regardless of selection activity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="192" column="10" bodyfile="Node.cpp" bodystart="366" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::isPinnedToTimeline</definition>
+        <argsstring>() const</argsstring>
+        <name>isPinnedToTimeline</name>
+        <qualifiedname>Node::isPinnedToTimeline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns true if node is pinned to the Timeline Docker or false if it is not. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="197" column="10" bodyfile="Node.cpp" bodystart="372" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setCollapsed</definition>
+        <argsstring>(bool collapsed)</argsstring>
+        <name>setCollapsed</name>
+        <qualifiedname>Node::setCollapsed</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>collapsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the state of the node to the value of<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collapsed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="202" column="10" bodyfile="Node.cpp" bodystart="384" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::collapsed</definition>
+        <argsstring>() const</argsstring>
+        <name>collapsed</name>
+        <qualifiedname>Node::collapsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the collapsed state of this node </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="207" column="10" bodyfile="Node.cpp" bodystart="378" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Node::colorLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>colorLabel</name>
+        <qualifiedname>Node::colorLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets a color label index associated to the layer. The actual color of the label and the number of available colors is defined by <ref refid="class_krita" kindref="compound">Krita</ref> GUI configuration. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="214" column="9" bodyfile="Node.cpp" bodystart="295" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setColorLabel</definition>
+        <argsstring>(int index)</argsstring>
+        <name>setColorLabel</name>
+        <qualifiedname>Node::setColorLabel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>setColorLabel sets a color label index associated to the layer. The actual color of the label and the number of available colors is defined by <ref refid="class_krita" kindref="compound">Krita</ref> GUI configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an integer corresponding to the set of available color labels. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="222" column="10" bodyfile="Node.cpp" bodystart="301" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::inheritAlpha</definition>
+        <argsstring>() const</argsstring>
+        <name>inheritAlpha</name>
+        <qualifiedname>Node::inheritAlpha</qualifiedname>
+        <briefdescription>
+<para>inheritAlpha checks whether this node has the inherits alpha flag set </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the Inherit Alpha is set </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="228" column="10" bodyfile="Node.cpp" bodystart="390" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setInheritAlpha</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setInheritAlpha</name>
+        <qualifiedname>Node::setInheritAlpha</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the Inherit Alpha flag to the given value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="233" column="10" bodyfile="Node.cpp" bodystart="397" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::locked</definition>
+        <argsstring>() const</argsstring>
+        <name>locked</name>
+        <qualifiedname>Node::locked</qualifiedname>
+        <briefdescription>
+<para>locked checks whether the <ref refid="class_node" kindref="compound">Node</ref> is locked. A locked node cannot be changed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the <ref refid="class_node" kindref="compound">Node</ref> is locked, false if it hasn&apos;t been locked. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="239" column="10" bodyfile="Node.cpp" bodystart="404" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a5f9a6effbadc69fe963e2113b98abd39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setLocked</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>Node::setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the Locked flag to the give value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="244" column="10" bodyfile="Node.cpp" bodystart="410" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ab01953eeffb53428265c1dc83027712f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::hasExtents</definition>
+        <argsstring>()</argsstring>
+        <name>hasExtents</name>
+        <qualifiedname>Node::hasExtents</qualifiedname>
+        <briefdescription>
+<para>does the node have any content in it? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>if node has any content in it </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="250" column="10" bodyfile="Node.cpp" bodystart="416" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ac40f16db9ad108a3d8a029802899104c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Node::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>Node::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the user-visible name of this node. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="256" column="13" bodyfile="Node.cpp" bodystart="421" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a76b36df00e311f88cc65e849b66f1e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setName</definition>
+        <argsstring>(QString name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>Node::setName</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rename the <ref refid="class_node" kindref="compound">Node</ref> to the given name </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="261" column="10" bodyfile="Node.cpp" bodystart="427" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Node::opacity</definition>
+        <argsstring>() const</argsstring>
+        <name>opacity</name>
+        <qualifiedname>Node::opacity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the opacity of the <ref refid="class_node" kindref="compound">Node</ref>. The opacity is a value between 0 and 255. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="266" column="9" bodyfile="Node.cpp" bodystart="434" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setOpacity</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setOpacity</name>
+        <qualifiedname>Node::setOpacity</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the opacity of the <ref refid="class_node" kindref="compound">Node</ref> to the given value. The opacity is a value between 0 and 255. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="271" column="10" bodyfile="Node.cpp" bodystart="440" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Node::parentNode</definition>
+        <argsstring>() const</argsstring>
+        <name>parentNode</name>
+        <qualifiedname>Node::parentNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the <ref refid="class_node" kindref="compound">Node</ref> that is the parent of the current <ref refid="class_node" kindref="compound">Node</ref>, or 0 if this is the root <ref refid="class_node" kindref="compound">Node</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="276" column="10" bodyfile="Node.cpp" bodystart="449" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a58f4025f31c1bb44df0eb6df7b559e70" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Node::type</definition>
+        <argsstring>() const</argsstring>
+        <name>type</name>
+        <qualifiedname>Node::type</qualifiedname>
+        <briefdescription>
+<para>type <ref refid="class_krita" kindref="compound">Krita</ref> has several types of nodes, split in layers and masks. Group layers can contain other layers, any layer can contain masks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The type of the node. Valid types are: <itemizedlist>
+<listitem>
+<para>paintlayer </para>
+</listitem>
+<listitem>
+<para>grouplayer </para>
+</listitem>
+<listitem>
+<para>filelayer </para>
+</listitem>
+<listitem>
+<para>filterlayer </para>
+</listitem>
+<listitem>
+<para>filllayer </para>
+</listitem>
+<listitem>
+<para>clonelayer </para>
+</listitem>
+<listitem>
+<para>vectorlayer </para>
+</listitem>
+<listitem>
+<para>transparencymask </para>
+</listitem>
+<listitem>
+<para>filtermask </para>
+</listitem>
+<listitem>
+<para>transformmask </para>
+</listitem>
+<listitem>
+<para>selectionmask </para>
+</listitem>
+<listitem>
+<para>colorizemask </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t wrapping a valid <ref refid="class_krita" kindref="compound">Krita</ref> layer or mask object, and empty string is returned. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="301" column="21" bodyfile="Node.cpp" bodystart="456" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QIcon</type>
+        <definition>QIcon Node::icon</definition>
+        <argsstring>() const</argsstring>
+        <name>icon</name>
+        <qualifiedname>Node::icon</qualifiedname>
+        <briefdescription>
+<para>icon </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the icon associated with the layer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="307" column="11" bodyfile="Node.cpp" bodystart="501" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::visible</definition>
+        <argsstring>() const</argsstring>
+        <name>visible</name>
+        <qualifiedname>Node::visible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether the current <ref refid="class_node" kindref="compound">Node</ref> is visible in the layer stack </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="312" column="10" bodyfile="Node.cpp" bodystart="510" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a46e221328b859524d40ce8544fcf48f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::hasKeyframeAtTime</definition>
+        <argsstring>(int frameNumber)</argsstring>
+        <name>hasKeyframeAtTime</name>
+        <qualifiedname>Node::hasKeyframeAtTime</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>frameNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check to see if frame number on layer is a keyframe </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="317" column="10" bodyfile="Node.cpp" bodystart="516" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::setVisible</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>Node::setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the visibility of the current node to<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="322" column="10" bodyfile="Node.cpp" bodystart="532" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray Node::pixelData</definition>
+        <argsstring>(int x, int y, int w, int h) const</argsstring>
+        <name>pixelData</name>
+        <qualifiedname>Node::pixelData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>pixelData reads the given rectangle from the <ref refid="class_node" kindref="compound">Node</ref>&apos;s paintable pixels, if those exist, and returns it as a byte array. The pixel data starts top-left, and is ordered row-first. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The byte array can be interpreted as follows: 8 bits images have one byte per channel, and as many bytes as there are channels. 16 bits integer images have two bytes per channel, representing an unsigned short. 16 bits float images have two bytes per channel, representing a half, or 16 bits float. 32 bits float images have four bytes per channel, representing a float.</para>
+<para>You can read outside the node boundaries; those pixels will be transparent black.</para>
+<para>The order of channels is:</para>
+<para><itemizedlist>
+<listitem>
+<para>Integer RGBA: Blue, Green, Red, Alpha </para>
+</listitem>
+<listitem>
+<para>Float RGBA: Red, Green, Blue, Alpha </para>
+</listitem>
+<listitem>
+<para>GrayA: Gray, Alpha </para>
+</listitem>
+<listitem>
+<para><ref refid="class_selection" kindref="compound">Selection</ref>: selectedness </para>
+</listitem>
+<listitem>
+<para>LabA: L, a, b, Alpha </para>
+</listitem>
+<listitem>
+<para>CMYKA: Cyan, Magenta, Yellow, Key, Alpha </para>
+</listitem>
+<listitem>
+<para>XYZA: X, Y, Z, A </para>
+</listitem>
+<listitem>
+<para>YCbCrA: Y, Cb, Cr, Alpha </para>
+</listitem>
+</itemizedlist>
+</para>
+<para>The byte array is a copy of the original node data. In Python, you can use bytes, bytearray and the struct module to interpret the data and construct, for instance, a Pillow Image object.</para>
+<para>If you read the pixeldata of a mask, a filter or generator layer, you get the selection bytes, which is one channel with values in the range from 0..255.</para>
+<para>If you want to change the pixels of a node you can write the pixels back after manipulation with <ref refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" kindref="member">setPixelData()</ref>. This will only succeed on nodes with writable pixel data, e.g not on groups or file layers.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>row length to read </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of rows to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a QByteArray with the pixel data. The byte array may be empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="366" column="16" bodyfile="Node.cpp" bodystart="539" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray Node::pixelDataAtTime</definition>
+        <argsstring>(int x, int y, int w, int h, int time) const</argsstring>
+        <name>pixelDataAtTime</name>
+        <qualifiedname>Node::pixelDataAtTime</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>pixelDataAtTime a basic function to get pixeldata from an animated node at a given time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position from the left to start reading. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the position from the top to start reader </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row length to read </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of rows to read </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the frame number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a QByteArray with the pixel data. The byte array may be empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="377" column="16" bodyfile="Node.cpp" bodystart="553" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ad938d65c6b8bbceb31c00ddd64987279" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray Node::projectionPixelData</definition>
+        <argsstring>(int x, int y, int w, int h) const</argsstring>
+        <name>projectionPixelData</name>
+        <qualifiedname>Node::projectionPixelData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>projectionPixelData reads the given rectangle from the <ref refid="class_node" kindref="compound">Node</ref>&apos;s projection (that is, what the node looks like after all sub-Nodes (like layers in a group or masks on a layer) have been applied, and returns it as a byte array. The pixel data starts top-left, and is ordered row-first. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The byte array can be interpreted as follows: 8 bits images have one byte per channel, and as many bytes as there are channels. 16 bits integer images have two bytes per channel, representing an unsigned short. 16 bits float images have two bytes per channel, representing a half, or 16 bits float. 32 bits float images have four bytes per channel, representing a float.</para>
+<para>You can read outside the node boundaries; those pixels will be transparent black.</para>
+<para>The order of channels is:</para>
+<para><itemizedlist>
+<listitem>
+<para>Integer RGBA: Blue, Green, Red, Alpha </para>
+</listitem>
+<listitem>
+<para>Float RGBA: Red, Green, Blue, Alpha </para>
+</listitem>
+<listitem>
+<para>GrayA: Gray, Alpha </para>
+</listitem>
+<listitem>
+<para><ref refid="class_selection" kindref="compound">Selection</ref>: selectedness </para>
+</listitem>
+<listitem>
+<para>LabA: L, a, b, Alpha </para>
+</listitem>
+<listitem>
+<para>CMYKA: Cyan, Magenta, Yellow, Key, Alpha </para>
+</listitem>
+<listitem>
+<para>XYZA: X, Y, Z, A </para>
+</listitem>
+<listitem>
+<para>YCbCrA: Y, Cb, Cr, Alpha </para>
+</listitem>
+</itemizedlist>
+</para>
+<para>The byte array is a copy of the original node data. In Python, you can use bytes, bytearray and the struct module to interpret the data and construct, for instance, a Pillow Image object.</para>
+<para>If you read the projection of a mask, you get the selection bytes, which is one channel with values in the range from 0..255.</para>
+<para>If you want to change the pixels of a node you can write the pixels back after manipulation with <ref refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" kindref="member">setPixelData()</ref>. This will only succeed on nodes with writable pixel data, e.g not on groups or file layers.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>row length to read </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of rows to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a QByteArray with the pixel data. The byte array may be empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="421" column="16" bodyfile="Node.cpp" bodystart="575" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::setPixelData</definition>
+        <argsstring>(QByteArray value, int x, int y, int w, int h)</argsstring>
+        <name>setPixelData</name>
+        <qualifiedname>Node::setPixelData</qualifiedname>
+        <param>
+          <type>QByteArray</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>setPixelData writes the given bytes, of which there must be enough, into the <ref refid="class_node" kindref="compound">Node</ref>, if the <ref refid="class_node" kindref="compound">Node</ref> has writable pixel data: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem>
+<para>paint layer: the layer&apos;s original pixels are overwritten </para>
+</listitem>
+<listitem>
+<para>filter layer, generator layer, any mask: the embedded selection&apos;s pixels are overwritten. <bold>Note:</bold> for these </para>
+</listitem>
+</itemizedlist>
+</para>
+<para>File layers, Group layers, Clone layers cannot be written to. Calling setPixelData on those layer types will silently do nothing.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the byte array representing the pixels. There must be enough bytes available. <ref refid="class_krita" kindref="compound">Krita</ref> will take the raw pointer from the QByteArray and start reading, not stopping before (number of channels * size of channel * w * h) bytes are read.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the x position to start writing from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the y position to start writing from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width of each row </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of rows to write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if writing the pixeldata worked </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="446" column="10" bodyfile="Node.cpp" bodystart="595" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1ae85452559bbaafe6c2b344de7969c4b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QRect</type>
+        <definition>QRect Node::bounds</definition>
+        <argsstring>() const</argsstring>
+        <name>bounds</name>
+        <qualifiedname>Node::bounds</qualifiedname>
+        <briefdescription>
+<para>bounds return the exact bounds of the node&apos;s paint device </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the bounds, or an empty QRect if the node has no paint device or is empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="452" column="11" bodyfile="Node.cpp" bodystart="608" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a34e40db057a6f4cff4c9967a0e948b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::move</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>move</name>
+        <qualifiedname>Node::move</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>move the pixels to the given x, y location in the image coordinate space. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="457" column="10" bodyfile="Node.cpp" bodystart="614" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Node::position</definition>
+        <argsstring>() const</argsstring>
+        <name>position</name>
+        <qualifiedname>Node::position</qualifiedname>
+        <briefdescription>
+<para>position returns the position of the paint device of this node. The position is always 0,0 unless the layer has been moved. If you want to know the topleft position of the rectangle around the actual non-transparent pixels in the node, use <ref refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" kindref="member">bounds()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the top-left position of the node </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="465" column="12" bodyfile="Node.cpp" bodystart="621" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a631faa515a707b35de62698e0c9e62ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <qualifiedname>Node::remove</qualifiedname>
+        <briefdescription>
+<para>remove removes this node from its parent image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="470" column="10" bodyfile="Node.cpp" bodystart="627" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1abb7a8b7c4d12cceb35e85456c088c033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Node::duplicate</definition>
+        <argsstring>()</argsstring>
+        <name>duplicate</name>
+        <qualifiedname>Node::duplicate</qualifiedname>
+        <briefdescription>
+<para>duplicate returns a full copy of the current node. The node is not inserted in the graphic </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a valid <ref refid="class_node" kindref="compound">Node</ref> object or 0 if the node couldn&apos;t be duplicated. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="476" column="10" bodyfile="Node.cpp" bodystart="640" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::save</definition>
+        <argsstring>(const QString &amp;filename, double xRes, double yRes, const InfoObject &amp;exportConfiguration, const QRect &amp;exportRect=QRect())</argsstring>
+        <name>save</name>
+        <qualifiedname>Node::save</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xRes</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yRes</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_info_object" kindref="compound">InfoObject</ref> &amp;</type>
+          <declname>exportConfiguration</declname>
+        </param>
+        <param>
+          <type>const QRect &amp;</type>
+          <declname>exportRect</declname>
+          <defval>QRect()</defval>
+        </param>
+        <briefdescription>
+<para>save exports the given node with this filename. The extension of the filename determines the filetype. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the filename including extension </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xRes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the horizontal resolution in pixels per pt (there are 72 pts in an inch) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yRes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the horizontal resolution in pixels per pt (there are 72 pts in an inch) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exportConfiguration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a configuration object appropriate to the file format. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exportRect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the export bounds for saving a node as a QRect If <computeroutput>exportRect</computeroutput> is empty, then save exactBounds() of the node. If you&apos;d like to save the image- aligned area of the node, just pass image-&gt;<ref refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" kindref="member">bounds()</ref> there. See Document-&gt;exportImage for <ref refid="class_info_object" kindref="compound">InfoObject</ref> details. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if saving succeeded, false if it failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="490" column="10" bodyfile="Node.cpp" bodystart="646" bodyend="676"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a0db840fc17c54244a98e24c5fb049a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Node::mergeDown</definition>
+        <argsstring>()</argsstring>
+        <name>mergeDown</name>
+        <qualifiedname>Node::mergeDown</qualifiedname>
+        <briefdescription>
+<para>mergeDown merges the given node with the first visible node underneath this node in the layerstack. This will drop all per-layer metadata. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="496" column="10" bodyfile="Node.cpp" bodystart="678" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::scaleNode</definition>
+        <argsstring>(QPointF origin, int width, int height, QString strategy)</argsstring>
+        <name>scaleNode</name>
+        <qualifiedname>Node::scaleNode</qualifiedname>
+        <param>
+          <type>QPointF</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+<para>scaleNode </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the origin point </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the height </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>strategy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the scaling strategy. There&apos;s several ones amongst these that aren&apos;t available in the regular UI. <itemizedlist>
+<listitem>
+<para>Hermite </para>
+</listitem>
+<listitem>
+<para>Bicubic - Adds pixels using the color of surrounding pixels. Produces smoother tonal gradations than Bilinear. </para>
+</listitem>
+<listitem>
+<para>Box - Replicate pixels in the image. Preserves all the original detail, but can produce jagged effects. </para>
+</listitem>
+<listitem>
+<para>Bilinear - Adds pixels averaging the color values of surrounding pixels. Produces medium quality results when the image is scaled from half to two times the original size. </para>
+</listitem>
+<listitem>
+<para>Bell </para>
+</listitem>
+<listitem>
+<para>BSpline </para>
+</listitem>
+<listitem>
+<para>Lanczos3 - Offers similar results than Bicubic, but maybe a little bit sharper. Can produce light and dark halos along strong edges. </para>
+</listitem>
+<listitem>
+<para>Mitchell </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="515" column="10" bodyfile="Node.cpp" bodystart="690" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a88b80903cdee9d66142a091cb09d00d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::rotateNode</definition>
+        <argsstring>(double radians)</argsstring>
+        <name>rotateNode</name>
+        <qualifiedname>Node::rotateNode</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>radians</declname>
+        </param>
+        <briefdescription>
+<para>rotateNode rotate this layer by the given radians. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radians</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount the layer should be rotated in, in radians. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="521" column="10" bodyfile="Node.cpp" bodystart="709" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::cropNode</definition>
+        <argsstring>(int x, int y, int w, int h)</argsstring>
+        <name>cropNode</name>
+        <qualifiedname>Node::cropNode</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>cropNode crop this layer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the left edge of the cropping rectangle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the top edge of the cropping rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the right edge of the cropping rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the bottom edge of the cropping rectangle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="530" column="10" bodyfile="Node.cpp" bodystart="719" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node::shearNode</definition>
+        <argsstring>(double angleX, double angleY)</argsstring>
+        <name>shearNode</name>
+        <qualifiedname>Node::shearNode</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>angleX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>angleY</declname>
+        </param>
+        <briefdescription>
+<para>shearNode perform a shear operation on this node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the X-angle in degrees to shear by </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angleY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Y-angle in degrees to shear by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="537" column="10" bodyfile="Node.cpp" bodystart="730" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1aaee855a1d7a10f9198d03ff222809b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QImage</type>
+        <definition>QImage Node::thumbnail</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>thumbnail</name>
+        <qualifiedname>Node::thumbnail</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>thumbnail create a thumbnail of the given dimensions. The thumbnail is sized according to the layer dimensions, not the image dimensions. If the requested size is too big a null QImage is created. If the current node cannot generate a thumbnail, a transparent QImage of the requested size is generated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a QImage representing the layer contents. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="546" column="12" bodyfile="Node.cpp" bodystart="740" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Node::layerStyleToAsl</definition>
+        <argsstring>()</argsstring>
+        <name>layerStyleToAsl</name>
+        <qualifiedname>Node::layerStyleToAsl</qualifiedname>
+        <briefdescription>
+<para>layerStyleToAsl retrieve the current layer&apos;s style in ASL format. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a QString in ASL format representing the layer style. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="552" column="13" bodyfile="Node.cpp" bodystart="746" bodyend="763"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a94190cf2a87e074684c28284ee7961f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Node::setLayerStyleFromAsl</definition>
+        <argsstring>(const QString &amp;asl)</argsstring>
+        <name>setLayerStyleFromAsl</name>
+        <qualifiedname>Node::setLayerStyleFromAsl</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>asl</declname>
+        </param>
+        <briefdescription>
+<para>setLayerStyleFromAsl set a new layer style for this node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aslContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a string formatted in ASL format containing the layer style </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if layer style was set, false if failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="559" column="10" bodyfile="Node.cpp" bodystart="765" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Node::index</definition>
+        <argsstring>() const</argsstring>
+        <name>index</name>
+        <qualifiedname>Node::index</qualifiedname>
+        <briefdescription>
+<para>index the index of the node inside the parent </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>an integer representing the node&apos;s index inside the parent </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="565" column="9" bodyfile="Node.cpp" bodystart="796" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QUuid</type>
+        <definition>QUuid Node::uniqueId</definition>
+        <argsstring>() const</argsstring>
+        <name>uniqueId</name>
+        <qualifiedname>Node::uniqueId</qualifiedname>
+        <briefdescription>
+<para>uniqueId uniqueId of the node </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a QUuid representing a unique id to identify the node </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="571" column="11" bodyfile="Node.cpp" bodystart="804" bodyend="808"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_node_1a1b8f854db8d50e4a91038a7532ac9952" prot="private" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Node::Node</definition>
+        <argsstring>(KisImageSP image, KisNodeSP node, QObject *parent=0)</argsstring>
+        <name>Node</name>
+        <qualifiedname>Node::Node</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>KisNodeSP</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="591" column="14" bodyfile="Node.cpp" bodystart="76" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1ab373c1a89af40d4da1a1b01d7c2a1cdd" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisPaintDeviceSP</type>
+        <definition>KisPaintDeviceSP Node::paintDevice</definition>
+        <argsstring>() const</argsstring>
+        <name>paintDevice</name>
+        <qualifiedname>Node::paintDevice</qualifiedname>
+        <briefdescription>
+<para>paintDevice gives access to the internal paint device of this <ref refid="class_node" kindref="compound">Node</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the paintdevice or 0 if the node does not have an editable paint device. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="597" column="22" bodyfile="Node.cpp" bodystart="810" bodyend="813"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1a78929231e337e96acc4c725dcbd4727c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisImageSP</type>
+        <definition>KisImageSP Node::image</definition>
+        <argsstring>() const</argsstring>
+        <name>image</name>
+        <qualifiedname>Node::image</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="598" column="16" bodyfile="Node.cpp" bodystart="815" bodyend="818"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1a50c7957662a4adc6bb919f8f994f96eb" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisNodeSP</type>
+        <definition>KisNodeSP Node::node</definition>
+        <argsstring>() const</argsstring>
+        <name>node</name>
+        <qualifiedname>Node::node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.h" line="599" column="15" bodyfile="Node.cpp" bodystart="820" bodyend="823"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_node" kindref="compound">Node</ref> represents a layer or mask in a <ref refid="class_krita" kindref="compound">Krita</ref> image&apos;s <ref refid="class_node" kindref="compound">Node</ref> hierarchy. Group layers can contain other layers and masks; layers can contain masks. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CloneLayer</label>
+        <link refid="class_clone_layer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ColorizeMask</label>
+        <link refid="class_colorize_mask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FileLayer</label>
+        <link refid="class_file_layer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>FillLayer</label>
+        <link refid="class_fill_layer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>FilterLayer</label>
+        <link refid="class_filter_layer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>FilterMask</label>
+        <link refid="class_filter_mask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GroupLayer</label>
+        <link refid="class_group_layer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="10">
+        <label>SelectionMask</label>
+        <link refid="class_selection_mask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>TransformMask</label>
+        <link refid="class_transform_mask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>TransparencyMask</label>
+        <link refid="class_transparency_mask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>VectorLayer</label>
+        <link refid="class_vector_layer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Node.h" line="21" column="1" bodyfile="Node.h" bodystart="22" bodyend="604"/>
+    <listofallmembers>
+      <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" virt="non-virtual"><scope>Node</scope><name>addChildNode</name></member>
+      <member refid="class_node_1a03331f9c2993922444607feda85e9a2a" prot="public" virt="non-virtual"><scope>Node</scope><name>alphaLocked</name></member>
+      <member refid="class_node_1a5fc11982bb591e5f98c64f214fa1488b" prot="public" virt="non-virtual"><scope>Node</scope><name>animated</name></member>
+      <member refid="class_node_1a95c04d37237c262bb077f1c00f9d4db8" prot="public" virt="non-virtual"><scope>Node</scope><name>blendingMode</name></member>
+      <member refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" prot="public" virt="non-virtual"><scope>Node</scope><name>bounds</name></member>
+      <member refid="class_node_1a130fcc7ba378905bce08dbbf8496446c" prot="public" virt="non-virtual"><scope>Node</scope><name>channels</name></member>
+      <member refid="class_node_1a057e12453b0981b9124379427f86d477" prot="public" virt="non-virtual"><scope>Node</scope><name>childNodes</name></member>
+      <member refid="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" prot="public" virt="non-virtual"><scope>Node</scope><name>clone</name></member>
+      <member refid="class_node_1adce2b750fba11a1725f966070900a995" prot="private" virt="non-virtual"><scope>Node</scope><name>CloneLayer</name></member>
+      <member refid="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" prot="public" virt="non-virtual"><scope>Node</scope><name>collapsed</name></member>
+      <member refid="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" prot="public" virt="non-virtual"><scope>Node</scope><name>colorDepth</name></member>
+      <member refid="class_node_1aff3ee479468ffd4b90815a88304b2abd" prot="private" virt="non-virtual"><scope>Node</scope><name>ColorizeMask</name></member>
+      <member refid="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" prot="public" virt="non-virtual"><scope>Node</scope><name>colorLabel</name></member>
+      <member refid="class_node_1a3cdf805651043386ab90da663af56f98" prot="public" virt="non-virtual"><scope>Node</scope><name>colorModel</name></member>
+      <member refid="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" prot="public" virt="non-virtual"><scope>Node</scope><name>colorProfile</name></member>
+      <member refid="class_node_1a88822eff44c10beb55a96f693753676f" prot="public" virt="non-virtual"><scope>Node</scope><name>createNode</name></member>
+      <member refid="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" prot="public" virt="non-virtual"><scope>Node</scope><name>cropNode</name></member>
+      <member refid="class_node_1a3eeb1b213b72252f7f4d30f07dc6853a" prot="private" virt="non-virtual"><scope>Node</scope><name>d</name></member>
+      <member refid="class_node_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" virt="non-virtual"><scope>Node</scope><name>Document</name></member>
+      <member refid="class_node_1abb7a8b7c4d12cceb35e85456c088c033" prot="public" virt="non-virtual"><scope>Node</scope><name>duplicate</name></member>
+      <member refid="class_node_1a18aa2116f2bba210fbdd495f169edd99" prot="public" virt="non-virtual"><scope>Node</scope><name>enableAnimation</name></member>
+      <member refid="class_node_1aa071b208bb503e951c43c40c5f42cdcd" prot="private" virt="non-virtual"><scope>Node</scope><name>FileLayer</name></member>
+      <member refid="class_node_1ab251dd9a1d9bccc208aab066e0f79293" prot="private" virt="non-virtual"><scope>Node</scope><name>FillLayer</name></member>
+      <member refid="class_node_1a34f7bc7cd29643e53d23b7d500d21739" prot="private" virt="non-virtual"><scope>Node</scope><name>Filter</name></member>
+      <member refid="class_node_1a9695208225d79ba78b593cf000dd5336" prot="private" virt="non-virtual"><scope>Node</scope><name>FilterLayer</name></member>
+      <member refid="class_node_1a4fe02ebc16353b42253f2253af00f19f" prot="private" virt="non-virtual"><scope>Node</scope><name>FilterMask</name></member>
+      <member refid="class_node_1a168345a41614daec033ff3b8670e1d91" prot="public" virt="non-virtual"><scope>Node</scope><name>findChildNodes</name></member>
+      <member refid="class_node_1af3ed5003e5f70125a38c97cb85f4253f" prot="private" virt="non-virtual"><scope>Node</scope><name>GroupLayer</name></member>
+      <member refid="class_node_1ab01953eeffb53428265c1dc83027712f" prot="public" virt="non-virtual"><scope>Node</scope><name>hasExtents</name></member>
+      <member refid="class_node_1a46e221328b859524d40ce8544fcf48f7" prot="public" virt="non-virtual"><scope>Node</scope><name>hasKeyframeAtTime</name></member>
+      <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" virt="non-virtual"><scope>Node</scope><name>icon</name></member>
+      <member refid="class_node_1a78929231e337e96acc4c725dcbd4727c" prot="private" virt="non-virtual"><scope>Node</scope><name>image</name></member>
+      <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" virt="non-virtual"><scope>Node</scope><name>index</name></member>
+      <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" virt="non-virtual"><scope>Node</scope><name>inheritAlpha</name></member>
+      <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" virt="non-virtual"><scope>Node</scope><name>isPinnedToTimeline</name></member>
+      <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" virt="non-virtual"><scope>Node</scope><name>layerStyleToAsl</name></member>
+      <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" virt="non-virtual"><scope>Node</scope><name>locked</name></member>
+      <member refid="class_node_1a0db840fc17c54244a98e24c5fb049a53" prot="public" virt="non-virtual"><scope>Node</scope><name>mergeDown</name></member>
+      <member refid="class_node_1a34e40db057a6f4cff4c9967a0e948b93" prot="public" virt="non-virtual"><scope>Node</scope><name>move</name></member>
+      <member refid="class_node_1ac40f16db9ad108a3d8a029802899104c" prot="public" virt="non-virtual"><scope>Node</scope><name>name</name></member>
+      <member refid="class_node_1a50c7957662a4adc6bb919f8f994f96eb" prot="private" virt="non-virtual"><scope>Node</scope><name>node</name></member>
+      <member refid="class_node_1a1b8f854db8d50e4a91038a7532ac9952" prot="private" virt="non-virtual"><scope>Node</scope><name>Node</name></member>
+      <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>Node</scope><name>opacity</name></member>
+      <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>Node</scope><name>operator!=</name></member>
+      <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>Node</scope><name>operator==</name></member>
+      <member refid="class_node_1ab373c1a89af40d4da1a1b01d7c2a1cdd" prot="private" virt="non-virtual"><scope>Node</scope><name>paintDevice</name></member>
+      <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>Node</scope><name>parentNode</name></member>
+      <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>Node</scope><name>pixelData</name></member>
+      <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>Node</scope><name>pixelDataAtTime</name></member>
+      <member refid="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" prot="public" virt="non-virtual"><scope>Node</scope><name>position</name></member>
+      <member refid="class_node_1ad938d65c6b8bbceb31c00ddd64987279" prot="public" virt="non-virtual"><scope>Node</scope><name>projectionPixelData</name></member>
+      <member refid="class_node_1a631faa515a707b35de62698e0c9e62ae" prot="public" virt="non-virtual"><scope>Node</scope><name>remove</name></member>
+      <member refid="class_node_1ac16d48268bf1699b5293f605cb394f42" prot="public" virt="non-virtual"><scope>Node</scope><name>removeChildNode</name></member>
+      <member refid="class_node_1a88b80903cdee9d66142a091cb09d00d4" prot="public" virt="non-virtual"><scope>Node</scope><name>rotateNode</name></member>
+      <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" virt="non-virtual"><scope>Node</scope><name>save</name></member>
+      <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" virt="non-virtual"><scope>Node</scope><name>scaleNode</name></member>
+      <member refid="class_node_1a2cdc8668db7c69ccbcc3bab6a5d51d17" prot="private" virt="non-virtual"><scope>Node</scope><name>Selection</name></member>
+      <member refid="class_node_1a7b25d238353a453159ebfa9578e095ea" prot="private" virt="non-virtual"><scope>Node</scope><name>SelectionMask</name></member>
+      <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" virt="non-virtual"><scope>Node</scope><name>setAlphaLocked</name></member>
+      <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" virt="non-virtual"><scope>Node</scope><name>setBlendingMode</name></member>
+      <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" virt="non-virtual"><scope>Node</scope><name>setChildNodes</name></member>
+      <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" virt="non-virtual"><scope>Node</scope><name>setCollapsed</name></member>
+      <member refid="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" prot="public" virt="non-virtual"><scope>Node</scope><name>setColorLabel</name></member>
+      <member refid="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" prot="public" virt="non-virtual"><scope>Node</scope><name>setColorProfile</name></member>
+      <member refid="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" prot="public" virt="non-virtual"><scope>Node</scope><name>setColorSpace</name></member>
+      <member refid="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" prot="public" virt="non-virtual"><scope>Node</scope><name>setInheritAlpha</name></member>
+      <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" prot="public" virt="non-virtual"><scope>Node</scope><name>setLayerStyleFromAsl</name></member>
+      <member refid="class_node_1a5f9a6effbadc69fe963e2113b98abd39" prot="public" virt="non-virtual"><scope>Node</scope><name>setLocked</name></member>
+      <member refid="class_node_1a76b36df00e311f88cc65e849b66f1e3b" prot="public" virt="non-virtual"><scope>Node</scope><name>setName</name></member>
+      <member refid="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" prot="public" virt="non-virtual"><scope>Node</scope><name>setOpacity</name></member>
+      <member refid="class_node_1a334d811e485663294a6b1d4222af954d" prot="public" virt="non-virtual"><scope>Node</scope><name>setPinnedToTimeline</name></member>
+      <member refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" prot="public" virt="non-virtual"><scope>Node</scope><name>setPixelData</name></member>
+      <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" virt="non-virtual"><scope>Node</scope><name>setVisible</name></member>
+      <member refid="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" prot="public" virt="non-virtual"><scope>Node</scope><name>shearNode</name></member>
+      <member refid="class_node_1aaee855a1d7a10f9198d03ff222809b6c" prot="public" virt="non-virtual"><scope>Node</scope><name>thumbnail</name></member>
+      <member refid="class_node_1abcac3449fc23cca5fd181c12f2bf0d2e" prot="private" virt="non-virtual"><scope>Node</scope><name>TransformMask</name></member>
+      <member refid="class_node_1a5090b50c9c5ccd4093b30762a1e769dc" prot="private" virt="non-virtual"><scope>Node</scope><name>TransparencyMask</name></member>
+      <member refid="class_node_1a58f4025f31c1bb44df0eb6df7b559e70" prot="public" virt="virtual"><scope>Node</scope><name>type</name></member>
+      <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" prot="public" virt="non-virtual"><scope>Node</scope><name>uniqueId</name></member>
+      <member refid="class_node_1aa470056f72d93178e709c6dc936f98aa" prot="private" virt="non-virtual"><scope>Node</scope><name>VectorLayer</name></member>
+      <member refid="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" prot="public" virt="non-virtual"><scope>Node</scope><name>visible</name></member>
+      <member refid="class_node_1a5d129d27d74d8d16302ca48624135407" prot="public" virt="non-virtual"><scope>Node</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_file_layer" kind="class" language="C++" prot="public">
+    <compoundname>FileLayer</compoundname>
+    <basecompoundref refid="class_node" prot="public" virt="non-virtual">Node</basecompoundref>
+    <includes refid="_file_layer_8h" local="no">FileLayer.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_file_layer_1ada4b4b316f6e4790f967dfd4a1b0fd73" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString FileLayer::m_baseName</definition>
+        <argsstring></argsstring>
+        <name>m_baseName</name>
+        <qualifiedname>FileLayer::m_baseName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="101" column="13" bodyfile="FileLayer.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_file_layer_1ae765df8ad0d52c61168ef14a3b183c47" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FileLayer::FileLayer</definition>
+        <argsstring>(KisImageSP image, const QString name=QString(), const QString baseName=QString(), const QString fileName=QString(), const QString scalingMethod=QString(), const QString scalingFilter=QString(), QObject *parent=0)</argsstring>
+        <name>FileLayer</name>
+        <qualifiedname>FileLayer::FileLayer</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>name</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>baseName</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>fileName</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>scalingMethod</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>scalingFilter</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="32" column="14" bodyfile="FileLayer.cpp" bodystart="12" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_layer_1a2c2214e7c963c9830c6e76ff60cf2bc8" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FileLayer::FileLayer</definition>
+        <argsstring>(KisFileLayerSP layer, QObject *parent=0)</argsstring>
+        <name>FileLayer</name>
+        <qualifiedname>FileLayer::FileLayer</qualifiedname>
+        <param>
+          <type>KisFileLayerSP</type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="39" column="14" bodyfile="FileLayer.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_layer_1a2bfdcae68407de10fcff2be7e309049a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FileLayer::~FileLayer</definition>
+        <argsstring>() override</argsstring>
+        <name>~FileLayer</name>
+        <qualifiedname>FileLayer::~FileLayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="40" column="5" bodyfile="FileLayer.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_file_layer_1a76027bcadf654ffed69b4a794781d562" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileLayer::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <qualifiedname>FileLayer::type</qualifiedname>
+        <briefdescription>
+<para>type <ref refid="class_krita" kindref="compound">Krita</ref> has several types of nodes, split in layers and masks. Group layers can contain other layers, any layer can contain masks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>&quot;filelayer&quot; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="49" column="13" bodyfile="FileLayer.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_file_layer_1aa609774472ba42d49ced8cc20a58e9f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileLayer::setProperties</definition>
+        <argsstring>(QString fileName, QString scalingMethod=QString(&quot;None&quot;), QString scalingFilter=QString(&quot;Bicubic&quot;))</argsstring>
+        <name>setProperties</name>
+        <qualifiedname>FileLayer::setProperties</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>scalingMethod</declname>
+          <defval>QString(&quot;None&quot;)</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>scalingFilter</declname>
+          <defval>QString(&quot;Bicubic&quot;)</defval>
+        </param>
+        <briefdescription>
+<para>setProperties Change the properties of the file layer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- A String containing the absolute file name. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scalingMethod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a string with the scaling method, defaults to &quot;None&quot;, other options are &quot;ToImageSize&quot; and &quot;ToImagePPI&quot; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scalingFilter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a string with the scaling filter, defaults to &quot;Bicubic&quot;, other options are &quot;Hermite&quot;, &quot;NearestNeighbor&quot;, &quot;Bilinear&quot;, &quot;Bell&quot;, &quot;BSpline&quot;, &quot;Lanczos3&quot;, &quot;Mitchell&quot; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="60" column="10" bodyfile="FileLayer.cpp" bodystart="48" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_file_layer_1a540742acbaec0fb2192bc14697dd08dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileLayer::resetCache</definition>
+        <argsstring>()</argsstring>
+        <name>resetCache</name>
+        <qualifiedname>FileLayer::resetCache</qualifiedname>
+        <briefdescription>
+<para>makes the file layer to reload the connected image from disk </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="65" column="10" bodyfile="FileLayer.cpp" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_file_layer_1affa7278d04240b51a9f9d32e40206574" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileLayer::path</definition>
+        <argsstring>() const</argsstring>
+        <name>path</name>
+        <qualifiedname>FileLayer::path</qualifiedname>
+        <briefdescription>
+<para>path </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A QString with the full path of the referenced image. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="71" column="13" bodyfile="FileLayer.cpp" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_file_layer_1a58429a5a5b6ccb14c062d3ee0fc4cb17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileLayer::scalingMethod</definition>
+        <argsstring>() const</argsstring>
+        <name>scalingMethod</name>
+        <qualifiedname>FileLayer::scalingMethod</qualifiedname>
+        <briefdescription>
+<para>scalingMethod returns how the file referenced is scaled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>one of the following: <itemizedlist>
+<listitem>
+<para>None - The file is not scaled in any way. </para>
+</listitem>
+<listitem>
+<para>ToImageSize - The file is scaled to the full image size; </para>
+</listitem>
+<listitem>
+<para>ToImagePPI - The file is scaled by the PPI of the image. This keep the physical dimensions the same. </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="83" column="13" bodyfile="FileLayer.cpp" bodystart="80" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_file_layer_1a543e167055d2a2b9ff02e6924cca369a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileLayer::scalingFilter</definition>
+        <argsstring>() const</argsstring>
+        <name>scalingFilter</name>
+        <qualifiedname>FileLayer::scalingFilter</qualifiedname>
+        <briefdescription>
+<para>scalingFilter returns the filter with which the file referenced is scaled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="89" column="13" bodyfile="FileLayer.cpp" bodystart="95" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_file_layer_1a3aaa1fd284432e1ef402c8ae0d96928a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileLayer::getFileNameFromAbsolute</definition>
+        <argsstring>(const QString &amp;basePath, QString filePath)</argsstring>
+        <name>getFileNameFromAbsolute</name>
+        <qualifiedname>FileLayer::getFileNameFromAbsolute</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>basePath</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+<para>getFileNameFromAbsolute referenced from the fileLayer dialog, this will jumps through all the hoops to ensure that an appropriate filename will be gotten. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>baseName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the location of the document. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>absolutePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the absolute location of the file referenced. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the appropriate relative path. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileLayer.h" line="100" column="13" bodyfile="FileLayer.cpp" bodystart="102" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_file_layer" kindref="compound">FileLayer</ref> class A file layer is a layer that can reference an external image and show said reference in the layer stack. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>If the external image is updated, <ref refid="class_krita" kindref="compound">Krita</ref> will try to update the file layer image as well. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FileLayer</label>
+        <link refid="class_file_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FileLayer</label>
+        <link refid="class_file_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="FileLayer.h" line="26" column="1" bodyfile="FileLayer.h" bodystart="27" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>addChildNode</name></member>
+      <member refid="class_node_1a03331f9c2993922444607feda85e9a2a" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>alphaLocked</name></member>
+      <member refid="class_node_1a5fc11982bb591e5f98c64f214fa1488b" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>animated</name></member>
+      <member refid="class_node_1a95c04d37237c262bb077f1c00f9d4db8" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>blendingMode</name></member>
+      <member refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>bounds</name></member>
+      <member refid="class_node_1a130fcc7ba378905bce08dbbf8496446c" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>channels</name></member>
+      <member refid="class_node_1a057e12453b0981b9124379427f86d477" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>childNodes</name></member>
+      <member refid="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>clone</name></member>
+      <member refid="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>collapsed</name></member>
+      <member refid="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>colorDepth</name></member>
+      <member refid="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>colorLabel</name></member>
+      <member refid="class_node_1a3cdf805651043386ab90da663af56f98" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>colorModel</name></member>
+      <member refid="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>colorProfile</name></member>
+      <member refid="class_node_1a88822eff44c10beb55a96f693753676f" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>createNode</name></member>
+      <member refid="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>cropNode</name></member>
+      <member refid="class_node_1abb7a8b7c4d12cceb35e85456c088c033" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>duplicate</name></member>
+      <member refid="class_node_1a18aa2116f2bba210fbdd495f169edd99" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>enableAnimation</name></member>
+      <member refid="class_file_layer_1ae765df8ad0d52c61168ef14a3b183c47" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>FileLayer</name></member>
+      <member refid="class_file_layer_1a2c2214e7c963c9830c6e76ff60cf2bc8" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>FileLayer</name></member>
+      <member refid="class_node_1a168345a41614daec033ff3b8670e1d91" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>findChildNodes</name></member>
+      <member refid="class_file_layer_1a3aaa1fd284432e1ef402c8ae0d96928a" prot="private" virt="non-virtual"><scope>FileLayer</scope><name>getFileNameFromAbsolute</name></member>
+      <member refid="class_node_1ab01953eeffb53428265c1dc83027712f" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>hasExtents</name></member>
+      <member refid="class_node_1a46e221328b859524d40ce8544fcf48f7" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>hasKeyframeAtTime</name></member>
+      <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>icon</name></member>
+      <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>index</name></member>
+      <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>inheritAlpha</name></member>
+      <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>isPinnedToTimeline</name></member>
+      <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>layerStyleToAsl</name></member>
+      <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>locked</name></member>
+      <member refid="class_file_layer_1ada4b4b316f6e4790f967dfd4a1b0fd73" prot="private" virt="non-virtual"><scope>FileLayer</scope><name>m_baseName</name></member>
+      <member refid="class_node_1a0db840fc17c54244a98e24c5fb049a53" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>mergeDown</name></member>
+      <member refid="class_node_1a34e40db057a6f4cff4c9967a0e948b93" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>move</name></member>
+      <member refid="class_node_1ac40f16db9ad108a3d8a029802899104c" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>name</name></member>
+      <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>opacity</name></member>
+      <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>operator!=</name></member>
+      <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>operator==</name></member>
+      <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>parentNode</name></member>
+      <member refid="class_file_layer_1affa7278d04240b51a9f9d32e40206574" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>path</name></member>
+      <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>pixelData</name></member>
+      <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>pixelDataAtTime</name></member>
+      <member refid="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>position</name></member>
+      <member refid="class_node_1ad938d65c6b8bbceb31c00ddd64987279" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>projectionPixelData</name></member>
+      <member refid="class_node_1a631faa515a707b35de62698e0c9e62ae" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>remove</name></member>
+      <member refid="class_node_1ac16d48268bf1699b5293f605cb394f42" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>removeChildNode</name></member>
+      <member refid="class_file_layer_1a540742acbaec0fb2192bc14697dd08dc" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>resetCache</name></member>
+      <member refid="class_node_1a88b80903cdee9d66142a091cb09d00d4" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>rotateNode</name></member>
+      <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>save</name></member>
+      <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>scaleNode</name></member>
+      <member refid="class_file_layer_1a543e167055d2a2b9ff02e6924cca369a" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>scalingFilter</name></member>
+      <member refid="class_file_layer_1a58429a5a5b6ccb14c062d3ee0fc4cb17" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>scalingMethod</name></member>
+      <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setAlphaLocked</name></member>
+      <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setBlendingMode</name></member>
+      <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setChildNodes</name></member>
+      <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setCollapsed</name></member>
+      <member refid="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setColorLabel</name></member>
+      <member refid="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setColorProfile</name></member>
+      <member refid="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setColorSpace</name></member>
+      <member refid="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setInheritAlpha</name></member>
+      <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setLayerStyleFromAsl</name></member>
+      <member refid="class_node_1a5f9a6effbadc69fe963e2113b98abd39" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setLocked</name></member>
+      <member refid="class_node_1a76b36df00e311f88cc65e849b66f1e3b" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setName</name></member>
+      <member refid="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setOpacity</name></member>
+      <member refid="class_node_1a334d811e485663294a6b1d4222af954d" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setPinnedToTimeline</name></member>
+      <member refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setPixelData</name></member>
+      <member refid="class_file_layer_1aa609774472ba42d49ced8cc20a58e9f0" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setProperties</name></member>
+      <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>setVisible</name></member>
+      <member refid="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>shearNode</name></member>
+      <member refid="class_node_1aaee855a1d7a10f9198d03ff222809b6c" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>thumbnail</name></member>
+      <member refid="class_file_layer_1a76027bcadf654ffed69b4a794781d562" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>type</name></member>
+      <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>uniqueId</name></member>
+      <member refid="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>visible</name></member>
+      <member refid="class_file_layer_1a2bfdcae68407de10fcff2be7e309049a" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>~FileLayer</name></member>
+      <member refid="class_node_1a5d129d27d74d8d16302ca48624135407" prot="public" virt="non-virtual"><scope>FileLayer</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

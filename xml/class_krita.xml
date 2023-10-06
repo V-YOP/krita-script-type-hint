@@ -1,0 +1,1148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_krita" kind="class" language="C++" prot="public">
+    <compoundname>Krita</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_krita_8h" local="no">Krita.h</includes>
+    <innerclass refid="struct_krita_1_1_private" prot="public">Krita::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_krita_1a348047da560279dafc7af783b02fc35a" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_krita_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Krita::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Krita::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="337" column="19" bodyfile="Krita.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_krita_1a0e52037525213e5934cc304f7d248ad9" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_krita" kindref="compound">Krita</ref> *</type>
+        <definition>Krita * Krita::s_instance</definition>
+        <argsstring></argsstring>
+        <name>s_instance</name>
+        <qualifiedname>Krita::s_instance</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="338" column="18" bodyfile="Krita.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_krita_1a6676a1024038a4ce7d08021f29398c74" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Krita::Krita</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>Krita</name>
+        <qualifiedname>Krita::Krita</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="32" column="14" bodyfile="Krita.cpp" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_krita_1af7f2ace97c154bbcf148d80c062be42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Krita::~Krita</definition>
+        <argsstring>() override</argsstring>
+        <name>~Krita</name>
+        <qualifiedname>Krita::~Krita</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="33" column="5" bodyfile="Krita.cpp" bodystart="76" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_krita_1a2a0a89595639e3ab0b2a715cbe1f08fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+        <definition>Document * Krita::activeDocument</definition>
+        <argsstring>() const</argsstring>
+        <name>activeDocument</name>
+        <qualifiedname>Krita::activeDocument</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the currently active document, if there is one. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="41" column="14" bodyfile="Krita.cpp" bodystart="104" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ab1d718b25b35f7d9fbe29a6fe8269180" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Krita::setActiveDocument</definition>
+        <argsstring>(Document *value)</argsstring>
+        <name>setActiveDocument</name>
+        <qualifiedname>Krita::setActiveDocument</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setActiveDocument activates the first view that shows the given document </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the document we want to activate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="47" column="10" bodyfile="Krita.cpp" bodystart="119" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1aeb749a0a1fc28af49fb855426628026f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Krita::batchmode</definition>
+        <argsstring>() const</argsstring>
+        <name>batchmode</name>
+        <qualifiedname>Krita::batchmode</qualifiedname>
+        <briefdescription>
+<para>batchmode determines whether the script is run in batch mode. If batchmode is true, scripts should now show messageboxes or dialog boxes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Note that this separate from <ref refid="class_document_1ac0986f4a125d3e279ab597494f6c6cbe" kindref="member">Document.setBatchmode()</ref>, which determines whether export/save option dialogs are shown.</para>
+<para><simplesect kind="return"><para>true if the script is run in batchmode </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="58" column="10" bodyfile="Krita.cpp" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a4b4a744432b42eccda560c227b433886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Krita::setBatchmode</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setBatchmode</name>
+        <qualifiedname>Krita::setBatchmode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setBatchmode sets the batchmode to </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, scripts should not show dialogs or messageboxes. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="64" column="10" bodyfile="Krita.cpp" bodystart="134" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a1b1af6a9a25b9a3ce4bf7b46812f818e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; QAction * &gt;</type>
+        <definition>QList&lt; QAction * &gt; Krita::actions</definition>
+        <argsstring>() const</argsstring>
+        <name>actions</name>
+        <qualifiedname>Krita::actions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>return a list of all actions for the currently active mainWindow. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="69" column="11" bodyfile="Krita.cpp" bodystart="83" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1abfc5a2a879d3c67040c5aa7a9eb42256" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * Krita::action</definition>
+        <argsstring>(const QString &amp;name) const</argsstring>
+        <name>action</name>
+        <qualifiedname>Krita::action</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the action that has been registered under the given name, or 0 if no such action exists. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="74" column="13" bodyfile="Krita.cpp" bodystart="93" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ab4b0f55bd912ece5501d3e18898834fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_document" kindref="compound">Document</ref> * &gt;</type>
+        <definition>QList&lt; Document * &gt; Krita::documents</definition>
+        <argsstring>() const</argsstring>
+        <name>documents</name>
+        <qualifiedname>Krita::documents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of all open Documents </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="79" column="11" bodyfile="Krita.cpp" bodystart="140" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a44bcf4ff15185ad5824ec5d643fe997e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; QDockWidget * &gt;</type>
+        <definition>QList&lt; QDockWidget * &gt; Krita::dockers</definition>
+        <argsstring>() const</argsstring>
+        <name>dockers</name>
+        <qualifiedname>Krita::dockers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of all the dockers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="84" column="11" bodyfile="Krita.cpp" bodystart="308" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ae746a1b502e5e5f6050c5201aa45c6ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Krita::filters</definition>
+        <argsstring>() const</argsstring>
+        <name>filters</name>
+        <qualifiedname>Krita::filters</qualifiedname>
+        <briefdescription>
+<para>Filters are identified by an internal name. This function returns a list of all existing registered filters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of all registered filters </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="91" column="17" bodyfile="Krita.cpp" bodystart="149" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a88d6e9fd6319b13a3560819622ba7a81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_filter" kindref="compound">Filter</ref> *</type>
+        <definition>Filter * Krita::filter</definition>
+        <argsstring>(const QString &amp;name) const</argsstring>
+        <name>filter</name>
+        <qualifiedname>Krita::filter</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>filter construct a <ref refid="class_filter" kindref="compound">Filter</ref> object with a default configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the filter. Use <ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">Krita.instance()</ref>.<ref refid="class_krita_1ae746a1b502e5e5f6050c5201aa45c6ee" kindref="member">filters()</ref> to get a list of all possible filters. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the filter or None if there is no such filter. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="99" column="12" bodyfile="Krita.cpp" bodystart="156" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1adcabca2e3103c23aa6e7a41c7fd2c968" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Krita::colorModels</definition>
+        <argsstring>() const</argsstring>
+        <name>colorModels</name>
+        <qualifiedname>Krita::colorModels</qualifiedname>
+        <briefdescription>
+<para>colorModels creates a list with all color models id&apos;s registered. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of all color models or a empty list if there is no such color models. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="105" column="17" bodyfile="Krita.cpp" bodystart="169" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a53d5c6d60d0d216f1f3b05dcc25819fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Krita::colorDepths</definition>
+        <argsstring>(const QString &amp;colorModel) const</argsstring>
+        <name>colorDepths</name>
+        <qualifiedname>Krita::colorDepths</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorModel</declname>
+        </param>
+        <briefdescription>
+<para>colorDepths creates a list with the names of all color depths compatible with the given color model. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colorModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of a color model. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a list of all color depths or a empty list if there is no such color depths. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="114" column="17" bodyfile="Krita.cpp" bodystart="183" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a786c37610ea65a5045e82c1586d88015" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Krita::filterStrategies</definition>
+        <argsstring>() const</argsstring>
+        <name>filterStrategies</name>
+        <qualifiedname>Krita::filterStrategies</qualifiedname>
+        <briefdescription>
+<para>filterStrategies Retrieves all installed filter strategies. A filter strategy is used when transforming (scaling, shearing, rotating) an image to calculate the value of the new pixels. You can use th </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the id&apos;s of all available filters. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="122" column="17" bodyfile="Krita.cpp" bodystart="197" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a3e9feb2d63bdc615df11682e669d6bf4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Krita::profiles</definition>
+        <argsstring>(const QString &amp;colorModel, const QString &amp;colorDepth) const</argsstring>
+        <name>profiles</name>
+        <qualifiedname>Krita::profiles</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorModel</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorDepth</declname>
+        </param>
+        <briefdescription>
+<para>profiles creates a list with the names of all color profiles compatible with the given color model and color depth. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colorModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing the color model of the image: <itemizedlist>
+<listitem>
+<para>A: Alpha mask </para>
+</listitem>
+<listitem>
+<para>RGBA: RGB with alpha channel (The actual order of channels is most often BGR!) </para>
+</listitem>
+<listitem>
+<para>XYZA: XYZ with alpha channel </para>
+</listitem>
+<listitem>
+<para>LABA: LAB with alpha channel </para>
+</listitem>
+<listitem>
+<para>CMYKA: CMYK with alpha channel </para>
+</listitem>
+<listitem>
+<para>GRAYA: Gray with alpha channel </para>
+</listitem>
+<listitem>
+<para>YCbCrA: YCbCr with alpha channel </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colorDepth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing the color depth of the image: <itemizedlist>
+<listitem>
+<para>U8: unsigned 8 bits integer, the most common type </para>
+</listitem>
+<listitem>
+<para>U16: unsigned 16 bits integer </para>
+</listitem>
+<listitem>
+<para>F16: half, 16 bits floating point. Only available if <ref refid="class_krita" kindref="compound">Krita</ref> was built with OpenEXR </para>
+</listitem>
+<listitem>
+<para>F32: 32 bits floating point </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a list with valid names </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="146" column="17" bodyfile="Krita.cpp" bodystart="202" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1aee27f3c680f59c6c8d3a26c8612c6e49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Krita::addProfile</definition>
+        <argsstring>(const QString &amp;profilePath)</argsstring>
+        <name>addProfile</name>
+        <qualifiedname>Krita::addProfile</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>profilePath</declname>
+        </param>
+        <briefdescription>
+<para>addProfile load the given profile into the profile registry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>profilePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the path to the profile. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if adding the profile succeeded. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="153" column="10" bodyfile="Krita.cpp" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a14d539c74ae099268c912f5735f3cf0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notifier" kindref="compound">Notifier</ref> *</type>
+        <definition>Notifier * Krita::notifier</definition>
+        <argsstring>() const</argsstring>
+        <name>notifier</name>
+        <qualifiedname>Krita::notifier</qualifiedname>
+        <briefdescription>
+<para>notifier the <ref refid="class_notifier" kindref="compound">Notifier</ref> singleton emits signals when documents are opened and closed, the configuration changes, views are opened and closed or windows are opened. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the notifier object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="160" column="14" bodyfile="Krita.cpp" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a071dc792d4f2cc74307410ae0629c08c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Krita::version</definition>
+        <argsstring>() const</argsstring>
+        <name>version</name>
+        <qualifiedname>Krita::version</qualifiedname>
+        <briefdescription>
+<para>version Determine the version of <ref refid="class_krita" kindref="compound">Krita</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Usage: print(Application.version ())</para>
+<para><simplesect kind="return"><para>the version string including git sha1 if <ref refid="class_krita" kindref="compound">Krita</ref> was built from git </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="169" column="13" bodyfile="Krita.cpp" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a7ca2fd17b78f2bf28ecb1a5b281da29f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_view" kindref="compound">View</ref> * &gt;</type>
+        <definition>QList&lt; View * &gt; Krita::views</definition>
+        <argsstring>() const</argsstring>
+        <name>views</name>
+        <qualifiedname>Krita::views</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of all views. A <ref refid="class_document" kindref="compound">Document</ref> can be shown in more than one view. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="174" column="11" bodyfile="Krita.cpp" bodystart="236" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1acdb04b2222f257b13727090737416f0c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_window" kindref="compound">Window</ref> *</type>
+        <definition>Window * Krita::activeWindow</definition>
+        <argsstring>() const</argsstring>
+        <name>activeWindow</name>
+        <qualifiedname>Krita::activeWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the currently active window or None if there is no window </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="179" column="12" bodyfile="Krita.cpp" bodystart="245" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a3cdc210faa2dfc0695ed8d4d05660a53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_window" kindref="compound">Window</ref> * &gt;</type>
+        <definition>QList&lt; Window * &gt; Krita::windows</definition>
+        <argsstring>() const</argsstring>
+        <name>windows</name>
+        <qualifiedname>Krita::windows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of all windows </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="184" column="11" bodyfile="Krita.cpp" bodystart="254" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a8e8252a3cf378e9752be76a1d48965c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QMap&lt; QString, <ref refid="class_resource" kindref="compound">Resource</ref> * &gt;</type>
+        <definition>QMap&lt; QString, Resource * &gt; Krita::resources</definition>
+        <argsstring>(QString &amp;type) const</argsstring>
+        <name>resources</name>
+        <qualifiedname>Krita::resources</qualifiedname>
+        <param>
+          <type>QString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>resources returns a list of <ref refid="class_resource" kindref="compound">Resource</ref> objects of the given type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valid types are:</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<itemizedlist>
+<listitem>
+<para>pattern </para>
+</listitem>
+<listitem>
+<para>gradient </para>
+</listitem>
+<listitem>
+<para>brush </para>
+</listitem>
+<listitem>
+<para>preset </para>
+</listitem>
+<listitem>
+<para>palette </para>
+</listitem>
+<listitem>
+<para>workspace </para>
+</listitem>
+</itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="199" column="10" bodyfile="Krita.cpp" bodystart="263" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a4ae7f4cdec3adbfe8cbfdd7fe8cfa5eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Krita::recentDocuments</definition>
+        <argsstring>() const</argsstring>
+        <name>recentDocuments</name>
+        <qualifiedname>Krita::recentDocuments</qualifiedname>
+        <briefdescription>
+<para>return all recent documents registered in the RecentFiles group of the kritarc </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="205" column="17" bodyfile="Krita.cpp" bodystart="317" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ac6e4d03d3ef97d5d8423e854d0f288b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+        <definition>Document * Krita::createDocument</definition>
+        <argsstring>(int width, int height, const QString &amp;name, const QString &amp;colorModel, const QString &amp;colorDepth, const QString &amp;profile, double resolution)</argsstring>
+        <name>createDocument</name>
+        <qualifiedname>Krita::createDocument</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorModel</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorDepth</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>profile</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>   @brief createDocument creates a new document and image and registers
+   the document with the Krita application.
+
+   Unless you explicitly call Document::close() the document will remain
+   known to the Krita document registry. The document and its image will
+   only be deleted when Krita exits.
+
+   The document will have one transparent layer.
+
+   To create a new document and show it, do something like:
+</verbatim> <programlisting><codeline><highlight class="normal">from<sp/><ref refid="class_krita" kindref="compound">Krita</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/>add_document_to_window():</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>d<sp/>=<sp/>Application.createDocument(100,<sp/>100,<sp/>&quot;Test&quot;,<sp/></highlight><highlight class="stringliteral">&quot;RGBA&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;U8&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>120.0)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Application.<ref refid="class_krita_1acdb04b2222f257b13727090737416f0c" kindref="member">activeWindow</ref>().<ref refid="class_window_1af3dfb2c3a8feca3f94be9658fd125a99" kindref="member">addView</ref>(d)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">add_document_to_window()</highlight></codeline>
+</programlisting> <verbatim>   @param width the width in pixels
+   @param height the height in pixels
+   @param name the name of the image (not the filename of the document)
+   @param colorModel A string describing the color model of the image:
+   &lt;ul&gt;
+   &lt;li&gt;A: Alpha mask&lt;/li&gt;
+   &lt;li&gt;RGBA: RGB with alpha channel (The actual order of channels is most often BGR!)&lt;/li&gt;
+   &lt;li&gt;XYZA: XYZ with alpha channel&lt;/li&gt;
+   &lt;li&gt;LABA: LAB with alpha channel&lt;/li&gt;
+   &lt;li&gt;CMYKA: CMYK with alpha channel&lt;/li&gt;
+   &lt;li&gt;GRAYA: Gray with alpha channel&lt;/li&gt;
+   &lt;li&gt;YCbCrA: YCbCr with alpha channel&lt;/li&gt;
+   &lt;/ul&gt;
+   @param colorDepth A string describing the color depth of the image:
+   &lt;ul&gt;
+   &lt;li&gt;U8: unsigned 8 bits integer, the most common type&lt;/li&gt;
+   &lt;li&gt;U16: unsigned 16 bits integer&lt;/li&gt;
+   &lt;li&gt;F16: half, 16 bits floating point. Only available if Krita was built with OpenEXR&lt;/li&gt;
+   &lt;li&gt;F32: 32 bits floating point&lt;/li&gt;
+   &lt;/ul&gt;
+   @param profile The name of an icc profile that is known to Krita. If an empty string is passed, the default is
+   taken.
+   @param resolution the resolution in points per inch.
+   @return the created document.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="254" column="14" bodyfile="Krita.cpp" bodystart="329" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a7eaa3e6ee1da2272272c951cc4319a77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+        <definition>Document * Krita::openDocument</definition>
+        <argsstring>(const QString &amp;filename)</argsstring>
+        <name>openDocument</name>
+        <qualifiedname>Krita::openDocument</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>openDocument creates a new <ref refid="class_document" kindref="compound">Document</ref>, registers it with the <ref refid="class_krita" kindref="compound">Krita</ref> application and loads the given file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file to open in the document </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the document </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="261" column="14" bodyfile="Krita.cpp" bodystart="351" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a2474c822b892cbce692e173cffcb0bab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_window" kindref="compound">Window</ref> *</type>
+        <definition>Window * Krita::openWindow</definition>
+        <argsstring>()</argsstring>
+        <name>openWindow</name>
+        <qualifiedname>Krita::openWindow</qualifiedname>
+        <briefdescription>
+<para>openWindow create a new main window. The window is not shown by default. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="266" column="12" bodyfile="Krita.cpp" bodystart="364" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1aec4b19f9254727a57388881c1b5c21a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Krita::addExtension</definition>
+        <argsstring>(Extension *extension)</argsstring>
+        <name>addExtension</name>
+        <qualifiedname>Krita::addExtension</qualifiedname>
+        <param>
+          <type><ref refid="class_extension" kindref="compound">Extension</ref> *</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+<para>addExtension add the given plugin to <ref refid="class_krita" kindref="compound">Krita</ref>. There will be a single instance of each <ref refid="class_extension" kindref="compound">Extension</ref> in the <ref refid="class_krita" kindref="compound">Krita</ref> process. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the extension to add. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="272" column="10" bodyfile="Krita.cpp" bodystart="370" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ad0eba6175078f5f907828b22119ec1d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_extension" kindref="compound">Extension</ref> * &gt;</type>
+        <definition>QList&lt; Extension * &gt; Krita::extensions</definition>
+        <argsstring>()</argsstring>
+        <name>extensions</name>
+        <qualifiedname>Krita::extensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return a list with all registered extension objects. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="277" column="11" bodyfile="Krita.cpp" bodystart="375" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a1f8385ce69571a52c5ae3d40ea8e9702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Krita::addDockWidgetFactory</definition>
+        <argsstring>(DockWidgetFactoryBase *factory)</argsstring>
+        <name>addDockWidgetFactory</name>
+        <qualifiedname>Krita::addDockWidgetFactory</qualifiedname>
+        <param>
+          <type><ref refid="class_dock_widget_factory_base" kindref="compound">DockWidgetFactoryBase</ref> *</type>
+          <declname>factory</declname>
+        </param>
+        <briefdescription>
+<para>addDockWidgetFactory Add the given docker factory to the application. For scripts loaded on startup, this means that every window will have one of the dockers created by the factory. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>factory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The factory object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="285" column="10" bodyfile="Krita.cpp" bodystart="397" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a028e00ec9ef353947b24c8a504d4cb6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Krita::writeSetting</definition>
+        <argsstring>(const QString &amp;group, const QString &amp;name, const QString &amp;value)</argsstring>
+        <name>writeSetting</name>
+        <qualifiedname>Krita::writeSetting</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>writeSetting write the given setting under the given name to the kritarc file in the given settings group. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>group</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The group the setting belongs to. If empty, then the setting is written in the general section </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the setting </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value of the setting. Script settings are always written as strings. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="295" column="10" bodyfile="Krita.cpp" bodystart="380" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ac3b31cb5af51c9f945d285923d36c061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Krita::readSetting</definition>
+        <argsstring>(const QString &amp;group, const QString &amp;name, const QString &amp;defaultValue)</argsstring>
+        <name>readSetting</name>
+        <qualifiedname>Krita::readSetting</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+<para>readSetting read the given setting value from the kritarc file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>group</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The group the setting is part of. If empty, then the setting is read from the general group. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the setting </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default value of the setting </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string representing the setting. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="305" column="13" bodyfile="Krita.cpp" bodystart="386" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a19dff764ee70f8c4bdd061fd7255fbce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QIcon</type>
+        <definition>QIcon Krita::icon</definition>
+        <argsstring>(QString &amp;iconName) const</argsstring>
+        <name>icon</name>
+        <qualifiedname>Krita::icon</qualifiedname>
+        <param>
+          <type>QString &amp;</type>
+          <declname>iconName</declname>
+        </param>
+        <briefdescription>
+<para>icon This allows you to get icons from <ref refid="class_krita" kindref="compound">Krita</ref>&apos;s internal icons. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iconName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the icon. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the icon related to this name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="313" column="11" bodyfile="Krita.cpp" bodystart="392" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1aa55507903d088013ced2df8c74f28a63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_krita" kindref="compound">Krita</ref> *</type>
+        <definition>Krita * Krita::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <qualifiedname>Krita::instance</qualifiedname>
+        <briefdescription>
+<para>instance retrieve the singleton instance of the Application object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="318" column="18" bodyfile="Krita.cpp" bodystart="402" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a329edc1a444e24b12092101c622a73c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QObject *</type>
+        <definition>QObject * Krita::fromVariant</definition>
+        <argsstring>(const QVariant &amp;v)</argsstring>
+        <name>fromVariant</name>
+        <qualifiedname>Krita::fromVariant</qualifiedname>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Scripter.fromVariant(variant) variant is a QVariant returns instance of QObject-subclass</para>
+<para>This is a helper method for PyQt because PyQt cannot cast a variant to a QObject or QWidget </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="321" column="20" bodyfile="Krita.cpp" bodystart="418" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ac6e08ee495dc82337a92dbac03302fa7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Krita::krita_i18n</definition>
+        <argsstring>(const QString &amp;text)</argsstring>
+        <name>krita_i18n</name>
+        <qualifiedname>Krita::krita_i18n</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="323" column="20" bodyfile="Krita.cpp" bodystart="435" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1ae7f36760bcf7a590517b8595b5955523" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Krita::krita_i18nc</definition>
+        <argsstring>(const QString &amp;context, const QString &amp;text)</argsstring>
+        <name>krita_i18nc</name>
+        <qualifiedname>Krita::krita_i18nc</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="324" column="20" bodyfile="Krita.cpp" bodystart="440" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_krita_1a5673203e6569d3f6638c4259ec31a6c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Krita::getAppDataLocation</definition>
+        <argsstring>()</argsstring>
+        <name>getAppDataLocation</name>
+        <qualifiedname>Krita::getAppDataLocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="327" column="20" bodyfile="Krita.cpp" bodystart="445" bodyend="448"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_krita_1a2b01a5a03ec64b1bd09fbdcf4a839678" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Krita::mainWindowIsBeingCreated</definition>
+        <argsstring>(KisMainWindow *window)</argsstring>
+        <name>mainWindowIsBeingCreated</name>
+        <qualifiedname>Krita::mainWindowIsBeingCreated</qualifiedname>
+        <param>
+          <type>KisMainWindow *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+<para>This is called from the constructor of the window, before the xmlgui file is loaded. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.h" line="332" column="10" bodyfile="Krita.cpp" bodystart="450" bodyend="456"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_krita" kindref="compound">Krita</ref> is a singleton class that offers the root access to the <ref refid="class_krita" kindref="compound">Krita</ref> object hierarchy.</para>
+<para>The <ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">Krita.instance()</ref> is aliased as two builtins: Scripter and Application. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Krita</label>
+        <link refid="class_krita"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Krita</label>
+        <link refid="class_krita"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Krita.h" line="27" column="1" bodyfile="Krita.h" bodystart="28" bodyend="340"/>
+    <listofallmembers>
+      <member refid="class_krita_1abfc5a2a879d3c67040c5aa7a9eb42256" prot="public" virt="non-virtual"><scope>Krita</scope><name>action</name></member>
+      <member refid="class_krita_1a1b1af6a9a25b9a3ce4bf7b46812f818e" prot="public" virt="non-virtual"><scope>Krita</scope><name>actions</name></member>
+      <member refid="class_krita_1a2a0a89595639e3ab0b2a715cbe1f08fc" prot="public" virt="non-virtual"><scope>Krita</scope><name>activeDocument</name></member>
+      <member refid="class_krita_1acdb04b2222f257b13727090737416f0c" prot="public" virt="non-virtual"><scope>Krita</scope><name>activeWindow</name></member>
+      <member refid="class_krita_1a1f8385ce69571a52c5ae3d40ea8e9702" prot="public" virt="non-virtual"><scope>Krita</scope><name>addDockWidgetFactory</name></member>
+      <member refid="class_krita_1aec4b19f9254727a57388881c1b5c21a6" prot="public" virt="non-virtual"><scope>Krita</scope><name>addExtension</name></member>
+      <member refid="class_krita_1aee27f3c680f59c6c8d3a26c8612c6e49" prot="public" virt="non-virtual"><scope>Krita</scope><name>addProfile</name></member>
+      <member refid="class_krita_1aeb749a0a1fc28af49fb855426628026f" prot="public" virt="non-virtual"><scope>Krita</scope><name>batchmode</name></member>
+      <member refid="class_krita_1a53d5c6d60d0d216f1f3b05dcc25819fa" prot="public" virt="non-virtual"><scope>Krita</scope><name>colorDepths</name></member>
+      <member refid="class_krita_1adcabca2e3103c23aa6e7a41c7fd2c968" prot="public" virt="non-virtual"><scope>Krita</scope><name>colorModels</name></member>
+      <member refid="class_krita_1ac6e4d03d3ef97d5d8423e854d0f288b1" prot="public" virt="non-virtual"><scope>Krita</scope><name>createDocument</name></member>
+      <member refid="class_krita_1a348047da560279dafc7af783b02fc35a" prot="private" virt="non-virtual"><scope>Krita</scope><name>d</name></member>
+      <member refid="class_krita_1a44bcf4ff15185ad5824ec5d643fe997e" prot="public" virt="non-virtual"><scope>Krita</scope><name>dockers</name></member>
+      <member refid="class_krita_1ab4b0f55bd912ece5501d3e18898834fc" prot="public" virt="non-virtual"><scope>Krita</scope><name>documents</name></member>
+      <member refid="class_krita_1ad0eba6175078f5f907828b22119ec1d4" prot="public" virt="non-virtual"><scope>Krita</scope><name>extensions</name></member>
+      <member refid="class_krita_1a88d6e9fd6319b13a3560819622ba7a81" prot="public" virt="non-virtual"><scope>Krita</scope><name>filter</name></member>
+      <member refid="class_krita_1ae746a1b502e5e5f6050c5201aa45c6ee" prot="public" virt="non-virtual"><scope>Krita</scope><name>filters</name></member>
+      <member refid="class_krita_1a786c37610ea65a5045e82c1586d88015" prot="public" virt="non-virtual"><scope>Krita</scope><name>filterStrategies</name></member>
+      <member refid="class_krita_1a329edc1a444e24b12092101c622a73c3" prot="public" virt="non-virtual"><scope>Krita</scope><name>fromVariant</name></member>
+      <member refid="class_krita_1a5673203e6569d3f6638c4259ec31a6c1" prot="public" virt="non-virtual"><scope>Krita</scope><name>getAppDataLocation</name></member>
+      <member refid="class_krita_1a19dff764ee70f8c4bdd061fd7255fbce" prot="public" virt="non-virtual"><scope>Krita</scope><name>icon</name></member>
+      <member refid="class_krita_1aa55507903d088013ced2df8c74f28a63" prot="public" virt="non-virtual"><scope>Krita</scope><name>instance</name></member>
+      <member refid="class_krita_1a6676a1024038a4ce7d08021f29398c74" prot="public" virt="non-virtual"><scope>Krita</scope><name>Krita</name></member>
+      <member refid="class_krita_1ac6e08ee495dc82337a92dbac03302fa7" prot="public" virt="non-virtual"><scope>Krita</scope><name>krita_i18n</name></member>
+      <member refid="class_krita_1ae7f36760bcf7a590517b8595b5955523" prot="public" virt="non-virtual"><scope>Krita</scope><name>krita_i18nc</name></member>
+      <member refid="class_krita_1a2b01a5a03ec64b1bd09fbdcf4a839678" prot="private" virt="non-virtual"><scope>Krita</scope><name>mainWindowIsBeingCreated</name></member>
+      <member refid="class_krita_1a14d539c74ae099268c912f5735f3cf0b" prot="public" virt="non-virtual"><scope>Krita</scope><name>notifier</name></member>
+      <member refid="class_krita_1a7eaa3e6ee1da2272272c951cc4319a77" prot="public" virt="non-virtual"><scope>Krita</scope><name>openDocument</name></member>
+      <member refid="class_krita_1a2474c822b892cbce692e173cffcb0bab" prot="public" virt="non-virtual"><scope>Krita</scope><name>openWindow</name></member>
+      <member refid="class_krita_1a3e9feb2d63bdc615df11682e669d6bf4" prot="public" virt="non-virtual"><scope>Krita</scope><name>profiles</name></member>
+      <member refid="class_krita_1ac3b31cb5af51c9f945d285923d36c061" prot="public" virt="non-virtual"><scope>Krita</scope><name>readSetting</name></member>
+      <member refid="class_krita_1a4ae7f4cdec3adbfe8cbfdd7fe8cfa5eb" prot="public" virt="non-virtual"><scope>Krita</scope><name>recentDocuments</name></member>
+      <member refid="class_krita_1a8e8252a3cf378e9752be76a1d48965c0" prot="public" virt="non-virtual"><scope>Krita</scope><name>resources</name></member>
+      <member refid="class_krita_1a0e52037525213e5934cc304f7d248ad9" prot="private" virt="non-virtual"><scope>Krita</scope><name>s_instance</name></member>
+      <member refid="class_krita_1ab1d718b25b35f7d9fbe29a6fe8269180" prot="public" virt="non-virtual"><scope>Krita</scope><name>setActiveDocument</name></member>
+      <member refid="class_krita_1a4b4a744432b42eccda560c227b433886" prot="public" virt="non-virtual"><scope>Krita</scope><name>setBatchmode</name></member>
+      <member refid="class_krita_1a071dc792d4f2cc74307410ae0629c08c" prot="public" virt="non-virtual"><scope>Krita</scope><name>version</name></member>
+      <member refid="class_krita_1a7ca2fd17b78f2bf28ecb1a5b281da29f" prot="public" virt="non-virtual"><scope>Krita</scope><name>views</name></member>
+      <member refid="class_krita_1a3cdc210faa2dfc0695ed8d4d05660a53" prot="public" virt="non-virtual"><scope>Krita</scope><name>windows</name></member>
+      <member refid="class_krita_1a028e00ec9ef353947b24c8a504d4cb6d" prot="public" virt="non-virtual"><scope>Krita</scope><name>writeSetting</name></member>
+      <member refid="class_krita_1af7f2ace97c154bbcf148d80c062be42e" prot="public" virt="non-virtual"><scope>Krita</scope><name>~Krita</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

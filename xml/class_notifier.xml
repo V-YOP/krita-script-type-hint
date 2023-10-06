@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_notifier" kind="class" language="C++" prot="public">
+    <compoundname>Notifier</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_notifier_8h" local="no">Notifier.h</includes>
+    <innerclass refid="struct_notifier_1_1_private" prot="public">Notifier::Private</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_notifier_1a02aea68595189d9cc00a3020a6e7f201" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Notifier::Active</definition>
+        <argsstring></argsstring>
+        <name>Active</name>
+        <qualifiedname>Notifier::Active</qualifiedname>
+        <read>active</read>
+        <write>setActive</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="27" column="5" bodyfile="Notifier.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_notifier_1a3529ca795f989e64312c1b21ee9db9c4" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_notifier_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Notifier::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Notifier::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="111" column="19" bodyfile="Notifier.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notifier_1a952feb3d7ae1285b55b5959e731ffdaa" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Notifier::Notifier</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>Notifier</name>
+        <qualifiedname>Notifier::Notifier</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="30" column="14" bodyfile="Notifier.cpp" bodystart="19" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notifier_1a492a2c25ba22447e74f94560cb12a1b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Notifier::~Notifier</definition>
+        <argsstring>() override</argsstring>
+        <name>~Notifier</name>
+        <qualifiedname>Notifier::~Notifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="31" column="5" bodyfile="Notifier.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notifier_1a098192324a13d0b4ba3aecb1664bacea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Notifier::active</definition>
+        <argsstring>() const</argsstring>
+        <name>active</name>
+        <qualifiedname>Notifier::active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the <ref refid="class_notifier" kindref="compound">Notifier</ref> is active. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="36" column="10" bodyfile="Notifier.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notifier_1a970789e5cacca83096b94cc749e34f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::setActive</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setActive</name>
+        <qualifiedname>Notifier::setActive</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable or disable the <ref refid="class_notifier" kindref="compound">Notifier</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="41" column="10" bodyfile="Notifier.cpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_notifier_1a18e2a5bfb03bf84c87aceddda95e2309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::applicationClosing</definition>
+        <argsstring>()</argsstring>
+        <name>applicationClosing</name>
+        <qualifiedname>Notifier::applicationClosing</qualifiedname>
+        <briefdescription>
+<para>applicationClosing is emitted when the application is about to close. This happens after any documents and windows are closed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1a59440dce7fa9d4916f924f414ccd9a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::imageCreated</definition>
+        <argsstring>(Document *image)</argsstring>
+        <name>imageCreated</name>
+        <qualifiedname>Notifier::imageCreated</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para>imageCreated is emitted whenever a new image is created and registered with the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1a9f4086ee2a5d97cb94de0517edc18f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::imageSaved</definition>
+        <argsstring>(const QString &amp;filename)</argsstring>
+        <name>imageSaved</name>
+        <qualifiedname>Notifier::imageSaved</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>imageSaved is emitted whenever a document is saved. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the filename of the document that has been saved. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1a964315b24fee9715d2e9418fdbdb855b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::imageClosed</definition>
+        <argsstring>(const QString &amp;filename)</argsstring>
+        <name>imageClosed</name>
+        <qualifiedname>Notifier::imageClosed</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>imageClosed is emitted whenever the last view on an image is closed. The image does not exist anymore in <ref refid="class_krita" kindref="compound">Krita</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the filename of the image. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1a1acf8f910223aebc212440faf196e0ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::viewCreated</definition>
+        <argsstring>(View *view)</argsstring>
+        <name>viewCreated</name>
+        <qualifiedname>Notifier::viewCreated</qualifiedname>
+        <param>
+          <type><ref refid="class_view" kindref="compound">View</ref> *</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+<para>viewCreated is emitted whenever a new view is created. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>view</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the view </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="74" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1a7ff56289ade63245704149cbb72e1fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::viewClosed</definition>
+        <argsstring>(View *view)</argsstring>
+        <name>viewClosed</name>
+        <qualifiedname>Notifier::viewClosed</qualifiedname>
+        <param>
+          <type><ref refid="class_view" kindref="compound">View</ref> *</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+<para>viewClosed is emitted whenever a view is closed </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>view</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the view </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="80" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1aab17707e80874ad8061001f711459d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::windowIsBeingCreated</definition>
+        <argsstring>(Window *window)</argsstring>
+        <name>windowIsBeingCreated</name>
+        <qualifiedname>Notifier::windowIsBeingCreated</qualifiedname>
+        <param>
+          <type><ref refid="class_window" kindref="compound">Window</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+<para>windowCreated is emitted whenever a window is being created </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>window</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the window; this is called from the constructor of the window, before the xmlgui file is loaded </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="86" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1a72ce2e22de9cfd3e327f9604a7cc9301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::windowCreated</definition>
+        <argsstring>()</argsstring>
+        <name>windowCreated</name>
+        <qualifiedname>Notifier::windowCreated</qualifiedname>
+        <briefdescription>
+<para>windowIsCreated is emitted after main window is completely created </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="91" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_notifier_1a4d30c3a060480402b5ad0edbd2d96313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::configurationChanged</definition>
+        <argsstring>()</argsstring>
+        <name>configurationChanged</name>
+        <qualifiedname>Notifier::configurationChanged</qualifiedname>
+        <briefdescription>
+<para>configurationChanged is emitted every time <ref refid="class_krita" kindref="compound">Krita</ref>&apos;s configuration has changed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="97" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_notifier_1a88721b96417e165f62eba68fa528a605" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::imageCreated</definition>
+        <argsstring>(KisDocument *document)</argsstring>
+        <name>imageCreated</name>
+        <qualifiedname>Notifier::imageCreated</qualifiedname>
+        <param>
+          <type>KisDocument *</type>
+          <declname>document</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="101" column="10" bodyfile="Notifier.cpp" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_notifier_1a1bf5a048ec21a8c84acf08f36941f069" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::viewCreated</definition>
+        <argsstring>(KisView *view)</argsstring>
+        <name>viewCreated</name>
+        <qualifiedname>Notifier::viewCreated</qualifiedname>
+        <param>
+          <type>KisView *</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="103" column="10" bodyfile="Notifier.cpp" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_notifier_1a37214da8e01f2d6f7bb67e5bfd02bc47" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::viewClosed</definition>
+        <argsstring>(KisView *view)</argsstring>
+        <name>viewClosed</name>
+        <qualifiedname>Notifier::viewClosed</qualifiedname>
+        <param>
+          <type>KisView *</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="104" column="10" bodyfile="Notifier.cpp" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_notifier_1a6470a89858dcb38480ffbd5e2297673b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notifier::windowIsBeingCreated</definition>
+        <argsstring>(KisMainWindow *window)</argsstring>
+        <name>windowIsBeingCreated</name>
+        <qualifiedname>Notifier::windowIsBeingCreated</qualifiedname>
+        <param>
+          <type>KisMainWindow *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.h" line="106" column="10" bodyfile="Notifier.cpp" bodystart="79" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="class_notifier" kindref="compound">Notifier</ref> can be used to be informed of state changes in the <ref refid="class_krita" kindref="compound">Krita</ref> application. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Notifier</label>
+        <link refid="class_notifier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Notifier</label>
+        <link refid="class_notifier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Notifier.h" line="22" column="1" bodyfile="Notifier.h" bodystart="23" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_notifier_1a02aea68595189d9cc00a3020a6e7f201" prot="public" virt="non-virtual"><scope>Notifier</scope><name>Active</name></member>
+      <member refid="class_notifier_1a098192324a13d0b4ba3aecb1664bacea" prot="public" virt="non-virtual"><scope>Notifier</scope><name>active</name></member>
+      <member refid="class_notifier_1a18e2a5bfb03bf84c87aceddda95e2309" prot="public" virt="non-virtual"><scope>Notifier</scope><name>applicationClosing</name></member>
+      <member refid="class_notifier_1a4d30c3a060480402b5ad0edbd2d96313" prot="public" virt="non-virtual"><scope>Notifier</scope><name>configurationChanged</name></member>
+      <member refid="class_notifier_1a3529ca795f989e64312c1b21ee9db9c4" prot="private" virt="non-virtual"><scope>Notifier</scope><name>d</name></member>
+      <member refid="class_notifier_1a964315b24fee9715d2e9418fdbdb855b" prot="public" virt="non-virtual"><scope>Notifier</scope><name>imageClosed</name></member>
+      <member refid="class_notifier_1a59440dce7fa9d4916f924f414ccd9a45" prot="public" virt="non-virtual"><scope>Notifier</scope><name>imageCreated</name></member>
+      <member refid="class_notifier_1a88721b96417e165f62eba68fa528a605" prot="private" virt="non-virtual"><scope>Notifier</scope><name>imageCreated</name></member>
+      <member refid="class_notifier_1a9f4086ee2a5d97cb94de0517edc18f2c" prot="public" virt="non-virtual"><scope>Notifier</scope><name>imageSaved</name></member>
+      <member refid="class_notifier_1a952feb3d7ae1285b55b5959e731ffdaa" prot="public" virt="non-virtual"><scope>Notifier</scope><name>Notifier</name></member>
+      <member refid="class_notifier_1a970789e5cacca83096b94cc749e34f85" prot="public" virt="non-virtual"><scope>Notifier</scope><name>setActive</name></member>
+      <member refid="class_notifier_1a7ff56289ade63245704149cbb72e1fb3" prot="public" virt="non-virtual"><scope>Notifier</scope><name>viewClosed</name></member>
+      <member refid="class_notifier_1a37214da8e01f2d6f7bb67e5bfd02bc47" prot="private" virt="non-virtual"><scope>Notifier</scope><name>viewClosed</name></member>
+      <member refid="class_notifier_1a1acf8f910223aebc212440faf196e0ed" prot="public" virt="non-virtual"><scope>Notifier</scope><name>viewCreated</name></member>
+      <member refid="class_notifier_1a1bf5a048ec21a8c84acf08f36941f069" prot="private" virt="non-virtual"><scope>Notifier</scope><name>viewCreated</name></member>
+      <member refid="class_notifier_1a72ce2e22de9cfd3e327f9604a7cc9301" prot="public" virt="non-virtual"><scope>Notifier</scope><name>windowCreated</name></member>
+      <member refid="class_notifier_1aab17707e80874ad8061001f711459d61" prot="public" virt="non-virtual"><scope>Notifier</scope><name>windowIsBeingCreated</name></member>
+      <member refid="class_notifier_1a6470a89858dcb38480ffbd5e2297673b" prot="private" virt="non-virtual"><scope>Notifier</scope><name>windowIsBeingCreated</name></member>
+      <member refid="class_notifier_1a492a2c25ba22447e74f94560cb12a1b0" prot="public" virt="non-virtual"><scope>Notifier</scope><name>~Notifier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

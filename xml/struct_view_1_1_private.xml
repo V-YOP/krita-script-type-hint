@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_view_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>View::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_view_1_1_private_1ab6e6a7ae9620761588dfa639ab0126c4" prot="public" static="no" mutable="no">
+        <type>QPointer&lt; KisView &gt;</type>
+        <definition>QPointer&lt;KisView&gt; View::Private::view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <qualifiedname>View::Private::view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.cpp" line="36" column="14" bodyfile="View.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_view_1_1_private_1a276843c794c9b2bf2a5853a81f80ff19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>View::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>View::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.cpp" line="35" column="5" bodyfile="View.cpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="View.cpp" line="34" column="1" bodyfile="View.cpp" bodystart="34" bodyend="37"/>
+    <listofallmembers>
+      <member refid="struct_view_1_1_private_1a276843c794c9b2bf2a5853a81f80ff19" prot="public" virt="non-virtual"><scope>View::Private</scope><name>Private</name></member>
+      <member refid="struct_view_1_1_private_1ab6e6a7ae9620761588dfa639ab0126c4" prot="public" virt="non-virtual"><scope>View::Private</scope><name>view</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,620 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_palette" kind="class" language="C++" prot="public">
+    <compoundname>Palette</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_palette_8h" local="no">Palette.h</includes>
+    <innerclass refid="struct_palette_1_1_private" prot="public">Palette::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_palette_1a60683b9c5b46c483ea04874dd0b7298f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class PaletteView</definition>
+        <argsstring></argsstring>
+        <name>PaletteView</name>
+        <qualifiedname>Palette::PaletteView</qualifiedname>
+        <param>
+          <type><ref refid="class_palette_view" kindref="compound">PaletteView</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="156" column="18" bodyfile="Palette.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_palette_1a1875dfa4de68619b9fea8305e4ba5a24" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_palette_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Palette::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Palette::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="158" column="19" bodyfile="Palette.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_palette_1adf23b57b3932e7ed8abe2904e97ffd5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Palette::Palette</definition>
+        <argsstring>(Resource *resource)</argsstring>
+        <name>Palette</name>
+        <qualifiedname>Palette::Palette</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="48" column="5" bodyfile="Palette.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1ac825150e0f48e6b548251d153c21ac04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Palette::~Palette</definition>
+        <argsstring>() override</argsstring>
+        <name>~Palette</name>
+        <qualifiedname>Palette::~Palette</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="49" column="5" bodyfile="Palette.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a4f7d4ae377c007921aba8587b4e2068a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Palette::numberOfEntries</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfEntries</name>
+        <qualifiedname>Palette::numberOfEntries</qualifiedname>
+        <briefdescription>
+<para>numberOfEntries </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="55" column="9" bodyfile="Palette.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1aa4a1692384fad19290fbacad428e1976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Palette::columnCount</definition>
+        <argsstring>()</argsstring>
+        <name>columnCount</name>
+        <qualifiedname>Palette::columnCount</qualifiedname>
+        <briefdescription>
+<para>columnCount </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the amount of columns this palette is set to use. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="61" column="9" bodyfile="Palette.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a1df8cd5812bbd2fdb00074b630f8a4ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::setColumnCount</definition>
+        <argsstring>(int columns)</argsstring>
+        <name>setColumnCount</name>
+        <qualifiedname>Palette::setColumnCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>columns</declname>
+        </param>
+        <briefdescription>
+<para>setColumnCount Set the amount of columns this palette should use. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="66" column="10" bodyfile="Palette.cpp" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a90430a37493dcea1254e1d236c0d87ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Palette::comment</definition>
+        <argsstring>()</argsstring>
+        <name>comment</name>
+        <qualifiedname>Palette::comment</qualifiedname>
+        <briefdescription>
+<para>comment </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the comment or description associated with the palette. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="71" column="13" bodyfile="Palette.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1adf98dde5e3c98f2f38ee3d4055c4217c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::setComment</definition>
+        <argsstring>(QString comment)</argsstring>
+        <name>setComment</name>
+        <qualifiedname>Palette::setComment</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>comment</declname>
+        </param>
+        <briefdescription>
+<para>setComment set the comment or description associated with the palette. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>comment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="77" column="10" bodyfile="Palette.cpp" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1af416b9a7261dac292e7ae0a38de1ed3a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Palette::groupNames</definition>
+        <argsstring>() const</argsstring>
+        <name>groupNames</name>
+        <qualifiedname>Palette::groupNames</qualifiedname>
+        <briefdescription>
+<para>groupNames </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the list of group names. This is list is in the order these groups are in the file. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="82" column="17" bodyfile="Palette.cpp" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a42273af7febf84600f27099ef40c6322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::addGroup</definition>
+        <argsstring>(QString name)</argsstring>
+        <name>addGroup</name>
+        <qualifiedname>Palette::addGroup</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>addGroup </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the new group </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>whether adding the group was successful. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="88" column="10" bodyfile="Palette.cpp" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1ab7aaa1d021f8428d627caf8d89e0faa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::removeGroup</definition>
+        <argsstring>(QString name, bool keepColors=true)</argsstring>
+        <name>removeGroup</name>
+        <qualifiedname>Palette::removeGroup</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>keepColors</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>removeGroup </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the group to remove. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>keepColors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether or not to delete all the colors inside, or to move them to the default group. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="95" column="10" bodyfile="Palette.cpp" bodystart="69" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a9cd0dc8d44a457e24c0e48753ee558ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Palette::colorsCountTotal</definition>
+        <argsstring>()</argsstring>
+        <name>colorsCountTotal</name>
+        <qualifiedname>Palette::colorsCountTotal</qualifiedname>
+        <briefdescription>
+<para>colorsCountTotal </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the total amount of entries in the whole group </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="101" column="9" bodyfile="Palette.cpp" bodystart="75" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a884d7c1e2196818176185d60b2f5449b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_swatch" kindref="compound">Swatch</ref> *</type>
+        <definition>Swatch * Palette::colorSetEntryByIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>colorSetEntryByIndex</name>
+        <qualifiedname>Palette::colorSetEntryByIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>colorSetEntryByIndex get the colorsetEntry from the global index. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the global index </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the colorset entry </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="109" column="12" bodyfile="Palette.cpp" bodystart="81" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a5d0f39d86b690c3464fa49c433213bc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_swatch" kindref="compound">Swatch</ref> *</type>
+        <definition>Swatch * Palette::colorSetEntryFromGroup</definition>
+        <argsstring>(int index, const QString &amp;groupName)</argsstring>
+        <name>colorSetEntryFromGroup</name>
+        <qualifiedname>Palette::colorSetEntryFromGroup</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>groupName</declname>
+        </param>
+        <briefdescription>
+<para>colorSetEntryFromGroup </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index in the group. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>groupName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the group to get the color from. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the colorsetentry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="116" column="12" bodyfile="Palette.cpp" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1aef8a606c04b86c08ec7f0583a9c9ffea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::addEntry</definition>
+        <argsstring>(Swatch entry, QString groupName=QString())</argsstring>
+        <name>addEntry</name>
+        <qualifiedname>Palette::addEntry</qualifiedname>
+        <param>
+          <type><ref refid="class_swatch" kindref="compound">Swatch</ref></type>
+          <declname>entry</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>groupName</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+<para>addEntry add an entry to a group. Gets appended to the end. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the entry </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>groupName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the group to add to. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="124" column="10" bodyfile="Palette.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a34cd5b0581ecee77e443294f388a27c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::removeEntry</definition>
+        <argsstring>(int index, const QString &amp;groupName)</argsstring>
+        <name>removeEntry</name>
+        <qualifiedname>Palette::removeEntry</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>groupName</declname>
+        </param>
+        <briefdescription>
+<para>removeEntry remove the entry at <computeroutput>index</computeroutput> from the group <computeroutput>groupName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="129" column="10" bodyfile="Palette.cpp" bodystart="105" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a39ba7d689fa0b42deada95edbe9c5918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::changeGroupName</definition>
+        <argsstring>(QString oldGroupName, QString newGroupName)</argsstring>
+        <name>changeGroupName</name>
+        <qualifiedname>Palette::changeGroupName</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>oldGroupName</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>newGroupName</declname>
+        </param>
+        <briefdescription>
+<para>changeGroupName change the group name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>oldGroupName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the old groupname to change. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newGroupName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new name to change it into. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>whether successful. Reasons for failure include not knowing have oldGroupName </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="138" column="10" bodyfile="Palette.cpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a0d67cb6899650bbfa01f7177dc39046e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Palette::moveGroup</definition>
+        <argsstring>(const QString &amp;groupName, const QString &amp;groupNameInsertBefore=QString())</argsstring>
+        <name>moveGroup</name>
+        <qualifiedname>Palette::moveGroup</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>groupName</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>groupNameInsertBefore</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+<para>moveGroup move the group to before groupNameInsertBefore. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>groupName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>group to move. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>groupNameInsertBefore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>group to inset before. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>whether successful. Reasons for failure include either group not existing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="146" column="10" bodyfile="Palette.cpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_palette_1a113a430b0dad2ef0cf3061f872cc9c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Palette::save</definition>
+        <argsstring>()</argsstring>
+        <name>save</name>
+        <qualifiedname>Palette::save</qualifiedname>
+        <briefdescription>
+<para>save save the palette </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether it was successful. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="153" column="10" bodyfile="Palette.cpp" bodystart="135" bodyend="138"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_palette_1ac4a1706326a009897f3ff4777fa7375d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>KoColorSetSP</type>
+        <definition>KoColorSetSP Palette::colorSet</definition>
+        <argsstring>()</argsstring>
+        <name>colorSet</name>
+        <qualifiedname>Palette::colorSet</qualifiedname>
+        <briefdescription>
+<para>colorSet </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>gives qa KoColorSet object back </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Palette.h" line="164" column="18" bodyfile="Palette.cpp" bodystart="140" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_palette" kindref="compound">Palette</ref> class <ref refid="class_palette" kindref="compound">Palette</ref> is a resource object that stores organised color data. It&apos;s purpose is to allow artists to save colors and store them. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>An example for printing all the palettes and the entries:</para>
+<para><programlisting><codeline><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>krita<sp/>import<sp/>*</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">resources<sp/>=<sp/>Application.resources(&quot;palette&quot;)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(k,<sp/>v)<sp/>in<sp/>resources.items():</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>print(k)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>palette<sp/>=<sp/><ref refid="class_palette" kindref="compound">Palette</ref>(v)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>x<sp/>in<sp/>range(palette.numberOfEntries()):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entry<sp/>=<sp/>palette.<ref refid="class_palette_1a884d7c1e2196818176185d60b2f5449b" kindref="member">colorSetEntryByIndex</ref>(x)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>palette.colorForEntry(entry);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(x,<sp/>entry.name(),<sp/>entry.id(),<sp/>entry.spotColor(),<sp/>c.toQString())</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Palette</label>
+        <link refid="class_palette"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Palette</label>
+        <link refid="class_palette"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Palette.h" line="45" column="1" bodyfile="Palette.h" bodystart="46" bodyend="166"/>
+    <listofallmembers>
+      <member refid="class_palette_1aef8a606c04b86c08ec7f0583a9c9ffea" prot="public" virt="non-virtual"><scope>Palette</scope><name>addEntry</name></member>
+      <member refid="class_palette_1a42273af7febf84600f27099ef40c6322" prot="public" virt="non-virtual"><scope>Palette</scope><name>addGroup</name></member>
+      <member refid="class_palette_1a39ba7d689fa0b42deada95edbe9c5918" prot="public" virt="non-virtual"><scope>Palette</scope><name>changeGroupName</name></member>
+      <member refid="class_palette_1a9cd0dc8d44a457e24c0e48753ee558ad" prot="public" virt="non-virtual"><scope>Palette</scope><name>colorsCountTotal</name></member>
+      <member refid="class_palette_1ac4a1706326a009897f3ff4777fa7375d" prot="private" virt="non-virtual"><scope>Palette</scope><name>colorSet</name></member>
+      <member refid="class_palette_1a884d7c1e2196818176185d60b2f5449b" prot="public" virt="non-virtual"><scope>Palette</scope><name>colorSetEntryByIndex</name></member>
+      <member refid="class_palette_1a5d0f39d86b690c3464fa49c433213bc3" prot="public" virt="non-virtual"><scope>Palette</scope><name>colorSetEntryFromGroup</name></member>
+      <member refid="class_palette_1aa4a1692384fad19290fbacad428e1976" prot="public" virt="non-virtual"><scope>Palette</scope><name>columnCount</name></member>
+      <member refid="class_palette_1a90430a37493dcea1254e1d236c0d87ae" prot="public" virt="non-virtual"><scope>Palette</scope><name>comment</name></member>
+      <member refid="class_palette_1a1875dfa4de68619b9fea8305e4ba5a24" prot="private" virt="non-virtual"><scope>Palette</scope><name>d</name></member>
+      <member refid="class_palette_1af416b9a7261dac292e7ae0a38de1ed3a" prot="public" virt="non-virtual"><scope>Palette</scope><name>groupNames</name></member>
+      <member refid="class_palette_1a0d67cb6899650bbfa01f7177dc39046e" prot="public" virt="non-virtual"><scope>Palette</scope><name>moveGroup</name></member>
+      <member refid="class_palette_1a4f7d4ae377c007921aba8587b4e2068a" prot="public" virt="non-virtual"><scope>Palette</scope><name>numberOfEntries</name></member>
+      <member refid="class_palette_1adf23b57b3932e7ed8abe2904e97ffd5f" prot="public" virt="non-virtual"><scope>Palette</scope><name>Palette</name></member>
+      <member refid="class_palette_1a60683b9c5b46c483ea04874dd0b7298f" prot="private" virt="non-virtual"><scope>Palette</scope><name>PaletteView</name></member>
+      <member refid="class_palette_1a34cd5b0581ecee77e443294f388a27c1" prot="public" virt="non-virtual"><scope>Palette</scope><name>removeEntry</name></member>
+      <member refid="class_palette_1ab7aaa1d021f8428d627caf8d89e0faa3" prot="public" virt="non-virtual"><scope>Palette</scope><name>removeGroup</name></member>
+      <member refid="class_palette_1a113a430b0dad2ef0cf3061f872cc9c13" prot="public" virt="non-virtual"><scope>Palette</scope><name>save</name></member>
+      <member refid="class_palette_1a1df8cd5812bbd2fdb00074b630f8a4ae" prot="public" virt="non-virtual"><scope>Palette</scope><name>setColumnCount</name></member>
+      <member refid="class_palette_1adf98dde5e3c98f2f38ee3d4055c4217c" prot="public" virt="non-virtual"><scope>Palette</scope><name>setComment</name></member>
+      <member refid="class_palette_1ac825150e0f48e6b548251d153c21ac04" prot="public" virt="non-virtual"><scope>Palette</scope><name>~Palette</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_preset_chooser" kind="class" language="C++" prot="public">
+    <compoundname>PresetChooser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">KisPresetChooser</basecompoundref>
+    <includes refid="_preset_chooser_8h" local="no">PresetChooser.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_preset_chooser_1aa775c35a1137f0b365eb481ae136a2a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PresetChooser::PresetChooser</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>PresetChooser</name>
+        <qualifiedname>PresetChooser::PresetChooser</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="29" column="5" bodyfile="PresetChooser.cpp" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_preset_chooser_1ab8605f6339abcca06abfc221561f1b03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PresetChooser::~PresetChooser</definition>
+        <argsstring>() override</argsstring>
+        <name>~PresetChooser</name>
+        <qualifiedname>PresetChooser::~PresetChooser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="30" column="5" bodyfile="PresetChooser.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_preset_chooser_1a6452e5c15de81fa7ef5b71c22d2e56be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PresetChooser::setCurrentPreset</definition>
+        <argsstring>(Resource *resource)</argsstring>
+        <name>setCurrentPreset</name>
+        <qualifiedname>PresetChooser::setCurrentPreset</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make the given preset active. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="37" column="10" bodyfile="PresetChooser.cpp" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_preset_chooser_1a7257cd743ef896e0f39c9f8a0a8c59a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+        <definition>Resource * PresetChooser::currentPreset</definition>
+        <argsstring>() const</argsstring>
+        <name>currentPreset</name>
+        <qualifiedname>PresetChooser::currentPreset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a <ref refid="class_resource" kindref="compound">Resource</ref> wrapper around the currently selected preset. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="43" column="14" bodyfile="PresetChooser.cpp" bodystart="27" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_preset_chooser_1a0b65c059ed2d57a4e020926b2ff55c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PresetChooser::presetSelected</definition>
+        <argsstring>(Resource resource)</argsstring>
+        <name>presetSelected</name>
+        <qualifiedname>PresetChooser::presetSelected</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref></type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Emitted whenever a user selects the given preset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_preset_chooser_1abbead2d8b7ce60ab364067865eaeb194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PresetChooser::presetClicked</definition>
+        <argsstring>(Resource resource)</argsstring>
+        <name>presetClicked</name>
+        <qualifiedname>PresetChooser::presetClicked</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref></type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Emitted whenever a user clicks on the given preset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="55" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_preset_chooser_1a699ddb4c64264064c7e7f4e913fa1e2a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PresetChooser::slotResourceSelected</definition>
+        <argsstring>(KoResourceSP resource)</argsstring>
+        <name>slotResourceSelected</name>
+        <qualifiedname>PresetChooser::slotResourceSelected</qualifiedname>
+        <param>
+          <type>KoResourceSP</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="59" column="10" bodyfile="PresetChooser.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_preset_chooser_1a7c99385fcde0f0681e9e1d889dc9af02" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PresetChooser::slotResourceClicked</definition>
+        <argsstring>(KoResourceSP resource)</argsstring>
+        <name>slotResourceClicked</name>
+        <qualifiedname>PresetChooser::slotResourceClicked</qualifiedname>
+        <param>
+          <type>KoResourceSP</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PresetChooser.h" line="60" column="10" bodyfile="PresetChooser.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_preset_chooser" kindref="compound">PresetChooser</ref> widget wraps the KisPresetChooser widget. The widget provides for selecting brush presets. It has a tagging bar and a filter field. It is not automatically synchronized with the currently selected preset in the current Windows. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>KisPresetChooser</label>
+      </node>
+      <node id="1">
+        <label>PresetChooser</label>
+        <link refid="class_preset_chooser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>KisPresetChooser</label>
+      </node>
+      <node id="1">
+        <label>PresetChooser</label>
+        <link refid="class_preset_chooser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="PresetChooser.h" line="25" column="1" bodyfile="PresetChooser.h" bodystart="26" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_preset_chooser_1a7257cd743ef896e0f39c9f8a0a8c59a5" prot="public" virt="non-virtual"><scope>PresetChooser</scope><name>currentPreset</name></member>
+      <member refid="class_preset_chooser_1aa775c35a1137f0b365eb481ae136a2a1" prot="public" virt="non-virtual"><scope>PresetChooser</scope><name>PresetChooser</name></member>
+      <member refid="class_preset_chooser_1abbead2d8b7ce60ab364067865eaeb194" prot="public" virt="non-virtual"><scope>PresetChooser</scope><name>presetClicked</name></member>
+      <member refid="class_preset_chooser_1a0b65c059ed2d57a4e020926b2ff55c0d" prot="public" virt="non-virtual"><scope>PresetChooser</scope><name>presetSelected</name></member>
+      <member refid="class_preset_chooser_1a6452e5c15de81fa7ef5b71c22d2e56be" prot="public" virt="non-virtual"><scope>PresetChooser</scope><name>setCurrentPreset</name></member>
+      <member refid="class_preset_chooser_1a7c99385fcde0f0681e9e1d889dc9af02" prot="private" virt="non-virtual"><scope>PresetChooser</scope><name>slotResourceClicked</name></member>
+      <member refid="class_preset_chooser_1a699ddb4c64264064c7e7f4e913fa1e2a" prot="private" virt="non-virtual"><scope>PresetChooser</scope><name>slotResourceSelected</name></member>
+      <member refid="class_preset_chooser_1ab8605f6339abcca06abfc221561f1b03" prot="public" virt="non-virtual"><scope>PresetChooser</scope><name>~PresetChooser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_extension" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Extension</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_extension_8h" local="no">Extension.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_extension_1a8ccfa7876f4a45b46739534ac3ac2401" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Extension::Extension</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>Extension</name>
+        <qualifiedname>Extension::Extension</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new extension. The extension will be owned by <computeroutput>parent</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Extension.h" line="58" column="14" bodyfile="Extension.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_extension_1a00f4a172bb6d8a7ee0c45e0292e2c4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Extension::~Extension</definition>
+        <argsstring>() override</argsstring>
+        <name>~Extension</name>
+        <qualifiedname>Extension::~Extension</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Extension.h" line="59" column="5" bodyfile="Extension.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_extension_1a6cff8cdb3ed68deb71c34994d203e5ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Extension::setup</definition>
+        <argsstring>()=0</argsstring>
+        <name>setup</name>
+        <qualifiedname>Extension::setup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override this function to setup your <ref refid="class_extension" kindref="compound">Extension</ref>. You can use it to integrate with the <ref refid="class_krita" kindref="compound">Krita</ref> application instance. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Extension.h" line="65" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_extension_1a041bbafb817a67f8742ccd2b5011b77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Extension::createActions</definition>
+        <argsstring>(Window *window)=0</argsstring>
+        <name>createActions</name>
+        <qualifiedname>Extension::createActions</qualifiedname>
+        <param>
+          <type><ref refid="class_window" kindref="compound">Window</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Extension.h" line="67" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <ref refid="class_extension" kindref="compound">Extension</ref> is the base for classes that extend <ref refid="class_krita" kindref="compound">Krita</ref>. An <ref refid="class_extension" kindref="compound">Extension</ref> is loaded on startup, when the <ref refid="class_extension_1a6cff8cdb3ed68deb71c34994d203e5ba" kindref="member">setup()</ref> method will be executed.</para>
+<para>The extension instance should be added to the <ref refid="class_krita" kindref="compound">Krita</ref> Application object using <ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">Krita.instance()</ref>.addViewExtension or Application.addViewExtension or Scripter.addViewExtension.</para>
+<para>Example:</para>
+<para><programlisting><codeline><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>PyQt5.QtGui<sp/>import<sp/>*</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>PyQt5.QtWidgets<sp/>import<sp/>*</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>krita<sp/>import<sp/>*</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>HelloExtension(Extension):</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/>__init__(self,<sp/>parent):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>super().__init__(parent)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/>hello(self):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>QMessageBox.information(QWidget(),<sp/>&quot;Test&quot;,<sp/></highlight><highlight class="stringliteral">&quot;Hello!<sp/>This<sp/>is<sp/>Krita<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>Application.version())</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/><ref refid="class_extension_1a6cff8cdb3ed68deb71c34994d203e5ba" kindref="member">setup</ref>(self):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug(</highlight><highlight class="stringliteral">&quot;Hello<sp/>Setup&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/>createActions(self,<sp/>window)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>action<sp/>=<sp/>window.createAction(&quot;hello&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>action.triggered.connect(self.hello)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">Scripter.addExtension(HelloExtension(<ref refid="class_krita" kindref="compound">Krita</ref>.instance()))</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Extension</label>
+        <link refid="class_extension"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Extension</label>
+        <link refid="class_extension"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Extension.h" line="49" column="1" bodyfile="Extension.h" bodystart="50" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_extension_1a041bbafb817a67f8742ccd2b5011b77d" prot="public" virt="pure-virtual"><scope>Extension</scope><name>createActions</name></member>
+      <member refid="class_extension_1a8ccfa7876f4a45b46739534ac3ac2401" prot="public" virt="non-virtual"><scope>Extension</scope><name>Extension</name></member>
+      <member refid="class_extension_1a6cff8cdb3ed68deb71c34994d203e5ba" prot="public" virt="pure-virtual"><scope>Extension</scope><name>setup</name></member>
+      <member refid="class_extension_1a00f4a172bb6d8a7ee0c45e0292e2c4dd" prot="public" virt="non-virtual"><scope>Extension</scope><name>~Extension</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

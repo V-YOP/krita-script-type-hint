@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_colorize_mask_8cpp" kind="file" language="C++">
+    <compoundname>ColorizeMask.cpp</compoundname>
+    <includes refid="_colorize_mask_8h" local="yes">ColorizeMask.h</includes>
+    <includes local="no">lazybrush/kis_colorize_mask.h</includes>
+    <includes local="no">lazybrush/kis_lazy_fill_tools.h</includes>
+    <includes local="no">kis_image.h</includes>
+    <includes refid="_selection_8h" local="yes">Selection.h</includes>
+    <includes local="no">kis_selection.h</includes>
+    <includes local="no">KoColor.h</includes>
+    <includes local="yes">kis_layer_properties_icons.h</includes>
+    <includes local="no">kis_transaction.h</includes>
+    <includes local="no">kis_update_scheduler.h</includes>
+    <includes local="no">kis_undo_stores.h</includes>
+    <includes local="no">kis_default_bounds.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ColorizeMask.cpp</label>
+        <link refid="_colorize_mask_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ColorizeMask.h</label>
+        <link refid="_colorize_mask_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ManagedColor.h</label>
+        <link refid="_managed_color_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Node.h</label>
+        <link refid="_node_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Selection.h</label>
+        <link refid="_selection_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>libkis.h</label>
+        <link refid="libkis_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>KoColor.h</label>
+      </node>
+      <node id="13">
+        <label>QAction</label>
+      </node>
+      <node id="12">
+        <label>QByteArray</label>
+      </node>
+      <node id="8">
+        <label>QList</label>
+      </node>
+      <node id="11">
+        <label>QMap</label>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="16">
+        <label>QScopedPointer</label>
+      </node>
+      <node id="9">
+        <label>QString</label>
+      </node>
+      <node id="10">
+        <label>QVariant</label>
+      </node>
+      <node id="15">
+        <label>QVector</label>
+      </node>
+      <node id="27">
+        <label>kis_default_bounds.h</label>
+      </node>
+      <node id="19">
+        <label>kis_image.h</label>
+      </node>
+      <node id="23">
+        <label>kis_layer_properties_icons.h</label>
+      </node>
+      <node id="21">
+        <label>kis_selection.h</label>
+      </node>
+      <node id="24">
+        <label>kis_transaction.h</label>
+      </node>
+      <node id="5">
+        <label>kis_types.h</label>
+      </node>
+      <node id="26">
+        <label>kis_undo_stores.h</label>
+      </node>
+      <node id="25">
+        <label>kis_update_scheduler.h</label>
+      </node>
+      <node id="6">
+        <label>kritalibkis_export.h</label>
+      </node>
+      <node id="17">
+        <label>lazybrush/kis_colorize_mask.h</label>
+      </node>
+      <node id="18">
+        <label>lazybrush/kis_lazy_fill_tools.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-FileCopyrightText:<sp/>2017<sp/>Wolthera<sp/>van<sp/>Hövell<sp/>tot<sp/>Westerflier<sp/>&lt;griffinvalley@gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-License-Identifier:<sp/>LGPL-2.0-or-later</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ColorizeMask.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;lazybrush/kis_colorize_mask.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;lazybrush/kis_lazy_fill_tools.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_image.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Selection.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_selection.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoColor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;kis_layer_properties_icons.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_transaction.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_update_scheduler.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_undo_stores.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_default_bounds.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">ColorizeMask::ColorizeMask(KisImageSP<sp/>image,<sp/>QString<sp/>name,<sp/>QObject<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>(image,<sp/>new<sp/>KisColorizeMask(image,name),<sp/>parent)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">ColorizeMask::ColorizeMask(KisImageSP<sp/>image,<sp/>KisColorizeMaskSP<sp/>mask,<sp/>QObject<sp/>*parent):</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>(image,<sp/>mask,<sp/>parent)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">ColorizeMask::~ColorizeMask()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">QList&lt;ManagedColor*&gt;<sp/><ref refid="class_colorize_mask_1a6a311ec5313b4b8e16ccab7d42ab7836" kindref="member">ColorizeMask::keyStrokesColors</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="39"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;ManagedColor*&gt;<sp/>colorList;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/>colorList);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(KoColor<sp/>color<sp/>:<sp/>mask-&gt;<ref refid="class_colorize_mask_1a6a311ec5313b4b8e16ccab7d42ab7836" kindref="member">keyStrokesColors</ref>().colors)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>colorList.append(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>(color));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>colorList;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1aac3240ca2358c922947c852dea09e790" kindref="member">ColorizeMask::initializeKeyStrokeColors</ref>(QList&lt;ManagedColor*&gt;<sp/>colors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>transparentIndex)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMaskSP<sp/>mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask-&gt;keyStrokesColors().colors.size()<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;initializeCompositeOp();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>mask-&gt;setColorSpace(mask-&gt;parent()-&gt;colorSpace());</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;KisLazyFillTools::KeyStroke&gt;<sp/>keyStrokes;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>colors.size();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KisLazyFillTools::KeyStroke<sp/>keyStroke;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyStroke.color<sp/>=<sp/>colors[i]-&gt;color();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyStroke.dev<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisPaintDevice(KoColorSpaceRegistry::instance()-&gt;alpha8());</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyStroke.dev-&gt;setDefaultBounds(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisDefaultBounds(this-&gt;node()-&gt;image()));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyStroke.isTransparent<sp/>=<sp/>transparentIndex<sp/>==<sp/>i;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NOTE:<sp/>the<sp/>parent<sp/>node<sp/>link<sp/>is<sp/>initialized<sp/>in</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>setKeyStrokesDirect</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyStrokes.append(keyStroke);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;setKeyStrokesDirect(keyStrokes);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a53d49bf5da50251e392f2f9f12320870" kindref="member">ColorizeMask::transparencyIndex</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="89"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/>-1);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mask-&gt;keyStrokesColors().transparentIndex;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1adc55b4506273124ddcfba606fc8c6498" kindref="member">ColorizeMask::removeKeyStroke</ref>(<ref refid="class_managed_color" kindref="compound">ManagedColor</ref>*<sp/>color)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KoColor<sp/>kc<sp/>=<sp/>color-&gt;color();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;removeKeyStroke(kc);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">QByteArray<sp/><ref refid="class_colorize_mask_1a11b77f620d0dfff50cf1273d75ef25fb" kindref="member">ColorizeMask::keyStrokePixelData</ref>(<ref refid="class_managed_color" kindref="compound">ManagedColor</ref>*<sp/>color,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="106"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>ba;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;node())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ba;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KoColor<sp/>kc<sp/>=<sp/>color-&gt;color();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/>QByteArray());</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(KisLazyFillTools::KeyStroke<sp/>keystroke<sp/>:<sp/>mask-&gt;fetchKeyStrokesDirect())<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(kc<sp/>==<sp/>keystroke.color)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KisPaintDeviceSP<sp/>dev<sp/>=<sp/>keystroke.dev;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dev)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ba;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ba.resize(w<sp/>*<sp/>h<sp/>*<sp/>dev-&gt;pixelSize());</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dev-&gt;readBytes(</highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="normal">quint8*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ba.data()),<sp/>x,<sp/>y,<sp/>w,<sp/>h);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ba;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ba;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a773c8fe3406cf982d44d0146c4802399" kindref="member">ColorizeMask::setKeyStrokePixelData</ref>(QByteArray<sp/>value,<sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>*<sp/>color,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;node())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KoColor<sp/>kc<sp/>=<sp/>color-&gt;color();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(KisLazyFillTools::KeyStroke<sp/>keystroke<sp/>:<sp/>mask-&gt;fetchKeyStrokesDirect())<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(kc<sp/>==<sp/>keystroke.color)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KisPaintDeviceSP<sp/>dev<sp/>=<sp/>keystroke.dev;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dev)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(value.length()<sp/>&lt;<sp/><sp/>w<sp/>*<sp/>h<sp/>*<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)dev-&gt;colorSpace()-&gt;pixelSize())<sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qWarning()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;ColorizeMask::setKeyStrokePixelData:<sp/>not<sp/>enough<sp/>data<sp/>to<sp/>write<sp/>to<sp/>the<sp/>paint<sp/>device&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dev-&gt;writeBytes((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>quint8*)value.constData(),<sp/>x,<sp/>y,<sp/>w,<sp/>h);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a8ac47faed512ecfd12a02368d7bad314" kindref="member">ColorizeMask::setUseEdgeDetection</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;setUseEdgeDetection(value);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a09b11c16b646af4d012fd2221640bafd" kindref="member">ColorizeMask::useEdgeDetection</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="164"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mask-&gt;useEdgeDetection();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a30b109acefa508a0404164079e74f36e" kindref="member">ColorizeMask::setEdgeDetectionSize</ref>(qreal<sp/>value)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;setEdgeDetectionSize(value);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">qreal<sp/><ref refid="class_colorize_mask_1a63c81cd9acd012f7301ac83c6d2e321e" kindref="member">ColorizeMask::edgeDetectionSize</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="180"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/>-1);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mask-&gt;edgeDetectionSize();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a69398fcd52922c605abeb2f182aab64f" kindref="member">ColorizeMask::setCleanUpAmount</ref>(qreal<sp/>value)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;setCleanUpAmount(value);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal">qreal<sp/><ref refid="class_colorize_mask_1a5b58ece6ed3fbca5729d07fe8241cc4f" kindref="member">ColorizeMask::cleanUpAmount</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="196"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/>-1);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mask-&gt;cleanUpAmount();</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a789df64b52c7fb5d215c3f8558b84b5a" kindref="member">ColorizeMask::setLimitToDeviceBounds</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;setLimitToDeviceBounds(value);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a7da0fa22e43d524c85412d07e3aba27d" kindref="member">ColorizeMask::limitToDeviceBounds</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="212"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mask-&gt;limitToDeviceBounds();</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a7aaa88a80c2600f310cdea75d2419655" kindref="member">ColorizeMask::updateMask</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(force)<sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mask-&gt;forceRegenerateMask();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KisLayerPropertiesIcons::setNodePropertyAutoUndo(mask,<sp/>KisLayerPropertiesIcons::colorizeNeedsUpdate,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>this-&gt;node()-&gt;image());</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ColorizeMask::resetCache()</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>mask-&gt;resetCache();</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a677c6394a3de69403cab7add8b5c7866" kindref="member">ColorizeMask::setShowOutput</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enabled)</highlight></codeline>
+<codeline lineno="240"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>KisLayerPropertiesIcons::setNodePropertyAutoUndo(mask,<sp/>KisLayerPropertiesIcons::colorizeShowColoring,<sp/>enabled,<sp/>this-&gt;node()-&gt;image());</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a29f60b32983ef8292ad1c362259339d0" kindref="member">ColorizeMask::showOutput</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="248"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisBaseNode::PropertyList<sp/>props<sp/>=<sp/>mask-&gt;sectionModelProperties();</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisBaseNode::Property<sp/>&amp;prop<sp/>:<sp/>props)<sp/>{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(prop.id<sp/>==<sp/>KisLayerPropertiesIcons::colorizeShowColoring.id())<sp/>{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>prop.state.toBool();</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a14b6112eb3237d6991e9ed1a9276babd" kindref="member">ColorizeMask::setEditKeyStrokes</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enabled)</highlight></codeline>
+<codeline lineno="264"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;KisColorizeMask*&gt;(this-&gt;node().data());</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN(mask);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>KisLayerPropertiesIcons::setNodePropertyAutoUndo(mask,<sp/>KisLayerPropertiesIcons::colorizeEditKeyStrokes,<sp/>enabled,<sp/>this-&gt;node()-&gt;image());</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_colorize_mask_1a2e0bbe6b926b5412278c6ac1150dcb71" kindref="member">ColorizeMask::editKeyStrokes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="272"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisColorizeMask<sp/>*mask<sp/>=<sp/>qobject_cast&lt;const<sp/>KisColorizeMask*&gt;(this-&gt;node());</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>KIS_SAFE_ASSERT_RECOVER_RETURN_VALUE(mask,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisBaseNode::PropertyList<sp/>props<sp/>=<sp/>mask-&gt;sectionModelProperties();</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisBaseNode::Property<sp/>&amp;prop<sp/>:<sp/>props)<sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(prop.id<sp/>==<sp/>KisLayerPropertiesIcons::colorizeEditKeyStrokes.id())<sp/>{</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>prop.state.toBool();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal">QString<sp/><ref refid="class_colorize_mask_1ab3ebd6a9b18bb9570183a8f49ae7ded6" kindref="member">ColorizeMask::type</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="288"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;colorizemask&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ColorizeMask.cpp"/>
+  </compounddef>
+</doxygen>

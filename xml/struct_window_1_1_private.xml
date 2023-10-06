@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_window_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Window::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_window_1_1_private_1a9cc9898872b0b4681247cd58782485e7" prot="public" static="no" mutable="no">
+        <type>QPointer&lt; KisMainWindow &gt;</type>
+        <definition>QPointer&lt;KisMainWindow&gt; Window::Private::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <qualifiedname>Window::Private::window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.cpp" line="27" column="14" bodyfile="Window.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_window_1_1_private_1a8dc255181f496f9f37be64642395b41c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Window::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Window::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.cpp" line="25" column="5" bodyfile="Window.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Window.cpp" line="24" column="1" bodyfile="Window.cpp" bodystart="24" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_window_1_1_private_1a8dc255181f496f9f37be64642395b41c" prot="public" virt="non-virtual"><scope>Window::Private</scope><name>Private</name></member>
+      <member refid="struct_window_1_1_private_1a9cc9898872b0b4681247cd58782485e7" prot="public" virt="non-virtual"><scope>Window::Private</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

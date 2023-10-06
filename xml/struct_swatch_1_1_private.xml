@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_swatch_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Swatch::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_swatch_1_1_private_1a2da98a8756df82c3310c87407603101f" prot="public" static="no" mutable="no">
+        <type>KisSwatch</type>
+        <definition>KisSwatch Swatch::Private::swatch</definition>
+        <argsstring></argsstring>
+        <name>swatch</name>
+        <qualifiedname>Swatch::Private::swatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.cpp" line="11" column="15" bodyfile="Swatch.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Swatch.cpp" line="10" column="1" bodyfile="Swatch.cpp" bodystart="10" bodyend="12"/>
+    <listofallmembers>
+      <member refid="struct_swatch_1_1_private_1a2da98a8756df82c3310c87407603101f" prot="public" virt="non-virtual"><scope>Swatch::Private</scope><name>swatch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

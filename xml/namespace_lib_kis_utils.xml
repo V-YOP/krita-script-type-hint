@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespace_lib_kis_utils" kind="namespace" language="C++">
+    <compoundname>LibKisUtils</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_lib_kis_utils_8h_1a5043def4f7f77080ce3eb0cdc15a65c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>QList&lt; Node * &gt; LibKisUtils::createNodeList</definition>
+        <argsstring>(KisNodeList kisnodes, KisImageWSP image)</argsstring>
+        <name>createNodeList</name>
+        <qualifiedname>LibKisUtils::createNodeList</qualifiedname>
+        <param>
+          <type>KisNodeList</type>
+          <declname>kisnodes</declname>
+        </param>
+        <param>
+          <type>KisImageWSP</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LibKisUtils.h" line="18" column="7" bodyfile="LibKisUtils.cpp" bodystart="41" bodyend="48" declfile="LibKisUtils.h" declline="18" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="_lib_kis_utils_8h_1ae0965c969d51d7d8a65332b8cdaf1d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+        <definition>Document * LibKisUtils::findNodeInDocuments</definition>
+        <argsstring>(KisNodeSP kisnode)</argsstring>
+        <name>findNodeInDocuments</name>
+        <qualifiedname>LibKisUtils::findNodeInDocuments</qualifiedname>
+        <param>
+          <type>KisNodeSP</type>
+          <declname>kisnode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LibKisUtils.h" line="20" column="10" bodyfile="LibKisUtils.cpp" bodystart="50" bodyend="56" declfile="LibKisUtils.h" declline="20" declcolumn="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LibKisUtils.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

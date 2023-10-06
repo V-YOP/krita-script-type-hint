@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_node_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Node::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_node_1_1_private_1a27204ec83b2215d641bbb64c443e19a5" prot="public" static="no" mutable="no">
+        <type>KisImageWSP</type>
+        <definition>KisImageWSP Node::Private::image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <qualifiedname>Node::Private::image</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.cpp" line="72" column="17" bodyfile="Node.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_node_1_1_private_1a8c4184ff102bbc29054e2fd2c55ac767" prot="public" static="no" mutable="no">
+        <type>KisNodeSP</type>
+        <definition>KisNodeSP Node::Private::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <qualifiedname>Node::Private::node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.cpp" line="73" column="15" bodyfile="Node.cpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_node_1_1_private_1a58e6f4e7662c8a999414f85998ae4a6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Node::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Node::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Node.cpp" line="71" column="5" bodyfile="Node.cpp" bodystart="71" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Node.cpp" line="70" column="1" bodyfile="Node.cpp" bodystart="70" bodyend="74"/>
+    <listofallmembers>
+      <member refid="struct_node_1_1_private_1a27204ec83b2215d641bbb64c443e19a5" prot="public" virt="non-virtual"><scope>Node::Private</scope><name>image</name></member>
+      <member refid="struct_node_1_1_private_1a8c4184ff102bbc29054e2fd2c55ac767" prot="public" virt="non-virtual"><scope>Node::Private</scope><name>node</name></member>
+      <member refid="struct_node_1_1_private_1a58e6f4e7662c8a999414f85998ae4a6d" prot="public" virt="non-virtual"><scope>Node::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

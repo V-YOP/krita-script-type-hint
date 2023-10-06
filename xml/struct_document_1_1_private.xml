@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_document_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Document::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_document_1_1_private_1a5b2488b78168a5341fe8190b5951c143" prot="public" static="no" mutable="no">
+        <type>QPointer&lt; KisDocument &gt;</type>
+        <definition>QPointer&lt;KisDocument&gt; Document::Private::document</definition>
+        <argsstring></argsstring>
+        <name>document</name>
+        <qualifiedname>Document::Private::document</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Document.cpp" line="70" column="14" bodyfile="Document.cpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_document_1_1_private_1af9cba9733e36c0da6420632bc1a91178" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Document::Private::ownsDocument</definition>
+        <argsstring></argsstring>
+        <name>ownsDocument</name>
+        <qualifiedname>Document::Private::ownsDocument</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Document.cpp" line="71" column="10" bodyfile="Document.cpp" bodystart="71" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_document_1_1_private_1ad568ed02dfa6314d916bdbcac1f93df0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Document::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Document::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Document.cpp" line="69" column="5" bodyfile="Document.cpp" bodystart="69" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Document.cpp" line="68" column="1" bodyfile="Document.cpp" bodystart="68" bodyend="72"/>
+    <listofallmembers>
+      <member refid="struct_document_1_1_private_1a5b2488b78168a5341fe8190b5951c143" prot="public" virt="non-virtual"><scope>Document::Private</scope><name>document</name></member>
+      <member refid="struct_document_1_1_private_1af9cba9733e36c0da6420632bc1a91178" prot="public" virt="non-virtual"><scope>Document::Private</scope><name>ownsDocument</name></member>
+      <member refid="struct_document_1_1_private_1ad568ed02dfa6314d916bdbcac1f93df0" prot="public" virt="non-virtual"><scope>Document::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

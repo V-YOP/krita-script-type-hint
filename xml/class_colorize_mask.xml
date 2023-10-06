@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_colorize_mask" kind="class" language="C++" prot="public">
+    <compoundname>ColorizeMask</compoundname>
+    <basecompoundref refid="class_node" prot="public" virt="non-virtual">Node</basecompoundref>
+    <includes refid="_colorize_mask_8h" local="no">ColorizeMask.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_colorize_mask_1a167228c7d77d39f93c15734c5649d438" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ColorizeMask::ColorizeMask</definition>
+        <argsstring>(KisImageSP image, QString name, QObject *parent=0)</argsstring>
+        <name>ColorizeMask</name>
+        <qualifiedname>ColorizeMask::ColorizeMask</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="65" column="14" bodyfile="ColorizeMask.cpp" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_colorize_mask_1aa5cd502f42306c104e601ca1a69d0277" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ColorizeMask::ColorizeMask</definition>
+        <argsstring>(KisImageSP image, KisColorizeMaskSP mask, QObject *parent=0)</argsstring>
+        <name>ColorizeMask</name>
+        <qualifiedname>ColorizeMask::ColorizeMask</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>KisColorizeMaskSP</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="66" column="14" bodyfile="ColorizeMask.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_colorize_mask_1abf1a0d963d022c9b30b7f5e5a9c29335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ColorizeMask::~ColorizeMask</definition>
+        <argsstring>() override</argsstring>
+        <name>~ColorizeMask</name>
+        <qualifiedname>ColorizeMask::~ColorizeMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="67" column="5" bodyfile="ColorizeMask.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_colorize_mask_1ab3ebd6a9b18bb9570183a8f49ae7ded6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString ColorizeMask::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <qualifiedname>ColorizeMask::type</qualifiedname>
+        <briefdescription>
+<para>type <ref refid="class_krita" kindref="compound">Krita</ref> has several types of nodes, split in layers and masks. Group layers can contain other layers, any layer can contain masks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>colorizemask</para>
+</simplesect>
+If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t wrapping a valid <ref refid="class_krita" kindref="compound">Krita</ref> layer or mask object, and empty string is returned. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="79" column="21" bodyfile="ColorizeMask.cpp" bodystart="287" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a6a311ec5313b4b8e16ccab7d42ab7836" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> * &gt;</type>
+        <definition>QList&lt; ManagedColor * &gt; ColorizeMask::keyStrokesColors</definition>
+        <argsstring>() const</argsstring>
+        <name>keyStrokesColors</name>
+        <qualifiedname>ColorizeMask::keyStrokesColors</qualifiedname>
+        <briefdescription>
+<para>keyStrokesColors Colors used in the Colorize Mask&apos;s keystrokes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> list containing the colors of keystrokes. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="86" column="11" bodyfile="ColorizeMask.cpp" bodystart="38" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1aac3240ca2358c922947c852dea09e790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::initializeKeyStrokeColors</definition>
+        <argsstring>(QList&lt; ManagedColor * &gt; colors, int transparentIndex=-1)</argsstring>
+        <name>initializeKeyStrokeColors</name>
+        <qualifiedname>ColorizeMask::initializeKeyStrokeColors</qualifiedname>
+        <param>
+          <type>QList&lt; <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> * &gt;</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>transparentIndex</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>initializeKeyStrokeColors Set the colors to use for the Colorize Mask&apos;s keystrokes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a list of <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> to use for the keystrokes. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transparentIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the color that should be marked as transparent. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method is supposed to to initial initialization only!</para>
+<para>It is necessary because the function also changes the color space and blending mode of the mask</para>
+<para>TODO: implement a proper API that modifies key strokes of a colorize mask without breaking undo history</para>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="94" column="10" bodyfile="ColorizeMask.cpp" bodystart="51" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1adc55b4506273124ddcfba606fc8c6498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::removeKeyStroke</definition>
+        <argsstring>(ManagedColor *color)</argsstring>
+        <name>removeKeyStroke</name>
+        <qualifiedname>ColorizeMask::removeKeyStroke</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>removeKeyStroke Remove a color from the Colorize Mask&apos;s keystrokes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> to be removed from the keystrokes. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="101" column="10" bodyfile="ColorizeMask.cpp" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a53d49bf5da50251e392f2f9f12320870" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ColorizeMask::transparencyIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>transparencyIndex</name>
+        <qualifiedname>ColorizeMask::transparencyIndex</qualifiedname>
+        <briefdescription>
+<para>transparencyIndex Index of the transparent color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>an integer containing the index of the current color marked as transparent. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="108" column="9" bodyfile="ColorizeMask.cpp" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a11b77f620d0dfff50cf1273d75ef25fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray ColorizeMask::keyStrokePixelData</definition>
+        <argsstring>(ManagedColor *color, int x, int y, int w, int h) const</argsstring>
+        <name>keyStrokePixelData</name>
+        <qualifiedname>ColorizeMask::keyStrokePixelData</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>keyStrokePixelData reads the given rectangle from the keystroke image data and returns it as a byte array. The pixel data starts top-left, and is ordered row-first. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> to get keystrokes pixeldata from. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>row length to read </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of rows to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a QByteArray with the pixel data. The byte array may be empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="121" column="16" bodyfile="ColorizeMask.cpp" bodystart="105" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a773c8fe3406cf982d44d0146c4802399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ColorizeMask::setKeyStrokePixelData</definition>
+        <argsstring>(QByteArray value, ManagedColor *color, int x, int y, int w, int h)</argsstring>
+        <name>setKeyStrokePixelData</name>
+        <qualifiedname>ColorizeMask::setKeyStrokePixelData</qualifiedname>
+        <param>
+          <type>QByteArray</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>setKeyStrokePixelData writes the given bytes, of which there must be enough, into the keystroke, the keystroke&apos;s original pixels are overwritten </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the byte array representing the pixels. There must be enough bytes available. <ref refid="class_krita" kindref="compound">Krita</ref> will take the raw pointer from the QByteArray and start reading, not stopping before (number of channels * size of channel * w * h) bytes are read.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> to set keystrokes pixeldata for. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the x position to start writing from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the y position to start writing from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width of each row </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of rows to write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if writing the pixeldata worked </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="139" column="10" bodyfile="ColorizeMask.cpp" bodystart="130" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a8ac47faed512ecfd12a02368d7bad314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::setUseEdgeDetection</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setUseEdgeDetection</name>
+        <qualifiedname>ColorizeMask::setUseEdgeDetection</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setUseEdgeDetection Activate this for line art with large solid areas, for example shadows on an object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true to enable edge detection, false to disable. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="146" column="10" bodyfile="ColorizeMask.cpp" bodystart="155" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a09b11c16b646af4d012fd2221640bafd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ColorizeMask::useEdgeDetection</definition>
+        <argsstring>() const</argsstring>
+        <name>useEdgeDetection</name>
+        <qualifiedname>ColorizeMask::useEdgeDetection</qualifiedname>
+        <briefdescription>
+<para>useEdgeDetection </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if Edge detection is enabled, false if disabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="152" column="10" bodyfile="ColorizeMask.cpp" bodystart="163" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a30b109acefa508a0404164079e74f36e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::setEdgeDetectionSize</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setEdgeDetectionSize</name>
+        <qualifiedname>ColorizeMask::setEdgeDetectionSize</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setEdgeDetectionSize Set the value to the thinnest line on the image. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a float value of the edge size to detect in pixels. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="159" column="10" bodyfile="ColorizeMask.cpp" bodystart="171" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a63c81cd9acd012f7301ac83c6d2e321e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ColorizeMask::edgeDetectionSize</definition>
+        <argsstring>() const</argsstring>
+        <name>edgeDetectionSize</name>
+        <qualifiedname>ColorizeMask::edgeDetectionSize</qualifiedname>
+        <briefdescription>
+<para>edgeDetectionSize </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a float value of the edge detection size in pixels. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="165" column="11" bodyfile="ColorizeMask.cpp" bodystart="179" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a69398fcd52922c605abeb2f182aab64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::setCleanUpAmount</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setCleanUpAmount</name>
+        <qualifiedname>ColorizeMask::setCleanUpAmount</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setCleanUpAmount This will attempt to handle messy strokes that overlap the line art where they shouldn&apos;t. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a float value from 0.0 to 100.00 where 0.0 is no cleanup is done and 100.00 is most aggressive. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="172" column="10" bodyfile="ColorizeMask.cpp" bodystart="187" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a5b58ece6ed3fbca5729d07fe8241cc4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ColorizeMask::cleanUpAmount</definition>
+        <argsstring>() const</argsstring>
+        <name>cleanUpAmount</name>
+        <qualifiedname>ColorizeMask::cleanUpAmount</qualifiedname>
+        <briefdescription>
+<para>cleanUpAmount </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a float value of 0.0 to 100.0 representing the cleanup amount where 0.0 is no cleanup is done and 100.00 is most aggressive. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="178" column="11" bodyfile="ColorizeMask.cpp" bodystart="195" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a789df64b52c7fb5d215c3f8558b84b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::setLimitToDeviceBounds</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setLimitToDeviceBounds</name>
+        <qualifiedname>ColorizeMask::setLimitToDeviceBounds</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setLimitToDeviceBounds Limit the colorize mask to the combined layer bounds of the strokes and the line art it is filling. This can speed up the use of the mask on complicated compositions, such as comic pages. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set true to enabled limit bounds, false to disable. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="185" column="10" bodyfile="ColorizeMask.cpp" bodystart="203" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a7da0fa22e43d524c85412d07e3aba27d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ColorizeMask::limitToDeviceBounds</definition>
+        <argsstring>() const</argsstring>
+        <name>limitToDeviceBounds</name>
+        <qualifiedname>ColorizeMask::limitToDeviceBounds</qualifiedname>
+        <briefdescription>
+<para>limitToDeviceBounds </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if limit bounds is enabled, false if disabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="191" column="10" bodyfile="ColorizeMask.cpp" bodystart="211" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a7aaa88a80c2600f310cdea75d2419655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::updateMask</definition>
+        <argsstring>(bool force=false)</argsstring>
+        <name>updateMask</name>
+        <qualifiedname>ColorizeMask::updateMask</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>updateMask Process the Colorize Mask&apos;s keystrokes and generate a projection of the computed colors. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>force an update </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="198" column="10" bodyfile="ColorizeMask.cpp" bodystart="219" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1ade5a975043daec222325eb84f3acfcc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::resetCache</definition>
+        <argsstring>()</argsstring>
+        <name>resetCache</name>
+        <qualifiedname>ColorizeMask::resetCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="200" column="10" bodyfile="ColorizeMask.cpp" bodystart="231" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a29f60b32983ef8292ad1c362259339d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ColorizeMask::showOutput</definition>
+        <argsstring>() const</argsstring>
+        <name>showOutput</name>
+        <qualifiedname>ColorizeMask::showOutput</qualifiedname>
+        <briefdescription>
+<para>showOutput Show output mode allows the user to see the result of the Colorize Mask&apos;s algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if edit show coloring mode is enabled, false if disabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="207" column="10" bodyfile="ColorizeMask.cpp" bodystart="247" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a677c6394a3de69403cab7add8b5c7866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::setShowOutput</definition>
+        <argsstring>(bool enabled)</argsstring>
+        <name>setShowOutput</name>
+        <qualifiedname>ColorizeMask::setShowOutput</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+<para>setShowOutput Toggle Colorize Mask&apos;s show output mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set true to enable show coloring mode and false to disable it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="214" column="10" bodyfile="ColorizeMask.cpp" bodystart="239" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a2e0bbe6b926b5412278c6ac1150dcb71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ColorizeMask::editKeyStrokes</definition>
+        <argsstring>() const</argsstring>
+        <name>editKeyStrokes</name>
+        <qualifiedname>ColorizeMask::editKeyStrokes</qualifiedname>
+        <briefdescription>
+<para>editKeyStrokes Edit keystrokes mode allows the user to modify keystrokes on the active Colorize Mask. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if edit keystrokes mode is enabled, false if disabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="221" column="10" bodyfile="ColorizeMask.cpp" bodystart="271" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_colorize_mask_1a14b6112eb3237d6991e9ed1a9276babd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorizeMask::setEditKeyStrokes</definition>
+        <argsstring>(bool enabled)</argsstring>
+        <name>setEditKeyStrokes</name>
+        <qualifiedname>ColorizeMask::setEditKeyStrokes</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+<para>setEditKeyStrokes Toggle Colorize Mask&apos;s edit keystrokes mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set true to enable edit keystrokes mode and false to disable it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorizeMask.h" line="228" column="10" bodyfile="ColorizeMask.cpp" bodystart="263" bodyend="269"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_colorize_mask" kindref="compound">ColorizeMask</ref> class A colorize mask is a mask type node that can be used to color in line art. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><programlisting><codeline><highlight class="normal">window<sp/>=<sp/><ref refid="class_krita" kindref="compound">Krita</ref>.<ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">instance</ref>().<ref refid="class_krita_1acdb04b2222f257b13727090737416f0c" kindref="member">activeWindow</ref>()</highlight></codeline>
+<codeline><highlight class="normal">doc<sp/>=<sp/><ref refid="class_krita" kindref="compound">Krita</ref>.<ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">instance</ref>().<ref refid="class_krita_1ac6e4d03d3ef97d5d8423e854d0f288b1" kindref="member">createDocument</ref>(10,<sp/>3,<sp/></highlight><highlight class="stringliteral">&quot;Test&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;RGBA&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;U8&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>120.0)</highlight></codeline>
+<codeline><highlight class="normal">window.addView(doc)</highlight></codeline>
+<codeline><highlight class="normal">root<sp/>=<sp/>doc.<ref refid="class_document_1a35dd582b73479dbc79847326de510640" kindref="member">rootNode</ref>();</highlight></codeline>
+<codeline><highlight class="normal">node<sp/>=<sp/>doc.createNode(</highlight><highlight class="stringliteral">&quot;layer&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;paintLayer&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">root.<ref refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" kindref="member">addChildNode</ref>(node,<sp/>None)</highlight></codeline>
+<codeline><highlight class="normal">nodeData<sp/>=<sp/>QByteArray.fromBase64(b</highlight><highlight class="stringliteral">&quot;AAAAAAAAAAAAAAAAEQYMBhEGDP8RBgz/EQYMAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARBgz5EQYM/xEGDAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQYMAhEGDAkRBgwCAAAAAAAAAAAAAAAA&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal">node.setPixelData(nodeData,0,0,10,3)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">cols<sp/>=<sp/>[<sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>(</highlight><highlight class="stringliteral">&apos;RGBA&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;U8&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">),<sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>(</highlight><highlight class="stringliteral">&apos;RGBA&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;U8&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>]</highlight></codeline>
+<codeline><highlight class="normal">cols[0].setComponents([0.65490198135376,<sp/>0.345098048448563,<sp/>0.474509805440903,<sp/>1.0]);</highlight></codeline>
+<codeline><highlight class="normal">cols[1].setComponents([0.52549022436142,<sp/>0.666666686534882,<sp/>1.0,<sp/>1.0]);</highlight></codeline>
+<codeline><highlight class="normal">keys<sp/>=<sp/>[</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QByteArray.fromBase64(b</highlight><highlight class="stringliteral">&quot;/48AAAAAAAAAAAAAAAAAAAAAAACmCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QByteArray.fromBase64(b</highlight><highlight class="stringliteral">&quot;AAAAAAAAAACO9ocAAAAAAAAAAAAAAAAAAAAAAMD/uQAAAAAAAAAAAAAAAAAAAAAAGoMTAAAAAAAAAAAA&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">mask<sp/>=<sp/>doc.createColorizeMask(</highlight><highlight class="stringliteral">&apos;c1&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">node.addChildNode(mask,None)</highlight></codeline>
+<codeline><highlight class="normal">mask.setEditKeyStrokes(True)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">mask.setUseEdgeDetection(True)</highlight></codeline>
+<codeline><highlight class="normal">mask.setEdgeDetectionSize(4.0)</highlight></codeline>
+<codeline><highlight class="normal">mask.setCleanUpAmount(70.0)</highlight></codeline>
+<codeline><highlight class="normal">mask.setLimitToDeviceBounds(True)</highlight></codeline>
+<codeline><highlight class="normal">mask.initializeKeyStrokeColors(cols)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>col,key<sp/>in<sp/>zip(cols,keys):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>mask.<ref refid="class_colorize_mask_1a773c8fe3406cf982d44d0146c4802399" kindref="member">setKeyStrokePixelData</ref>(key,col,0,0,20,3)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">mask.<ref refid="class_colorize_mask_1a7aaa88a80c2600f310cdea75d2419655" kindref="member">updateMask</ref>()</highlight></codeline>
+<codeline><highlight class="normal">mask.<ref refid="class_colorize_mask_1a14b6112eb3237d6991e9ed1a9276babd" kindref="member">setEditKeyStrokes</ref>(False);</highlight></codeline>
+<codeline><highlight class="normal">mask.setShowOutput(True);</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ColorizeMask</label>
+        <link refid="class_colorize_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ColorizeMask</label>
+        <link refid="class_colorize_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="ColorizeMask.h" line="59" column="1" bodyfile="ColorizeMask.h" bodystart="60" bodyend="230"/>
+    <listofallmembers>
+      <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>addChildNode</name></member>
+      <member refid="class_node_1a03331f9c2993922444607feda85e9a2a" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>alphaLocked</name></member>
+      <member refid="class_node_1a5fc11982bb591e5f98c64f214fa1488b" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>animated</name></member>
+      <member refid="class_node_1a95c04d37237c262bb077f1c00f9d4db8" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>blendingMode</name></member>
+      <member refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>bounds</name></member>
+      <member refid="class_node_1a130fcc7ba378905bce08dbbf8496446c" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>channels</name></member>
+      <member refid="class_node_1a057e12453b0981b9124379427f86d477" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>childNodes</name></member>
+      <member refid="class_colorize_mask_1a5b58ece6ed3fbca5729d07fe8241cc4f" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>cleanUpAmount</name></member>
+      <member refid="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>clone</name></member>
+      <member refid="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>collapsed</name></member>
+      <member refid="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>colorDepth</name></member>
+      <member refid="class_colorize_mask_1a167228c7d77d39f93c15734c5649d438" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>ColorizeMask</name></member>
+      <member refid="class_colorize_mask_1aa5cd502f42306c104e601ca1a69d0277" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>ColorizeMask</name></member>
+      <member refid="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>colorLabel</name></member>
+      <member refid="class_node_1a3cdf805651043386ab90da663af56f98" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>colorModel</name></member>
+      <member refid="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>colorProfile</name></member>
+      <member refid="class_node_1a88822eff44c10beb55a96f693753676f" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>createNode</name></member>
+      <member refid="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>cropNode</name></member>
+      <member refid="class_node_1abb7a8b7c4d12cceb35e85456c088c033" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>duplicate</name></member>
+      <member refid="class_colorize_mask_1a63c81cd9acd012f7301ac83c6d2e321e" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>edgeDetectionSize</name></member>
+      <member refid="class_colorize_mask_1a2e0bbe6b926b5412278c6ac1150dcb71" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>editKeyStrokes</name></member>
+      <member refid="class_node_1a18aa2116f2bba210fbdd495f169edd99" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>enableAnimation</name></member>
+      <member refid="class_node_1a168345a41614daec033ff3b8670e1d91" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>findChildNodes</name></member>
+      <member refid="class_node_1ab01953eeffb53428265c1dc83027712f" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>hasExtents</name></member>
+      <member refid="class_node_1a46e221328b859524d40ce8544fcf48f7" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>hasKeyframeAtTime</name></member>
+      <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>icon</name></member>
+      <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>index</name></member>
+      <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>inheritAlpha</name></member>
+      <member refid="class_colorize_mask_1aac3240ca2358c922947c852dea09e790" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>initializeKeyStrokeColors</name></member>
+      <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>isPinnedToTimeline</name></member>
+      <member refid="class_colorize_mask_1a11b77f620d0dfff50cf1273d75ef25fb" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>keyStrokePixelData</name></member>
+      <member refid="class_colorize_mask_1a6a311ec5313b4b8e16ccab7d42ab7836" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>keyStrokesColors</name></member>
+      <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>layerStyleToAsl</name></member>
+      <member refid="class_colorize_mask_1a7da0fa22e43d524c85412d07e3aba27d" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>limitToDeviceBounds</name></member>
+      <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>locked</name></member>
+      <member refid="class_node_1a0db840fc17c54244a98e24c5fb049a53" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>mergeDown</name></member>
+      <member refid="class_node_1a34e40db057a6f4cff4c9967a0e948b93" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>move</name></member>
+      <member refid="class_node_1ac40f16db9ad108a3d8a029802899104c" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>name</name></member>
+      <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>opacity</name></member>
+      <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>operator!=</name></member>
+      <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>operator==</name></member>
+      <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>parentNode</name></member>
+      <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>pixelData</name></member>
+      <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>pixelDataAtTime</name></member>
+      <member refid="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>position</name></member>
+      <member refid="class_node_1ad938d65c6b8bbceb31c00ddd64987279" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>projectionPixelData</name></member>
+      <member refid="class_node_1a631faa515a707b35de62698e0c9e62ae" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>remove</name></member>
+      <member refid="class_node_1ac16d48268bf1699b5293f605cb394f42" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>removeChildNode</name></member>
+      <member refid="class_colorize_mask_1adc55b4506273124ddcfba606fc8c6498" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>removeKeyStroke</name></member>
+      <member refid="class_colorize_mask_1ade5a975043daec222325eb84f3acfcc0" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>resetCache</name></member>
+      <member refid="class_node_1a88b80903cdee9d66142a091cb09d00d4" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>rotateNode</name></member>
+      <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>save</name></member>
+      <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>scaleNode</name></member>
+      <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setAlphaLocked</name></member>
+      <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setBlendingMode</name></member>
+      <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setChildNodes</name></member>
+      <member refid="class_colorize_mask_1a69398fcd52922c605abeb2f182aab64f" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setCleanUpAmount</name></member>
+      <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setCollapsed</name></member>
+      <member refid="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setColorLabel</name></member>
+      <member refid="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setColorProfile</name></member>
+      <member refid="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setColorSpace</name></member>
+      <member refid="class_colorize_mask_1a30b109acefa508a0404164079e74f36e" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setEdgeDetectionSize</name></member>
+      <member refid="class_colorize_mask_1a14b6112eb3237d6991e9ed1a9276babd" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setEditKeyStrokes</name></member>
+      <member refid="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setInheritAlpha</name></member>
+      <member refid="class_colorize_mask_1a773c8fe3406cf982d44d0146c4802399" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setKeyStrokePixelData</name></member>
+      <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setLayerStyleFromAsl</name></member>
+      <member refid="class_colorize_mask_1a789df64b52c7fb5d215c3f8558b84b5a" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setLimitToDeviceBounds</name></member>
+      <member refid="class_node_1a5f9a6effbadc69fe963e2113b98abd39" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setLocked</name></member>
+      <member refid="class_node_1a76b36df00e311f88cc65e849b66f1e3b" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setName</name></member>
+      <member refid="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setOpacity</name></member>
+      <member refid="class_node_1a334d811e485663294a6b1d4222af954d" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setPinnedToTimeline</name></member>
+      <member refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setPixelData</name></member>
+      <member refid="class_colorize_mask_1a677c6394a3de69403cab7add8b5c7866" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setShowOutput</name></member>
+      <member refid="class_colorize_mask_1a8ac47faed512ecfd12a02368d7bad314" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setUseEdgeDetection</name></member>
+      <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>setVisible</name></member>
+      <member refid="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>shearNode</name></member>
+      <member refid="class_colorize_mask_1a29f60b32983ef8292ad1c362259339d0" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>showOutput</name></member>
+      <member refid="class_node_1aaee855a1d7a10f9198d03ff222809b6c" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>thumbnail</name></member>
+      <member refid="class_colorize_mask_1a53d49bf5da50251e392f2f9f12320870" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>transparencyIndex</name></member>
+      <member refid="class_colorize_mask_1ab3ebd6a9b18bb9570183a8f49ae7ded6" prot="public" virt="virtual"><scope>ColorizeMask</scope><name>type</name></member>
+      <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>uniqueId</name></member>
+      <member refid="class_colorize_mask_1a7aaa88a80c2600f310cdea75d2419655" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>updateMask</name></member>
+      <member refid="class_colorize_mask_1a09b11c16b646af4d012fd2221640bafd" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>useEdgeDetection</name></member>
+      <member refid="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>visible</name></member>
+      <member refid="class_colorize_mask_1abf1a0d963d022c9b30b7f5e5a9c29335" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>~ColorizeMask</name></member>
+      <member refid="class_node_1a5d129d27d74d8d16302ca48624135407" prot="public" virt="non-virtual"><scope>ColorizeMask</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

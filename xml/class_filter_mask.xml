@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_filter_mask" kind="class" language="C++" prot="public">
+    <compoundname>FilterMask</compoundname>
+    <basecompoundref refid="class_node" prot="public" virt="non-virtual">Node</basecompoundref>
+    <includes refid="_filter_mask_8h" local="no">FilterMask.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_filter_mask_1aefa1e9021f5ca590c587c1699982489b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FilterMask::FilterMask</definition>
+        <argsstring>(KisImageSP image, QString name, Filter &amp;filter, QObject *parent=0)</argsstring>
+        <name>FilterMask</name>
+        <qualifiedname>FilterMask::FilterMask</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_filter" kindref="compound">Filter</ref> &amp;</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FilterMask.h" line="34" column="14" bodyfile="FilterMask.cpp" bodystart="13" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_filter_mask_1a70ad5bc611b31b01f458127734501241" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FilterMask::FilterMask</definition>
+        <argsstring>(KisImageSP image, KisFilterMaskSP mask, QObject *parent=0)</argsstring>
+        <name>FilterMask</name>
+        <qualifiedname>FilterMask::FilterMask</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>KisFilterMaskSP</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FilterMask.h" line="35" column="14" bodyfile="FilterMask.cpp" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_filter_mask_1a3729a2eb6668e502e179701a5418038d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FilterMask::~FilterMask</definition>
+        <argsstring>() override</argsstring>
+        <name>~FilterMask</name>
+        <qualifiedname>FilterMask::~FilterMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FilterMask.h" line="36" column="5" bodyfile="FilterMask.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_filter_mask_1a237a97199a46468fa118b79ac7b58ffd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FilterMask::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <qualifiedname>FilterMask::type</qualifiedname>
+        <briefdescription>
+<para>type <ref refid="class_krita" kindref="compound">Krita</ref> has several types of nodes, split in layers and masks. Group layers can contain other layers, any layer can contain masks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The type of the node. Valid types are: <itemizedlist>
+<listitem>
+<para>paintlayer </para>
+</listitem>
+<listitem>
+<para>grouplayer </para>
+</listitem>
+<listitem>
+<para>filelayer </para>
+</listitem>
+<listitem>
+<para>filterlayer </para>
+</listitem>
+<listitem>
+<para>filllayer </para>
+</listitem>
+<listitem>
+<para>clonelayer </para>
+</listitem>
+<listitem>
+<para>vectorlayer </para>
+</listitem>
+<listitem>
+<para>transparencymask </para>
+</listitem>
+<listitem>
+<para>filtermask </para>
+</listitem>
+<listitem>
+<para>transformmask </para>
+</listitem>
+<listitem>
+<para>selectionmask </para>
+</listitem>
+<listitem>
+<para>colorizemask </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t wrapping a valid <ref refid="class_krita" kindref="compound">Krita</ref> layer or mask object, and empty string is returned. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FilterMask.h" line="62" column="13" bodyfile="FilterMask.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_filter_mask_1a10f3c602d885e3bc3963d919c195689a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FilterMask::setFilter</definition>
+        <argsstring>(Filter &amp;filter)</argsstring>
+        <name>setFilter</name>
+        <qualifiedname>FilterMask::setFilter</qualifiedname>
+        <param>
+          <type><ref refid="class_filter" kindref="compound">Filter</ref> &amp;</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FilterMask.h" line="64" column="10" bodyfile="FilterMask.cpp" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_filter_mask_1aa9caa2f5ba1b830d5a641acc95219e2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_filter" kindref="compound">Filter</ref> *</type>
+        <definition>Filter * FilterMask::filter</definition>
+        <argsstring>()</argsstring>
+        <name>filter</name>
+        <qualifiedname>FilterMask::filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FilterMask.h" line="65" column="12" bodyfile="FilterMask.cpp" bodystart="46" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_filter_mask" kindref="compound">FilterMask</ref> class A filter mask, unlike a filter layer, will add a non-destructive filter to the composited image of the node it is attached to. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>You can set grayscale pixeldata on the filter mask to adjust where the filter is applied.</para>
+<para>Filtermasks can be animated. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FilterMask</label>
+        <link refid="class_filter_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FilterMask</label>
+        <link refid="class_filter_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="FilterMask.h" line="28" column="1" bodyfile="FilterMask.h" bodystart="29" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>addChildNode</name></member>
+      <member refid="class_node_1a03331f9c2993922444607feda85e9a2a" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>alphaLocked</name></member>
+      <member refid="class_node_1a5fc11982bb591e5f98c64f214fa1488b" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>animated</name></member>
+      <member refid="class_node_1a95c04d37237c262bb077f1c00f9d4db8" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>blendingMode</name></member>
+      <member refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>bounds</name></member>
+      <member refid="class_node_1a130fcc7ba378905bce08dbbf8496446c" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>channels</name></member>
+      <member refid="class_node_1a057e12453b0981b9124379427f86d477" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>childNodes</name></member>
+      <member refid="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>clone</name></member>
+      <member refid="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>collapsed</name></member>
+      <member refid="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>colorDepth</name></member>
+      <member refid="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>colorLabel</name></member>
+      <member refid="class_node_1a3cdf805651043386ab90da663af56f98" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>colorModel</name></member>
+      <member refid="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>colorProfile</name></member>
+      <member refid="class_node_1a88822eff44c10beb55a96f693753676f" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>createNode</name></member>
+      <member refid="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>cropNode</name></member>
+      <member refid="class_node_1abb7a8b7c4d12cceb35e85456c088c033" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>duplicate</name></member>
+      <member refid="class_node_1a18aa2116f2bba210fbdd495f169edd99" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>enableAnimation</name></member>
+      <member refid="class_filter_mask_1aa9caa2f5ba1b830d5a641acc95219e2d" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>filter</name></member>
+      <member refid="class_filter_mask_1aefa1e9021f5ca590c587c1699982489b" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>FilterMask</name></member>
+      <member refid="class_filter_mask_1a70ad5bc611b31b01f458127734501241" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>FilterMask</name></member>
+      <member refid="class_node_1a168345a41614daec033ff3b8670e1d91" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>findChildNodes</name></member>
+      <member refid="class_node_1ab01953eeffb53428265c1dc83027712f" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>hasExtents</name></member>
+      <member refid="class_node_1a46e221328b859524d40ce8544fcf48f7" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>hasKeyframeAtTime</name></member>
+      <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>icon</name></member>
+      <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>index</name></member>
+      <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>inheritAlpha</name></member>
+      <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>isPinnedToTimeline</name></member>
+      <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>layerStyleToAsl</name></member>
+      <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>locked</name></member>
+      <member refid="class_node_1a0db840fc17c54244a98e24c5fb049a53" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>mergeDown</name></member>
+      <member refid="class_node_1a34e40db057a6f4cff4c9967a0e948b93" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>move</name></member>
+      <member refid="class_node_1ac40f16db9ad108a3d8a029802899104c" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>name</name></member>
+      <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>opacity</name></member>
+      <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>operator!=</name></member>
+      <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>operator==</name></member>
+      <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>parentNode</name></member>
+      <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>pixelData</name></member>
+      <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>pixelDataAtTime</name></member>
+      <member refid="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>position</name></member>
+      <member refid="class_node_1ad938d65c6b8bbceb31c00ddd64987279" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>projectionPixelData</name></member>
+      <member refid="class_node_1a631faa515a707b35de62698e0c9e62ae" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>remove</name></member>
+      <member refid="class_node_1ac16d48268bf1699b5293f605cb394f42" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>removeChildNode</name></member>
+      <member refid="class_node_1a88b80903cdee9d66142a091cb09d00d4" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>rotateNode</name></member>
+      <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>save</name></member>
+      <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>scaleNode</name></member>
+      <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setAlphaLocked</name></member>
+      <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setBlendingMode</name></member>
+      <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setChildNodes</name></member>
+      <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setCollapsed</name></member>
+      <member refid="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setColorLabel</name></member>
+      <member refid="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setColorProfile</name></member>
+      <member refid="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setColorSpace</name></member>
+      <member refid="class_filter_mask_1a10f3c602d885e3bc3963d919c195689a" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setFilter</name></member>
+      <member refid="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setInheritAlpha</name></member>
+      <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setLayerStyleFromAsl</name></member>
+      <member refid="class_node_1a5f9a6effbadc69fe963e2113b98abd39" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setLocked</name></member>
+      <member refid="class_node_1a76b36df00e311f88cc65e849b66f1e3b" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setName</name></member>
+      <member refid="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setOpacity</name></member>
+      <member refid="class_node_1a334d811e485663294a6b1d4222af954d" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setPinnedToTimeline</name></member>
+      <member refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setPixelData</name></member>
+      <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>setVisible</name></member>
+      <member refid="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>shearNode</name></member>
+      <member refid="class_node_1aaee855a1d7a10f9198d03ff222809b6c" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>thumbnail</name></member>
+      <member refid="class_filter_mask_1a237a97199a46468fa118b79ac7b58ffd" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>type</name></member>
+      <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>uniqueId</name></member>
+      <member refid="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>visible</name></member>
+      <member refid="class_filter_mask_1a3729a2eb6668e502e179701a5418038d" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>~FilterMask</name></member>
+      <member refid="class_node_1a5d129d27d74d8d16302ca48624135407" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

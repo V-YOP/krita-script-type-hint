@@ -1,0 +1,1051 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_selection" kind="class" language="C++" prot="public">
+    <compoundname>Selection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_selection_8h" local="no">Selection.h</includes>
+    <innerclass refid="struct_selection_1_1_private" prot="public">Selection::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_selection_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Document</definition>
+        <argsstring></argsstring>
+        <name>Document</name>
+        <qualifiedname>Selection::Document</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="231" column="18" bodyfile="Selection.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_selection_1a9695208225d79ba78b593cf000dd5336" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FilterLayer</definition>
+        <argsstring></argsstring>
+        <name>FilterLayer</name>
+        <qualifiedname>Selection::FilterLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_filter_layer" kindref="compound">FilterLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="232" column="18" bodyfile="Selection.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_selection_1ab251dd9a1d9bccc208aab066e0f79293" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FillLayer</definition>
+        <argsstring></argsstring>
+        <name>FillLayer</name>
+        <qualifiedname>Selection::FillLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_fill_layer" kindref="compound">FillLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="233" column="18" bodyfile="Selection.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_selection_1a7b25d238353a453159ebfa9578e095ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class SelectionMask</definition>
+        <argsstring></argsstring>
+        <name>SelectionMask</name>
+        <qualifiedname>Selection::SelectionMask</qualifiedname>
+        <param>
+          <type><ref refid="class_selection_mask" kindref="compound">SelectionMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="234" column="18" bodyfile="Selection.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_selection_1a5090b50c9c5ccd4093b30762a1e769dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class TransparencyMask</definition>
+        <argsstring></argsstring>
+        <name>TransparencyMask</name>
+        <qualifiedname>Selection::TransparencyMask</qualifiedname>
+        <param>
+          <type><ref refid="class_transparency_mask" kindref="compound">TransparencyMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="235" column="18" bodyfile="Selection.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_selection_1a4fe02ebc16353b42253f2253af00f19f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FilterMask</definition>
+        <argsstring></argsstring>
+        <name>FilterMask</name>
+        <qualifiedname>Selection::FilterMask</qualifiedname>
+        <param>
+          <type><ref refid="class_filter_mask" kindref="compound">FilterMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="236" column="18" bodyfile="Selection.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_selection_1a8aab14c1e315bbc029da15a9a42f474b" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_selection_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Selection::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Selection::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="241" column="19" bodyfile="Selection.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_selection_1a23af3e010cef9e92da2c71565e3919bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Selection::Selection</definition>
+        <argsstring>(KisSelectionSP selection, QObject *parent=0)</argsstring>
+        <name>Selection</name>
+        <qualifiedname>Selection::Selection</qualifiedname>
+        <param>
+          <type>KisSelectionSP</type>
+          <declname>selection</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For internal use only. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="40" column="5" bodyfile="Selection.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_selection_1ad5c5603b27185fc441c841274caa3b73" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Selection::Selection</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>Selection</name>
+        <qualifiedname>Selection::Selection</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new, empty selection object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="45" column="14" bodyfile="Selection.cpp" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_selection_1a5da4c438b8a7ef6295bc1d542305d373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Selection::~Selection</definition>
+        <argsstring>() override</argsstring>
+        <name>~Selection</name>
+        <qualifiedname>Selection::~Selection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="46" column="5" bodyfile="Selection.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_selection_1a3e926836ea432d8a526af6f25e8405a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Selection::operator==</definition>
+        <argsstring>(const Selection &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Selection::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_selection" kindref="compound">Selection</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="48" column="10" bodyfile="Selection.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_selection_1ae8befe9ec8e3342781f114455e4c53c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Selection::operator!=</definition>
+        <argsstring>(const Selection &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Selection::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_selection" kindref="compound">Selection</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="49" column="10" bodyfile="Selection.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_selection_1a5632fc2a2a1c0837d105ee6964a2ca44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_selection" kindref="compound">Selection</ref> *</type>
+        <definition>Selection * Selection::duplicate</definition>
+        <argsstring>() const</argsstring>
+        <name>duplicate</name>
+        <qualifiedname>Selection::duplicate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a duplicate of the selection </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="56" column="15" bodyfile="Selection.cpp" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a272d8037d9c5dbba114fe0931232ee4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Selection::width</definition>
+        <argsstring>() const</argsstring>
+        <name>width</name>
+        <qualifiedname>Selection::width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the width of the selection </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="61" column="9" bodyfile="Selection.cpp" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1af0f6f0f83581d93af89b7928bd940821" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Selection::height</definition>
+        <argsstring>() const</argsstring>
+        <name>height</name>
+        <qualifiedname>Selection::height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the height of the selection </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="66" column="9" bodyfile="Selection.cpp" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a7823336404ae5c486f80d90831c87749" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Selection::x</definition>
+        <argsstring>() const</argsstring>
+        <name>x</name>
+        <qualifiedname>Selection::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the left-hand position of the selection. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="71" column="9" bodyfile="Selection.cpp" bodystart="74" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a0f2c6261591c1656ccfc5210d828bc68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Selection::y</definition>
+        <argsstring>() const</argsstring>
+        <name>y</name>
+        <qualifiedname>Selection::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the top position of the selection. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="76" column="9" bodyfile="Selection.cpp" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a02e7406ccd627978281b0d571468c174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::move</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>move</name>
+        <qualifiedname>Selection::move</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move the selection&apos;s top-left corner to the given coordinates. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="81" column="10" bodyfile="Selection.cpp" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a42c62cee4f889ef466446b408054ea19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>Selection::clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make the selection entirely unselected. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="86" column="10" bodyfile="Selection.cpp" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a44745ab7e6cb775ae3d4c44bfe56dfcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::contract</definition>
+        <argsstring>(int value)</argsstring>
+        <name>contract</name>
+        <qualifiedname>Selection::contract</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make the selection&apos;s width and height smaller by the given value. This will not move the selection&apos;s top-left position. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="92" column="10" bodyfile="Selection.cpp" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a1d83f93d752d14ed8ebb23d200823330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::copy</definition>
+        <argsstring>(Node *node)</argsstring>
+        <name>copy</name>
+        <qualifiedname>Selection::copy</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>copy copies the area defined by the selection from the node to the clipboard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node from where the pixels will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="98" column="10" bodyfile="Selection.cpp" bodystart="113" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a077eda8c5bcf4e3d21b41181f11b8d27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::cut</definition>
+        <argsstring>(Node *node)</argsstring>
+        <name>cut</name>
+        <qualifiedname>Selection::cut</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>cut erases the area defined by the selection from the node and puts a copy on the clipboard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node from which the selection will be cut. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="104" column="10" bodyfile="Selection.cpp" bodystart="154" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a2539341007525c6013739d1df9040c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::paste</definition>
+        <argsstring>(Node *destination, int x, int y)</argsstring>
+        <name>paste</name>
+        <qualifiedname>Selection::paste</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>paste pastes the content of the clipboard to the given node, limited by the area of the current selection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node where the pixels will be written </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the x position at which the clip will be written </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the y position at which the clip will be written </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="113" column="10" bodyfile="Selection.cpp" bodystart="166" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1aa7968ce2bb64685bb1ec8a8a390a889c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::erode</definition>
+        <argsstring>()</argsstring>
+        <name>erode</name>
+        <qualifiedname>Selection::erode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erode the selection with a radius of 1 pixel. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="118" column="10" bodyfile="Selection.cpp" bodystart="183" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a884bc1ff6d8f6e28c58fd210b689af35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::dilate</definition>
+        <argsstring>()</argsstring>
+        <name>dilate</name>
+        <qualifiedname>Selection::dilate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dilate the selection with a radius of 1 pixel. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="123" column="10" bodyfile="Selection.cpp" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1ac111f4acbd04d762e6141bc6da12e775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::border</definition>
+        <argsstring>(int xRadius, int yRadius)</argsstring>
+        <name>border</name>
+        <qualifiedname>Selection::border</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>xRadius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Border the selection with the given radius. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="128" column="10" bodyfile="Selection.cpp" bodystart="199" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1aa9fe635130efac610af0774b3a158d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::feather</definition>
+        <argsstring>(int radius)</argsstring>
+        <name>feather</name>
+        <qualifiedname>Selection::feather</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Feather the selection with the given radius. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="133" column="10" bodyfile="Selection.cpp" bodystart="207" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1ae37b7e1c5132df469b843acb90d97f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::grow</definition>
+        <argsstring>(int xradius, int yradius)</argsstring>
+        <name>grow</name>
+        <qualifiedname>Selection::grow</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>xradius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yradius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Grow the selection with the given radius. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="138" column="10" bodyfile="Selection.cpp" bodystart="215" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a4fa46883dada30d4c1c2b783fda35ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::shrink</definition>
+        <argsstring>(int xRadius, int yRadius, bool edgeLock)</argsstring>
+        <name>shrink</name>
+        <qualifiedname>Selection::shrink</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>xRadius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yRadius</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>edgeLock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrink the selection with the given radius. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="143" column="10" bodyfile="Selection.cpp" bodystart="224" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a5c4f082416f5527b18661fdebf3708da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::smooth</definition>
+        <argsstring>()</argsstring>
+        <name>smooth</name>
+        <qualifiedname>Selection::smooth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Smooth the selection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="148" column="10" bodyfile="Selection.cpp" bodystart="232" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1abd772b69215ac54679d6716088d57668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::invert</definition>
+        <argsstring>()</argsstring>
+        <name>invert</name>
+        <qualifiedname>Selection::invert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invert the selection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="153" column="10" bodyfile="Selection.cpp" bodystart="241" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a036b95b7ccf09d8800cb66f9ffe20f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::resize</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>resize</name>
+        <qualifiedname>Selection::resize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resize the selection to the given width and height. The top-left position will not be moved. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="158" column="10" bodyfile="Selection.cpp" bodystart="249" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1aeb3fa6d4798bda68696776a72674c454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::select</definition>
+        <argsstring>(int x, int y, int w, int h, int value)</argsstring>
+        <name>select</name>
+        <qualifiedname>Selection::select</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Select the given area. The value can be between 0 and 255; 0 is totally unselected, 255 is totally selected. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="164" column="10" bodyfile="Selection.cpp" bodystart="255" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a2a435eefaf5949ab363e797d5c25110b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::selectAll</definition>
+        <argsstring>(Node *node, int value)</argsstring>
+        <name>selectAll</name>
+        <qualifiedname>Selection::selectAll</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Select all pixels in the given node. The value can be between 0 and 255; 0 is totally unselected, 255 is totally selected. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="170" column="10" bodyfile="Selection.cpp" bodystart="261" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1af78133c23180060cb5fd3b6551b997f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::replace</definition>
+        <argsstring>(Selection *selection)</argsstring>
+        <name>replace</name>
+        <qualifiedname>Selection::replace</qualifiedname>
+        <param>
+          <type><ref refid="class_selection" kindref="compound">Selection</ref> *</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replace the current selection&apos;s selection with the one of the given selection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="175" column="10" bodyfile="Selection.cpp" bodystart="267" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1ae9cfda5228b362975d3faa5d18fb241a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::add</definition>
+        <argsstring>(Selection *selection)</argsstring>
+        <name>add</name>
+        <qualifiedname>Selection::add</qualifiedname>
+        <param>
+          <type><ref refid="class_selection" kindref="compound">Selection</ref> *</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add the given selection&apos;s selected pixels to the current selection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="180" column="10" bodyfile="Selection.cpp" bodystart="273" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a6f2a922e2371975b0d8116539fcb3bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::subtract</definition>
+        <argsstring>(Selection *selection)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>Selection::subtract</qualifiedname>
+        <param>
+          <type><ref refid="class_selection" kindref="compound">Selection</ref> *</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtract the given selection&apos;s selected pixels from the current selection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="185" column="10" bodyfile="Selection.cpp" bodystart="279" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1a11c6eb0657de4c02003090eb73af7a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::intersect</definition>
+        <argsstring>(Selection *selection)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>Selection::intersect</qualifiedname>
+        <param>
+          <type><ref refid="class_selection" kindref="compound">Selection</ref> *</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Intersect the given selection with this selection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="190" column="10" bodyfile="Selection.cpp" bodystart="285" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1af9b6d1bba8188facfcdc9969b585c335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::symmetricdifference</definition>
+        <argsstring>(Selection *selection)</argsstring>
+        <name>symmetricdifference</name>
+        <qualifiedname>Selection::symmetricdifference</qualifiedname>
+        <param>
+          <type><ref refid="class_selection" kindref="compound">Selection</ref> *</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Intersect with the inverse of the given selection with this selection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="195" column="10" bodyfile="Selection.cpp" bodystart="291" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1ac60a4eee7f1ec180bbaf03325d14808e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray Selection::pixelData</definition>
+        <argsstring>(int x, int y, int w, int h) const</argsstring>
+        <name>pixelData</name>
+        <qualifiedname>Selection::pixelData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>pixelData reads the given rectangle from the <ref refid="class_selection" kindref="compound">Selection</ref>&apos;s mask and returns it as a byte array. The pixel data starts top-left, and is ordered row-first. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The byte array will contain one byte for every pixel, representing the selectedness. 0 is totally unselected, 255 is fully selected.</para>
+<para>You can read outside the <ref refid="class_selection" kindref="compound">Selection</ref>&apos;s boundaries; those pixels will be unselected.</para>
+<para>The byte array is a copy of the original selection data. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y position from where to start reading </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>row length to read </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of rows to read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a QByteArray with the pixel data. The byte array may be empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="213" column="16" bodyfile="Selection.cpp" bodystart="298" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_selection_1ab34dc5c78c34b96061c65a8ab448a2ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Selection::setPixelData</definition>
+        <argsstring>(QByteArray value, int x, int y, int w, int h)</argsstring>
+        <name>setPixelData</name>
+        <qualifiedname>Selection::setPixelData</qualifiedname>
+        <param>
+          <type>QByteArray</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>setPixelData writes the given bytes, of which there must be enough, into the <ref refid="class_selection" kindref="compound">Selection</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the byte array representing the pixels. There must be enough bytes available. <ref refid="class_krita" kindref="compound">Krita</ref> will take the raw pointer from the QByteArray and start reading, not stopping before (w * h) bytes are read.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the x position to start writing from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the y position to start writing from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width of each row </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of rows to write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="228" column="10" bodyfile="Selection.cpp" bodystart="310" bodyend="316"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_selection_1a2b9fa0a7a367a5f4bbc87007b44ef0af" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisSelectionSP</type>
+        <definition>KisSelectionSP Selection::selection</definition>
+        <argsstring>() const</argsstring>
+        <name>selection</name>
+        <qualifiedname>Selection::selection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.h" line="238" column="20" bodyfile="Selection.cpp" bodystart="318" bodyend="321"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_selection" kindref="compound">Selection</ref> represents a selection on <ref refid="class_krita" kindref="compound">Krita</ref>. A selection is not necessarily associated with a particular <ref refid="class_node" kindref="compound">Node</ref> or Image.</para>
+<para><programlisting><codeline><highlight class="normal">from<sp/>krita<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">d<sp/>=<sp/>Application.activeDocument()</highlight></codeline>
+<codeline><highlight class="normal">n<sp/>=<sp/>d.activeNode()</highlight></codeline>
+<codeline><highlight class="normal">r<sp/>=<sp/>n.bounds()<sp/></highlight></codeline>
+<codeline><highlight class="normal">s<sp/>=<sp/>Selection()</highlight></codeline>
+<codeline><highlight class="normal">s.select(r.width()<sp/>/<sp/>3,<sp/>r.height()<sp/>/<sp/>3,<sp/>r.width()<sp/>/<sp/>3,<sp/>r.height()<sp/>/<sp/>3,<sp/>255)</highlight></codeline>
+<codeline><highlight class="normal">s.cut(n)</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Selection</label>
+        <link refid="class_selection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Selection</label>
+        <link refid="class_selection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Selection.h" line="30" column="1" bodyfile="Selection.h" bodystart="31" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_selection_1ae9cfda5228b362975d3faa5d18fb241a" prot="public" virt="non-virtual"><scope>Selection</scope><name>add</name></member>
+      <member refid="class_selection_1ac111f4acbd04d762e6141bc6da12e775" prot="public" virt="non-virtual"><scope>Selection</scope><name>border</name></member>
+      <member refid="class_selection_1a42c62cee4f889ef466446b408054ea19" prot="public" virt="non-virtual"><scope>Selection</scope><name>clear</name></member>
+      <member refid="class_selection_1a44745ab7e6cb775ae3d4c44bfe56dfcc" prot="public" virt="non-virtual"><scope>Selection</scope><name>contract</name></member>
+      <member refid="class_selection_1a1d83f93d752d14ed8ebb23d200823330" prot="public" virt="non-virtual"><scope>Selection</scope><name>copy</name></member>
+      <member refid="class_selection_1a077eda8c5bcf4e3d21b41181f11b8d27" prot="public" virt="non-virtual"><scope>Selection</scope><name>cut</name></member>
+      <member refid="class_selection_1a8aab14c1e315bbc029da15a9a42f474b" prot="private" virt="non-virtual"><scope>Selection</scope><name>d</name></member>
+      <member refid="class_selection_1a884bc1ff6d8f6e28c58fd210b689af35" prot="public" virt="non-virtual"><scope>Selection</scope><name>dilate</name></member>
+      <member refid="class_selection_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" virt="non-virtual"><scope>Selection</scope><name>Document</name></member>
+      <member refid="class_selection_1a5632fc2a2a1c0837d105ee6964a2ca44" prot="public" virt="non-virtual"><scope>Selection</scope><name>duplicate</name></member>
+      <member refid="class_selection_1aa7968ce2bb64685bb1ec8a8a390a889c" prot="public" virt="non-virtual"><scope>Selection</scope><name>erode</name></member>
+      <member refid="class_selection_1aa9fe635130efac610af0774b3a158d99" prot="public" virt="non-virtual"><scope>Selection</scope><name>feather</name></member>
+      <member refid="class_selection_1ab251dd9a1d9bccc208aab066e0f79293" prot="private" virt="non-virtual"><scope>Selection</scope><name>FillLayer</name></member>
+      <member refid="class_selection_1a9695208225d79ba78b593cf000dd5336" prot="private" virt="non-virtual"><scope>Selection</scope><name>FilterLayer</name></member>
+      <member refid="class_selection_1a4fe02ebc16353b42253f2253af00f19f" prot="private" virt="non-virtual"><scope>Selection</scope><name>FilterMask</name></member>
+      <member refid="class_selection_1ae37b7e1c5132df469b843acb90d97f07" prot="public" virt="non-virtual"><scope>Selection</scope><name>grow</name></member>
+      <member refid="class_selection_1af0f6f0f83581d93af89b7928bd940821" prot="public" virt="non-virtual"><scope>Selection</scope><name>height</name></member>
+      <member refid="class_selection_1a11c6eb0657de4c02003090eb73af7a11" prot="public" virt="non-virtual"><scope>Selection</scope><name>intersect</name></member>
+      <member refid="class_selection_1abd772b69215ac54679d6716088d57668" prot="public" virt="non-virtual"><scope>Selection</scope><name>invert</name></member>
+      <member refid="class_selection_1a02e7406ccd627978281b0d571468c174" prot="public" virt="non-virtual"><scope>Selection</scope><name>move</name></member>
+      <member refid="class_selection_1ae8befe9ec8e3342781f114455e4c53c4" prot="public" virt="non-virtual"><scope>Selection</scope><name>operator!=</name></member>
+      <member refid="class_selection_1a3e926836ea432d8a526af6f25e8405a4" prot="public" virt="non-virtual"><scope>Selection</scope><name>operator==</name></member>
+      <member refid="class_selection_1a2539341007525c6013739d1df9040c62" prot="public" virt="non-virtual"><scope>Selection</scope><name>paste</name></member>
+      <member refid="class_selection_1ac60a4eee7f1ec180bbaf03325d14808e" prot="public" virt="non-virtual"><scope>Selection</scope><name>pixelData</name></member>
+      <member refid="class_selection_1af78133c23180060cb5fd3b6551b997f2" prot="public" virt="non-virtual"><scope>Selection</scope><name>replace</name></member>
+      <member refid="class_selection_1a036b95b7ccf09d8800cb66f9ffe20f4e" prot="public" virt="non-virtual"><scope>Selection</scope><name>resize</name></member>
+      <member refid="class_selection_1aeb3fa6d4798bda68696776a72674c454" prot="public" virt="non-virtual"><scope>Selection</scope><name>select</name></member>
+      <member refid="class_selection_1a2a435eefaf5949ab363e797d5c25110b" prot="public" virt="non-virtual"><scope>Selection</scope><name>selectAll</name></member>
+      <member refid="class_selection_1a2b9fa0a7a367a5f4bbc87007b44ef0af" prot="private" virt="non-virtual"><scope>Selection</scope><name>selection</name></member>
+      <member refid="class_selection_1a23af3e010cef9e92da2c71565e3919bb" prot="public" virt="non-virtual"><scope>Selection</scope><name>Selection</name></member>
+      <member refid="class_selection_1ad5c5603b27185fc441c841274caa3b73" prot="public" virt="non-virtual"><scope>Selection</scope><name>Selection</name></member>
+      <member refid="class_selection_1a7b25d238353a453159ebfa9578e095ea" prot="private" virt="non-virtual"><scope>Selection</scope><name>SelectionMask</name></member>
+      <member refid="class_selection_1ab34dc5c78c34b96061c65a8ab448a2ea" prot="public" virt="non-virtual"><scope>Selection</scope><name>setPixelData</name></member>
+      <member refid="class_selection_1a4fa46883dada30d4c1c2b783fda35ee4" prot="public" virt="non-virtual"><scope>Selection</scope><name>shrink</name></member>
+      <member refid="class_selection_1a5c4f082416f5527b18661fdebf3708da" prot="public" virt="non-virtual"><scope>Selection</scope><name>smooth</name></member>
+      <member refid="class_selection_1a6f2a922e2371975b0d8116539fcb3bf3" prot="public" virt="non-virtual"><scope>Selection</scope><name>subtract</name></member>
+      <member refid="class_selection_1af9b6d1bba8188facfcdc9969b585c335" prot="public" virt="non-virtual"><scope>Selection</scope><name>symmetricdifference</name></member>
+      <member refid="class_selection_1a5090b50c9c5ccd4093b30762a1e769dc" prot="private" virt="non-virtual"><scope>Selection</scope><name>TransparencyMask</name></member>
+      <member refid="class_selection_1a272d8037d9c5dbba114fe0931232ee4c" prot="public" virt="non-virtual"><scope>Selection</scope><name>width</name></member>
+      <member refid="class_selection_1a7823336404ae5c486f80d90831c87749" prot="public" virt="non-virtual"><scope>Selection</scope><name>x</name></member>
+      <member refid="class_selection_1a0f2c6261591c1656ccfc5210d828bc68" prot="public" virt="non-virtual"><scope>Selection</scope><name>y</name></member>
+      <member refid="class_selection_1a5da4c438b8a7ef6295bc1d542305d373" prot="public" virt="non-virtual"><scope>Selection</scope><name>~Selection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

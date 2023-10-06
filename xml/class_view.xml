@@ -1,0 +1,857 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_view" kind="class" language="C++" prot="public">
+    <compoundname>View</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_view_8h" local="no">View.h</includes>
+    <innerclass refid="struct_view_1_1_private" prot="public">View::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_view_1a553f958a25683445088050a69d3de8e9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Window</definition>
+        <argsstring></argsstring>
+        <name>Window</name>
+        <qualifiedname>View::Window</qualifiedname>
+        <param>
+          <type><ref refid="class_window" kindref="compound">Window</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="173" column="18" bodyfile="View.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_view_1a4c09e157d0e3941dd526f3ced7f3d6f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Scratchpad</definition>
+        <argsstring></argsstring>
+        <name>Scratchpad</name>
+        <qualifiedname>View::Scratchpad</qualifiedname>
+        <param>
+          <type><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="174" column="18" bodyfile="View.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_view_1a2d195884b16e2da027910229c28073e2" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_view_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const View::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>View::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="180" column="19" bodyfile="View.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_view_1a1f20f994975aff14d01c86de535ab80e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>View::View</definition>
+        <argsstring>(KisView *view, QObject *parent=0)</argsstring>
+        <name>View</name>
+        <qualifiedname>View::View</qualifiedname>
+        <param>
+          <type>KisView *</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="30" column="14" bodyfile="View.cpp" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_view_1a03c7de75b3d338c79b0fd0100153ca1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>View::~View</definition>
+        <argsstring>() override</argsstring>
+        <name>~View</name>
+        <qualifiedname>View::~View</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="31" column="5" bodyfile="View.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_view_1ab2ea7b4391850f95a99eabcff24da48c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool View::operator==</definition>
+        <argsstring>(const View &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>View::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_view" kindref="compound">View</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="33" column="10" bodyfile="View.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_view_1ae6f9598634dbfdddbac8918283e3cafb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool View::operator!=</definition>
+        <argsstring>(const View &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>View::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_view" kindref="compound">View</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="34" column="10" bodyfile="View.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_view_1aa9ae34c5b6b7340c05547a716ee3da38" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_window" kindref="compound">Window</ref> *</type>
+        <definition>Window * View::window</definition>
+        <argsstring>() const</argsstring>
+        <name>window</name>
+        <qualifiedname>View::window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the window this view is shown in. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="41" column="12" bodyfile="View.cpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1afb79e5ff78dcecb2c9b38b53389f7eda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+        <definition>Document * View::document</definition>
+        <argsstring>() const</argsstring>
+        <name>document</name>
+        <qualifiedname>View::document</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the document this view is showing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="46" column="14" bodyfile="View.cpp" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a4093039939fd6f9f55b942ebe0f82836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setDocument</definition>
+        <argsstring>(Document *document)</argsstring>
+        <name>setDocument</name>
+        <qualifiedname>View::setDocument</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+          <declname>document</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset the view to show <computeroutput>document</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="51" column="10" bodyfile="View.cpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a25efd59adc30472912be0345bd273761" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool View::visible</definition>
+        <argsstring>() const</argsstring>
+        <name>visible</name>
+        <qualifiedname>View::visible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the current view is visible, false if not. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="56" column="10" bodyfile="View.cpp" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1ae5c04a6c590e1c2de2ceea7ab2db6b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setVisible</definition>
+        <argsstring>()</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>View::setVisible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make the current view visible. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="61" column="10" bodyfile="View.cpp" bodystart="89" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a99a088b993877ba6188f114d223b0d64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_canvas" kindref="compound">Canvas</ref> *</type>
+        <definition>Canvas * View::canvas</definition>
+        <argsstring>() const</argsstring>
+        <name>canvas</name>
+        <qualifiedname>View::canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the canvas this view is showing. The canvas controls things like zoom and rotation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="67" column="12" bodyfile="View.cpp" bodystart="97" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a93b1f781d18cdc8d5ed463190fbafc06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::activateResource</definition>
+        <argsstring>(Resource *resource)</argsstring>
+        <name>activateResource</name>
+        <qualifiedname>View::activateResource</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+<para>activateResource activates the given resource. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pattern, gradient or paintop preset </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="73" column="10" bodyfile="View.cpp" bodystart="109" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a51e2829282079de9c30f496430b033ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+        <definition>ManagedColor * View::foregroundColor</definition>
+        <argsstring>() const</argsstring>
+        <name>foregroundColor</name>
+        <qualifiedname>View::foregroundColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>   @brief foregroundColor allows access to the currently active color.
+   This is nominally per canvas/view, but in practice per mainwindow.
+   @code
+</verbatim> color = Application.activeWindow().activeView().<ref refid="class_view_1a51e2829282079de9c30f496430b033ed" kindref="member">foregroundColor()</ref> components = color.components() components[0] = 1.0 components[1] = 0.6 components[2] = 0.7 color.setComponents(components) Application.activeWindow().activeView().setForeGroundColor(color)  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="90" column="18" bodyfile="View.cpp" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1af24996f7c120d102d451cbbc5a4da116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setForeGroundColor</definition>
+        <argsstring>(ManagedColor *color)</argsstring>
+        <name>setForeGroundColor</name>
+        <qualifiedname>View::setForeGroundColor</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="91" column="10" bodyfile="View.cpp" bodystart="135" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a692583f994437dc7c99a7b1180281a1e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+        <definition>ManagedColor * View::backgroundColor</definition>
+        <argsstring>() const</argsstring>
+        <name>backgroundColor</name>
+        <qualifiedname>View::backgroundColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="93" column="18" bodyfile="View.cpp" bodystart="141" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a27c29c2ecfc2005183fecd06ab283fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setBackGroundColor</definition>
+        <argsstring>(ManagedColor *color)</argsstring>
+        <name>setBackGroundColor</name>
+        <qualifiedname>View::setBackGroundColor</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="94" column="10" bodyfile="View.cpp" bodystart="147" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1aac55de71e884732e62ebcc1f5a12c157" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+        <definition>Resource * View::currentBrushPreset</definition>
+        <argsstring>() const</argsstring>
+        <name>currentBrushPreset</name>
+        <qualifiedname>View::currentBrushPreset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="96" column="14" bodyfile="View.cpp" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a2d00737b10840da6d0994601e45cab09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setCurrentBrushPreset</definition>
+        <argsstring>(Resource *resource)</argsstring>
+        <name>setCurrentBrushPreset</name>
+        <qualifiedname>View::setCurrentBrushPreset</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="97" column="10" bodyfile="View.cpp" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a598a400048c450a851d3f6bbba76c480" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+        <definition>Resource * View::currentPattern</definition>
+        <argsstring>() const</argsstring>
+        <name>currentPattern</name>
+        <qualifiedname>View::currentPattern</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="99" column="14" bodyfile="View.cpp" bodystart="164" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a4c191d34781c257fd92de44f0bc19261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setCurrentPattern</definition>
+        <argsstring>(Resource *resource)</argsstring>
+        <name>setCurrentPattern</name>
+        <qualifiedname>View::setCurrentPattern</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="100" column="10" bodyfile="View.cpp" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1ad7c252c3254754ac458b31cc69d21344" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+        <definition>Resource * View::currentGradient</definition>
+        <argsstring>() const</argsstring>
+        <name>currentGradient</name>
+        <qualifiedname>View::currentGradient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="102" column="14" bodyfile="View.cpp" bodystart="175" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1af7ccfe73e61fb4d49d56f6da4f7e5c65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setCurrentGradient</definition>
+        <argsstring>(Resource *resource)</argsstring>
+        <name>setCurrentGradient</name>
+        <qualifiedname>View::setCurrentGradient</qualifiedname>
+        <param>
+          <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="103" column="10" bodyfile="View.cpp" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a72f0c1287b50223a948b49de40f68b94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString View::currentBlendingMode</definition>
+        <argsstring>() const</argsstring>
+        <name>currentBlendingMode</name>
+        <qualifiedname>View::currentBlendingMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="105" column="13" bodyfile="View.cpp" bodystart="186" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a60e2805bd14cc5765d622b21fa1b67b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setCurrentBlendingMode</definition>
+        <argsstring>(const QString &amp;blendingMode)</argsstring>
+        <name>setCurrentBlendingMode</name>
+        <qualifiedname>View::setCurrentBlendingMode</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>blendingMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="106" column="10" bodyfile="View.cpp" bodystart="192" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a0ffa6c8384429bd51254644a1a57d11a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float View::HDRExposure</definition>
+        <argsstring>() const</argsstring>
+        <name>HDRExposure</name>
+        <qualifiedname>View::HDRExposure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="108" column="11" bodyfile="View.cpp" bodystart="198" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1aa023b0febceefc5fe2b34868a86db385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setHDRExposure</definition>
+        <argsstring>(float exposure)</argsstring>
+        <name>setHDRExposure</name>
+        <qualifiedname>View::setHDRExposure</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>exposure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="109" column="10" bodyfile="View.cpp" bodystart="205" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a4eee99c0d30b2ba782d5cce71d29dbbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float View::HDRGamma</definition>
+        <argsstring>() const</argsstring>
+        <name>HDRGamma</name>
+        <qualifiedname>View::HDRGamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="111" column="11" bodyfile="View.cpp" bodystart="212" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a1d8df11e392d34bcf3a1c80860d248a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setHDRGamma</definition>
+        <argsstring>(float gamma)</argsstring>
+        <name>setHDRGamma</name>
+        <qualifiedname>View::setHDRGamma</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="112" column="10" bodyfile="View.cpp" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a92cec2910cdba5dda3507a7f7412e5dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal View::paintingOpacity</definition>
+        <argsstring>() const</argsstring>
+        <name>paintingOpacity</name>
+        <qualifiedname>View::paintingOpacity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="114" column="11" bodyfile="View.cpp" bodystart="226" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setPaintingOpacity</definition>
+        <argsstring>(qreal opacity)</argsstring>
+        <name>setPaintingOpacity</name>
+        <qualifiedname>View::setPaintingOpacity</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>opacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="115" column="10" bodyfile="View.cpp" bodystart="232" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1afde6199aea404549c344dd531c556a8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal View::brushSize</definition>
+        <argsstring>() const</argsstring>
+        <name>brushSize</name>
+        <qualifiedname>View::brushSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="117" column="11" bodyfile="View.cpp" bodystart="238" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setBrushSize</definition>
+        <argsstring>(qreal brushSize)</argsstring>
+        <name>setBrushSize</name>
+        <qualifiedname>View::setBrushSize</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>brushSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="118" column="10" bodyfile="View.cpp" bodystart="244" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal View::paintingFlow</definition>
+        <argsstring>() const</argsstring>
+        <name>paintingFlow</name>
+        <qualifiedname>View::paintingFlow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="120" column="11" bodyfile="View.cpp" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1ab04ace4224618b8f46059f3d4a85a546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setPaintingFlow</definition>
+        <argsstring>(qreal flow)</argsstring>
+        <name>setPaintingFlow</name>
+        <qualifiedname>View::setPaintingFlow</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>flow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="121" column="10" bodyfile="View.cpp" bodystart="256" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::showFloatingMessage</definition>
+        <argsstring>(const QString &amp;message, const QIcon &amp;icon, int timeout, int priority)</argsstring>
+        <name>showFloatingMessage</name>
+        <qualifiedname>View::showFloatingMessage</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>const QIcon &amp;</type>
+          <declname>icon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+<para>showFloatingMessage displays a floating message box on the top-left corner of the canvas </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Message to be displayed inside the floating message box </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>icon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Icon to be displayed inside the message box next to the message string </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Milliseconds until the message box disappears </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>priority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>0 = High, 1 = Medium, 2 = Low. Higher priority messages will be displayed in place of lower priority messages </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="131" column="10" bodyfile="View.cpp" bodystart="272" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1aa7956b8880a33fe130b5555280b2fb25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>QList&lt; Node * &gt; View::selectedNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>selectedNodes</name>
+        <qualifiedname>View::selectedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>   @brief selectedNodes returns a list of Nodes that are selected in this view.
+</verbatim></para>
+<para><programlisting><codeline><highlight class="normal">from<sp/>krita<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline><highlight class="normal">w<sp/>=<sp/>Krita.instance().activeWindow()</highlight></codeline>
+<codeline><highlight class="normal">v<sp/>=<sp/>w.activeView()</highlight></codeline>
+<codeline><highlight class="normal">selected_nodes<sp/>=<sp/>v.selectedNodes()</highlight></codeline>
+<codeline><highlight class="normal">print(selected_nodes)</highlight></codeline>
+</programlisting></para>
+<para><simplesect kind="return"><para>a list of <ref refid="class_node" kindref="compound">Node</ref> objects which may be empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="148" column="11" bodyfile="View.cpp" bodystart="262" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QTransform</type>
+        <definition>QTransform View::flakeToDocumentTransform</definition>
+        <argsstring>() const</argsstring>
+        <name>flakeToDocumentTransform</name>
+        <qualifiedname>View::flakeToDocumentTransform</qualifiedname>
+        <briefdescription>
+<para>flakeToDocumentTransform The transformation of the document relative to the view without rotation and mirroring </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QTransform </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="155" column="16" bodyfile="View.cpp" bodystart="282" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QTransform</type>
+        <definition>QTransform View::flakeToCanvasTransform</definition>
+        <argsstring>() const</argsstring>
+        <name>flakeToCanvasTransform</name>
+        <qualifiedname>View::flakeToCanvasTransform</qualifiedname>
+        <briefdescription>
+<para>flakeToCanvasTransform The transformation of the canvas relative to the view without rotation and mirroring </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QTransform </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="162" column="16" bodyfile="View.cpp" bodystart="288" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a87b0192a7aa2176455a7a4653858c41f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QTransform</type>
+        <definition>QTransform View::flakeToImageTransform</definition>
+        <argsstring>() const</argsstring>
+        <name>flakeToImageTransform</name>
+        <qualifiedname>View::flakeToImageTransform</qualifiedname>
+        <briefdescription>
+<para>flakeToImageTransform The transformation of the image relative to the view without rotation and mirroring </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QTransform </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="169" column="16" bodyfile="View.cpp" bodystart="294" bodyend="302"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_view_1aa6656cb36ef7ea405798f94456509dc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>KisView *</type>
+        <definition>KisView * View::view</definition>
+        <argsstring>()</argsstring>
+        <name>view</name>
+        <qualifiedname>View::view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="177" column="13" bodyfile="View.cpp" bodystart="104" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_view" kindref="compound">View</ref> represents one view on a document. A document can be shown in more than one view at a time. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>View</label>
+        <link refid="class_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>View</label>
+        <link refid="class_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="View.h" line="24" column="1" bodyfile="View.h" bodystart="25" bodyend="182"/>
+    <listofallmembers>
+      <member refid="class_view_1a93b1f781d18cdc8d5ed463190fbafc06" prot="public" virt="non-virtual"><scope>View</scope><name>activateResource</name></member>
+      <member refid="class_view_1a692583f994437dc7c99a7b1180281a1e" prot="public" virt="non-virtual"><scope>View</scope><name>backgroundColor</name></member>
+      <member refid="class_view_1afde6199aea404549c344dd531c556a8c" prot="public" virt="non-virtual"><scope>View</scope><name>brushSize</name></member>
+      <member refid="class_view_1a99a088b993877ba6188f114d223b0d64" prot="public" virt="non-virtual"><scope>View</scope><name>canvas</name></member>
+      <member refid="class_view_1a72f0c1287b50223a948b49de40f68b94" prot="public" virt="non-virtual"><scope>View</scope><name>currentBlendingMode</name></member>
+      <member refid="class_view_1aac55de71e884732e62ebcc1f5a12c157" prot="public" virt="non-virtual"><scope>View</scope><name>currentBrushPreset</name></member>
+      <member refid="class_view_1ad7c252c3254754ac458b31cc69d21344" prot="public" virt="non-virtual"><scope>View</scope><name>currentGradient</name></member>
+      <member refid="class_view_1a598a400048c450a851d3f6bbba76c480" prot="public" virt="non-virtual"><scope>View</scope><name>currentPattern</name></member>
+      <member refid="class_view_1a2d195884b16e2da027910229c28073e2" prot="private" virt="non-virtual"><scope>View</scope><name>d</name></member>
+      <member refid="class_view_1afb79e5ff78dcecb2c9b38b53389f7eda" prot="public" virt="non-virtual"><scope>View</scope><name>document</name></member>
+      <member refid="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" prot="public" virt="non-virtual"><scope>View</scope><name>flakeToCanvasTransform</name></member>
+      <member refid="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" prot="public" virt="non-virtual"><scope>View</scope><name>flakeToDocumentTransform</name></member>
+      <member refid="class_view_1a87b0192a7aa2176455a7a4653858c41f" prot="public" virt="non-virtual"><scope>View</scope><name>flakeToImageTransform</name></member>
+      <member refid="class_view_1a51e2829282079de9c30f496430b033ed" prot="public" virt="non-virtual"><scope>View</scope><name>foregroundColor</name></member>
+      <member refid="class_view_1a0ffa6c8384429bd51254644a1a57d11a" prot="public" virt="non-virtual"><scope>View</scope><name>HDRExposure</name></member>
+      <member refid="class_view_1a4eee99c0d30b2ba782d5cce71d29dbbb" prot="public" virt="non-virtual"><scope>View</scope><name>HDRGamma</name></member>
+      <member refid="class_view_1ae6f9598634dbfdddbac8918283e3cafb" prot="public" virt="non-virtual"><scope>View</scope><name>operator!=</name></member>
+      <member refid="class_view_1ab2ea7b4391850f95a99eabcff24da48c" prot="public" virt="non-virtual"><scope>View</scope><name>operator==</name></member>
+      <member refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" prot="public" virt="non-virtual"><scope>View</scope><name>paintingFlow</name></member>
+      <member refid="class_view_1a92cec2910cdba5dda3507a7f7412e5dc" prot="public" virt="non-virtual"><scope>View</scope><name>paintingOpacity</name></member>
+      <member refid="class_view_1a4c09e157d0e3941dd526f3ced7f3d6f7" prot="private" virt="non-virtual"><scope>View</scope><name>Scratchpad</name></member>
+      <member refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" prot="public" virt="non-virtual"><scope>View</scope><name>selectedNodes</name></member>
+      <member refid="class_view_1a27c29c2ecfc2005183fecd06ab283fe7" prot="public" virt="non-virtual"><scope>View</scope><name>setBackGroundColor</name></member>
+      <member refid="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" prot="public" virt="non-virtual"><scope>View</scope><name>setBrushSize</name></member>
+      <member refid="class_view_1a60e2805bd14cc5765d622b21fa1b67b5" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentBlendingMode</name></member>
+      <member refid="class_view_1a2d00737b10840da6d0994601e45cab09" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentBrushPreset</name></member>
+      <member refid="class_view_1af7ccfe73e61fb4d49d56f6da4f7e5c65" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentGradient</name></member>
+      <member refid="class_view_1a4c191d34781c257fd92de44f0bc19261" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentPattern</name></member>
+      <member refid="class_view_1a4093039939fd6f9f55b942ebe0f82836" prot="public" virt="non-virtual"><scope>View</scope><name>setDocument</name></member>
+      <member refid="class_view_1af24996f7c120d102d451cbbc5a4da116" prot="public" virt="non-virtual"><scope>View</scope><name>setForeGroundColor</name></member>
+      <member refid="class_view_1aa023b0febceefc5fe2b34868a86db385" prot="public" virt="non-virtual"><scope>View</scope><name>setHDRExposure</name></member>
+      <member refid="class_view_1a1d8df11e392d34bcf3a1c80860d248a2" prot="public" virt="non-virtual"><scope>View</scope><name>setHDRGamma</name></member>
+      <member refid="class_view_1ab04ace4224618b8f46059f3d4a85a546" prot="public" virt="non-virtual"><scope>View</scope><name>setPaintingFlow</name></member>
+      <member refid="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" prot="public" virt="non-virtual"><scope>View</scope><name>setPaintingOpacity</name></member>
+      <member refid="class_view_1ae5c04a6c590e1c2de2ceea7ab2db6b9f" prot="public" virt="non-virtual"><scope>View</scope><name>setVisible</name></member>
+      <member refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" prot="public" virt="non-virtual"><scope>View</scope><name>showFloatingMessage</name></member>
+      <member refid="class_view_1aa6656cb36ef7ea405798f94456509dc4" prot="private" virt="non-virtual"><scope>View</scope><name>view</name></member>
+      <member refid="class_view_1a1f20f994975aff14d01c86de535ab80e" prot="public" virt="non-virtual"><scope>View</scope><name>View</name></member>
+      <member refid="class_view_1a25efd59adc30472912be0345bd273761" prot="public" virt="non-virtual"><scope>View</scope><name>visible</name></member>
+      <member refid="class_view_1aa9ae34c5b6b7340c05547a716ee3da38" prot="public" virt="non-virtual"><scope>View</scope><name>window</name></member>
+      <member refid="class_view_1a553f958a25683445088050a69d3de8e9" prot="private" virt="non-virtual"><scope>View</scope><name>Window</name></member>
+      <member refid="class_view_1a03c7de75b3d338c79b0fd0100153ca1d" prot="public" virt="non-virtual"><scope>View</scope><name>~View</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

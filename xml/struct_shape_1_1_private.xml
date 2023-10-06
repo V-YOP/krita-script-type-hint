@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_shape_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Shape::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_shape_1_1_private_1a2a9110b0b4546b7a911cb5d384e35056" prot="public" static="no" mutable="no">
+        <type>KoShape *</type>
+        <definition>KoShape* Shape::Private::shape</definition>
+        <argsstring></argsstring>
+        <name>shape</name>
+        <qualifiedname>Shape::Private::shape</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.cpp" line="28" column="13" bodyfile="Shape.cpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_shape_1_1_private_1a150144f498a90f9ced1393007a17aad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Shape::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Shape::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.cpp" line="27" column="5" bodyfile="Shape.cpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Shape.cpp" line="26" column="1" bodyfile="Shape.cpp" bodystart="26" bodyend="29"/>
+    <listofallmembers>
+      <member refid="struct_shape_1_1_private_1a150144f498a90f9ced1393007a17aad3" prot="public" virt="non-virtual"><scope>Shape::Private</scope><name>Private</name></member>
+      <member refid="struct_shape_1_1_private_1a2a9110b0b4546b7a911cb5d384e35056" prot="public" virt="non-virtual"><scope>Shape::Private</scope><name>shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

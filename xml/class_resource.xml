@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_resource" kind="class" language="C++" prot="public">
+    <compoundname>Resource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_resource_8h" local="no">Resource.h</includes>
+    <innerclass refid="struct_resource_1_1_private" prot="public">Resource::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_resource_1adc6116f1906ffab2ec6999a6e52df0b7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class PresetChooser</definition>
+        <argsstring></argsstring>
+        <name>PresetChooser</name>
+        <qualifiedname>Resource::PresetChooser</qualifiedname>
+        <param>
+          <type><ref refid="class_preset_chooser" kindref="compound">PresetChooser</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="91" column="18" bodyfile="Resource.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_resource_1a018ff8a950133459fda57a235706a80b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class View</definition>
+        <argsstring></argsstring>
+        <name>View</name>
+        <qualifiedname>Resource::View</qualifiedname>
+        <param>
+          <type><ref refid="class_view" kindref="compound">View</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="92" column="18" bodyfile="Resource.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_resource_1a2b0840855555be34f5b522592031d1af" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Palette</definition>
+        <argsstring></argsstring>
+        <name>Palette</name>
+        <qualifiedname>Resource::Palette</qualifiedname>
+        <param>
+          <type><ref refid="class_palette" kindref="compound">Palette</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="93" column="18" bodyfile="Resource.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_resource_1ad3f56d18622fd9af0064d524c0b50d7a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Preset</definition>
+        <argsstring></argsstring>
+        <name>Preset</name>
+        <qualifiedname>Resource::Preset</qualifiedname>
+        <param>
+          <type><ref refid="class_preset" kindref="compound">Preset</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="94" column="18" bodyfile="Resource.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_resource_1a12ad4f275dc739792be4335e11a7a45f" prot="private" static="no" mutable="no">
+        <type>QScopedPointer&lt; <ref refid="struct_resource_1_1_private" kindref="compound">Private</ref> &gt;</type>
+        <definition>QScopedPointer&lt;Private&gt; Resource::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Resource::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="98" column="20" bodyfile="Resource.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_resource_1a08cfe065cadf585802e9e8fd01500cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Resource::Resource</definition>
+        <argsstring>(int resourceId, const QString &amp;type, const QString &amp;name, const QString &amp;filename, const QImage &amp;image, QObject *parent=0)</argsstring>
+        <name>Resource</name>
+        <qualifiedname>Resource::Resource</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const QImage &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="35" column="5" bodyfile="Resource.cpp" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resource_1ae710e1cbd9388fba470ad35e8e5d7c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Resource::Resource</definition>
+        <argsstring>(KoResourceSP resource, const QString &amp;type, QObject *parent=0)</argsstring>
+        <name>Resource</name>
+        <qualifiedname>Resource::Resource</qualifiedname>
+        <param>
+          <type>KoResourceSP</type>
+          <declname>resource</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="36" column="5" bodyfile="Resource.cpp" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resource_1a82b84bab09fd9b9be8a56af0bda43f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Resource::~Resource</definition>
+        <argsstring>() override</argsstring>
+        <name>~Resource</name>
+        <qualifiedname>Resource::~Resource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="37" column="5" bodyfile="Resource.cpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resource_1ababb9fe80f024a4f03a19fa00372757c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Resource::Resource</definition>
+        <argsstring>(const Resource &amp;rhs)</argsstring>
+        <name>Resource</name>
+        <qualifiedname>Resource::Resource</qualifiedname>
+        <param>
+          <type>const <ref refid="class_resource" kindref="compound">Resource</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="38" column="5" bodyfile="Resource.cpp" bodystart="55" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resource_1a5a2b169aedbdc269d4966f5bb023fd74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Resource::operator==</definition>
+        <argsstring>(const Resource &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Resource::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_resource" kindref="compound">Resource</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="40" column="10" bodyfile="Resource.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resource_1abcd1e7ccb0a947f519b2bbc7fad1fd17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Resource::operator!=</definition>
+        <argsstring>(const Resource &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Resource::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_resource" kindref="compound">Resource</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="41" column="10" bodyfile="Resource.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resource_1ada42ecac30377a1270b16eca17a75a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_resource" kindref="compound">Resource</ref></type>
+        <definition>Resource Resource::operator=</definition>
+        <argsstring>(const Resource &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>Resource::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_resource" kindref="compound">Resource</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="42" column="14" bodyfile="Resource.cpp" bodystart="76" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_resource_1a6e294d52be9bcbe01a52c61a9f967c36" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Resource::type</definition>
+        <argsstring>() const</argsstring>
+        <name>type</name>
+        <qualifiedname>Resource::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the type of this resource. Valid types are: <itemizedlist>
+<listitem>
+<para>pattern: a raster image representing a pattern </para>
+</listitem>
+<listitem>
+<para>gradient: a gradient </para>
+</listitem>
+<listitem>
+<para>brush: a brush tip </para>
+</listitem>
+<listitem>
+<para>preset: a brush preset </para>
+</listitem>
+<listitem>
+<para>palette: a color set </para>
+</listitem>
+<listitem>
+<para>workspace: a workspace definition. </para>
+</listitem>
+</itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="58" column="13" bodyfile="Resource.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_resource_1a05c867777670d0eb14767319fba14dc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Resource::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>Resource::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The user-visible name of the resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="63" column="13" bodyfile="Resource.cpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_resource_1a14c600896ae7fc78a443645e09042089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Resource::setName</definition>
+        <argsstring>(QString value)</argsstring>
+        <name>setName</name>
+        <qualifiedname>Resource::setName</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setName changes the user-visible name of the current resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="68" column="10" bodyfile="Resource.cpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_resource_1aeef17a630621dd054e6493531e090a62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Resource::filename</definition>
+        <argsstring>() const</argsstring>
+        <name>filename</name>
+        <qualifiedname>Resource::filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The filename of the resource, if present. Not all resources are loaded from files. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="74" column="13" bodyfile="Resource.cpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_resource_1a96f9d1edbe52d44fc78aa835b53ca3e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QImage</type>
+        <definition>QImage Resource::image</definition>
+        <argsstring>() const</argsstring>
+        <name>image</name>
+        <qualifiedname>Resource::image</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An image that can be used to represent the resource in the user interface. For some resources, like patterns, the image is identical to the resource, for others it&apos;s a mere icon. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="82" column="12" bodyfile="Resource.cpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_resource_1afd53d2d6a680e0b033a5bc9df9ae0e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Resource::setImage</definition>
+        <argsstring>(QImage image)</argsstring>
+        <name>setImage</name>
+        <qualifiedname>Resource::setImage</qualifiedname>
+        <param>
+          <type>QImage</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change the image for this resource. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="87" column="10" bodyfile="Resource.cpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_resource_1adb733f32769a07e0b1748844b0dcceec" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KoResourceSP</type>
+        <definition>KoResourceSP Resource::resource</definition>
+        <argsstring>() const</argsstring>
+        <name>resource</name>
+        <qualifiedname>Resource::resource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resource.h" line="95" column="18" bodyfile="Resource.cpp" bodystart="117" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="class_resource" kindref="compound">Resource</ref> represents a gradient, pattern, brush tip, brush preset, palette or workspace definition.</para>
+<para><programlisting><codeline><highlight class="normal">allPresets<sp/>=<sp/>Application.resources(</highlight><highlight class="stringliteral">&quot;preset&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>preset<sp/>in<sp/>allPresets:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>print(preset.name())</highlight></codeline>
+</programlisting></para>
+<para>Resources are identified by their type, name and filename. If you want to change the contents of a resource, you should read its data using data(), parse it and write the changed contents back. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Resource</label>
+        <link refid="class_resource"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Resource</label>
+        <link refid="class_resource"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Resource.h" line="30" column="1" bodyfile="Resource.h" bodystart="31" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_resource_1a12ad4f275dc739792be4335e11a7a45f" prot="private" virt="non-virtual"><scope>Resource</scope><name>d</name></member>
+      <member refid="class_resource_1aeef17a630621dd054e6493531e090a62" prot="public" virt="non-virtual"><scope>Resource</scope><name>filename</name></member>
+      <member refid="class_resource_1a96f9d1edbe52d44fc78aa835b53ca3e5" prot="public" virt="non-virtual"><scope>Resource</scope><name>image</name></member>
+      <member refid="class_resource_1a05c867777670d0eb14767319fba14dc3" prot="public" virt="non-virtual"><scope>Resource</scope><name>name</name></member>
+      <member refid="class_resource_1abcd1e7ccb0a947f519b2bbc7fad1fd17" prot="public" virt="non-virtual"><scope>Resource</scope><name>operator!=</name></member>
+      <member refid="class_resource_1ada42ecac30377a1270b16eca17a75a9f" prot="public" virt="non-virtual"><scope>Resource</scope><name>operator=</name></member>
+      <member refid="class_resource_1a5a2b169aedbdc269d4966f5bb023fd74" prot="public" virt="non-virtual"><scope>Resource</scope><name>operator==</name></member>
+      <member refid="class_resource_1a2b0840855555be34f5b522592031d1af" prot="private" virt="non-virtual"><scope>Resource</scope><name>Palette</name></member>
+      <member refid="class_resource_1ad3f56d18622fd9af0064d524c0b50d7a" prot="private" virt="non-virtual"><scope>Resource</scope><name>Preset</name></member>
+      <member refid="class_resource_1adc6116f1906ffab2ec6999a6e52df0b7" prot="private" virt="non-virtual"><scope>Resource</scope><name>PresetChooser</name></member>
+      <member refid="class_resource_1a08cfe065cadf585802e9e8fd01500cf5" prot="public" virt="non-virtual"><scope>Resource</scope><name>Resource</name></member>
+      <member refid="class_resource_1ae710e1cbd9388fba470ad35e8e5d7c76" prot="public" virt="non-virtual"><scope>Resource</scope><name>Resource</name></member>
+      <member refid="class_resource_1ababb9fe80f024a4f03a19fa00372757c" prot="public" virt="non-virtual"><scope>Resource</scope><name>Resource</name></member>
+      <member refid="class_resource_1adb733f32769a07e0b1748844b0dcceec" prot="private" virt="non-virtual"><scope>Resource</scope><name>resource</name></member>
+      <member refid="class_resource_1afd53d2d6a680e0b033a5bc9df9ae0e41" prot="public" virt="non-virtual"><scope>Resource</scope><name>setImage</name></member>
+      <member refid="class_resource_1a14c600896ae7fc78a443645e09042089" prot="public" virt="non-virtual"><scope>Resource</scope><name>setName</name></member>
+      <member refid="class_resource_1a6e294d52be9bcbe01a52c61a9f967c36" prot="public" virt="non-virtual"><scope>Resource</scope><name>type</name></member>
+      <member refid="class_resource_1a018ff8a950133459fda57a235706a80b" prot="private" virt="non-virtual"><scope>Resource</scope><name>View</name></member>
+      <member refid="class_resource_1a82b84bab09fd9b9be8a56af0bda43f35" prot="public" virt="non-virtual"><scope>Resource</scope><name>~Resource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

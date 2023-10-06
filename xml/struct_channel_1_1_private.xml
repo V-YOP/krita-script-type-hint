@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_channel_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Channel::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_channel_1_1_private_1ae8136eda82e98a18d9329cdf244a7a5d" prot="public" static="no" mutable="no">
+        <type>KisNodeSP</type>
+        <definition>KisNodeSP Channel::Private::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <qualifiedname>Channel::Private::node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Channel.cpp" line="25" column="15" bodyfile="Channel.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_channel_1_1_private_1a270b50676bff1f61fa8ce7eab9aea4ca" prot="public" static="no" mutable="no">
+        <type>KoChannelInfo *</type>
+        <definition>KoChannelInfo* Channel::Private::channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <qualifiedname>Channel::Private::channel</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Channel.cpp" line="26" column="19" bodyfile="Channel.cpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_channel_1_1_private_1a4fdb9695d4bd44e1704fc1dadcec420b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Channel::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Channel::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Channel.cpp" line="23" column="5" bodyfile="Channel.cpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Channel.cpp" line="22" column="1" bodyfile="Channel.cpp" bodystart="22" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_channel_1_1_private_1a270b50676bff1f61fa8ce7eab9aea4ca" prot="public" virt="non-virtual"><scope>Channel::Private</scope><name>channel</name></member>
+      <member refid="struct_channel_1_1_private_1ae8136eda82e98a18d9329cdf244a7a5d" prot="public" virt="non-virtual"><scope>Channel::Private</scope><name>node</name></member>
+      <member refid="struct_channel_1_1_private_1a4fdb9695d4bd44e1704fc1dadcec420b" prot="public" virt="non-virtual"><scope>Channel::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

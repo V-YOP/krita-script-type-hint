@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_preset_chooser_8cpp" kind="file" language="C++">
+    <compoundname>PresetChooser.cpp</compoundname>
+    <includes refid="_preset_chooser_8h" local="yes">PresetChooser.h</includes>
+    <includes local="no">KoResource.h</includes>
+    <includes local="no">kis_config.h</includes>
+    <includes refid="_resource_8h" local="yes">Resource.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>PresetChooser.cpp</label>
+        <link refid="_preset_chooser_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PresetChooser.h</label>
+        <link refid="_preset_chooser_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Resource.h</label>
+        <link refid="_resource_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>libkis.h</label>
+        <link refid="libkis_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>KoResource.h</label>
+      </node>
+      <node id="13">
+        <label>QAction</label>
+      </node>
+      <node id="12">
+        <label>QByteArray</label>
+      </node>
+      <node id="8">
+        <label>QList</label>
+      </node>
+      <node id="11">
+        <label>QMap</label>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="17">
+        <label>QScopedPointer</label>
+      </node>
+      <node id="9">
+        <label>QString</label>
+      </node>
+      <node id="10">
+        <label>QVariant</label>
+      </node>
+      <node id="4">
+        <label>QWidget</label>
+      </node>
+      <node id="15">
+        <label>kis_config.h</label>
+      </node>
+      <node id="5">
+        <label>kis_preset_chooser.h</label>
+      </node>
+      <node id="18">
+        <label>kis_types.h</label>
+      </node>
+      <node id="6">
+        <label>kritalibkis_export.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-FileCopyrightText:<sp/>2017<sp/>Boudewijn<sp/>Rempt<sp/>&lt;boud@valdyas.org&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-License-Identifier:<sp/>LGPL-2.0-or-later</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;PresetChooser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoResource.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_config.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Resource.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">PresetChooser::PresetChooser(QWidget<sp/>*parent)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>KisPresetChooser(parent)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SIGNAL(resourceSelected(KoResourceSP<sp/>)),<sp/>SLOT(slotResourceSelected(KoResourceSP<sp/>)));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SIGNAL(resourceClicked(KoResourceSP<sp/>)),<sp/>SLOT(slotResourceClicked(KoResourceSP<sp/>)));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>showTaggingBar(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_preset_chooser_1a6452e5c15de81fa7ef5b71c22d2e56be" kindref="member">PresetChooser::setCurrentPreset</ref>(<ref refid="class_resource" kindref="compound">Resource</ref><sp/>*resource)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>KoResourceSP<sp/>r<sp/>=<sp/>resource-&gt;resource();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>setCurrentResource(r);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="class_resource" kindref="compound">Resource</ref><sp/>*<ref refid="class_preset_chooser_1a7257cd743ef896e0f39c9f8a0a8c59a5" kindref="member">PresetChooser::currentPreset</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="28"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>KoResourceSP<sp/>r<sp/>=<sp/>currentResource();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(r)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_resource" kindref="compound">Resource</ref>(r-&gt;resourceId(),<sp/></highlight><highlight class="stringliteral">&quot;paintoppreset&quot;</highlight><highlight class="normal">,<sp/>r-&gt;name(),<sp/>r-&gt;filename(),<sp/>r-&gt;image());</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PresetChooser::slotResourceSelected(KoResourceSP<sp/>r)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_preset_chooser_1a0b65c059ed2d57a4e020926b2ff55c0d" kindref="member">presetSelected</ref>(<ref refid="class_resource" kindref="compound">Resource</ref>(r-&gt;resourceId(),<sp/></highlight><highlight class="stringliteral">&quot;paintoppreset&quot;</highlight><highlight class="normal">,<sp/>r-&gt;name(),<sp/>r-&gt;filename(),<sp/>r-&gt;image()));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PresetChooser::slotResourceClicked(KoResourceSP<sp/>r)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_preset_chooser_1abbead2d8b7ce60ab364067865eaeb194" kindref="member">presetClicked</ref>(<ref refid="class_resource" kindref="compound">Resource</ref>(r-&gt;resourceId(),<sp/></highlight><highlight class="stringliteral">&quot;paintoppreset&quot;</highlight><highlight class="normal">,<sp/>r-&gt;name(),<sp/>r-&gt;filename(),<sp/>r-&gt;image()));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="PresetChooser.cpp"/>
+  </compounddef>
+</doxygen>

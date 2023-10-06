@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>libkis: Krita Scripting and Plugin Wrapper Library</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Libkis is a QObject-based wrapper around <ref refid="class_krita" kindref="compound">Krita</ref>&apos;s internal libraries. The wrapper can be used from C++ plugins that do not need the advanced and volatile internal libraries of <ref refid="class_krita" kindref="compound">Krita</ref>, or can be bound to scripting languages like Python or Javascript.</para>
+<para>All classes are based on QObject, so QMetaObject introspection can be used to discover properties, slots and signals and automatically expose all functionality to the client.</para>
+<para>Note that all objects that are created are wrapper objects that are owned by the scripting environment or the plugin.</para>
+<para>Using the functionality in this library, either through a scripting environment like Python or Javascript, or directly from C++, you can, among other things achieve the following functionality:</para>
+<para><itemizedlist>
+<listitem>
+<para>Open, save, export, rename files. </para>
+</listitem>
+<listitem>
+<para>Access the layers and masks in a file </para>
+</listitem>
+<listitem>
+<para>Read and write pixel data </para>
+</listitem>
+<listitem>
+<para>Add menu items, toolbar items and docker palettes </para>
+</listitem>
+</itemizedlist>
+</para>
+<para>The reference implementation of scripting in <ref refid="class_krita" kindref="compound">Krita</ref> is implemented in Python 3. All examples in the documentation for scripting will be provided using Python, although the api documentation is generated from C++ header files and shows c++ syntax for arguments.</para>
+<sect1 id="index_1autotoc_md0">
+<title>Autostarting Scripts</title>
+<para>Autostarting scripts or script-based plugins are scripts that <ref refid="class_krita" kindref="compound">Krita</ref> loads on startup. You can add autostarting scripts to <ref refid="class_krita" kindref="compound">Krita</ref> by placing them in the pykrita folder in the resources folder: go to settings/ manage resources and press the Open Resources Folder to open your local resources folder.</para>
+<para>Scripts are identified by a file that ends in a <computeroutput>.desktop</computeroutput> extension that contain information about the script itself. For example:</para>
+<para><programlisting><codeline><highlight class="normal">[Desktop<sp/>Entry]</highlight></codeline>
+<codeline><highlight class="normal">Type=Service</highlight></codeline>
+<codeline><highlight class="normal">ServiceTypes=<ref refid="class_krita" kindref="compound">Krita</ref>/PythonPlugin</highlight></codeline>
+<codeline><highlight class="normal">X-KDE-Library=hello</highlight></codeline>
+<codeline><highlight class="normal">X-Python-2-Compatible=</highlight><highlight class="keyword">false</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">Name=Hello<sp/>World</highlight></codeline>
+<codeline><highlight class="normal">Comment=Basic<sp/>plugin<sp/>to<sp/>test<sp/>PyKrita</highlight></codeline>
+</programlisting></para>
+<para>The Python code itself should be placed in the pykrita/hello folder. Your Python plugin needs to be a module, so needs to have a <computeroutput>__init__.py</computeroutput> file:</para>
+<para><programlisting><codeline><highlight class="preprocessor">#<sp/>let&apos;s<sp/>make<sp/>a<sp/>module</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">from<sp/>.hello<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+</programlisting></para>
+<para><ref refid="class_krita" kindref="compound">Krita</ref> is a Qt-based application. In principle, you can use any Python binding to Qt as long as it&apos;s using exactly the same version of Qt that <ref refid="class_krita" kindref="compound">Krita</ref> uses. In our examples we will be using <ulink url="https://www.riverbankcomputing.com/software/pyqt/intro">PyQt</ulink>.</para>
+<para>The easiest access to the <ref refid="class_krita" kindref="compound">Krita</ref> api is by simply importing the &quot;krita&quot; module. This automatically adds two built-ins: Scripter and Application.</para>
+<para>This is an alias for <ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">Krita.instance()</ref>, which is the first place from which to access the running <ref refid="class_krita" kindref="compound">Krita</ref> instance.</para>
+<para><programlisting><codeline><highlight class="normal">from<sp/>PyQt5.QtGui<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>PyQt5.QtWidgets<sp/>import<sp/>*</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>krita<sp/>import<sp/>*</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/>hello():</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>QMessageBox.information(QWidget(),<sp/>&quot;Test&quot;,<sp/></highlight><highlight class="stringliteral">&quot;Hello<sp/>World&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>HelloExtension(<ref refid="class_extension" kindref="compound">Extension</ref>):</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>def<sp/>__init__(self,<sp/>parent):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>super().__init__(parent)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>def<sp/>setup(self):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pass</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>def<sp/>createActions(self,<sp/>window):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>action<sp/>=<sp/>window.createAction(</highlight><highlight class="stringliteral">&quot;Hello&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>action.triggered.connect(hello)</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="class_krita" kindref="compound">Krita</ref>.instance().addExtension(HelloExtension(<ref refid="class_krita" kindref="compound">Krita</ref>.instance()))</highlight></codeline>
+</programlisting></para>
+</sect1>
+<sect1 id="index_1autotoc_md1">
+<title>The Krita Object Model</title>
+<para>The starting point is the <simplesect kind="see"><para><ref refid="class_krita" kindref="compound">Krita</ref> class, which provides a singleton object for easy reference. From the <ref refid="class_krita" kindref="compound">Krita</ref> class, a hierarchy is provided where you can access windows, lviews, documents, nodes and channels.</para>
+</simplesect>
+You can access the <ref refid="class_krita" kindref="compound">Krita</ref> class as</para>
+<para><ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">Krita.instance()</ref> Application Scripter</para>
+<para>For ease of use.</para>
+<para>The <ref refid="class_document" kindref="compound">Document</ref> class is provided to allow access to the images <ref refid="class_krita" kindref="compound">Krita</ref> has loaded. <emphasis>Note</emphasis>: internally, <ref refid="class_krita" kindref="compound">Krita</ref> distinguishes between images and documents.</para>
+<para>A document contains an image and knows the filename of the image, the image itself only knows about the layers and masks it contains. The generic name for layers and masks is <emphasis>node</emphasis>.</para>
+<para>A <ref refid="class_node" kindref="compound">Node</ref> can be a group layer, a file layer, a vector layer, a filter layer, a generator layer, a clone layer, a paint layer or a transform mask, a selection mask, a transparency mask or a colorize mask. You can change some properties of Nodes, but not all of them.</para>
+<para>The <ref refid="class_window" kindref="compound">Window</ref> class is provided to allow access to the windows and views <ref refid="class_krita" kindref="compound">Krita</ref> has open. A given <ref refid="class_document" kindref="compound">Document</ref> can be shown in more than one <ref refid="class_view" kindref="compound">View</ref>, and in more than one <ref refid="class_window" kindref="compound">Window</ref>. You can open and close windows and views. </para>
+</sect1>
+    </detaileddescription>
+    <location file="Mainpage.dox"/>
+  </compounddef>
+</doxygen>

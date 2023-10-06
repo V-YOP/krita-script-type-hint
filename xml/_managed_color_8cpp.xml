@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_managed_color_8cpp" kind="file" language="C++">
+    <compoundname>ManagedColor.cpp</compoundname>
+    <includes refid="_managed_color_8h" local="yes">ManagedColor.h</includes>
+    <includes local="no">KoColor.h</includes>
+    <includes local="no">KoColorSpaceRegistry.h</includes>
+    <includes local="no">KoColorProfile.h</includes>
+    <includes local="no">KoColorModelStandardIds.h</includes>
+    <includes local="no">KoChannelInfo.h</includes>
+    <includes local="no">QDomDocument</includes>
+    <includes local="no">QDomElement</includes>
+    <includes refid="_canvas_8h" local="no">Canvas.h</includes>
+    <includes local="no">kis_display_color_converter.h</includes>
+    <includes local="no">KoColorDisplayRendererInterface.h</includes>
+    <incdepgraph>
+      <node id="21">
+        <label>Canvas.h</label>
+        <link refid="_canvas_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ManagedColor.cpp</label>
+        <link refid="_managed_color_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ManagedColor.h</label>
+        <link refid="_managed_color_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>libkis.h</label>
+        <link refid="libkis_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>KoChannelInfo.h</label>
+      </node>
+      <node id="14">
+        <label>KoColor.h</label>
+      </node>
+      <node id="23">
+        <label>KoColorDisplayRendererInterface.h</label>
+      </node>
+      <node id="17">
+        <label>KoColorModelStandardIds.h</label>
+      </node>
+      <node id="16">
+        <label>KoColorProfile.h</label>
+      </node>
+      <node id="15">
+        <label>KoColorSpaceRegistry.h</label>
+      </node>
+      <node id="13">
+        <label>QAction</label>
+      </node>
+      <node id="12">
+        <label>QByteArray</label>
+      </node>
+      <node id="19">
+        <label>QDomDocument</label>
+      </node>
+      <node id="20">
+        <label>QDomElement</label>
+      </node>
+      <node id="8">
+        <label>QList</label>
+      </node>
+      <node id="11">
+        <label>QMap</label>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="5">
+        <label>QScopedPointer</label>
+      </node>
+      <node id="9">
+        <label>QString</label>
+      </node>
+      <node id="10">
+        <label>QVariant</label>
+      </node>
+      <node id="4">
+        <label>QVector</label>
+      </node>
+      <node id="22">
+        <label>kis_display_color_converter.h</label>
+      </node>
+      <node id="6">
+        <label>kritalibkis_export.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_managed_color_1_1_private" prot="public">ManagedColor::Private</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>SPDX-FileCopyrightText:<sp/>2017<sp/>Boudewijn<sp/>Rempt<sp/>&lt;boud@valdyas.org&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>LGPL-2.0-or-later</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ManagedColor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoColor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoColorSpaceRegistry.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoColorProfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoColorModelStandardIds.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoChannelInfo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDomDocument&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDomElement&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Canvas.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kis_display_color_converter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;KoColorDisplayRendererInterface.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="struct_managed_color_1_1_private" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_managed_color_1_1_private" kindref="compound">ManagedColor::Private</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>KoColor<sp/>color;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="class_managed_color_1a280deb3e0dafd4b759fa6b016e4bd54e" kindref="member">ManagedColor::ManagedColor</ref>(QObject<sp/>*parent)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QObject(parent)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>d(new<sp/><ref refid="struct_managed_color_1_1_private" kindref="compound">Private</ref>())</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>black<sp/>rgb<sp/>color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><ref refid="class_managed_color_1a280deb3e0dafd4b759fa6b016e4bd54e" kindref="member">ManagedColor::ManagedColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" kindref="member">colorModel</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" kindref="member">colorDepth</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kindref="member">colorProfile</ref>,<sp/>QObject<sp/>*parent)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QObject(parent)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>d(new<sp/>Private())</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KoColorSpace<sp/>*colorSpace<sp/>=<sp/>KoColorSpaceRegistry::instance()-&gt;colorSpace(<ref refid="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" kindref="member">colorModel</ref>,<sp/><ref refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" kindref="member">colorDepth</ref>,<sp/><ref refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kindref="member">colorProfile</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(colorSpace)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d-&gt;color<sp/>=<sp/>KoColor(colorSpace);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><ref refid="class_managed_color_1a280deb3e0dafd4b759fa6b016e4bd54e" kindref="member">ManagedColor::ManagedColor</ref>(KoColor<sp/>color,<sp/>QObject<sp/>*parent)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QObject(parent)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>d(new<sp/>Private())</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;color<sp/>=<sp/>color;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">ManagedColor::~ManagedColor()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ManagedColor::operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref><sp/>&amp;other)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="56"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;color<sp/>==<sp/>other.d-&gt;color;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">QColor<sp/><ref refid="class_managed_color_1a460edcb83e95e24931e559da793bbd00" kindref="member">ManagedColor::colorForCanvas</ref>(<ref refid="class_canvas" kindref="compound">Canvas</ref><sp/>*canvas)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="61"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>QColor<sp/>c<sp/>=<sp/>QColor(0,0,0);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(canvas<sp/>&amp;&amp;<sp/>canvas-&gt;displayColorConverter()<sp/>&amp;&amp;<sp/>canvas-&gt;displayColorConverter()-&gt;displayRendererInterface())<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KoColorDisplayRendererInterface<sp/>*converter<sp/>=<sp/>canvas-&gt;displayColorConverter()-&gt;displayRendererInterface();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(converter)<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>converter-&gt;toQColor(d-&gt;color);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>KoDumbColorDisplayRenderer::instance()-&gt;toQColor(d-&gt;color);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>KoDumbColorDisplayRenderer::instance()-&gt;toQColor(d-&gt;color);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><ref refid="class_managed_color" kindref="compound">ManagedColor</ref><sp/>*<ref refid="class_managed_color_1a5ddab87a57e83c9de0f73ad01afdd525" kindref="member">ManagedColor::fromQColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor<sp/>&amp;qcolor,<sp/><ref refid="class_canvas" kindref="compound">Canvas</ref><sp/>*canvas)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>KoColor<sp/>c;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(canvas<sp/>&amp;&amp;<sp/>canvas-&gt;displayColorConverter()<sp/>&amp;&amp;<sp/>canvas-&gt;displayColorConverter()-&gt;displayRendererInterface())<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KoColorDisplayRendererInterface<sp/>*converter<sp/>=<sp/>canvas-&gt;displayColorConverter()-&gt;displayRendererInterface();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(converter)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>converter-&gt;approximateFromRenderedQColor(qcolor);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>KoDumbColorDisplayRenderer::instance()-&gt;approximateFromRenderedQColor(qcolor);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>KoDumbColorDisplayRenderer::instance()-&gt;approximateFromRenderedQColor(qcolor);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>(c);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">QString<sp/><ref refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" kindref="member">ManagedColor::colorDepth</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="93"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;color.colorSpace()-&gt;colorDepthId().id();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">QString<sp/><ref refid="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" kindref="member">ManagedColor::colorModel</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="98"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;color.colorSpace()-&gt;colorModelId().id();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">QString<sp/><ref refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kindref="member">ManagedColor::colorProfile</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="103"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;color.colorSpace()-&gt;profile()-&gt;name();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_managed_color_1a3a141d55357cc55540092121ceaed8f8" kindref="member">ManagedColor::setColorProfile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kindref="member">colorProfile</ref>)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KoColorProfile<sp/>*profile<sp/>=<sp/>KoColorSpaceRegistry::instance()-&gt;profileByName(<ref refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kindref="member">colorProfile</ref>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!profile)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;color.setProfile(profile);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_managed_color_1a685dfd64121795b65e8f9dc71f75cb0c" kindref="member">ManagedColor::setColorSpace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" kindref="member">colorModel</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" kindref="member">colorDepth</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kindref="member">colorProfile</ref>)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KoColorSpace<sp/>*colorSpace<sp/>=<sp/>KoColorSpaceRegistry::instance()-&gt;colorSpace(<ref refid="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" kindref="member">colorModel</ref>,<sp/><ref refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" kindref="member">colorDepth</ref>,<sp/><ref refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" kindref="member">colorProfile</ref>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!colorSpace)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;color.convertTo(colorSpace);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">QVector&lt;float&gt;<sp/><ref refid="class_managed_color_1a428fe292713b264af5112ae98d74c29c" kindref="member">ManagedColor::components</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="124"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;float&gt;<sp/>values(d-&gt;color.colorSpace()-&gt;channelCount());</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;color.colorSpace()-&gt;normalisedChannelsValue(d-&gt;color.data(),<sp/>values);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">QVector&lt;float&gt;<sp/><ref refid="class_managed_color_1ac5d6f72572fec815a37fe4011fdd4961" kindref="member">ManagedColor::componentsOrdered</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="131"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QList&lt;KoChannelInfo<sp/>*&gt;<sp/>channelInfo<sp/>=<sp/>d-&gt;color.colorSpace()-&gt;channels();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;float&gt;<sp/>valuesUnsorted<sp/>=<sp/><ref refid="class_managed_color_1a428fe292713b264af5112ae98d74c29c" kindref="member">components</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;float&gt;<sp/>values(channelInfo.size());</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;values.size();i++)<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>location<sp/>=<sp/>KoChannelInfo::displayPositionToChannelIndex(i,<sp/>channelInfo);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>values[location]<sp/>=<sp/>valuesUnsorted[i];</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_managed_color_1a9f133c4bb3b2024426082fedf071ed74" kindref="member">ManagedColor::setComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVector&lt;float&gt;<sp/>&amp;values)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;color.colorSpace()-&gt;fromNormalisedChannelsValue(d-&gt;color.data(),<sp/>values);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">QString<sp/><ref refid="class_managed_color_1a61f286b8abd83e7927860d75e9b0a27c" kindref="member">ManagedColor::toXML</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="148"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomDocument<sp/>doc;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomElement<sp/>root<sp/>=<sp/>doc.createElement(</highlight><highlight class="stringliteral">&quot;Color&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>root.setAttribute(</highlight><highlight class="stringliteral">&quot;bitdepth&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" kindref="member">colorDepth</ref>());</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>doc.appendChild(root);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;color.toXML(doc,<sp/>root);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>doc.toString();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_managed_color_1a8f68128850da66f3f33385b19f753ee7" kindref="member">ManagedColor::fromXML</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;xml)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomDocument<sp/>doc;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>doc.setContent(xml);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomElement<sp/>e<sp/>=<sp/>doc.documentElement();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomElement<sp/>c<sp/>=<sp/>e.firstChildElement(</highlight><highlight class="stringliteral">&quot;Color&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>KoColor<sp/>kc;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!c.isNull())<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>colorDepthId<sp/>=<sp/>c.attribute(</highlight><highlight class="stringliteral">&quot;bitdepth&quot;</highlight><highlight class="normal">,<sp/>Integer8BitsColorDepthID.id());</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d-&gt;color<sp/>=<sp/>KoColor::fromXML(c,<sp/>colorDepthId);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">QString<sp/><ref refid="class_managed_color_1a85a9b000167898e06870c63cc895c7d4" kindref="member">ManagedColor::toQString</ref>()</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KoColor::toQString(d-&gt;color);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">KoColor<sp/>ManagedColor::color()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="177"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;color;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ManagedColor.cpp"/>
+  </compounddef>
+</doxygen>

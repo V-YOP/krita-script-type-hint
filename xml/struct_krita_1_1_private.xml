@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_krita_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Krita::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_krita_1_1_private_1ac1839996234eabdfa0912300d41a32ec" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_extension" kindref="compound">Extension</ref> * &gt;</type>
+        <definition>QList&lt;Extension*&gt; Krita::Private::extensions</definition>
+        <argsstring></argsstring>
+        <name>extensions</name>
+        <qualifiedname>Krita::Private::extensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.cpp" line="63" column="11" bodyfile="Krita.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_krita_1_1_private_1a5206a4f08bdcc8124b0f773b89d4202c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Krita::Private::batchMode</definition>
+        <argsstring></argsstring>
+        <name>batchMode</name>
+        <qualifiedname>Krita::Private::batchMode</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.cpp" line="64" column="10" bodyfile="Krita.cpp" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_krita_1_1_private_1a13879fa3d80a8cdc4af9a1351789828c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_notifier" kindref="compound">Notifier</ref> *</type>
+        <definition>Notifier* Krita::Private::notifier</definition>
+        <argsstring></argsstring>
+        <name>notifier</name>
+        <qualifiedname>Krita::Private::notifier</qualifiedname>
+        <initializer>{new <ref refid="class_notifier" kindref="compound">Notifier</ref>()}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.cpp" line="65" column="14" bodyfile="Krita.cpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_krita_1_1_private_1adcbcf80f8314ca74a45537d2ecaf3a76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Krita::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Krita::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Krita.cpp" line="62" column="5" bodyfile="Krita.cpp" bodystart="62" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Krita::Private</label>
+        <link refid="struct_krita_1_1_private"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>notifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Notifier</label>
+        <link refid="class_notifier"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Krita.cpp" line="61" column="1" bodyfile="Krita.cpp" bodystart="61" bodyend="66"/>
+    <listofallmembers>
+      <member refid="struct_krita_1_1_private_1a5206a4f08bdcc8124b0f773b89d4202c" prot="public" virt="non-virtual"><scope>Krita::Private</scope><name>batchMode</name></member>
+      <member refid="struct_krita_1_1_private_1ac1839996234eabdfa0912300d41a32ec" prot="public" virt="non-virtual"><scope>Krita::Private</scope><name>extensions</name></member>
+      <member refid="struct_krita_1_1_private_1a13879fa3d80a8cdc4af9a1351789828c" prot="public" virt="non-virtual"><scope>Krita::Private</scope><name>notifier</name></member>
+      <member refid="struct_krita_1_1_private_1adcbcf80f8314ca74a45537d2ecaf3a76" prot="public" virt="non-virtual"><scope>Krita::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

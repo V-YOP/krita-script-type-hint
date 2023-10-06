@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_managed_color_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>ManagedColor::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_managed_color_1_1_private_1a41d1c65667b9d63b0184eac230f554ce" prot="public" static="no" mutable="no">
+        <type>KoColor</type>
+        <definition>KoColor ManagedColor::Private::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <qualifiedname>ManagedColor::Private::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.cpp" line="23" column="13" bodyfile="ManagedColor.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ManagedColor.cpp" line="22" column="1" bodyfile="ManagedColor.cpp" bodystart="22" bodyend="24"/>
+    <listofallmembers>
+      <member refid="struct_managed_color_1_1_private_1a41d1c65667b9d63b0184eac230f554ce" prot="public" virt="non-virtual"><scope>ManagedColor::Private</scope><name>color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

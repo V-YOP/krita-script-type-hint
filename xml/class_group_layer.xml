@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_group_layer" kind="class" language="C++" prot="public">
+    <compoundname>GroupLayer</compoundname>
+    <basecompoundref refid="class_node" prot="public" virt="non-virtual">Node</basecompoundref>
+    <includes refid="_group_layer_8h" local="no">GroupLayer.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_group_layer_1aa59ac54fc433b4d458e1a92be0c72640" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupLayer::GroupLayer</definition>
+        <argsstring>(KisImageSP image, QString name, QObject *parent=0)</argsstring>
+        <name>GroupLayer</name>
+        <qualifiedname>GroupLayer::GroupLayer</qualifiedname>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupLayer.h" line="35" column="14" bodyfile="GroupLayer.cpp" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_group_layer_1ad7064f1a92c8e5402db9b736ec226a17" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupLayer::GroupLayer</definition>
+        <argsstring>(KisGroupLayerSP layer, QObject *parent=0)</argsstring>
+        <name>GroupLayer</name>
+        <qualifiedname>GroupLayer::GroupLayer</qualifiedname>
+        <param>
+          <type>KisGroupLayerSP</type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupLayer.h" line="36" column="14" bodyfile="GroupLayer.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_group_layer_1ae4fc9fae0a00a507018ace4cbf088df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupLayer::~GroupLayer</definition>
+        <argsstring>() override</argsstring>
+        <name>~GroupLayer</name>
+        <qualifiedname>GroupLayer::~GroupLayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupLayer.h" line="37" column="5" bodyfile="GroupLayer.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_group_layer_1ae4da0fec288003c11eb11dac312bc517" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString GroupLayer::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <qualifiedname>GroupLayer::type</qualifiedname>
+        <briefdescription>
+<para>type <ref refid="class_krita" kindref="compound">Krita</ref> has several types of nodes, split in layers and masks. Group layers can contain other layers, any layer can contain masks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>grouplayer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupLayer.h" line="46" column="21" bodyfile="GroupLayer.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_group_layer_1ad34ec6042b2d2d8b8d595172ae9c6ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GroupLayer::setPassThroughMode</definition>
+        <argsstring>(bool passthrough)</argsstring>
+        <name>setPassThroughMode</name>
+        <qualifiedname>GroupLayer::setPassThroughMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>passthrough</declname>
+        </param>
+        <briefdescription>
+<para>setPassThroughMode This changes the way how compositing works. Instead of compositing all the layers before compositing it with the rest of the image, the group layer becomes a sort of formal way to organise everything. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Passthrough mode is the same as it is in photoshop, and the inverse of SVG&apos;s isolation attribute(with passthrough=false being the same as isolation=&quot;isolate&quot;).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>passthrough</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether or not to set the layer to passthrough. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupLayer.h" line="60" column="10" bodyfile="GroupLayer.cpp" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_group_layer_1a298c875f3c6b5640b04d3c300fa7655a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GroupLayer::passThroughMode</definition>
+        <argsstring>() const</argsstring>
+        <name>passThroughMode</name>
+        <qualifiedname>GroupLayer::passThroughMode</qualifiedname>
+        <briefdescription>
+<para>passThroughMode </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns whether or not this layer is in passthrough mode. </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_group_layer_1ad34ec6042b2d2d8b8d595172ae9c6ed4" kindref="member">setPassThroughMode</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GroupLayer.h" line="66" column="10" bodyfile="GroupLayer.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_group_layer" kindref="compound">GroupLayer</ref> class A group layer is a layer that can contain other layers. In <ref refid="class_krita" kindref="compound">Krita</ref>, layers within a group layer are composited first before they are added into the composition code for where the group is in the stack. This has a significant effect on how it is interpreted for blending modes. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>PassThrough changes this behaviour.</para>
+<para>Group layer cannot be animated, but can contain animated layers or masks. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GroupLayer</label>
+        <link refid="class_group_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GroupLayer</label>
+        <link refid="class_group_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="GroupLayer.h" line="29" column="1" bodyfile="GroupLayer.h" bodystart="30" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>addChildNode</name></member>
+      <member refid="class_node_1a03331f9c2993922444607feda85e9a2a" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>alphaLocked</name></member>
+      <member refid="class_node_1a5fc11982bb591e5f98c64f214fa1488b" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>animated</name></member>
+      <member refid="class_node_1a95c04d37237c262bb077f1c00f9d4db8" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>blendingMode</name></member>
+      <member refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>bounds</name></member>
+      <member refid="class_node_1a130fcc7ba378905bce08dbbf8496446c" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>channels</name></member>
+      <member refid="class_node_1a057e12453b0981b9124379427f86d477" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>childNodes</name></member>
+      <member refid="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>clone</name></member>
+      <member refid="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>collapsed</name></member>
+      <member refid="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>colorDepth</name></member>
+      <member refid="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>colorLabel</name></member>
+      <member refid="class_node_1a3cdf805651043386ab90da663af56f98" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>colorModel</name></member>
+      <member refid="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>colorProfile</name></member>
+      <member refid="class_node_1a88822eff44c10beb55a96f693753676f" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>createNode</name></member>
+      <member refid="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>cropNode</name></member>
+      <member refid="class_node_1abb7a8b7c4d12cceb35e85456c088c033" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>duplicate</name></member>
+      <member refid="class_node_1a18aa2116f2bba210fbdd495f169edd99" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>enableAnimation</name></member>
+      <member refid="class_node_1a168345a41614daec033ff3b8670e1d91" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>findChildNodes</name></member>
+      <member refid="class_group_layer_1aa59ac54fc433b4d458e1a92be0c72640" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>GroupLayer</name></member>
+      <member refid="class_group_layer_1ad7064f1a92c8e5402db9b736ec226a17" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>GroupLayer</name></member>
+      <member refid="class_node_1ab01953eeffb53428265c1dc83027712f" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>hasExtents</name></member>
+      <member refid="class_node_1a46e221328b859524d40ce8544fcf48f7" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>hasKeyframeAtTime</name></member>
+      <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>icon</name></member>
+      <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>index</name></member>
+      <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>inheritAlpha</name></member>
+      <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>isPinnedToTimeline</name></member>
+      <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>layerStyleToAsl</name></member>
+      <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>locked</name></member>
+      <member refid="class_node_1a0db840fc17c54244a98e24c5fb049a53" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>mergeDown</name></member>
+      <member refid="class_node_1a34e40db057a6f4cff4c9967a0e948b93" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>move</name></member>
+      <member refid="class_node_1ac40f16db9ad108a3d8a029802899104c" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>name</name></member>
+      <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>opacity</name></member>
+      <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>operator!=</name></member>
+      <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>operator==</name></member>
+      <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>parentNode</name></member>
+      <member refid="class_group_layer_1a298c875f3c6b5640b04d3c300fa7655a" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>passThroughMode</name></member>
+      <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>pixelData</name></member>
+      <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>pixelDataAtTime</name></member>
+      <member refid="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>position</name></member>
+      <member refid="class_node_1ad938d65c6b8bbceb31c00ddd64987279" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>projectionPixelData</name></member>
+      <member refid="class_node_1a631faa515a707b35de62698e0c9e62ae" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>remove</name></member>
+      <member refid="class_node_1ac16d48268bf1699b5293f605cb394f42" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>removeChildNode</name></member>
+      <member refid="class_node_1a88b80903cdee9d66142a091cb09d00d4" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>rotateNode</name></member>
+      <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>save</name></member>
+      <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>scaleNode</name></member>
+      <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setAlphaLocked</name></member>
+      <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setBlendingMode</name></member>
+      <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setChildNodes</name></member>
+      <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setCollapsed</name></member>
+      <member refid="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setColorLabel</name></member>
+      <member refid="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setColorProfile</name></member>
+      <member refid="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setColorSpace</name></member>
+      <member refid="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setInheritAlpha</name></member>
+      <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setLayerStyleFromAsl</name></member>
+      <member refid="class_node_1a5f9a6effbadc69fe963e2113b98abd39" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setLocked</name></member>
+      <member refid="class_node_1a76b36df00e311f88cc65e849b66f1e3b" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setName</name></member>
+      <member refid="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setOpacity</name></member>
+      <member refid="class_group_layer_1ad34ec6042b2d2d8b8d595172ae9c6ed4" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setPassThroughMode</name></member>
+      <member refid="class_node_1a334d811e485663294a6b1d4222af954d" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setPinnedToTimeline</name></member>
+      <member refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setPixelData</name></member>
+      <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>setVisible</name></member>
+      <member refid="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>shearNode</name></member>
+      <member refid="class_node_1aaee855a1d7a10f9198d03ff222809b6c" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>thumbnail</name></member>
+      <member refid="class_group_layer_1ae4da0fec288003c11eb11dac312bc517" prot="public" virt="virtual"><scope>GroupLayer</scope><name>type</name></member>
+      <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>uniqueId</name></member>
+      <member refid="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>visible</name></member>
+      <member refid="class_group_layer_1ae4fc9fae0a00a507018ace4cbf088df7" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>~GroupLayer</name></member>
+      <member refid="class_node_1a5d129d27d74d8d16302ca48624135407" prot="public" virt="non-virtual"><scope>GroupLayer</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

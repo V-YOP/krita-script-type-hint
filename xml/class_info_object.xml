@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_info_object" kind="class" language="C++" prot="public">
+    <compoundname>InfoObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_info_object_8h" local="no">InfoObject.h</includes>
+    <innerclass refid="struct_info_object_1_1_private" prot="public">InfoObject::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_info_object_1a34f7bc7cd29643e53d23b7d500d21739" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Filter</definition>
+        <argsstring></argsstring>
+        <name>Filter</name>
+        <qualifiedname>InfoObject::Filter</qualifiedname>
+        <param>
+          <type><ref refid="class_filter" kindref="compound">Filter</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="61" column="18" bodyfile="InfoObject.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_info_object_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Document</definition>
+        <argsstring></argsstring>
+        <name>Document</name>
+        <qualifiedname>InfoObject::Document</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="62" column="18" bodyfile="InfoObject.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_info_object_1a6db9d28bd448a131448276ee03de1e6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Node</definition>
+        <argsstring></argsstring>
+        <name>Node</name>
+        <qualifiedname>InfoObject::Node</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="63" column="18" bodyfile="InfoObject.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_info_object_1a780446285c45446a5a8fc27666a197f7" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_info_object_1_1_private" kindref="compound">Private</ref> *</type>
+        <definition>Private* InfoObject::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>InfoObject::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="72" column="13" bodyfile="InfoObject.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_info_object_1a5adcaacb553d5bdb20846599b1528b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>InfoObject::InfoObject</definition>
+        <argsstring>(KisPropertiesConfigurationSP configuration)</argsstring>
+        <name>InfoObject</name>
+        <qualifiedname>InfoObject::InfoObject</qualifiedname>
+        <param>
+          <type>KisPropertiesConfigurationSP</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="24" column="5" bodyfile="InfoObject.cpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_info_object_1a47fa7c7f9a8aa859f85c46df590e52f0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>InfoObject::InfoObject</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>InfoObject</name>
+        <qualifiedname>InfoObject::InfoObject</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new, empty <ref refid="class_info_object" kindref="compound">InfoObject</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="29" column="14" bodyfile="InfoObject.cpp" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_info_object_1ac14a8cdbf6317f4fa23b340a4aab0469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>InfoObject::~InfoObject</definition>
+        <argsstring>() override</argsstring>
+        <name>~InfoObject</name>
+        <qualifiedname>InfoObject::~InfoObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="30" column="5" bodyfile="InfoObject.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_info_object_1afa43b3f201147637f6d99ecaaa7d4cb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InfoObject::operator==</definition>
+        <argsstring>(const InfoObject &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>InfoObject::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_info_object" kindref="compound">InfoObject</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="32" column="10" bodyfile="InfoObject.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_info_object_1a1fa550821a74ddb60b3f4658034b069f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool InfoObject::operator!=</definition>
+        <argsstring>(const InfoObject &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>InfoObject::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_info_object" kindref="compound">InfoObject</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="33" column="10" bodyfile="InfoObject.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_info_object_1acb2f510647d4d88873cb7f14a88c8367" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QMap&lt; QString, QVariant &gt;</type>
+        <definition>QMap&lt; QString, QVariant &gt; InfoObject::properties</definition>
+        <argsstring>() const</argsstring>
+        <name>properties</name>
+        <qualifiedname>InfoObject::properties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return all properties this <ref refid="class_info_object" kindref="compound">InfoObject</ref> manages. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="37" column="10" bodyfile="InfoObject.cpp" bodystart="45" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_info_object_1ad8ae015465827f43d76b34fe29469ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoObject::setProperties</definition>
+        <argsstring>(QMap&lt; QString, QVariant &gt; propertyMap)</argsstring>
+        <name>setProperties</name>
+        <qualifiedname>InfoObject::setProperties</qualifiedname>
+        <param>
+          <type>QMap&lt; QString, QVariant &gt;</type>
+          <declname>propertyMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add all properties in the <computeroutput>propertyMap</computeroutput> to this <ref refid="class_info_object" kindref="compound">InfoObject</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="42" column="10" bodyfile="InfoObject.cpp" bodystart="60" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_info_object_1a45fd7051d88d4d02221cb81d54189bc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoObject::setProperty</definition>
+        <argsstring>(const QString &amp;key, QVariant value)</argsstring>
+        <name>setProperty</name>
+        <qualifiedname>InfoObject::setProperty</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the property identified by <computeroutput>key</computeroutput> to <computeroutput>value</computeroutput> </para>
+<para>If you want create a property that represents a color, you can use a QColor or hex string, as defined in <ulink url="https://doc.qt.io/qt-5/qcolor.html#setNamedColor">https://doc.qt.io/qt-5/qcolor.html#setNamedColor</ulink>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="52" column="10" bodyfile="InfoObject.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_info_object_1a4c7c32dd2695d12dab60bfc64a187ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant InfoObject::property</definition>
+        <argsstring>(const QString &amp;key)</argsstring>
+        <name>property</name>
+        <qualifiedname>InfoObject::property</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the value for the property identified by key, or None if there is no such key. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="57" column="14" bodyfile="InfoObject.cpp" bodystart="72" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_info_object_1ace7facdd40a6afb614f6924c5bfcdd25" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisPropertiesConfigurationSP</type>
+        <definition>KisPropertiesConfigurationSP InfoObject::configuration</definition>
+        <argsstring>() const</argsstring>
+        <name>configuration</name>
+        <qualifiedname>InfoObject::configuration</qualifiedname>
+        <briefdescription>
+<para>configuration gives access to the internal configuration object. Must be used internally in libkis </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the internal configuration object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InfoObject.h" line="69" column="34" bodyfile="InfoObject.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_info_object" kindref="compound">InfoObject</ref> wrap a properties map. These maps can be used to set the configuration for filters. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InfoObject</label>
+        <link refid="class_info_object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InfoObject</label>
+        <link refid="class_info_object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="InfoObject.h" line="19" column="1" bodyfile="InfoObject.h" bodystart="20" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_info_object_1ace7facdd40a6afb614f6924c5bfcdd25" prot="private" virt="non-virtual"><scope>InfoObject</scope><name>configuration</name></member>
+      <member refid="class_info_object_1a780446285c45446a5a8fc27666a197f7" prot="private" virt="non-virtual"><scope>InfoObject</scope><name>d</name></member>
+      <member refid="class_info_object_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" virt="non-virtual"><scope>InfoObject</scope><name>Document</name></member>
+      <member refid="class_info_object_1a34f7bc7cd29643e53d23b7d500d21739" prot="private" virt="non-virtual"><scope>InfoObject</scope><name>Filter</name></member>
+      <member refid="class_info_object_1a5adcaacb553d5bdb20846599b1528b1e" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>InfoObject</name></member>
+      <member refid="class_info_object_1a47fa7c7f9a8aa859f85c46df590e52f0" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>InfoObject</name></member>
+      <member refid="class_info_object_1a6db9d28bd448a131448276ee03de1e6d" prot="private" virt="non-virtual"><scope>InfoObject</scope><name>Node</name></member>
+      <member refid="class_info_object_1a1fa550821a74ddb60b3f4658034b069f" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>operator!=</name></member>
+      <member refid="class_info_object_1afa43b3f201147637f6d99ecaaa7d4cb6" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>operator==</name></member>
+      <member refid="class_info_object_1acb2f510647d4d88873cb7f14a88c8367" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>properties</name></member>
+      <member refid="class_info_object_1a4c7c32dd2695d12dab60bfc64a187ac7" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>property</name></member>
+      <member refid="class_info_object_1ad8ae015465827f43d76b34fe29469ac8" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>setProperties</name></member>
+      <member refid="class_info_object_1a45fd7051d88d4d02221cb81d54189bc3" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>setProperty</name></member>
+      <member refid="class_info_object_1ac14a8cdbf6317f4fa23b340a4aab0469" prot="public" virt="non-virtual"><scope>InfoObject</scope><name>~InfoObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

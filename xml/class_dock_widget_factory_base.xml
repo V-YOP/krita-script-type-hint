@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_dock_widget_factory_base" kind="class" language="C++" prot="public">
+    <compoundname>DockWidgetFactoryBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">KoDockFactoryBase</basecompoundref>
+    <includes refid="_dock_widget_factory_base_8h" local="no">DockWidgetFactoryBase.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dock_widget_factory_base_1ada9365399532e14bc5b930b57c0cac64" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DockWidgetFactoryBase::m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <qualifiedname>DockWidgetFactoryBase::m_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidgetFactoryBase.h" line="44" column="13" bodyfile="DockWidgetFactoryBase.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dock_widget_factory_base_1aa400ff0825c4cab7cf0eb8b794bcd9e6" prot="private" static="no" mutable="no">
+        <type>DockPosition</type>
+        <definition>DockPosition DockWidgetFactoryBase::m_dockPosition</definition>
+        <argsstring></argsstring>
+        <name>m_dockPosition</name>
+        <qualifiedname>DockWidgetFactoryBase::m_dockPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidgetFactoryBase.h" line="45" column="18" bodyfile="DockWidgetFactoryBase.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dock_widget_factory_base_1aae5b8cf15947405e4394ad537afbf699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DockWidgetFactoryBase::DockWidgetFactoryBase</definition>
+        <argsstring>(const QString &amp;_id, DockPosition _dockPosition)</argsstring>
+        <name>DockWidgetFactoryBase</name>
+        <qualifiedname>DockWidgetFactoryBase::DockWidgetFactoryBase</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>_id</declname>
+        </param>
+        <param>
+          <type>DockPosition</type>
+          <declname>_dockPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidgetFactoryBase.h" line="39" column="5" bodyfile="DockWidgetFactoryBase.cpp" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dock_widget_factory_base_1a222ef8622b3b33511fa074ebff71c110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DockWidgetFactoryBase::~DockWidgetFactoryBase</definition>
+        <argsstring>() override</argsstring>
+        <name>~DockWidgetFactoryBase</name>
+        <qualifiedname>DockWidgetFactoryBase::~DockWidgetFactoryBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidgetFactoryBase.h" line="40" column="5" bodyfile="DockWidgetFactoryBase.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dock_widget_factory_base_1a5bd1764e801c67784f0509b72ca689c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString DockWidgetFactoryBase::id</definition>
+        <argsstring>() const override</argsstring>
+        <name>id</name>
+        <qualifiedname>DockWidgetFactoryBase::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidgetFactoryBase.h" line="41" column="13" bodyfile="DockWidgetFactoryBase.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dock_widget_factory_base_1aa7db26051d5e97d6cd2b9e65dfecbaad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DockPosition</type>
+        <definition>KoDockFactoryBase::DockPosition DockWidgetFactoryBase::defaultDockPosition</definition>
+        <argsstring>() const override</argsstring>
+        <name>defaultDockPosition</name>
+        <qualifiedname>DockWidgetFactoryBase::defaultDockPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DockWidgetFactoryBase.h" line="42" column="18" bodyfile="DockWidgetFactoryBase.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_dock_widget_factory_base" kindref="compound">DockWidgetFactoryBase</ref> class is the base class for plugins that want to add a dock widget to every window. You do not need to implement this class yourself, but create a <ref refid="class_dock_widget" kindref="compound">DockWidget</ref> implementation and then add the DockWidgetFactory to the <ref refid="class_krita" kindref="compound">Krita</ref> instance like this: </para>
+    </briefdescription>
+    <detaileddescription>
+<para><programlisting><codeline><highlight class="keyword">class<sp/></highlight><highlight class="normal">HelloDocker(DockWidget):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>def<sp/>__init__(self):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>super().__init__()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>label<sp/>=<sp/>QLabel(&quot;Hello&quot;,<sp/>self)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>self.setWidget(label)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>self.label<sp/>=<sp/>label</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">def<sp/>canvasChanged(self,<sp/>canvas):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setText(&quot;Hellodocker:<sp/>canvas<sp/>changed&quot;);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">Application.addDockWidgetFactory(DockWidgetFactory(&quot;hello&quot;,<sp/>DockWidgetFactoryBase.DockRight,<sp/>HelloDocker))</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DockWidgetFactoryBase</label>
+        <link refid="class_dock_widget_factory_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>KoDockFactoryBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DockWidgetFactoryBase</label>
+        <link refid="class_dock_widget_factory_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>KoDockFactoryBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="DockWidgetFactoryBase.h" line="36" column="1" bodyfile="DockWidgetFactoryBase.h" bodystart="37" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_dock_widget_factory_base_1aa7db26051d5e97d6cd2b9e65dfecbaad" prot="public" virt="non-virtual"><scope>DockWidgetFactoryBase</scope><name>defaultDockPosition</name></member>
+      <member refid="class_dock_widget_factory_base_1aae5b8cf15947405e4394ad537afbf699" prot="public" virt="non-virtual"><scope>DockWidgetFactoryBase</scope><name>DockWidgetFactoryBase</name></member>
+      <member refid="class_dock_widget_factory_base_1a5bd1764e801c67784f0509b72ca689c1" prot="public" virt="non-virtual"><scope>DockWidgetFactoryBase</scope><name>id</name></member>
+      <member refid="class_dock_widget_factory_base_1aa400ff0825c4cab7cf0eb8b794bcd9e6" prot="private" virt="non-virtual"><scope>DockWidgetFactoryBase</scope><name>m_dockPosition</name></member>
+      <member refid="class_dock_widget_factory_base_1ada9365399532e14bc5b930b57c0cac64" prot="private" virt="non-virtual"><scope>DockWidgetFactoryBase</scope><name>m_id</name></member>
+      <member refid="class_dock_widget_factory_base_1a222ef8622b3b33511fa074ebff71c110" prot="public" virt="non-virtual"><scope>DockWidgetFactoryBase</scope><name>~DockWidgetFactoryBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

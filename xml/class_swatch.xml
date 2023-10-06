@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_swatch" kind="class" language="C++" prot="public">
+    <compoundname>Swatch</compoundname>
+    <includes refid="_swatch_8h" local="no">Swatch.h</includes>
+    <innerclass refid="struct_swatch_1_1_private" prot="public">Swatch::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_swatch_1aafe548b2907c73c87d743ba67d4b92d7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>Palette</definition>
+        <argsstring></argsstring>
+        <name>Palette</name>
+        <qualifiedname>Swatch::Palette</qualifiedname>
+        <param>
+          <type><ref refid="class_palette" kindref="compound">Palette</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="24" column="18" bodyfile="Swatch.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_swatch_1a60683b9c5b46c483ea04874dd0b7298f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class PaletteView</definition>
+        <argsstring></argsstring>
+        <name>PaletteView</name>
+        <qualifiedname>Swatch::PaletteView</qualifiedname>
+        <param>
+          <type><ref refid="class_palette_view" kindref="compound">PaletteView</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="25" column="18" bodyfile="Swatch.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_swatch_1a1fa426539b7f822e43d317e7037c3ec8" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_swatch_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Swatch::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Swatch::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="52" column="19" bodyfile="Swatch.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_swatch_1a0b9ce16b476fce6ff8fcb892b98f32a1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Swatch::Swatch</definition>
+        <argsstring>(const KisSwatch &amp;kisSwatch)</argsstring>
+        <name>Swatch</name>
+        <qualifiedname>Swatch::Swatch</qualifiedname>
+        <param>
+          <type>const KisSwatch &amp;</type>
+          <declname>kisSwatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="26" column="5" bodyfile="Swatch.cpp" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a5b1a3477e39bc33de7b6530760c66494" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisSwatch</type>
+        <definition>KisSwatch Swatch::kisSwatch</definition>
+        <argsstring>() const</argsstring>
+        <name>kisSwatch</name>
+        <qualifiedname>Swatch::kisSwatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="49" column="15" bodyfile="Swatch.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_swatch_1abc6d531a1b5089ff1a0971806d067e43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Swatch::Swatch</definition>
+        <argsstring>()</argsstring>
+        <name>Swatch</name>
+        <qualifiedname>Swatch::Swatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="28" column="5" bodyfile="Swatch.cpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a4c274e2eed3aa7010e4a076d64f91032" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Swatch::~Swatch</definition>
+        <argsstring>()</argsstring>
+        <name>~Swatch</name>
+        <qualifiedname>Swatch::~Swatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="29" column="13" bodyfile="Swatch.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a338447525dd2216b46e73826f7465d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Swatch::Swatch</definition>
+        <argsstring>(const Swatch &amp;rhs)</argsstring>
+        <name>Swatch</name>
+        <qualifiedname>Swatch::Swatch</qualifiedname>
+        <param>
+          <type>const <ref refid="class_swatch" kindref="compound">Swatch</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="30" column="5" bodyfile="Swatch.cpp" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1abb02248697902913a96313b1cf9f8131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_swatch" kindref="compound">Swatch</ref> &amp;</type>
+        <definition>Swatch &amp; Swatch::operator=</definition>
+        <argsstring>(const Swatch &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>Swatch::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_swatch" kindref="compound">Swatch</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="31" column="12" bodyfile="Swatch.cpp" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a4763b7796c0179c04362ce3cc87fbd77" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Swatch::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>Swatch::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="33" column="13" bodyfile="Swatch.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a2fb9851c1c5b137693ca5648d6925c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Swatch::setName</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>Swatch::setName</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="34" column="10" bodyfile="Swatch.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a00e39cafd2add324bed55345667043a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Swatch::id</definition>
+        <argsstring>() const</argsstring>
+        <name>id</name>
+        <qualifiedname>Swatch::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="36" column="13" bodyfile="Swatch.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a34d5523f138f68fc0b8591cdd2a6c4ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Swatch::setId</definition>
+        <argsstring>(const QString &amp;id)</argsstring>
+        <name>setId</name>
+        <qualifiedname>Swatch::setId</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="37" column="10" bodyfile="Swatch.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a7c7da234adbe8d22a658465518d3c969" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+        <definition>ManagedColor * Swatch::color</definition>
+        <argsstring>() const</argsstring>
+        <name>color</name>
+        <qualifiedname>Swatch::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="39" column="18" bodyfile="Swatch.cpp" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1aeb9dff41601d59760b0c8c674a38ecea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Swatch::setColor</definition>
+        <argsstring>(ManagedColor *color)</argsstring>
+        <name>setColor</name>
+        <qualifiedname>Swatch::setColor</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="40" column="10" bodyfile="Swatch.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1a0b04109e78d7afbcdbd412243b3e0822" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Swatch::spotColor</definition>
+        <argsstring>() const</argsstring>
+        <name>spotColor</name>
+        <qualifiedname>Swatch::spotColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="42" column="10" bodyfile="Swatch.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1af1776e959d243ee142d3ab77197509c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Swatch::setSpotColor</definition>
+        <argsstring>(bool spotColor)</argsstring>
+        <name>setSpotColor</name>
+        <qualifiedname>Swatch::setSpotColor</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>spotColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="43" column="10" bodyfile="Swatch.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swatch_1afdd08bed2a7f1bce3fc5aec7d04755d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Swatch::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <qualifiedname>Swatch::isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Swatch.h" line="45" column="10" bodyfile="Swatch.cpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_swatch" kindref="compound">Swatch</ref> class is a thin wrapper around the KisSwatch class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="class_swatch" kindref="compound">Swatch</ref> is a single color that is part of a palette, that has a name and an id. A <ref refid="class_swatch" kindref="compound">Swatch</ref> color can be a spot color. </para>
+    </detaileddescription>
+    <location file="Swatch.h" line="21" column="1" bodyfile="Swatch.h" bodystart="22" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_swatch_1a7c7da234adbe8d22a658465518d3c969" prot="public" virt="non-virtual"><scope>Swatch</scope><name>color</name></member>
+      <member refid="class_swatch_1a1fa426539b7f822e43d317e7037c3ec8" prot="private" virt="non-virtual"><scope>Swatch</scope><name>d</name></member>
+      <member refid="class_swatch_1a00e39cafd2add324bed55345667043a9" prot="public" virt="non-virtual"><scope>Swatch</scope><name>id</name></member>
+      <member refid="class_swatch_1afdd08bed2a7f1bce3fc5aec7d04755d2" prot="public" virt="non-virtual"><scope>Swatch</scope><name>isValid</name></member>
+      <member refid="class_swatch_1a5b1a3477e39bc33de7b6530760c66494" prot="private" virt="non-virtual"><scope>Swatch</scope><name>kisSwatch</name></member>
+      <member refid="class_swatch_1a4763b7796c0179c04362ce3cc87fbd77" prot="public" virt="non-virtual"><scope>Swatch</scope><name>name</name></member>
+      <member refid="class_swatch_1abb02248697902913a96313b1cf9f8131" prot="public" virt="non-virtual"><scope>Swatch</scope><name>operator=</name></member>
+      <member refid="class_swatch_1aafe548b2907c73c87d743ba67d4b92d7" prot="private" virt="non-virtual"><scope>Swatch</scope><name>Palette</name></member>
+      <member refid="class_swatch_1a60683b9c5b46c483ea04874dd0b7298f" prot="private" virt="non-virtual"><scope>Swatch</scope><name>PaletteView</name></member>
+      <member refid="class_swatch_1aeb9dff41601d59760b0c8c674a38ecea" prot="public" virt="non-virtual"><scope>Swatch</scope><name>setColor</name></member>
+      <member refid="class_swatch_1a34d5523f138f68fc0b8591cdd2a6c4ad" prot="public" virt="non-virtual"><scope>Swatch</scope><name>setId</name></member>
+      <member refid="class_swatch_1a2fb9851c1c5b137693ca5648d6925c29" prot="public" virt="non-virtual"><scope>Swatch</scope><name>setName</name></member>
+      <member refid="class_swatch_1af1776e959d243ee142d3ab77197509c2" prot="public" virt="non-virtual"><scope>Swatch</scope><name>setSpotColor</name></member>
+      <member refid="class_swatch_1a0b04109e78d7afbcdbd412243b3e0822" prot="public" virt="non-virtual"><scope>Swatch</scope><name>spotColor</name></member>
+      <member refid="class_swatch_1a0b9ce16b476fce6ff8fcb892b98f32a1" prot="private" virt="non-virtual"><scope>Swatch</scope><name>Swatch</name></member>
+      <member refid="class_swatch_1abc6d531a1b5089ff1a0971806d067e43" prot="public" virt="non-virtual"><scope>Swatch</scope><name>Swatch</name></member>
+      <member refid="class_swatch_1a338447525dd2216b46e73826f7465d8f" prot="public" virt="non-virtual"><scope>Swatch</scope><name>Swatch</name></member>
+      <member refid="class_swatch_1a4c274e2eed3aa7010e4a076d64f91032" prot="public" virt="virtual"><scope>Swatch</scope><name>~Swatch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

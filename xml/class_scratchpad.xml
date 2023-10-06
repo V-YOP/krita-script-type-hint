@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_scratchpad" kind="class" language="C++" prot="public">
+    <compoundname>Scratchpad</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="_scratchpad_8h" local="no">Scratchpad.h</includes>
+    <innerclass refid="struct_scratchpad_1_1_private" prot="public">Scratchpad::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scratchpad_1ad14c8668a74ac1bfdd064e1825c6b0f1" prot="private" static="no" mutable="no">
+        <type>const QScopedPointer&lt; <ref refid="struct_scratchpad_1_1_private" kindref="compound">Private</ref> &gt;</type>
+        <definition>const QScopedPointer&lt;Private&gt; Scratchpad::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Scratchpad::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="82" column="26" bodyfile="Scratchpad.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scratchpad_1ad0cfa2a4fc0a082be4597ea23b9d86b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scratchpad::Scratchpad</definition>
+        <argsstring>(View *view, const QColor &amp;defaultColor, QWidget *parent=0)</argsstring>
+        <name>Scratchpad</name>
+        <qualifiedname>Scratchpad::Scratchpad</qualifiedname>
+        <param>
+          <type><ref refid="class_view" kindref="compound">View</ref> *</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>defaultColor</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="31" column="5" bodyfile="Scratchpad.cpp" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scratchpad_1a4b445c03d298cc484b599eb5d39089cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scratchpad::~Scratchpad</definition>
+        <argsstring>()</argsstring>
+        <name>~Scratchpad</name>
+        <qualifiedname>Scratchpad::~Scratchpad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="32" column="5" bodyfile="Scratchpad.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_scratchpad_1af0ca32712f6315e4013dc5a94c1a9214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>Scratchpad::clear</qualifiedname>
+        <briefdescription>
+<para>Clears out scratchpad with color specified set during setup. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="39" column="10" bodyfile="Scratchpad.cpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a918b99aec6c8c88a22636b54e0e66896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::setFillColor</definition>
+        <argsstring>(QColor color)</argsstring>
+        <name>setFillColor</name>
+        <qualifiedname>Scratchpad::setFillColor</qualifiedname>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Fill the entire scratchpad with a color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to fill the canvas with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="45" column="10" bodyfile="Scratchpad.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a528753f96e576779230ac978b9c27093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::setModeManually</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setModeManually</name>
+        <qualifiedname>Scratchpad::setModeManually</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Switches between a GUI controlling the current mode and when mouse clicks control mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Setting</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to true allows GUI to control the mode with explicitly setting mode </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="51" column="10" bodyfile="Scratchpad.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1acb508de32241af1351881518cdffb9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::setMode</definition>
+        <argsstring>(QString modeName)</argsstring>
+        <name>setMode</name>
+        <qualifiedname>Scratchpad::setMode</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>modeName</declname>
+        </param>
+        <briefdescription>
+<para>Manually set what mode scratchpad is in. Ignored if "setModeManually is set to false. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Available</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>options are: &quot;painting&quot;, &quot;panning&quot;, and &quot;colorsampling&quot; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="58" column="10" bodyfile="Scratchpad.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a6d48412ef18d9a6b8c9fd00fcd4ec84c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::linkCanvasZoom</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>linkCanvasZoom</name>
+        <qualifiedname>Scratchpad::linkCanvasZoom</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Makes a connection between the zoom of the canvas and scratchpad area so they zoom in sync. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Should</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the scratchpad share the zoom level. Default is true </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="64" column="10" bodyfile="Scratchpad.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1afa1cb389afc43d758ea8910141a475cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::loadScratchpadImage</definition>
+        <argsstring>(QImage image)</argsstring>
+        <name>loadScratchpadImage</name>
+        <qualifiedname>Scratchpad::loadScratchpadImage</qualifiedname>
+        <param>
+          <type>QImage</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para>Load image data to the scratchpad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object to load </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="71" column="10" bodyfile="Scratchpad.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a417c504e17f6959d5844ba9634d7993d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QImage</type>
+        <definition>QImage Scratchpad::copyScratchpadImageData</definition>
+        <argsstring>()</argsstring>
+        <name>copyScratchpadImageData</name>
+        <qualifiedname>Scratchpad::copyScratchpadImageData</qualifiedname>
+        <briefdescription>
+<para>Take what is on the scratchpad area and grab image. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the image data from the scratchpad </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="77" column="12" bodyfile="Scratchpad.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> class A scratchpad is a type of blank canvas area that can be painted on with the normal painting devices. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="1">
+        <label>Scratchpad</label>
+        <link refid="class_scratchpad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="1">
+        <label>Scratchpad</label>
+        <link refid="class_scratchpad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Scratchpad.h" line="27" column="1" bodyfile="Scratchpad.h" bodystart="28" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_scratchpad_1af0ca32712f6315e4013dc5a94c1a9214" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>clear</name></member>
+      <member refid="class_scratchpad_1a417c504e17f6959d5844ba9634d7993d" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>copyScratchpadImageData</name></member>
+      <member refid="class_scratchpad_1ad14c8668a74ac1bfdd064e1825c6b0f1" prot="private" virt="non-virtual"><scope>Scratchpad</scope><name>d</name></member>
+      <member refid="class_scratchpad_1a6d48412ef18d9a6b8c9fd00fcd4ec84c" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>linkCanvasZoom</name></member>
+      <member refid="class_scratchpad_1afa1cb389afc43d758ea8910141a475cd" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>loadScratchpadImage</name></member>
+      <member refid="class_scratchpad_1ad0cfa2a4fc0a082be4597ea23b9d86b8" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>Scratchpad</name></member>
+      <member refid="class_scratchpad_1a918b99aec6c8c88a22636b54e0e66896" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setFillColor</name></member>
+      <member refid="class_scratchpad_1acb508de32241af1351881518cdffb9f8" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setMode</name></member>
+      <member refid="class_scratchpad_1a528753f96e576779230ac978b9c27093" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setModeManually</name></member>
+      <member refid="class_scratchpad_1a4b445c03d298cc484b599eb5d39089cf" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>~Scratchpad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_vector_layer" kind="class" language="C++" prot="public">
+    <compoundname>VectorLayer</compoundname>
+    <basecompoundref refid="class_node" prot="public" virt="non-virtual">Node</basecompoundref>
+    <includes refid="_vector_layer_8h" local="no">VectorLayer.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vector_layer_1a0dda06f021125a6b8870fa6c12631847" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VectorLayer::VectorLayer</definition>
+        <argsstring>(KoShapeControllerBase *shapeController, KisImageSP image, QString name, QObject *parent=0)</argsstring>
+        <name>VectorLayer</name>
+        <qualifiedname>VectorLayer::VectorLayer</qualifiedname>
+        <param>
+          <type>KoShapeControllerBase *</type>
+          <declname>shapeController</declname>
+        </param>
+        <param>
+          <type>KisImageSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="37" column="14" bodyfile="VectorLayer.cpp" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector_layer_1aa052c12519ba82bab862f915e73758ce" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VectorLayer::VectorLayer</definition>
+        <argsstring>(KisShapeLayerSP layer, QObject *parent=0)</argsstring>
+        <name>VectorLayer</name>
+        <qualifiedname>VectorLayer::VectorLayer</qualifiedname>
+        <param>
+          <type>KisShapeLayerSP</type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="38" column="14" bodyfile="VectorLayer.cpp" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector_layer_1ace13c5cc692584e2f3c6e8142e118222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VectorLayer::~VectorLayer</definition>
+        <argsstring>() override</argsstring>
+        <name>~VectorLayer</name>
+        <qualifiedname>VectorLayer::~VectorLayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="39" column="5" bodyfile="VectorLayer.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_vector_layer_1a4e3a3ad7718dfcdf03826187c00557db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString VectorLayer::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <qualifiedname>VectorLayer::type</qualifiedname>
+        <briefdescription>
+<para>type <ref refid="class_krita" kindref="compound">Krita</ref> has several types of nodes, split in layers and masks. Group layers can contain other layers, any layer can contain masks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>vectorlayer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="48" column="21" bodyfile="VectorLayer.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1a8b0efcc0a73ea138cef50de46b9d33f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_shape" kindref="compound">Shape</ref> * &gt;</type>
+        <definition>QList&lt; Shape * &gt; VectorLayer::shapes</definition>
+        <argsstring>() const</argsstring>
+        <name>shapes</name>
+        <qualifiedname>VectorLayer::shapes</qualifiedname>
+        <briefdescription>
+<para>shapes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the list of top-level shapes in this vector layer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="54" column="11" bodyfile="VectorLayer.cpp" bodystart="46" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1abfd08c100e462e5480ba0860ba830d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString VectorLayer::toSvg</definition>
+        <argsstring>()</argsstring>
+        <name>toSvg</name>
+        <qualifiedname>VectorLayer::toSvg</qualifiedname>
+        <briefdescription>
+<para>toSvg convert the shapes in the layer to svg. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the svg in a string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="61" column="13" bodyfile="VectorLayer.cpp" bodystart="64" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1a508e74fee672036d9f934e31caecaad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_shape" kindref="compound">Shape</ref> * &gt;</type>
+        <definition>QList&lt; Shape * &gt; VectorLayer::addShapesFromSvg</definition>
+        <argsstring>(const QString &amp;svg)</argsstring>
+        <name>addShapesFromSvg</name>
+        <qualifiedname>VectorLayer::addShapesFromSvg</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>svg</declname>
+        </param>
+        <briefdescription>
+<para>addShapesFromSvg add shapes to the layer from a valid svg. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>svg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valid svg string. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the list of shapes added to the layer from the svg. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="69" column="11" bodyfile="VectorLayer.cpp" bodystart="93" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1affd8474580fb1a40640e8bd99c206fc1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_shape" kindref="compound">Shape</ref> *</type>
+        <definition>Shape * VectorLayer::shapeAtPosition</definition>
+        <argsstring>(const QPointF &amp;position) const</argsstring>
+        <name>shapeAtPosition</name>
+        <qualifiedname>VectorLayer::shapeAtPosition</qualifiedname>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>shapeAtPoint check if the position is located within any non-group shape&apos;s boundingBox() on the current layer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a QPointF of the position. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the shape at the position, or None if no shape is found. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="77" column="11" bodyfile="VectorLayer.cpp" bodystart="153" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1a8926d833982e2b4f9073c6aca3bba6e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_shape" kindref="compound">Shape</ref> * &gt;</type>
+        <definition>QList&lt; Shape * &gt; VectorLayer::shapesInRect</definition>
+        <argsstring>(const QRectF &amp;rect, bool omitHiddenShapes=true, bool containedMode=false) const</argsstring>
+        <name>shapesInRect</name>
+        <qualifiedname>VectorLayer::shapesInRect</qualifiedname>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>omitHiddenShapes</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>containedMode</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>shapeInRect get all non-group shapes that the shape&apos;s boundingBox() intersects or is contained within a given rectangle on the current layer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a QRectF </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>omitHiddenShapes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if non-visible() shapes should be omitted, false if they should be included. <computeroutput>omitHiddenShapes</computeroutput> defaults to true. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>containedMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>false if only shapes that are within or intersect with the outline should be included, true if only shapes that are fully contained within the outline should be included. <computeroutput>containedMode</computeroutput> defaults to false </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns a list of shapes. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="87" column="11" bodyfile="VectorLayer.cpp" bodystart="171" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1ace11d831969e7d94b185baff02784eeb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_shape" kindref="compound">Shape</ref> *</type>
+        <definition>Shape * VectorLayer::createGroupShape</definition>
+        <argsstring>(const QString &amp;name, QList&lt; Shape * &gt; shapes) const</argsstring>
+        <name>createGroupShape</name>
+        <qualifiedname>VectorLayer::createGroupShape</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QList&lt; <ref refid="class_shape" kindref="compound">Shape</ref> * &gt;</type>
+          <declname>shapes</declname>
+        </param>
+        <briefdescription>
+<para>createGroupShape combine a list of top level shapes into a group. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the shape. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shapes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of top level shapes. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>if successful, a <ref refid="class_group_shape" kindref="compound">GroupShape</ref> object will be returned. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="96" column="11" bodyfile="VectorLayer.cpp" bodystart="190" bodyend="234"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_vector_layer" kindref="compound">VectorLayer</ref> class A vector layer is a special layer that stores and shows vector shapes. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Vector shapes all have their coordinates in points, which is a unit that represents 1/72th of an inch. Keep this in mind wen parsing the bounding box and position data. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>VectorLayer</label>
+        <link refid="class_vector_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>VectorLayer</label>
+        <link refid="class_vector_layer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="VectorLayer.h" line="31" column="1" bodyfile="VectorLayer.h" bodystart="32" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>addChildNode</name></member>
+      <member refid="class_vector_layer_1a508e74fee672036d9f934e31caecaad9" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>addShapesFromSvg</name></member>
+      <member refid="class_node_1a03331f9c2993922444607feda85e9a2a" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>alphaLocked</name></member>
+      <member refid="class_node_1a5fc11982bb591e5f98c64f214fa1488b" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>animated</name></member>
+      <member refid="class_node_1a95c04d37237c262bb077f1c00f9d4db8" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>blendingMode</name></member>
+      <member refid="class_node_1ae85452559bbaafe6c2b344de7969c4b3" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>bounds</name></member>
+      <member refid="class_node_1a130fcc7ba378905bce08dbbf8496446c" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>channels</name></member>
+      <member refid="class_node_1a057e12453b0981b9124379427f86d477" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>childNodes</name></member>
+      <member refid="class_node_1ae1e518ef19a5ddea3fff4d9a146c4f37" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>clone</name></member>
+      <member refid="class_node_1a9155dcdc1bf1d8de9aa7054fa522e721" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>collapsed</name></member>
+      <member refid="class_node_1a1bf6e7df3033cd1c8c451bea4fe3b915" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>colorDepth</name></member>
+      <member refid="class_node_1a9533f365e3a0527dc7f1d752fa1258e2" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>colorLabel</name></member>
+      <member refid="class_node_1a3cdf805651043386ab90da663af56f98" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>colorModel</name></member>
+      <member refid="class_node_1aecc3b817f67b75f3b34c09aa99ac0420" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>colorProfile</name></member>
+      <member refid="class_vector_layer_1ace11d831969e7d94b185baff02784eeb" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>createGroupShape</name></member>
+      <member refid="class_node_1a88822eff44c10beb55a96f693753676f" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>createNode</name></member>
+      <member refid="class_node_1a83dc571b74b8d42d383bfc7d59591ba4" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>cropNode</name></member>
+      <member refid="class_node_1abb7a8b7c4d12cceb35e85456c088c033" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>duplicate</name></member>
+      <member refid="class_node_1a18aa2116f2bba210fbdd495f169edd99" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>enableAnimation</name></member>
+      <member refid="class_node_1a168345a41614daec033ff3b8670e1d91" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>findChildNodes</name></member>
+      <member refid="class_node_1ab01953eeffb53428265c1dc83027712f" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>hasExtents</name></member>
+      <member refid="class_node_1a46e221328b859524d40ce8544fcf48f7" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>hasKeyframeAtTime</name></member>
+      <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>icon</name></member>
+      <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>index</name></member>
+      <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>inheritAlpha</name></member>
+      <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>isPinnedToTimeline</name></member>
+      <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>layerStyleToAsl</name></member>
+      <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>locked</name></member>
+      <member refid="class_node_1a0db840fc17c54244a98e24c5fb049a53" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>mergeDown</name></member>
+      <member refid="class_node_1a34e40db057a6f4cff4c9967a0e948b93" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>move</name></member>
+      <member refid="class_node_1ac40f16db9ad108a3d8a029802899104c" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>name</name></member>
+      <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>opacity</name></member>
+      <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>operator!=</name></member>
+      <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>operator==</name></member>
+      <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>parentNode</name></member>
+      <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>pixelData</name></member>
+      <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>pixelDataAtTime</name></member>
+      <member refid="class_node_1a331e26f7dba8bf5e84b6bd2eff591488" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>position</name></member>
+      <member refid="class_node_1ad938d65c6b8bbceb31c00ddd64987279" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>projectionPixelData</name></member>
+      <member refid="class_node_1a631faa515a707b35de62698e0c9e62ae" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>remove</name></member>
+      <member refid="class_node_1ac16d48268bf1699b5293f605cb394f42" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>removeChildNode</name></member>
+      <member refid="class_node_1a88b80903cdee9d66142a091cb09d00d4" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>rotateNode</name></member>
+      <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>save</name></member>
+      <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>scaleNode</name></member>
+      <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setAlphaLocked</name></member>
+      <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setBlendingMode</name></member>
+      <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setChildNodes</name></member>
+      <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setCollapsed</name></member>
+      <member refid="class_node_1adb71ecaae4693eb2fc4e9bb945b5b025" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setColorLabel</name></member>
+      <member refid="class_node_1aa9cf6d05c79bee32ee4d919ad2558a1e" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setColorProfile</name></member>
+      <member refid="class_node_1a53da8f2ba51cf5dec02593dfc4cceabd" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setColorSpace</name></member>
+      <member refid="class_node_1abc854c5776a19b1fb1c2753ebd9772cc" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setInheritAlpha</name></member>
+      <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setLayerStyleFromAsl</name></member>
+      <member refid="class_node_1a5f9a6effbadc69fe963e2113b98abd39" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setLocked</name></member>
+      <member refid="class_node_1a76b36df00e311f88cc65e849b66f1e3b" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setName</name></member>
+      <member refid="class_node_1a1c52d941a4bcd9feecc45ce2068be27e" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setOpacity</name></member>
+      <member refid="class_node_1a334d811e485663294a6b1d4222af954d" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setPinnedToTimeline</name></member>
+      <member refid="class_node_1a4e0b624db748aa8cf63ba84131dfc1a7" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setPixelData</name></member>
+      <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setVisible</name></member>
+      <member refid="class_vector_layer_1affd8474580fb1a40640e8bd99c206fc1" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>shapeAtPosition</name></member>
+      <member refid="class_vector_layer_1a8b0efcc0a73ea138cef50de46b9d33f4" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>shapes</name></member>
+      <member refid="class_vector_layer_1a8926d833982e2b4f9073c6aca3bba6e9" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>shapesInRect</name></member>
+      <member refid="class_node_1a4899fa5719a3fd5c11a6f2446c83f0c7" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>shearNode</name></member>
+      <member refid="class_node_1aaee855a1d7a10f9198d03ff222809b6c" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>thumbnail</name></member>
+      <member refid="class_vector_layer_1abfd08c100e462e5480ba0860ba830d51" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>toSvg</name></member>
+      <member refid="class_vector_layer_1a4e3a3ad7718dfcdf03826187c00557db" prot="public" virt="virtual"><scope>VectorLayer</scope><name>type</name></member>
+      <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>uniqueId</name></member>
+      <member refid="class_vector_layer_1a0dda06f021125a6b8870fa6c12631847" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>VectorLayer</name></member>
+      <member refid="class_vector_layer_1aa052c12519ba82bab862f915e73758ce" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>VectorLayer</name></member>
+      <member refid="class_node_1a3c6ac6d2846f01e88a837a1df7e72cd3" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>visible</name></member>
+      <member refid="class_node_1a5d129d27d74d8d16302ca48624135407" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>~Node</name></member>
+      <member refid="class_vector_layer_1ace13c5cc692584e2f3c6e8142e118222" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>~VectorLayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

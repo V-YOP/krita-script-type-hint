@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_filter" kind="class" language="C++" prot="public">
+    <compoundname>Filter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_filter_8h" local="no">Filter.h</includes>
+    <innerclass refid="struct_filter_1_1_private" prot="public">Filter::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_filter_1a9695208225d79ba78b593cf000dd5336" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FilterLayer</definition>
+        <argsstring></argsstring>
+        <name>FilterLayer</name>
+        <qualifiedname>Filter::FilterLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_filter_layer" kindref="compound">FilterLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="98" column="18" bodyfile="Filter.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_filter_1a4fe02ebc16353b42253f2253af00f19f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FilterMask</definition>
+        <argsstring></argsstring>
+        <name>FilterMask</name>
+        <qualifiedname>Filter::FilterMask</qualifiedname>
+        <param>
+          <type><ref refid="class_filter_mask" kindref="compound">FilterMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="99" column="18" bodyfile="Filter.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_filter_1aaebdd44cf55810aab9a7c6b0d5f7980f" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_filter_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Filter::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Filter::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="102" column="19" bodyfile="Filter.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_filter_1ad15994c30d497afd567a6445446a249e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Filter::Filter</definition>
+        <argsstring>()</argsstring>
+        <name>Filter</name>
+        <qualifiedname>Filter::Filter</qualifiedname>
+        <briefdescription>
+<para><ref refid="class_filter" kindref="compound">Filter</ref>: create an empty filter object. Until a name is set, the filter cannot be applied. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="40" column="14" bodyfile="Filter.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_filter_1a0728afe794b927c294af47a4b1be7407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Filter::~Filter</definition>
+        <argsstring>() override</argsstring>
+        <name>~Filter</name>
+        <qualifiedname>Filter::~Filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="41" column="5" bodyfile="Filter.cpp" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_filter_1a1941e6d724f116ee37c7075886585af5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Filter::operator==</definition>
+        <argsstring>(const Filter &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Filter::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_filter" kindref="compound">Filter</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="43" column="10" bodyfile="Filter.cpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_filter_1a977bbd737ef69bb20a3bf90305072514" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Filter::operator!=</definition>
+        <argsstring>(const Filter &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Filter::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_filter" kindref="compound">Filter</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="44" column="10" bodyfile="Filter.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_filter_1a245b791dc6ff8c89055cfea310176944" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Filter::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>Filter::name</qualifiedname>
+        <briefdescription>
+<para>name the internal name of this filter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="52" column="13" bodyfile="Filter.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_filter_1af2bcec6892cae524d6c62f93c664bb8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Filter::setName</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>Filter::setName</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>setName set the filter&apos;s name to the given name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="57" column="10" bodyfile="Filter.cpp" bodystart="66" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_filter_1a971c58413648649b9fbe7c3588c2f157" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_info_object" kindref="compound">InfoObject</ref> *</type>
+        <definition>InfoObject * Filter::configuration</definition>
+        <argsstring>() const</argsstring>
+        <name>configuration</name>
+        <qualifiedname>Filter::configuration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the configuration object for the filter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="62" column="16" bodyfile="Filter.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_filter_1a4cbfa99015dd53dfe70de3b041841229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Filter::setConfiguration</definition>
+        <argsstring>(InfoObject *value)</argsstring>
+        <name>setConfiguration</name>
+        <qualifiedname>Filter::setConfiguration</qualifiedname>
+        <param>
+          <type><ref refid="class_info_object" kindref="compound">InfoObject</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setConfiguration set the configuration object for the filter </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="67" column="10" bodyfile="Filter.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_filter_1afc389ce21c87f9e1fd525b66fca1241b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Filter::apply</definition>
+        <argsstring>(Node *node, int x, int y, int w, int h)</argsstring>
+        <name>apply</name>
+        <qualifiedname>Filter::apply</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>Apply the filter to the given node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node to apply the filter to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>describe the rectangle the filter should be apply. This is always in image pixel coordinates and not relative to the x, y of the node. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the filter was applied successfully, or <computeroutput>false</computeroutput> if the filter could not be applied because the node is locked or does not have an editable paint device. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="82" column="10" bodyfile="Filter.cpp" bodystart="85" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_filter_1a1ec563dd83e1688f19b5fe46039b6b51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Filter::startFilter</definition>
+        <argsstring>(Node *node, int x, int y, int w, int h)</argsstring>
+        <name>startFilter</name>
+        <qualifiedname>Filter::startFilter</qualifiedname>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>startFilter starts the given filter on the given node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the node to apply the filter to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>describe the rectangle the filter should be apply. This is always in image pixel coordinates and not relative to the x, y of the node. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="95" column="10" bodyfile="Filter.cpp" bodystart="101" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_filter_1a02a5eb458d2a34136565bf8356df1d74" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>KisFilterConfigurationSP</type>
+        <definition>KisFilterConfigurationSP Filter::filterConfig</definition>
+        <argsstring>()</argsstring>
+        <name>filterConfig</name>
+        <qualifiedname>Filter::filterConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.h" line="104" column="30" bodyfile="Filter.cpp" bodystart="152" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_filter" kindref="compound">Filter</ref>: represents a filter and its configuration. A filter is identified by an internal name. The configuration for each filter is defined as an <ref refid="class_info_object" kindref="compound">InfoObject</ref>: a map of name and value pairs.</para>
+<para>Currently available filters are:</para>
+<para>&apos;autocontrast&apos;, &apos;blur&apos;, &apos;bottom edge detections&apos;, &apos;brightnesscontrast&apos;, &apos;burn&apos;, &apos;colorbalance&apos;, &apos;colortoalpha&apos;, &apos;colortransfer&apos;, &apos;desaturate&apos;, &apos;dodge&apos;, &apos;emboss&apos;, &apos;emboss all directions&apos;, &apos;emboss horizontal and vertical&apos;, &apos;emboss horizontal only&apos;, &apos;emboss laplascian&apos;, &apos;emboss vertical only&apos;, &apos;gaussian blur&apos;, &apos;gaussiannoisereducer&apos;, &apos;gradientmap&apos;, &apos;halftone&apos;, &apos;hsvadjustment&apos;, &apos;indexcolors&apos;, &apos;invert&apos;, &apos;left edge detections&apos;, &apos;lens blur&apos;, &apos;levels&apos;, &apos;maximize&apos;, &apos;mean removal&apos;, &apos;minimize&apos;, &apos;motion blur&apos;, &apos;noise&apos;, &apos;normalize&apos;, &apos;oilpaint&apos;, &apos;perchannel&apos;, &apos;phongbumpmap&apos;, &apos;pixelize&apos;, &apos;posterize&apos;, &apos;raindrops&apos;, &apos;randompick&apos;, &apos;right edge detections&apos;, &apos;roundcorners&apos;, &apos;sharpen&apos;, &apos;smalltiles&apos;, &apos;sobel&apos;, &apos;threshold&apos;, &apos;top edge detections&apos;, &apos;unsharp&apos;, &apos;wave&apos;, &apos;waveletnoisereducer&apos;] </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Filter</label>
+        <link refid="class_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Filter</label>
+        <link refid="class_filter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Filter.h" line="30" column="1" bodyfile="Filter.h" bodystart="31" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_filter_1afc389ce21c87f9e1fd525b66fca1241b" prot="public" virt="non-virtual"><scope>Filter</scope><name>apply</name></member>
+      <member refid="class_filter_1a971c58413648649b9fbe7c3588c2f157" prot="public" virt="non-virtual"><scope>Filter</scope><name>configuration</name></member>
+      <member refid="class_filter_1aaebdd44cf55810aab9a7c6b0d5f7980f" prot="private" virt="non-virtual"><scope>Filter</scope><name>d</name></member>
+      <member refid="class_filter_1ad15994c30d497afd567a6445446a249e" prot="public" virt="non-virtual"><scope>Filter</scope><name>Filter</name></member>
+      <member refid="class_filter_1a02a5eb458d2a34136565bf8356df1d74" prot="private" virt="non-virtual"><scope>Filter</scope><name>filterConfig</name></member>
+      <member refid="class_filter_1a9695208225d79ba78b593cf000dd5336" prot="private" virt="non-virtual"><scope>Filter</scope><name>FilterLayer</name></member>
+      <member refid="class_filter_1a4fe02ebc16353b42253f2253af00f19f" prot="private" virt="non-virtual"><scope>Filter</scope><name>FilterMask</name></member>
+      <member refid="class_filter_1a245b791dc6ff8c89055cfea310176944" prot="public" virt="non-virtual"><scope>Filter</scope><name>name</name></member>
+      <member refid="class_filter_1a977bbd737ef69bb20a3bf90305072514" prot="public" virt="non-virtual"><scope>Filter</scope><name>operator!=</name></member>
+      <member refid="class_filter_1a1941e6d724f116ee37c7075886585af5" prot="public" virt="non-virtual"><scope>Filter</scope><name>operator==</name></member>
+      <member refid="class_filter_1a4cbfa99015dd53dfe70de3b041841229" prot="public" virt="non-virtual"><scope>Filter</scope><name>setConfiguration</name></member>
+      <member refid="class_filter_1af2bcec6892cae524d6c62f93c664bb8b" prot="public" virt="non-virtual"><scope>Filter</scope><name>setName</name></member>
+      <member refid="class_filter_1a1ec563dd83e1688f19b5fe46039b6b51" prot="public" virt="non-virtual"><scope>Filter</scope><name>startFilter</name></member>
+      <member refid="class_filter_1a0728afe794b927c294af47a4b1be7407" prot="public" virt="non-virtual"><scope>Filter</scope><name>~Filter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

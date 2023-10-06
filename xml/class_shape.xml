@@ -1,0 +1,791 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_shape" kind="class" language="C++" prot="public">
+    <compoundname>Shape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="class_group_shape" prot="public" virt="non-virtual">GroupShape</derivedcompoundref>
+    <includes refid="_shape_8h" local="no">Shape.h</includes>
+    <innerclass refid="struct_shape_1_1_private" prot="public">Shape::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_shape_1a6fc1180ef44749ca9b36e428dd478f19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GroupShape</definition>
+        <argsstring></argsstring>
+        <name>GroupShape</name>
+        <qualifiedname>Shape::GroupShape</qualifiedname>
+        <param>
+          <type><ref refid="class_group_shape" kindref="compound">GroupShape</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="202" column="18" bodyfile="Shape.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_shape_1aa470056f72d93178e709c6dc936f98aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class VectorLayer</definition>
+        <argsstring></argsstring>
+        <name>VectorLayer</name>
+        <qualifiedname>Shape::VectorLayer</qualifiedname>
+        <param>
+          <type><ref refid="class_vector_layer" kindref="compound">VectorLayer</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="203" column="18" bodyfile="Shape.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shape_1a89c8d10b336e9daa9ba2328200a1d7a5" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_shape_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Shape::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Shape::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="206" column="19" bodyfile="Shape.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shape_1acefb3de113508a4db9362a7c28c56969" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Shape::Shape</definition>
+        <argsstring>(KoShape *shape, QObject *parent=0)</argsstring>
+        <name>Shape</name>
+        <qualifiedname>Shape::Shape</qualifiedname>
+        <param>
+          <type>KoShape *</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="43" column="14" bodyfile="Shape.cpp" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_1a935afc9e576015f967d90de56977167d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Shape::~Shape</definition>
+        <argsstring>()</argsstring>
+        <name>~Shape</name>
+        <qualifiedname>Shape::~Shape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="44" column="5" bodyfile="Shape.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_1a1a50887d4b2c04dee887e69c59b4ab7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::operator==</definition>
+        <argsstring>(const Shape &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Shape::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_shape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="46" column="10" bodyfile="Shape.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_1a4ce5c9fe06d40a8bf751cfc53755288a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::operator!=</definition>
+        <argsstring>(const Shape &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Shape::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_shape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="47" column="10" bodyfile="Shape.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_shape_1aa02274c9cdfb8a8825d0c56a939e5886" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Shape::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>Shape::name</qualifiedname>
+        <briefdescription>
+<para>name </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the name of the shape </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="55" column="13" bodyfile="Shape.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a876a01e85fd8466314c2c88c80dc1440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setName</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>Shape::setName</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>setName </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which name the shape should have. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="61" column="10" bodyfile="Shape.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a68910f4e984ce35fe3bc177a0dad7141" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Shape::type</definition>
+        <argsstring>() const</argsstring>
+        <name>type</name>
+        <qualifiedname>Shape::type</qualifiedname>
+        <briefdescription>
+<para>type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the type of shape. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="67" column="21" bodyfile="Shape.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a7d93570bfa42a357679e87392abb34fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Shape::zIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>zIndex</name>
+        <qualifiedname>Shape::zIndex</qualifiedname>
+        <briefdescription>
+<para>zIndex </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the zindex of the shape. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="73" column="9" bodyfile="Shape.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a87dc1abcab1835398a7b56ecfc101053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setZIndex</definition>
+        <argsstring>(int zindex)</argsstring>
+        <name>setZIndex</name>
+        <qualifiedname>Shape::setZIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>zindex</declname>
+        </param>
+        <briefdescription>
+<para>setZIndex </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>zindex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the shape zindex value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="79" column="10" bodyfile="Shape.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a4273880024656d4b368af6f8d26a25c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::selectable</definition>
+        <argsstring>() const</argsstring>
+        <name>selectable</name>
+        <qualifiedname>Shape::selectable</qualifiedname>
+        <briefdescription>
+<para>selectable </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether the shape is user selectable. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="85" column="10" bodyfile="Shape.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1abb7ed4a2f0690ba8cd941d826d3f11a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setSelectable</definition>
+        <argsstring>(bool selectable)</argsstring>
+        <name>setSelectable</name>
+        <qualifiedname>Shape::setSelectable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selectable</declname>
+        </param>
+        <briefdescription>
+<para>setSelectable </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether the shape should be user selectable. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="91" column="10" bodyfile="Shape.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1aaab99a77095c96308fa202a427a6eb10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::geometryProtected</definition>
+        <argsstring>() const</argsstring>
+        <name>geometryProtected</name>
+        <qualifiedname>Shape::geometryProtected</qualifiedname>
+        <briefdescription>
+<para>geometryProtected </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether the shape is protected from user changing the shape geometry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="97" column="10" bodyfile="Shape.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1ab3831cd0241a4ef24eefca272b29a01c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setGeometryProtected</definition>
+        <argsstring>(bool protect)</argsstring>
+        <name>setGeometryProtected</name>
+        <qualifiedname>Shape::setGeometryProtected</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>protect</declname>
+        </param>
+        <briefdescription>
+<para>setGeometryProtected </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>protect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether the shape should be geometry protected from the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="103" column="10" bodyfile="Shape.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1ae3c924f1cd861985cae2cfedcdaea382" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::visible</definition>
+        <argsstring>() const</argsstring>
+        <name>visible</name>
+        <qualifiedname>Shape::visible</qualifiedname>
+        <briefdescription>
+<para>visible </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether the shape is visible. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="109" column="10" bodyfile="Shape.cpp" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a041930633ef5b42e9ba2aa714a098540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setVisible</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>Shape::setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>setVisible </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether the shape should be visible. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="115" column="10" bodyfile="Shape.cpp" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a4d81a074fa955e7ee360c0df2b3ef3a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QRectF</type>
+        <definition>QRectF Shape::boundingBox</definition>
+        <argsstring>() const</argsstring>
+        <name>boundingBox</name>
+        <qualifiedname>Shape::boundingBox</qualifiedname>
+        <briefdescription>
+<para>boundingBox the bounding box of the shape in points </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>RectF containing the bounding box. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="121" column="12" bodyfile="Shape.cpp" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1aa146e1f9869e3e9dda865380508a31d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QPointF</type>
+        <definition>QPointF Shape::position</definition>
+        <argsstring>() const</argsstring>
+        <name>position</name>
+        <qualifiedname>Shape::position</qualifiedname>
+        <briefdescription>
+<para>position the position of the shape in points. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the position of the shape in points. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="127" column="13" bodyfile="Shape.cpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a9a533542a4767bcf84bc2100437cad2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setPosition</definition>
+        <argsstring>(QPointF point)</argsstring>
+        <name>setPosition</name>
+        <qualifiedname>Shape::setPosition</qualifiedname>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>setPosition set the position of the shape. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new position in points </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="133" column="10" bodyfile="Shape.cpp" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a33271b28d12feeb5d7fa0cb76404eb79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QTransform</type>
+        <definition>QTransform Shape::transformation</definition>
+        <argsstring>() const</argsstring>
+        <name>transformation</name>
+        <qualifiedname>Shape::transformation</qualifiedname>
+        <briefdescription>
+<para>transformation the 2D transformation matrix of the shape. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the 2D transformation matrix. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="139" column="16" bodyfile="Shape.cpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a5db8dddaa891ea5f8c61318950b4b6f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::setTransformation</definition>
+        <argsstring>(QTransform matrix)</argsstring>
+        <name>setTransformation</name>
+        <qualifiedname>Shape::setTransformation</qualifiedname>
+        <param>
+          <type>QTransform</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+<para>setTransformation set the 2D transformation matrix of the shape. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>matrix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new 2D transformation matrix. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="145" column="10" bodyfile="Shape.cpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a1eb4bd772f4f5328ab36ebf175580aab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QTransform</type>
+        <definition>QTransform Shape::absoluteTransformation</definition>
+        <argsstring>() const</argsstring>
+        <name>absoluteTransformation</name>
+        <qualifiedname>Shape::absoluteTransformation</qualifiedname>
+        <briefdescription>
+<para>transformation the 2D transformation matrix of the shape including all grandparent transforms. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the 2D transformation matrix. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="151" column="16" bodyfile="Shape.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a1cd600095ba0f8bbd5c1ee53c00e827f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <qualifiedname>Shape::remove</qualifiedname>
+        <briefdescription>
+<para>remove delete the shape. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="156" column="10" bodyfile="Shape.cpp" bodystart="148" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a2529ca668908be63f160a88dad62f42a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <qualifiedname>Shape::update</qualifiedname>
+        <briefdescription>
+<para>update queue the shape update. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="161" column="10" bodyfile="Shape.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a992d7ef0d623a3f26e3d06ecce17cadb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::updateAbsolute</definition>
+        <argsstring>(QRectF box)</argsstring>
+        <name>updateAbsolute</name>
+        <qualifiedname>Shape::updateAbsolute</qualifiedname>
+        <param>
+          <type>QRectF</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+<para>updateAbsolute queue the shape update in the specified rectangle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>box</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the RectF rectangle to update. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="167" column="10" bodyfile="Shape.cpp" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1aa9cc7dbe137e7edb123f0611f6fd9555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Shape::toSvg</definition>
+        <argsstring>(bool prependStyles=false, bool stripTextMode=true)</argsstring>
+        <name>toSvg</name>
+        <qualifiedname>Shape::toSvg</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>prependStyles</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stripTextMode</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>toSvg convert the shape to svg, will not include style definitions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prependStyles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>prepend the style data. Default: false </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stripTextMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enable strip text mode. Default: true </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the svg in a string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="177" column="13" bodyfile="Shape.cpp" bodystart="172" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1ad8a86219486a6471e72d11068ea4ec85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::select</definition>
+        <argsstring>()</argsstring>
+        <name>select</name>
+        <qualifiedname>Shape::select</qualifiedname>
+        <briefdescription>
+<para>select selects the shape. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="182" column="10" bodyfile="Shape.cpp" bodystart="193" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1aea4eaced67662fc4c3165160c11b9dea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape::deselect</definition>
+        <argsstring>()</argsstring>
+        <name>deselect</name>
+        <qualifiedname>Shape::deselect</qualifiedname>
+        <briefdescription>
+<para>deselect deselects the shape. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="187" column="10" bodyfile="Shape.cpp" bodystart="203" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a511bfc385622fcd4272a3d6bc13be9cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape::isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>Shape::isSelected</qualifiedname>
+        <briefdescription>
+<para>isSelected </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>whether the shape is selected. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="193" column="10" bodyfile="Shape.cpp" bodystart="213" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_shape_1a887d3555ac8e7205a28e09389c4ee67e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_shape" kindref="compound">Shape</ref> *</type>
+        <definition>Shape * Shape::parentShape</definition>
+        <argsstring>() const</argsstring>
+        <name>parentShape</name>
+        <qualifiedname>Shape::parentShape</qualifiedname>
+        <briefdescription>
+<para>parentShape </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the parent <ref refid="class_group_shape" kindref="compound">GroupShape</ref> of the current shape. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="199" column="11" bodyfile="Shape.cpp" bodystart="223" bodyend="233"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shape_1a7cf7d1aa63b5222a18c75dca88bd6517" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>KoShape *</type>
+        <definition>KoShape * Shape::shape</definition>
+        <argsstring>()</argsstring>
+        <name>shape</name>
+        <qualifiedname>Shape::shape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Shape.h" line="208" column="13" bodyfile="Shape.cpp" bodystart="236" bodyend="239"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_shape" kindref="compound">Shape</ref> class The shape class is a wrapper around <ref refid="class_krita" kindref="compound">Krita</ref>&apos;s vector objects. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Some example code to parse through interesting information in a given vector layer with shapes. <programlisting><codeline><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>krita<sp/>import<sp/>*</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">doc<sp/>=<sp/>Application.activeDocument()</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">root<sp/>=<sp/>doc.rootNode()</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">for<sp/>layer<sp/>in<sp/>root.childNodes():</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>print<sp/>(str(layer.type())+&quot;<sp/>&quot;+str(layer.name()))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(str(layer.type())==</highlight><highlight class="stringliteral">&quot;vectorlayer&quot;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>shape<sp/>in<sp/>layer.shapes():</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(shape.<ref refid="class_shape_1aa02274c9cdfb8a8825d0c56a939e5886" kindref="member">name</ref>())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(shape.<ref refid="class_shape_1aa9cc7dbe137e7edb123f0611f6fd9555" kindref="member">toSvg</ref>())</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>GroupShape</label>
+        <link refid="class_group_shape"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Shape</label>
+        <link refid="class_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Shape</label>
+        <link refid="class_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Shape.h" line="37" column="1" bodyfile="Shape.h" bodystart="38" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_shape_1a1eb4bd772f4f5328ab36ebf175580aab" prot="public" virt="non-virtual"><scope>Shape</scope><name>absoluteTransformation</name></member>
+      <member refid="class_shape_1a4d81a074fa955e7ee360c0df2b3ef3a6" prot="public" virt="non-virtual"><scope>Shape</scope><name>boundingBox</name></member>
+      <member refid="class_shape_1a89c8d10b336e9daa9ba2328200a1d7a5" prot="private" virt="non-virtual"><scope>Shape</scope><name>d</name></member>
+      <member refid="class_shape_1aea4eaced67662fc4c3165160c11b9dea" prot="public" virt="non-virtual"><scope>Shape</scope><name>deselect</name></member>
+      <member refid="class_shape_1aaab99a77095c96308fa202a427a6eb10" prot="public" virt="non-virtual"><scope>Shape</scope><name>geometryProtected</name></member>
+      <member refid="class_shape_1a6fc1180ef44749ca9b36e428dd478f19" prot="private" virt="non-virtual"><scope>Shape</scope><name>GroupShape</name></member>
+      <member refid="class_shape_1a511bfc385622fcd4272a3d6bc13be9cd" prot="public" virt="non-virtual"><scope>Shape</scope><name>isSelected</name></member>
+      <member refid="class_shape_1aa02274c9cdfb8a8825d0c56a939e5886" prot="public" virt="non-virtual"><scope>Shape</scope><name>name</name></member>
+      <member refid="class_shape_1a4ce5c9fe06d40a8bf751cfc53755288a" prot="public" virt="non-virtual"><scope>Shape</scope><name>operator!=</name></member>
+      <member refid="class_shape_1a1a50887d4b2c04dee887e69c59b4ab7f" prot="public" virt="non-virtual"><scope>Shape</scope><name>operator==</name></member>
+      <member refid="class_shape_1a887d3555ac8e7205a28e09389c4ee67e" prot="public" virt="non-virtual"><scope>Shape</scope><name>parentShape</name></member>
+      <member refid="class_shape_1aa146e1f9869e3e9dda865380508a31d1" prot="public" virt="non-virtual"><scope>Shape</scope><name>position</name></member>
+      <member refid="class_shape_1a1cd600095ba0f8bbd5c1ee53c00e827f" prot="public" virt="non-virtual"><scope>Shape</scope><name>remove</name></member>
+      <member refid="class_shape_1ad8a86219486a6471e72d11068ea4ec85" prot="public" virt="non-virtual"><scope>Shape</scope><name>select</name></member>
+      <member refid="class_shape_1a4273880024656d4b368af6f8d26a25c3" prot="public" virt="non-virtual"><scope>Shape</scope><name>selectable</name></member>
+      <member refid="class_shape_1ab3831cd0241a4ef24eefca272b29a01c" prot="public" virt="non-virtual"><scope>Shape</scope><name>setGeometryProtected</name></member>
+      <member refid="class_shape_1a876a01e85fd8466314c2c88c80dc1440" prot="public" virt="non-virtual"><scope>Shape</scope><name>setName</name></member>
+      <member refid="class_shape_1a9a533542a4767bcf84bc2100437cad2b" prot="public" virt="non-virtual"><scope>Shape</scope><name>setPosition</name></member>
+      <member refid="class_shape_1abb7ed4a2f0690ba8cd941d826d3f11a1" prot="public" virt="non-virtual"><scope>Shape</scope><name>setSelectable</name></member>
+      <member refid="class_shape_1a5db8dddaa891ea5f8c61318950b4b6f6" prot="public" virt="non-virtual"><scope>Shape</scope><name>setTransformation</name></member>
+      <member refid="class_shape_1a041930633ef5b42e9ba2aa714a098540" prot="public" virt="non-virtual"><scope>Shape</scope><name>setVisible</name></member>
+      <member refid="class_shape_1a87dc1abcab1835398a7b56ecfc101053" prot="public" virt="non-virtual"><scope>Shape</scope><name>setZIndex</name></member>
+      <member refid="class_shape_1a7cf7d1aa63b5222a18c75dca88bd6517" prot="private" virt="non-virtual"><scope>Shape</scope><name>shape</name></member>
+      <member refid="class_shape_1acefb3de113508a4db9362a7c28c56969" prot="public" virt="non-virtual"><scope>Shape</scope><name>Shape</name></member>
+      <member refid="class_shape_1aa9cc7dbe137e7edb123f0611f6fd9555" prot="public" virt="non-virtual"><scope>Shape</scope><name>toSvg</name></member>
+      <member refid="class_shape_1a33271b28d12feeb5d7fa0cb76404eb79" prot="public" virt="non-virtual"><scope>Shape</scope><name>transformation</name></member>
+      <member refid="class_shape_1a68910f4e984ce35fe3bc177a0dad7141" prot="public" virt="virtual"><scope>Shape</scope><name>type</name></member>
+      <member refid="class_shape_1a2529ca668908be63f160a88dad62f42a" prot="public" virt="non-virtual"><scope>Shape</scope><name>update</name></member>
+      <member refid="class_shape_1a992d7ef0d623a3f26e3d06ecce17cadb" prot="public" virt="non-virtual"><scope>Shape</scope><name>updateAbsolute</name></member>
+      <member refid="class_shape_1aa470056f72d93178e709c6dc936f98aa" prot="private" virt="non-virtual"><scope>Shape</scope><name>VectorLayer</name></member>
+      <member refid="class_shape_1ae3c924f1cd861985cae2cfedcdaea382" prot="public" virt="non-virtual"><scope>Shape</scope><name>visible</name></member>
+      <member refid="class_shape_1a7d93570bfa42a357679e87392abb34fd" prot="public" virt="non-virtual"><scope>Shape</scope><name>zIndex</name></member>
+      <member refid="class_shape_1a935afc9e576015f967d90de56977167d" prot="public" virt="non-virtual"><scope>Shape</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

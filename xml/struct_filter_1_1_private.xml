@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_filter_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Filter::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_filter_1_1_private_1adad23cfd4f2b6a0887d2eac9c9a06365" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Filter::Private::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Filter::Private::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.cpp" line="33" column="13" bodyfile="Filter.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_1_1_private_1afb255bd66fe11ff8dcf80ac26a117a00" prot="public" static="no" mutable="no">
+        <type><ref refid="class_info_object" kindref="compound">InfoObject</ref> *</type>
+        <definition>InfoObject* Filter::Private::configuration</definition>
+        <argsstring></argsstring>
+        <name>configuration</name>
+        <qualifiedname>Filter::Private::configuration</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.cpp" line="34" column="16" bodyfile="Filter.cpp" bodystart="34" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_filter_1_1_private_1ab5601c3a1cb355b4c55cf08cc26c6916" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Filter::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Filter::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Filter.cpp" line="32" column="5" bodyfile="Filter.cpp" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Filter::Private</label>
+        <link refid="struct_filter_1_1_private"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>configuration</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>InfoObject</label>
+        <link refid="class_info_object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Filter.cpp" line="31" column="1" bodyfile="Filter.cpp" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="struct_filter_1_1_private_1afb255bd66fe11ff8dcf80ac26a117a00" prot="public" virt="non-virtual"><scope>Filter::Private</scope><name>configuration</name></member>
+      <member refid="struct_filter_1_1_private_1adad23cfd4f2b6a0887d2eac9c9a06365" prot="public" virt="non-virtual"><scope>Filter::Private</scope><name>name</name></member>
+      <member refid="struct_filter_1_1_private_1ab5601c3a1cb355b4c55cf08cc26c6916" prot="public" virt="non-virtual"><scope>Filter::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

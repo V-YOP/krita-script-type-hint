@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_preset_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Preset::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_preset_1_1_private_1aa349abacea8e90e90f4b48bba8e84fb5" prot="public" static="no" mutable="no">
+        <type>KisPaintOpPresetSP</type>
+        <definition>KisPaintOpPresetSP Preset::Private::preset</definition>
+        <argsstring></argsstring>
+        <name>preset</name>
+        <qualifiedname>Preset::Private::preset</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preset.cpp" line="10" column="24" bodyfile="Preset.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Preset.cpp" line="9" column="1" bodyfile="Preset.cpp" bodystart="9" bodyend="11"/>
+    <listofallmembers>
+      <member refid="struct_preset_1_1_private_1aa349abacea8e90e90f4b48bba8e84fb5" prot="public" virt="non-virtual"><scope>Preset::Private</scope><name>preset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_selection_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Selection::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_selection_1_1_private_1a7985bb5da288e8f483f22fa397c7300c" prot="public" static="no" mutable="no">
+        <type>KisSelectionSP</type>
+        <definition>KisSelectionSP Selection::Private::selection</definition>
+        <argsstring></argsstring>
+        <name>selection</name>
+        <qualifiedname>Selection::Private::selection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.cpp" line="23" column="20" bodyfile="Selection.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_selection_1_1_private_1a26beaf5d0afd4dd2221d72c83f0b1e9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Selection::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Selection::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Selection.cpp" line="22" column="5" bodyfile="Selection.cpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Selection.cpp" line="21" column="1" bodyfile="Selection.cpp" bodystart="21" bodyend="24"/>
+    <listofallmembers>
+      <member refid="struct_selection_1_1_private_1a26beaf5d0afd4dd2221d72c83f0b1e9c" prot="public" virt="non-virtual"><scope>Selection::Private</scope><name>Private</name></member>
+      <member refid="struct_selection_1_1_private_1a7985bb5da288e8f483f22fa397c7300c" prot="public" virt="non-virtual"><scope>Selection::Private</scope><name>selection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_managed_color" kind="class" language="C++" prot="public">
+    <compoundname>ManagedColor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_managed_color_8h" local="no">ManagedColor.h</includes>
+    <innerclass refid="struct_managed_color_1_1_private" prot="public">ManagedColor::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_managed_color_1a018ff8a950133459fda57a235706a80b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class View</definition>
+        <argsstring></argsstring>
+        <name>View</name>
+        <qualifiedname>ManagedColor::View</qualifiedname>
+        <param>
+          <type><ref refid="class_view" kindref="compound">View</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="196" column="18" bodyfile="ManagedColor.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_managed_color_1a60683b9c5b46c483ea04874dd0b7298f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class PaletteView</definition>
+        <argsstring></argsstring>
+        <name>PaletteView</name>
+        <qualifiedname>ManagedColor::PaletteView</qualifiedname>
+        <param>
+          <type><ref refid="class_palette_view" kindref="compound">PaletteView</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="197" column="18" bodyfile="ManagedColor.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_managed_color_1a6fa9c795fdb30a1eea81db0ddab97936" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Swatch</definition>
+        <argsstring></argsstring>
+        <name>Swatch</name>
+        <qualifiedname>ManagedColor::Swatch</qualifiedname>
+        <param>
+          <type><ref refid="class_swatch" kindref="compound">Swatch</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="198" column="18" bodyfile="ManagedColor.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_managed_color_1aff3ee479468ffd4b90815a88304b2abd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ColorizeMask</definition>
+        <argsstring></argsstring>
+        <name>ColorizeMask</name>
+        <qualifiedname>ManagedColor::ColorizeMask</qualifiedname>
+        <param>
+          <type><ref refid="class_colorize_mask" kindref="compound">ColorizeMask</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="199" column="18" bodyfile="ManagedColor.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_managed_color_1a93cb599e634527170d38447f223038b1" prot="private" static="no" mutable="no">
+        <type>const QScopedPointer&lt; <ref refid="struct_managed_color_1_1_private" kindref="compound">Private</ref> &gt;</type>
+        <definition>const QScopedPointer&lt;Private&gt; ManagedColor::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>ManagedColor::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="204" column="26" bodyfile="ManagedColor.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_managed_color_1a280deb3e0dafd4b759fa6b016e4bd54e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ManagedColor::ManagedColor</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>ManagedColor</name>
+        <qualifiedname>ManagedColor::ManagedColor</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> Create a <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> that is black and transparent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="53" column="14" bodyfile="ManagedColor.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a9e06e8a9f14a7dbfe78f7b85f2513a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ManagedColor::ManagedColor</definition>
+        <argsstring>(const QString &amp;colorModel, const QString &amp;colorDepth, const QString &amp;colorProfile, QObject *parent=0)</argsstring>
+        <name>ManagedColor</name>
+        <qualifiedname>ManagedColor::ManagedColor</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorModel</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorDepth</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorProfile</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> create a managed color with the given color space properties. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>setColorModel() for more details. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="58" column="5" bodyfile="ManagedColor.cpp" bodystart="33" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a5f61dd2e43dd9274603605dd31530f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ManagedColor::ManagedColor</definition>
+        <argsstring>(KoColor color, QObject *parent=0)</argsstring>
+        <name>ManagedColor</name>
+        <qualifiedname>ManagedColor::ManagedColor</qualifiedname>
+        <param>
+          <type>KoColor</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="59" column="5" bodyfile="ManagedColor.cpp" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a9d4e6941b859ab8967e8b8a00c153711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ManagedColor::~ManagedColor</definition>
+        <argsstring>() override</argsstring>
+        <name>~ManagedColor</name>
+        <qualifiedname>ManagedColor::~ManagedColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="60" column="5" bodyfile="ManagedColor.cpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a310079e5cacaf913b2cd23a06c1c4914" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ManagedColor::operator==</definition>
+        <argsstring>(const ManagedColor &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ManagedColor::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="62" column="10" bodyfile="ManagedColor.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a460edcb83e95e24931e559da793bbd00" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor ManagedColor::colorForCanvas</definition>
+        <argsstring>(Canvas *canvas) const</argsstring>
+        <name>colorForCanvas</name>
+        <qualifiedname>ManagedColor::colorForCanvas</qualifiedname>
+        <param>
+          <type><ref refid="class_canvas" kindref="compound">Canvas</ref> *</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+<para>colorForCanvas </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>canvas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the canvas whose color management you&apos;d like to use. In <ref refid="class_krita" kindref="compound">Krita</ref>, different views have separate canvasses, and these can have different OCIO configurations active. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the QColor as it would be displaying on the canvas. This result can be used to draw widgets with the correct configuration applied. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="71" column="12" bodyfile="ManagedColor.cpp" bodystart="60" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ManagedColor::colorDepth</definition>
+        <argsstring>() const</argsstring>
+        <name>colorDepth</name>
+        <qualifiedname>ManagedColor::colorDepth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>colorDepth A string describing the color depth of the image: <itemizedlist>
+<listitem>
+<para>U8: unsigned 8 bits integer, the most common type </para>
+</listitem>
+<listitem>
+<para>U16: unsigned 16 bits integer </para>
+</listitem>
+<listitem>
+<para>F16: half, 16 bits floating point. Only available if <ref refid="class_krita" kindref="compound">Krita</ref> was built with OpenEXR </para>
+</listitem>
+<listitem>
+<para>F32: 32 bits floating point </para>
+</listitem>
+</itemizedlist>
+<simplesect kind="return"><para>the color depth. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="91" column="13" bodyfile="ManagedColor.cpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ManagedColor::colorModel</definition>
+        <argsstring>() const</argsstring>
+        <name>colorModel</name>
+        <qualifiedname>ManagedColor::colorModel</qualifiedname>
+        <briefdescription>
+<para>colorModel retrieve the current color model of this document: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem>
+<para>A: Alpha mask </para>
+</listitem>
+<listitem>
+<para>RGBA: RGB with alpha channel (The actual order of channels is most often BGR!) </para>
+</listitem>
+<listitem>
+<para>XYZA: XYZ with alpha channel </para>
+</listitem>
+<listitem>
+<para>LABA: LAB with alpha channel </para>
+</listitem>
+<listitem>
+<para>CMYKA: CMYK with alpha channel </para>
+</listitem>
+<listitem>
+<para>GRAYA: Gray with alpha channel </para>
+</listitem>
+<listitem>
+<para>YCbCrA: YCbCr with alpha channel </para>
+</listitem>
+</itemizedlist>
+<simplesect kind="return"><para>the internal color model string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="106" column="13" bodyfile="ManagedColor.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ManagedColor::colorProfile</definition>
+        <argsstring>() const</argsstring>
+        <name>colorProfile</name>
+        <qualifiedname>ManagedColor::colorProfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the name of the current color profile </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="111" column="13" bodyfile="ManagedColor.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a3a141d55357cc55540092121ceaed8f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ManagedColor::setColorProfile</definition>
+        <argsstring>(const QString &amp;colorProfile)</argsstring>
+        <name>setColorProfile</name>
+        <qualifiedname>ManagedColor::setColorProfile</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorProfile</declname>
+        </param>
+        <briefdescription>
+<para>setColorProfile set the color profile of the image to the given profile. The profile has to be registered with krita and be compatible with the current color model and depth; the image data is <emphasis>not</emphasis> converted. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colorProfile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if the colorProfile name does not correspond to to a registered profile or if assigning the profile failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="121" column="10" bodyfile="ManagedColor.cpp" bodystart="107" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a685dfd64121795b65e8f9dc71f75cb0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ManagedColor::setColorSpace</definition>
+        <argsstring>(const QString &amp;colorModel, const QString &amp;colorDepth, const QString &amp;colorProfile)</argsstring>
+        <name>setColorSpace</name>
+        <qualifiedname>ManagedColor::setColorSpace</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorModel</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorDepth</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>colorProfile</declname>
+        </param>
+        <briefdescription>
+<para>setColorSpace convert the nodes and the image to the given colorspace. The conversion is done with Perceptual as intent, High Quality and No LCMS Optimizations as flags and no blackpoint compensation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colorModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing the color model of the image: <itemizedlist>
+<listitem>
+<para>A: Alpha mask </para>
+</listitem>
+<listitem>
+<para>RGBA: RGB with alpha channel (The actual order of channels is most often BGR!) </para>
+</listitem>
+<listitem>
+<para>XYZA: XYZ with alpha channel </para>
+</listitem>
+<listitem>
+<para>LABA: LAB with alpha channel </para>
+</listitem>
+<listitem>
+<para>CMYKA: CMYK with alpha channel </para>
+</listitem>
+<listitem>
+<para>GRAYA: Gray with alpha channel </para>
+</listitem>
+<listitem>
+<para>YCbCrA: YCbCr with alpha channel </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colorDepth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing the color depth of the image: <itemizedlist>
+<listitem>
+<para>U8: unsigned 8 bits integer, the most common type </para>
+</listitem>
+<listitem>
+<para>U16: unsigned 16 bits integer </para>
+</listitem>
+<listitem>
+<para>F16: half, 16 bits floating point. Only available if <ref refid="class_krita" kindref="compound">Krita</ref> was built with OpenEXR </para>
+</listitem>
+<listitem>
+<para>F32: 32 bits floating point </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colorProfile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a valid color profile for this color model and color depth combination. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false the combination of these arguments does not correspond to a colorspace. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="148" column="10" bodyfile="ManagedColor.cpp" bodystart="115" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a428fe292713b264af5112ae98d74c29c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; float &gt;</type>
+        <definition>QVector&lt; float &gt; ManagedColor::components</definition>
+        <argsstring>() const</argsstring>
+        <name>components</name>
+        <qualifiedname>ManagedColor::components</qualifiedname>
+        <briefdescription>
+<para>components </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a QVector containing the channel/components of this color normalized. This includes the alphachannel. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="154" column="13" bodyfile="ManagedColor.cpp" bodystart="123" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1ac5d6f72572fec815a37fe4011fdd4961" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; float &gt;</type>
+        <definition>QVector&lt; float &gt; ManagedColor::componentsOrdered</definition>
+        <argsstring>() const</argsstring>
+        <name>componentsOrdered</name>
+        <qualifiedname>ManagedColor::componentsOrdered</qualifiedname>
+        <briefdescription>
+<para><ref refid="class_managed_color_1ac5d6f72572fec815a37fe4011fdd4961" kindref="member">componentsOrdered()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>same as Components, except the values are ordered to the display. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="160" column="13" bodyfile="ManagedColor.cpp" bodystart="130" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a9f133c4bb3b2024426082fedf071ed74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManagedColor::setComponents</definition>
+        <argsstring>(const QVector&lt; float &gt; &amp;values)</argsstring>
+        <name>setComponents</name>
+        <qualifiedname>ManagedColor::setComponents</qualifiedname>
+        <param>
+          <type>const QVector&lt; float &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+<para>setComponents Set the channel/components with normalized values. For integer colorspace, this obviously means the limit is between 0.0-1.0, but for floating point colorspaces, 2.4 or 103.5 are still meaningful (if bright) values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the QVector containing the new channel/component values. These should be normalized. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="168" column="10" bodyfile="ManagedColor.cpp" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a61f286b8abd83e7927860d75e9b0a27c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ManagedColor::toXML</definition>
+        <argsstring>() const</argsstring>
+        <name>toXML</name>
+        <qualifiedname>ManagedColor::toXML</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Serialize this color following Create&apos;s swatch color specification available at <ulink url="https://web.archive.org/web/20110826002520/http://create.freedesktop.org/wiki/Swatches_-_color_file_format/Draft">https://web.archive.org/web/20110826002520/http://create.freedesktop.org/wiki/Swatches_-_color_file_format/Draft</ulink> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="174" column="13" bodyfile="ManagedColor.cpp" bodystart="147" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a8f68128850da66f3f33385b19f753ee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManagedColor::fromXML</definition>
+        <argsstring>(const QString &amp;xml)</argsstring>
+        <name>fromXML</name>
+        <qualifiedname>ManagedColor::fromXML</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unserialize a color following Create&apos;s swatch color specification available at <ulink url="https://web.archive.org/web/20110826002520/http://create.freedesktop.org/wiki/Swatches_-_color_file_format/Draft">https://web.archive.org/web/20110826002520/http://create.freedesktop.org/wiki/Swatches_-_color_file_format/Draft</ulink></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an XML color</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the unserialized color, or an empty color object if the function failed to unserialize the color </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="185" column="10" bodyfile="ManagedColor.cpp" bodystart="157" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_managed_color_1a85a9b000167898e06870c63cc895c7d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ManagedColor::toQString</definition>
+        <argsstring>()</argsstring>
+        <name>toQString</name>
+        <qualifiedname>ManagedColor::toQString</qualifiedname>
+        <briefdescription>
+<para>toQString create a user-visible string of the channel names and the channel values </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a string that can be used to display the values of this color to the user. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="191" column="13" bodyfile="ManagedColor.cpp" bodystart="171" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_managed_color_1a5ddab87a57e83c9de0f73ad01afdd525" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
+        <definition>ManagedColor * ManagedColor::fromQColor</definition>
+        <argsstring>(const QColor &amp;qcolor, Canvas *canvas=0)</argsstring>
+        <name>fromQColor</name>
+        <qualifiedname>ManagedColor::fromQColor</qualifiedname>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>qcolor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_canvas" kindref="compound">Canvas</ref> *</type>
+          <declname>canvas</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>fromQColor is the (approximate) reverse of <ref refid="class_managed_color_1a460edcb83e95e24931e559da793bbd00" kindref="member">colorForCanvas()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>qcolor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the QColor to convert to a KoColor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>canvas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the canvas whose color management you&apos;d like to use. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the approximated <ref refid="class_managed_color" kindref="compound">ManagedColor</ref>, to use for canvas resources. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="79" column="25" bodyfile="ManagedColor.cpp" bodystart="76" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_managed_color_1ac490afbdd202dbaf36fcd486dbfd4cae" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KoColor</type>
+        <definition>KoColor ManagedColor::color</definition>
+        <argsstring>() const</argsstring>
+        <name>color</name>
+        <qualifiedname>ManagedColor::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ManagedColor.h" line="201" column="13" bodyfile="ManagedColor.cpp" bodystart="176" bodyend="179"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> class is a class to handle colors that are color managed. A managed color is a color of which we know the model(RGB, LAB, CMYK, etc), the bitdepth and the specific properties of its colorspace, such as the whitepoint, chromaticities, trc, etc, as represented by the color profile. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_krita" kindref="compound">Krita</ref> has two color management systems. LCMS and OCIO. LCMS is the one handling the ICC profile stuff, and the major one handling that <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> deals with. OCIO support is only in the display of the colors. <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> has some support for it in <ref refid="class_managed_color_1a460edcb83e95e24931e559da793bbd00" kindref="member">colorForCanvas()</ref></para>
+<para>All colors in <ref refid="class_krita" kindref="compound">Krita</ref> are color managed. QColors are understood as RGB-type colors in the sRGB space.</para>
+<para>We recommend you make a color like this:</para>
+<para><programlisting><codeline><highlight class="normal">colorYellow<sp/>=<sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>(</highlight><highlight class="stringliteral">&quot;RGBA&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;U8&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">QVector&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;<sp/>yellowComponents<sp/>=<sp/>colorYellow.<ref refid="class_managed_color_1a428fe292713b264af5112ae98d74c29c" kindref="member">components</ref>()</highlight></codeline>
+<codeline><highlight class="normal">yellowComponents[0]<sp/>=<sp/>1.0</highlight></codeline>
+<codeline><highlight class="normal">yellowComponents[1]<sp/>=<sp/>1.0</highlight></codeline>
+<codeline><highlight class="normal">yellowComponents[2]<sp/>=<sp/>0</highlight></codeline>
+<codeline><highlight class="normal">yellowComponents[3]<sp/>=<sp/>1.0</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">colorYellow.<ref refid="class_managed_color_1a9f133c4bb3b2024426082fedf071ed74" kindref="member">setComponents</ref>(yellowComponents)</highlight></codeline>
+<codeline><highlight class="normal">QColor<sp/>yellow<sp/>=<sp/>colorYellow.<ref refid="class_managed_color_1a460edcb83e95e24931e559da793bbd00" kindref="member">colorForCanvas</ref>(canvas)</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ManagedColor</label>
+        <link refid="class_managed_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ManagedColor</label>
+        <link refid="class_managed_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="ManagedColor.h" line="45" column="1" bodyfile="ManagedColor.h" bodystart="46" bodyend="206"/>
+    <listofallmembers>
+      <member refid="class_managed_color_1ac490afbdd202dbaf36fcd486dbfd4cae" prot="private" virt="non-virtual"><scope>ManagedColor</scope><name>color</name></member>
+      <member refid="class_managed_color_1afadf875c95dce1a2b6ef46b849b3924f" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>colorDepth</name></member>
+      <member refid="class_managed_color_1a460edcb83e95e24931e559da793bbd00" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>colorForCanvas</name></member>
+      <member refid="class_managed_color_1aff3ee479468ffd4b90815a88304b2abd" prot="private" virt="non-virtual"><scope>ManagedColor</scope><name>ColorizeMask</name></member>
+      <member refid="class_managed_color_1a12d3e56f8a088f707807e3ebef9df043" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>colorModel</name></member>
+      <member refid="class_managed_color_1a3e69b59300fbd45768ad9eece46a805f" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>colorProfile</name></member>
+      <member refid="class_managed_color_1a428fe292713b264af5112ae98d74c29c" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>components</name></member>
+      <member refid="class_managed_color_1ac5d6f72572fec815a37fe4011fdd4961" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>componentsOrdered</name></member>
+      <member refid="class_managed_color_1a93cb599e634527170d38447f223038b1" prot="private" virt="non-virtual"><scope>ManagedColor</scope><name>d</name></member>
+      <member refid="class_managed_color_1a5ddab87a57e83c9de0f73ad01afdd525" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>fromQColor</name></member>
+      <member refid="class_managed_color_1a8f68128850da66f3f33385b19f753ee7" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>fromXML</name></member>
+      <member refid="class_managed_color_1a280deb3e0dafd4b759fa6b016e4bd54e" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>ManagedColor</name></member>
+      <member refid="class_managed_color_1a9e06e8a9f14a7dbfe78f7b85f2513a07" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>ManagedColor</name></member>
+      <member refid="class_managed_color_1a5f61dd2e43dd9274603605dd31530f26" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>ManagedColor</name></member>
+      <member refid="class_managed_color_1a310079e5cacaf913b2cd23a06c1c4914" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>operator==</name></member>
+      <member refid="class_managed_color_1a60683b9c5b46c483ea04874dd0b7298f" prot="private" virt="non-virtual"><scope>ManagedColor</scope><name>PaletteView</name></member>
+      <member refid="class_managed_color_1a3a141d55357cc55540092121ceaed8f8" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>setColorProfile</name></member>
+      <member refid="class_managed_color_1a685dfd64121795b65e8f9dc71f75cb0c" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>setColorSpace</name></member>
+      <member refid="class_managed_color_1a9f133c4bb3b2024426082fedf071ed74" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>setComponents</name></member>
+      <member refid="class_managed_color_1a6fa9c795fdb30a1eea81db0ddab97936" prot="private" virt="non-virtual"><scope>ManagedColor</scope><name>Swatch</name></member>
+      <member refid="class_managed_color_1a85a9b000167898e06870c63cc895c7d4" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>toQString</name></member>
+      <member refid="class_managed_color_1a61f286b8abd83e7927860d75e9b0a27c" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>toXML</name></member>
+      <member refid="class_managed_color_1a018ff8a950133459fda57a235706a80b" prot="private" virt="non-virtual"><scope>ManagedColor</scope><name>View</name></member>
+      <member refid="class_managed_color_1a9d4e6941b859ab8967e8b8a00c153711" prot="public" virt="non-virtual"><scope>ManagedColor</scope><name>~ManagedColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

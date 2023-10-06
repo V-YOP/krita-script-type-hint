@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_notifier_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Notifier::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_notifier_1_1_private_1a9e7abd616972ecdf3e5da6c22ec673b7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Notifier::Private::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>Notifier::Private::active</qualifiedname>
+        <initializer>{true}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.cpp" line="16" column="10" bodyfile="Notifier.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_notifier_1_1_private_1a9bc4d4624a3f2a5e5107ea9c28e734e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Notifier::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Notifier::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Notifier.cpp" line="15" column="5" bodyfile="Notifier.cpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Notifier.cpp" line="14" column="1" bodyfile="Notifier.cpp" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_notifier_1_1_private_1a9e7abd616972ecdf3e5da6c22ec673b7" prot="public" virt="non-virtual"><scope>Notifier::Private</scope><name>active</name></member>
+      <member refid="struct_notifier_1_1_private_1a9bc4d4624a3f2a5e5107ea9c28e734e0" prot="public" virt="non-virtual"><scope>Notifier::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

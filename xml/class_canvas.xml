@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_canvas" kind="class" language="C++" prot="public">
+    <compoundname>Canvas</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_canvas_8h" local="no">Canvas.h</includes>
+    <innerclass refid="struct_canvas_1_1_private" prot="public">Canvas::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_canvas_1a944be00db0ae07d95f00efdc8db036e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ManagedColor</definition>
+        <argsstring></argsstring>
+        <name>ManagedColor</name>
+        <qualifiedname>Canvas::ManagedColor</qualifiedname>
+        <param>
+          <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="105" column="18" bodyfile="Canvas.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_canvas_1ae9df4750825a1d5873f5b58f2454e80a" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_canvas_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Canvas::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Canvas::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="110" column="19" bodyfile="Canvas.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_canvas_1aeac63b8e913e0596f2c17605ae2ae369" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canvas::Canvas</definition>
+        <argsstring>(KoCanvasBase *canvas, QObject *parent=0)</argsstring>
+        <name>Canvas</name>
+        <qualifiedname>Canvas::Canvas</qualifiedname>
+        <param>
+          <type>KoCanvasBase *</type>
+          <declname>canvas</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="27" column="14" bodyfile="Canvas.cpp" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_canvas_1ac05e46c7b874bfedbf7c98df97965aef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canvas::~Canvas</definition>
+        <argsstring>() override</argsstring>
+        <name>~Canvas</name>
+        <qualifiedname>Canvas::~Canvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="28" column="5" bodyfile="Canvas.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_canvas_1ad80f2d88e56d6d0f773c0067de711ff2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canvas::operator==</definition>
+        <argsstring>(const Canvas &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Canvas::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_canvas" kindref="compound">Canvas</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="30" column="10" bodyfile="Canvas.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_canvas_1a90bc5cc31a732aec8e4178106e11c0f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canvas::operator!=</definition>
+        <argsstring>(const Canvas &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Canvas::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_canvas" kindref="compound">Canvas</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="31" column="10" bodyfile="Canvas.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_canvas_1aac55c17eba53f1b4b49c23759c61174b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Canvas::zoomLevel</definition>
+        <argsstring>() const</argsstring>
+        <name>zoomLevel</name>
+        <qualifiedname>Canvas::zoomLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the current zoomlevel. 1.0 is 100%. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="38" column="11" bodyfile="Canvas.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1ad5dc2852848a82be509b84d4b07f5015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canvas::setZoomLevel</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setZoomLevel</name>
+        <qualifiedname>Canvas::setZoomLevel</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setZoomLevel set the zoomlevel to the given <computeroutput>value</computeroutput>. 1.0 is 100%. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="43" column="10" bodyfile="Canvas.cpp" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1afe46d22d824c72fae2e598a00e964aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canvas::resetZoom</definition>
+        <argsstring>()</argsstring>
+        <name>resetZoom</name>
+        <qualifiedname>Canvas::resetZoom</qualifiedname>
+        <briefdescription>
+<para>resetZoom set the zoomlevel to 100% </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="48" column="10" bodyfile="Canvas.cpp" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1a32c3031fa460b467c59b3b3824cf1bc1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Canvas::rotation</definition>
+        <argsstring>() const</argsstring>
+        <name>rotation</name>
+        <qualifiedname>Canvas::rotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the rotation of the canvas in degrees. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="53" column="11" bodyfile="Canvas.cpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1a406503d884c3333a09877820bacbdeae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canvas::setRotation</definition>
+        <argsstring>(qreal angle)</argsstring>
+        <name>setRotation</name>
+        <qualifiedname>Canvas::setRotation</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+<para>setRotation set the rotation of the canvas to the given </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>in degrees. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="58" column="10" bodyfile="Canvas.cpp" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1aa2884065af5aa0d89f18fad4e144dd21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canvas::resetRotation</definition>
+        <argsstring>()</argsstring>
+        <name>resetRotation</name>
+        <qualifiedname>Canvas::resetRotation</qualifiedname>
+        <briefdescription>
+<para>resetRotation reset the canvas rotation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="63" column="10" bodyfile="Canvas.cpp" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1a0ae53f7af681988d28349f96aa1b34f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canvas::mirror</definition>
+        <argsstring>() const</argsstring>
+        <name>mirror</name>
+        <qualifiedname>Canvas::mirror</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>return true if the canvas is mirrored, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="68" column="10" bodyfile="Canvas.cpp" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1a3260ecc8ea9f67074d300505f5dcf3de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canvas::setMirror</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setMirror</name>
+        <qualifiedname>Canvas::setMirror</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setMirror turn the canvas mirroring on or off depending on </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="73" column="10" bodyfile="Canvas.cpp" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1ad133ca24a0f1d7c3d375ef37f1c09b3b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canvas::wrapAroundMode</definition>
+        <argsstring>() const</argsstring>
+        <name>wrapAroundMode</name>
+        <qualifiedname>Canvas::wrapAroundMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the canvas is in wraparound mode, false if not. Only when OpenGL is enabled, is wraparound mode available. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="79" column="10" bodyfile="Canvas.cpp" bodystart="108" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1a7be07e28f3300af87c4757b8ae96417c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canvas::setWrapAroundMode</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>setWrapAroundMode</name>
+        <qualifiedname>Canvas::setWrapAroundMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>setWrapAroundMode set wraparound mode to </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="84" column="10" bodyfile="Canvas.cpp" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1a84ce542dccceedda42c6697f6fa91ab8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canvas::levelOfDetailMode</definition>
+        <argsstring>() const</argsstring>
+        <name>levelOfDetailMode</name>
+        <qualifiedname>Canvas::levelOfDetailMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the canvas is in Instant Preview mode, false if not. Only when OpenGL is enabled, is Instant Preview mode available. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="90" column="10" bodyfile="Canvas.cpp" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1aa16e71ac99501523f6b1e85b37829f03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canvas::setLevelOfDetailMode</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>setLevelOfDetailMode</name>
+        <qualifiedname>Canvas::setLevelOfDetailMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>setLevelOfDetailMode sets Instant Preview to </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="95" column="10" bodyfile="Canvas.cpp" bodystart="126" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_canvas_1a4b1e62f9192d268d36a913e5ef0fc0c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_view" kindref="compound">View</ref> *</type>
+        <definition>View * Canvas::view</definition>
+        <argsstring>() const</argsstring>
+        <name>view</name>
+        <qualifiedname>Canvas::view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the view that holds this canvas </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="100" column="10" bodyfile="Canvas.cpp" bodystart="95" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_canvas_1abecb36ddd105aca91ae401796bcc0037" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisDisplayColorConverter *</type>
+        <definition>KisDisplayColorConverter * Canvas::displayColorConverter</definition>
+        <argsstring>() const</argsstring>
+        <name>displayColorConverter</name>
+        <qualifiedname>Canvas::displayColorConverter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.h" line="107" column="30" bodyfile="Canvas.cpp" bodystart="102" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_canvas" kindref="compound">Canvas</ref> wraps the canvas inside a view on an image/document. It is responsible for the view parameters of the document: zoom, rotation, mirror, wraparound and instant preview. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Canvas</label>
+        <link refid="class_canvas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Canvas</label>
+        <link refid="class_canvas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Canvas.h" line="22" column="1" bodyfile="Canvas.h" bodystart="23" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_canvas_1aeac63b8e913e0596f2c17605ae2ae369" prot="public" virt="non-virtual"><scope>Canvas</scope><name>Canvas</name></member>
+      <member refid="class_canvas_1ae9df4750825a1d5873f5b58f2454e80a" prot="private" virt="non-virtual"><scope>Canvas</scope><name>d</name></member>
+      <member refid="class_canvas_1abecb36ddd105aca91ae401796bcc0037" prot="private" virt="non-virtual"><scope>Canvas</scope><name>displayColorConverter</name></member>
+      <member refid="class_canvas_1a84ce542dccceedda42c6697f6fa91ab8" prot="public" virt="non-virtual"><scope>Canvas</scope><name>levelOfDetailMode</name></member>
+      <member refid="class_canvas_1a944be00db0ae07d95f00efdc8db036e3" prot="private" virt="non-virtual"><scope>Canvas</scope><name>ManagedColor</name></member>
+      <member refid="class_canvas_1a0ae53f7af681988d28349f96aa1b34f2" prot="public" virt="non-virtual"><scope>Canvas</scope><name>mirror</name></member>
+      <member refid="class_canvas_1a90bc5cc31a732aec8e4178106e11c0f5" prot="public" virt="non-virtual"><scope>Canvas</scope><name>operator!=</name></member>
+      <member refid="class_canvas_1ad80f2d88e56d6d0f773c0067de711ff2" prot="public" virt="non-virtual"><scope>Canvas</scope><name>operator==</name></member>
+      <member refid="class_canvas_1aa2884065af5aa0d89f18fad4e144dd21" prot="public" virt="non-virtual"><scope>Canvas</scope><name>resetRotation</name></member>
+      <member refid="class_canvas_1afe46d22d824c72fae2e598a00e964aa2" prot="public" virt="non-virtual"><scope>Canvas</scope><name>resetZoom</name></member>
+      <member refid="class_canvas_1a32c3031fa460b467c59b3b3824cf1bc1" prot="public" virt="non-virtual"><scope>Canvas</scope><name>rotation</name></member>
+      <member refid="class_canvas_1aa16e71ac99501523f6b1e85b37829f03" prot="public" virt="non-virtual"><scope>Canvas</scope><name>setLevelOfDetailMode</name></member>
+      <member refid="class_canvas_1a3260ecc8ea9f67074d300505f5dcf3de" prot="public" virt="non-virtual"><scope>Canvas</scope><name>setMirror</name></member>
+      <member refid="class_canvas_1a406503d884c3333a09877820bacbdeae" prot="public" virt="non-virtual"><scope>Canvas</scope><name>setRotation</name></member>
+      <member refid="class_canvas_1a7be07e28f3300af87c4757b8ae96417c" prot="public" virt="non-virtual"><scope>Canvas</scope><name>setWrapAroundMode</name></member>
+      <member refid="class_canvas_1ad5dc2852848a82be509b84d4b07f5015" prot="public" virt="non-virtual"><scope>Canvas</scope><name>setZoomLevel</name></member>
+      <member refid="class_canvas_1a4b1e62f9192d268d36a913e5ef0fc0c3" prot="public" virt="non-virtual"><scope>Canvas</scope><name>view</name></member>
+      <member refid="class_canvas_1ad133ca24a0f1d7c3d375ef37f1c09b3b" prot="public" virt="non-virtual"><scope>Canvas</scope><name>wrapAroundMode</name></member>
+      <member refid="class_canvas_1aac55c17eba53f1b4b49c23759c61174b" prot="public" virt="non-virtual"><scope>Canvas</scope><name>zoomLevel</name></member>
+      <member refid="class_canvas_1ac05e46c7b874bfedbf7c98df97965aef" prot="public" virt="non-virtual"><scope>Canvas</scope><name>~Canvas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

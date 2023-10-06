@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_window" kind="class" language="C++" prot="public">
+    <compoundname>Window</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_window_8h" local="no">Window.h</includes>
+    <innerclass refid="struct_window_1_1_private" prot="public">Window::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_window_1a37c02e10d952fe1e928055e6e8ad8717" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_window_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const Window::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>Window::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="106" column="19" bodyfile="Window.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_window_1a1b663df9be5ffb269f7f4a638dd1fd12" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Window::Window</definition>
+        <argsstring>(KisMainWindow *window, QObject *parent=0)</argsstring>
+        <name>Window</name>
+        <qualifiedname>Window::Window</qualifiedname>
+        <param>
+          <type>KisMainWindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="27" column="14" bodyfile="Window.cpp" bodystart="30" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a5388fe1ea0247653def5810c2998c270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Window::~Window</definition>
+        <argsstring>() override</argsstring>
+        <name>~Window</name>
+        <qualifiedname>Window::~Window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="28" column="5" bodyfile="Window.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a7ba23fb8fcfcfab31e54a3393d953d65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::operator==</definition>
+        <argsstring>(const Window &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Window::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_window" kindref="compound">Window</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="30" column="10" bodyfile="Window.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a26bb72877e46c302e886ec704441d5cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::operator!=</definition>
+        <argsstring>(const Window &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Window::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_window" kindref="compound">Window</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="31" column="10" bodyfile="Window.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_window_1a99d38be2aff3bd79b04d03f51e501265" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QMainWindow *</type>
+        <definition>QMainWindow * Window::qwindow</definition>
+        <argsstring>() const</argsstring>
+        <name>qwindow</name>
+        <qualifiedname>Window::qwindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a handle to the QMainWindow widget. This is useful to e.g. parent dialog boxes and message box. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="39" column="17" bodyfile="Window.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1a5e1bc0e9da0d92f6dba586b9ee5c19d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; QDockWidget * &gt;</type>
+        <definition>QList&lt; QDockWidget * &gt; Window::dockers</definition>
+        <argsstring>() const</argsstring>
+        <name>dockers</name>
+        <qualifiedname>Window::dockers</qualifiedname>
+        <briefdescription>
+<para>dockers </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of all the dockers belonging to this window </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="45" column="11" bodyfile="Window.cpp" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1a6a567e4898b290c141eb5ef94f784221" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_view" kindref="compound">View</ref> * &gt;</type>
+        <definition>QList&lt; View * &gt; Window::views</definition>
+        <argsstring>() const</argsstring>
+        <name>views</name>
+        <qualifiedname>Window::views</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of open views in this window </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="50" column="11" bodyfile="Window.cpp" bodystart="69" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1af3dfb2c3a8feca3f94be9658fd125a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_view" kindref="compound">View</ref> *</type>
+        <definition>View * Window::addView</definition>
+        <argsstring>(Document *document)</argsstring>
+        <name>addView</name>
+        <qualifiedname>Window::addView</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
+          <declname>document</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Open a new view on the given document in this window </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="55" column="10" bodyfile="Window.cpp" bodystart="83" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1a8c1a0b11e3ae1c7ec37eb8fbc53d22de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::showView</definition>
+        <argsstring>(View *view)</argsstring>
+        <name>showView</name>
+        <qualifiedname>Window::showView</qualifiedname>
+        <param>
+          <type><ref refid="class_view" kindref="compound">View</ref> *</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make the given view active in this window. If the view does not belong to this window, nothing happens. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="61" column="10" bodyfile="Window.cpp" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1a586ace18f4be797f92af47a92195a084" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_view" kindref="compound">View</ref> *</type>
+        <definition>View * Window::activeView</definition>
+        <argsstring>() const</argsstring>
+        <name>activeView</name>
+        <qualifiedname>Window::activeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the currently active view or 0 if no view is active </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="67" column="10" bodyfile="Window.cpp" bodystart="104" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1ac03c0847a4488cf2ae4b7e5203b3a8fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::activate</definition>
+        <argsstring>()</argsstring>
+        <name>activate</name>
+        <qualifiedname>Window::activate</qualifiedname>
+        <briefdescription>
+<para>activate activates this <ref refid="class_window" kindref="compound">Window</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="72" column="10" bodyfile="Window.cpp" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1a35055c04498121d39741bfcd5082705b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <qualifiedname>Window::close</qualifiedname>
+        <briefdescription>
+<para>close the active window and all its Views. If there are no Views left for a given <ref refid="class_document" kindref="compound">Document</ref>, that <ref refid="class_document" kindref="compound">Document</ref> will also be closed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="79" column="10" bodyfile="Window.cpp" bodystart="119" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_window_1a72ec58e53844076c1461966c34a9115c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QAction *</type>
+        <definition>QAction * Window::createAction</definition>
+        <argsstring>(const QString &amp;id, const QString &amp;text=QString(), const QString &amp;menuLocation=QString(&quot;tools/scripts&quot;))</argsstring>
+        <name>createAction</name>
+        <qualifiedname>Window::createAction</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>menuLocation</declname>
+          <defval>QString(&quot;tools/scripts&quot;)</defval>
+        </param>
+        <briefdescription>
+<para>createAction creates a QAction object and adds it to the action manager for this <ref refid="class_window" kindref="compound">Window</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique id for the action. This will be used to propertize the action if any .action file is present </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user-visible text of the action. If empty, the text from the .action file is used. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>menuLocation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a /-separated string that describes which menu the action should be places in. Default is &quot;tools/scripts&quot; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the new action. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="92" column="13" bodyfile="Window.cpp" bodystart="128" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_window_1a28b30166dc3ffa76619ab60442a9a851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::windowClosed</definition>
+        <argsstring>()</argsstring>
+        <name>windowClosed</name>
+        <qualifiedname>Window::windowClosed</qualifiedname>
+        <briefdescription>
+<para>Emitted when the window is closed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="96" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_window_1a05608b0d47638b86d7e56baa1cec9da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::themeChanged</definition>
+        <argsstring>()</argsstring>
+        <name>themeChanged</name>
+        <qualifiedname>Window::themeChanged</qualifiedname>
+        <briefdescription>
+<para>Emitted when we change the color theme. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="99" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_window_1aea828021c95c083b96a481b5329a3f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::activeViewChanged</definition>
+        <argsstring>()</argsstring>
+        <name>activeViewChanged</name>
+        <qualifiedname>Window::activeViewChanged</qualifiedname>
+        <briefdescription>
+<para>Emitted when the active view changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Window.h" line="102" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_window" kindref="compound">Window</ref> represents one <ref refid="class_krita" kindref="compound">Krita</ref> mainwindow. A window can have any number of views open on any number of documents. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Window</label>
+        <link refid="class_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Window</label>
+        <link refid="class_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Window.h" line="22" column="1" bodyfile="Window.h" bodystart="23" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_window_1ac03c0847a4488cf2ae4b7e5203b3a8fe" prot="public" virt="non-virtual"><scope>Window</scope><name>activate</name></member>
+      <member refid="class_window_1a586ace18f4be797f92af47a92195a084" prot="public" virt="non-virtual"><scope>Window</scope><name>activeView</name></member>
+      <member refid="class_window_1aea828021c95c083b96a481b5329a3f05" prot="public" virt="non-virtual"><scope>Window</scope><name>activeViewChanged</name></member>
+      <member refid="class_window_1af3dfb2c3a8feca3f94be9658fd125a99" prot="public" virt="non-virtual"><scope>Window</scope><name>addView</name></member>
+      <member refid="class_window_1a35055c04498121d39741bfcd5082705b" prot="public" virt="non-virtual"><scope>Window</scope><name>close</name></member>
+      <member refid="class_window_1a72ec58e53844076c1461966c34a9115c" prot="public" virt="non-virtual"><scope>Window</scope><name>createAction</name></member>
+      <member refid="class_window_1a37c02e10d952fe1e928055e6e8ad8717" prot="private" virt="non-virtual"><scope>Window</scope><name>d</name></member>
+      <member refid="class_window_1a5e1bc0e9da0d92f6dba586b9ee5c19d4" prot="public" virt="non-virtual"><scope>Window</scope><name>dockers</name></member>
+      <member refid="class_window_1a26bb72877e46c302e886ec704441d5cd" prot="public" virt="non-virtual"><scope>Window</scope><name>operator!=</name></member>
+      <member refid="class_window_1a7ba23fb8fcfcfab31e54a3393d953d65" prot="public" virt="non-virtual"><scope>Window</scope><name>operator==</name></member>
+      <member refid="class_window_1a99d38be2aff3bd79b04d03f51e501265" prot="public" virt="non-virtual"><scope>Window</scope><name>qwindow</name></member>
+      <member refid="class_window_1a8c1a0b11e3ae1c7ec37eb8fbc53d22de" prot="public" virt="non-virtual"><scope>Window</scope><name>showView</name></member>
+      <member refid="class_window_1a05608b0d47638b86d7e56baa1cec9da3" prot="public" virt="non-virtual"><scope>Window</scope><name>themeChanged</name></member>
+      <member refid="class_window_1a6a567e4898b290c141eb5ef94f784221" prot="public" virt="non-virtual"><scope>Window</scope><name>views</name></member>
+      <member refid="class_window_1a1b663df9be5ffb269f7f4a638dd1fd12" prot="public" virt="non-virtual"><scope>Window</scope><name>Window</name></member>
+      <member refid="class_window_1a28b30166dc3ffa76619ab60442a9a851" prot="public" virt="non-virtual"><scope>Window</scope><name>windowClosed</name></member>
+      <member refid="class_window_1a5388fe1ea0247653def5810c2998c270" prot="public" virt="non-virtual"><scope>Window</scope><name>~Window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

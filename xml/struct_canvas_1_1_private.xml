@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_canvas_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>Canvas::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_canvas_1_1_private_1a4d4ff9ce71244626a9cb9d45064d7f17" prot="public" static="no" mutable="no">
+        <type>KisCanvas2 *</type>
+        <definition>KisCanvas2* Canvas::Private::canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <qualifiedname>Canvas::Private::canvas</qualifiedname>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.cpp" line="18" column="16" bodyfile="Canvas.cpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_canvas_1_1_private_1ad29a20222412d3824355e974b60bc156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canvas::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>Canvas::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Canvas.cpp" line="17" column="5" bodyfile="Canvas.cpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Canvas.cpp" line="16" column="1" bodyfile="Canvas.cpp" bodystart="16" bodyend="19"/>
+    <listofallmembers>
+      <member refid="struct_canvas_1_1_private_1a4d4ff9ce71244626a9cb9d45064d7f17" prot="public" virt="non-virtual"><scope>Canvas::Private</scope><name>canvas</name></member>
+      <member refid="struct_canvas_1_1_private_1ad29a20222412d3824355e974b60bc156" prot="public" virt="non-virtual"><scope>Canvas::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
