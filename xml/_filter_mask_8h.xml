@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="_filter_mask_8h" kind="file" language="C++">
     <compoundname>FilterMask.h</compoundname>
     <includes local="no">QObject</includes>
@@ -12,8 +12,6 @@
     <includedby refid="_filter_mask_8cpp" local="yes">FilterMask.cpp</includedby>
     <includedby refid="_lib_kis_utils_8cpp" local="yes">LibKisUtils.cpp</includedby>
     <includedby refid="_node_8cpp" local="yes">Node.cpp</includedby>
-    <includedby refid="res_8cpp" local="yes">res.cpp</includedby>
-    <includedby refid="res_8hpp" local="yes">res.hpp</includedby>
     <incdepgraph>
       <node id="13">
         <label>Filter.h</label>
@@ -108,26 +106,16 @@
         <link refid="_document_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
       </node>
       <node id="1">
         <label>FilterMask.h</label>
         <link refid="_filter_mask_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>Krita.h</label>
         <link refid="_krita_8h_source"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>res.hpp</label>
-        <link refid="res_8hpp_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_filter_mask" prot="public">FilterMask</innerclass>

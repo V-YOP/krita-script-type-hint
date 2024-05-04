@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="_selection_8h" kind="file" language="C++">
     <compoundname>Selection.h</compoundname>
     <includes local="no">QObject</includes>
@@ -14,8 +14,6 @@
     <includedby refid="_selection_8cpp" local="yes">Selection.cpp</includedby>
     <includedby refid="_selection_mask_8cpp" local="yes">SelectionMask.cpp</includedby>
     <includedby refid="_transparency_mask_8cpp" local="yes">TransparencyMask.cpp</includedby>
-    <includedby refid="res_8cpp" local="yes">res.cpp</includedby>
-    <includedby refid="res_8hpp" local="yes">res.hpp</includedby>
     <incdepgraph>
       <node id="1">
         <label>Selection.h</label>
@@ -79,44 +77,30 @@
         <link refid="_document_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="2">
         <label>FillLayer.h</label>
         <link refid="_fill_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
-      <node id="6">
+      <node id="5">
         <label>FilterLayer.h</label>
         <link refid="_filter_layer_8h_source"/>
         <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="4">
         <label>Krita.h</label>
         <link refid="_krita_8h_source"/>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
       <node id="1">
         <label>Selection.h</label>
         <link refid="_selection_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>res.hpp</label>
-        <link refid="res_8hpp_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_selection" prot="public">Selection</innerclass>

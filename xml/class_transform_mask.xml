@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="class_transform_mask" kind="class" language="C++" prot="public">
     <compoundname>TransformMask</compoundname>
     <basecompoundref refid="class_node" prot="public" virt="non-virtual">Node</basecompoundref>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="TransformMask.h" line="28" column="14" bodyfile="TransformMask.cpp" bodystart="21" bodyend="25"/>
+        <location file="TransformMask.h" line="28" column="14" bodyfile="TransformMask.cpp" bodystart="22" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="class_transform_mask_1a7432ff77ae1bf955d8a174af3ce2f97c" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="TransformMask.h" line="29" column="14" bodyfile="TransformMask.cpp" bodystart="27" bodyend="31"/>
+        <location file="TransformMask.h" line="29" column="14" bodyfile="TransformMask.cpp" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="class_transform_mask_1af9d69e24d11283bf992545e4e7948e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="TransformMask.h" line="30" column="5" bodyfile="TransformMask.cpp" bodystart="33" bodyend="36"/>
+        <location file="TransformMask.h" line="30" column="5" bodyfile="TransformMask.cpp" bodystart="34" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-slot">
@@ -91,7 +91,7 @@ If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="TransformMask.h" line="42" column="21" bodyfile="TransformMask.cpp" bodystart="38" bodyend="41"/>
+        <location file="TransformMask.h" line="42" column="21" bodyfile="TransformMask.cpp" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="slot" id="class_transform_mask_1ad152edbbbb1a08333f8b72d7928cf1d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QTransform</type>
@@ -105,7 +105,7 @@ If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="TransformMask.h" line="44" column="16" bodyfile="TransformMask.cpp" bodystart="43" bodyend="52"/>
+        <location file="TransformMask.h" line="44" column="16" bodyfile="TransformMask.cpp" bodystart="44" bodyend="53"/>
       </memberdef>
       <memberdef kind="slot" id="class_transform_mask_1a7aa137772e6d43334e73e5cdef43ee71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -123,7 +123,7 @@ If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="TransformMask.h" line="50" column="13" bodyfile="TransformMask.cpp" bodystart="54" bodyend="72"/>
+        <location file="TransformMask.h" line="50" column="13" bodyfile="TransformMask.cpp" bodystart="55" bodyend="73"/>
       </memberdef>
       <memberdef kind="slot" id="class_transform_mask_1a3135087444d0e4140eb1506ee4980df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -182,7 +182,7 @@ If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="TransformMask.h" line="88" column="10" bodyfile="TransformMask.cpp" bodystart="74" bodyend="109"/>
+        <location file="TransformMask.h" line="88" column="10" bodyfile="TransformMask.cpp" bodystart="75" bodyend="115"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

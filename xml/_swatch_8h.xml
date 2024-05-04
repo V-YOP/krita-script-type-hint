@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="_swatch_8h" kind="file" language="C++">
     <compoundname>Swatch.h</compoundname>
     <includes refid="_managed_color_8h" local="yes">ManagedColor.h</includes>
@@ -8,8 +8,6 @@
     <includedby refid="_palette_8h" local="no">Palette.h</includedby>
     <includedby refid="_palette_view_8h" local="no">PaletteView.h</includedby>
     <includedby refid="_swatch_8cpp" local="yes">Swatch.cpp</includedby>
-    <includedby refid="res_8cpp" local="yes">res.cpp</includedby>
-    <includedby refid="res_8hpp" local="yes">res.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>ManagedColor.h</label>
@@ -88,14 +86,10 @@
         <link refid="_palette_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>PaletteView.h</label>
         <link refid="_palette_view_8h_source"/>
-        <childnode refid="4" relation="include">
-        </childnode>
       </node>
       <node id="1">
         <label>Swatch.h</label>
@@ -104,12 +98,6 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>res.hpp</label>
-        <link refid="res_8hpp_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_swatch" prot="public">Swatch</innerclass>

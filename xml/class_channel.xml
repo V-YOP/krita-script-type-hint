@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="class_channel" kind="class" language="C++" prot="public">
     <compoundname>Channel</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="27" column="14" bodyfile="Channel.cpp" bodystart="30" bodyend="36"/>
+        <location file="Channel.h" line="27" column="14" bodyfile="Channel.cpp" bodystart="32" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1aee8f50152fdf71d78eeb5d8ce82eced7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="28" column="5" bodyfile="Channel.cpp" bodystart="38" bodyend="41"/>
+        <location file="Channel.h" line="28" column="5" bodyfile="Channel.cpp" bodystart="40" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1a21d6adf4b745535f7842e0f5b00f7213" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="30" column="10" bodyfile="Channel.cpp" bodystart="44" bodyend="48"/>
+        <location file="Channel.h" line="30" column="10" bodyfile="Channel.cpp" bodystart="46" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1a8b87f344de6e2351c20a7936b0762ad6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="31" column="10" bodyfile="Channel.cpp" bodystart="50" bodyend="53"/>
+        <location file="Channel.h" line="31" column="10" bodyfile="Channel.cpp" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1a9846cec445cb3fccdbf1b243613ddf69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="37" column="10" bodyfile="Channel.cpp" bodystart="56" bodyend="72"/>
+        <location file="Channel.h" line="37" column="10" bodyfile="Channel.cpp" bodystart="58" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1a407b3ee90824a72b19569d6d967f9913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="42" column="10" bodyfile="Channel.cpp" bodystart="74" bodyend="95"/>
+        <location file="Channel.h" line="42" column="10" bodyfile="Channel.cpp" bodystart="76" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1ad1e9654765bb4cae3eb63566e21b4a13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="47" column="13" bodyfile="Channel.cpp" bodystart="97" bodyend="100"/>
+        <location file="Channel.h" line="47" column="13" bodyfile="Channel.cpp" bodystart="99" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1a3843cb5d6e418aaa19295584a58214ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="52" column="9" bodyfile="Channel.cpp" bodystart="102" bodyend="105"/>
+        <location file="Channel.h" line="52" column="9" bodyfile="Channel.cpp" bodystart="104" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1aea137c691e5a3689349f9cab4c4040d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="57" column="9" bodyfile="Channel.cpp" bodystart="107" bodyend="110"/>
+        <location file="Channel.h" line="57" column="9" bodyfile="Channel.cpp" bodystart="109" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1aab1f8fc244b6a81c44301e0b70a3483e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QRect</type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="62" column="11" bodyfile="Channel.cpp" bodystart="112" bodyend="148"/>
+        <location file="Channel.h" line="62" column="11" bodyfile="Channel.cpp" bodystart="114" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1abb43c7a78a1366da856170d9da173050" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QByteArray</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="70" column="16" bodyfile="Channel.cpp" bodystart="150" bodyend="185"/>
+        <location file="Channel.h" line="70" column="16" bodyfile="Channel.cpp" bodystart="152" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="class_channel_1aa0ccf6e79bce5016715fce955b95eeb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -264,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.h" line="82" column="10" bodyfile="Channel.cpp" bodystart="187" bodyend="226"/>
+        <location file="Channel.h" line="82" column="10" bodyfile="Channel.cpp" bodystart="196" bodyend="235"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

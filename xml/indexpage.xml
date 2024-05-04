@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="indexpage" kind="page">
     <compoundname>index</compoundname>
     <title>libkis: Krita Scripting and Plugin Wrapper Library</title>
@@ -27,8 +27,7 @@
 </para>
 <para>The reference implementation of scripting in <ref refid="class_krita" kindref="compound">Krita</ref> is implemented in Python 3. All examples in the documentation for scripting will be provided using Python, although the api documentation is generated from C++ header files and shows c++ syntax for arguments.</para>
 <sect1 id="index_1autotoc_md0">
-<title>Autostarting Scripts</title>
-<para>Autostarting scripts or script-based plugins are scripts that <ref refid="class_krita" kindref="compound">Krita</ref> loads on startup. You can add autostarting scripts to <ref refid="class_krita" kindref="compound">Krita</ref> by placing them in the pykrita folder in the resources folder: go to settings/ manage resources and press the Open Resources Folder to open your local resources folder.</para>
+<title>Autostarting Scripts</title><para>Autostarting scripts or script-based plugins are scripts that <ref refid="class_krita" kindref="compound">Krita</ref> loads on startup. You can add autostarting scripts to <ref refid="class_krita" kindref="compound">Krita</ref> by placing them in the pykrita folder in the resources folder: go to settings/ manage resources and press the Open Resources Folder to open your local resources folder.</para>
 <para>Scripts are identified by a file that ends in a <computeroutput>.desktop</computeroutput> extension that contain information about the script itself. For example:</para>
 <para><programlisting><codeline><highlight class="normal">[Desktop<sp/>Entry]</highlight></codeline>
 <codeline><highlight class="normal">Type=Service</highlight></codeline>
@@ -68,8 +67,7 @@
 </programlisting></para>
 </sect1>
 <sect1 id="index_1autotoc_md1">
-<title>The Krita Object Model</title>
-<para>The starting point is the <simplesect kind="see"><para><ref refid="class_krita" kindref="compound">Krita</ref> class, which provides a singleton object for easy reference. From the <ref refid="class_krita" kindref="compound">Krita</ref> class, a hierarchy is provided where you can access windows, lviews, documents, nodes and channels.</para>
+<title>The Krita Object Model</title><para>The starting point is the <simplesect kind="see"><para><ref refid="class_krita" kindref="compound">Krita</ref> class, which provides a singleton object for easy reference. From the <ref refid="class_krita" kindref="compound">Krita</ref> class, a hierarchy is provided where you can access windows, lviews, documents, nodes and channels.</para>
 </simplesect>
 You can access the <ref refid="class_krita" kindref="compound">Krita</ref> class as</para>
 <para><ref refid="class_krita_1aa55507903d088013ced2df8c74f28a63" kindref="member">Krita.instance()</ref> Application Scripter</para>

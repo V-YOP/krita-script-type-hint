@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="class_view" kind="class" language="C++" prot="public">
     <compoundname>View</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="173" column="18" bodyfile="View.h" bodystart="173" bodyend="-1"/>
+        <location file="View.h" line="176" column="18" bodyfile="View.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="friend" id="class_view_1a4c09e157d0e3941dd526f3ced7f3d6f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="174" column="18" bodyfile="View.h" bodystart="174" bodyend="-1"/>
+        <location file="View.h" line="177" column="18" bodyfile="View.h" bodystart="177" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="180" column="19" bodyfile="View.h" bodystart="180" bodyend="-1"/>
+        <location file="View.h" line="183" column="19" bodyfile="View.h" bodystart="183" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -588,6 +588,38 @@
         </inbodydescription>
         <location file="View.h" line="118" column="10" bodyfile="View.cpp" bodystart="244" bodyend="248"/>
       </memberdef>
+      <memberdef kind="slot" id="class_view_1aa15321d641fbe8cb62f433bb35a8380b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal View::brushRotation</definition>
+        <argsstring>() const</argsstring>
+        <name>brushRotation</name>
+        <qualifiedname>View::brushRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="120" column="11" bodyfile="View.cpp" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setBrushRotation</definition>
+        <argsstring>(qreal brushRotation)</argsstring>
+        <name>setBrushRotation</name>
+        <qualifiedname>View::setBrushRotation</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>brushRotation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="121" column="10" bodyfile="View.cpp" bodystart="256" bodyend="260"/>
+      </memberdef>
       <memberdef kind="slot" id="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
         <definition>qreal View::paintingFlow</definition>
@@ -600,7 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="120" column="11" bodyfile="View.cpp" bodystart="250" bodyend="254"/>
+        <location file="View.h" line="123" column="11" bodyfile="View.cpp" bodystart="262" bodyend="266"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1ab04ace4224618b8f46059f3d4a85a546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -618,7 +650,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="121" column="10" bodyfile="View.cpp" bodystart="256" bodyend="260"/>
+        <location file="View.h" line="124" column="10" bodyfile="View.cpp" bodystart="268" bodyend="272"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -683,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="131" column="10" bodyfile="View.cpp" bodystart="272" bodyend="280"/>
+        <location file="View.h" line="134" column="10" bodyfile="View.cpp" bodystart="284" bodyend="292"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1aa7956b8880a33fe130b5555280b2fb25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
@@ -708,7 +740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="148" column="11" bodyfile="View.cpp" bodystart="262" bodyend="270"/>
+        <location file="View.h" line="151" column="11" bodyfile="View.cpp" bodystart="274" bodyend="282"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QTransform</type>
@@ -726,7 +758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="155" column="16" bodyfile="View.cpp" bodystart="282" bodyend="286"/>
+        <location file="View.h" line="158" column="16" bodyfile="View.cpp" bodystart="294" bodyend="298"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QTransform</type>
@@ -744,7 +776,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="162" column="16" bodyfile="View.cpp" bodystart="288" bodyend="292"/>
+        <location file="View.h" line="165" column="16" bodyfile="View.cpp" bodystart="300" bodyend="304"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a87b0192a7aa2176455a7a4653858c41f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QTransform</type>
@@ -762,7 +794,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="169" column="16" bodyfile="View.cpp" bodystart="294" bodyend="302"/>
+        <location file="View.h" line="172" column="16" bodyfile="View.cpp" bodystart="306" bodyend="314"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -778,7 +810,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="177" column="13" bodyfile="View.cpp" bodystart="104" bodyend="107"/>
+        <location file="View.h" line="180" column="13" bodyfile="View.cpp" bodystart="104" bodyend="107"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -808,10 +840,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="View.h" line="24" column="1" bodyfile="View.h" bodystart="25" bodyend="182"/>
+    <location file="View.h" line="24" column="1" bodyfile="View.h" bodystart="25" bodyend="185"/>
     <listofallmembers>
       <member refid="class_view_1a93b1f781d18cdc8d5ed463190fbafc06" prot="public" virt="non-virtual"><scope>View</scope><name>activateResource</name></member>
       <member refid="class_view_1a692583f994437dc7c99a7b1180281a1e" prot="public" virt="non-virtual"><scope>View</scope><name>backgroundColor</name></member>
+      <member refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" prot="public" virt="non-virtual"><scope>View</scope><name>brushRotation</name></member>
       <member refid="class_view_1afde6199aea404549c344dd531c556a8c" prot="public" virt="non-virtual"><scope>View</scope><name>brushSize</name></member>
       <member refid="class_view_1a99a088b993877ba6188f114d223b0d64" prot="public" virt="non-virtual"><scope>View</scope><name>canvas</name></member>
       <member refid="class_view_1a72f0c1287b50223a948b49de40f68b94" prot="public" virt="non-virtual"><scope>View</scope><name>currentBlendingMode</name></member>
@@ -833,6 +866,7 @@
       <member refid="class_view_1a4c09e157d0e3941dd526f3ced7f3d6f7" prot="private" virt="non-virtual"><scope>View</scope><name>Scratchpad</name></member>
       <member refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" prot="public" virt="non-virtual"><scope>View</scope><name>selectedNodes</name></member>
       <member refid="class_view_1a27c29c2ecfc2005183fecd06ab283fe7" prot="public" virt="non-virtual"><scope>View</scope><name>setBackGroundColor</name></member>
+      <member refid="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" prot="public" virt="non-virtual"><scope>View</scope><name>setBrushRotation</name></member>
       <member refid="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" prot="public" virt="non-virtual"><scope>View</scope><name>setBrushSize</name></member>
       <member refid="class_view_1a60e2805bd14cc5765d622b21fa1b67b5" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentBlendingMode</name></member>
       <member refid="class_view_1a2d00737b10840da6d0994601e45cab09" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentBrushPreset</name></member>
@@ -846,11 +880,11 @@
       <member refid="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" prot="public" virt="non-virtual"><scope>View</scope><name>setPaintingOpacity</name></member>
       <member refid="class_view_1ae5c04a6c590e1c2de2ceea7ab2db6b9f" prot="public" virt="non-virtual"><scope>View</scope><name>setVisible</name></member>
       <member refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" prot="public" virt="non-virtual"><scope>View</scope><name>showFloatingMessage</name></member>
-      <member refid="class_view_1aa6656cb36ef7ea405798f94456509dc4" prot="private" virt="non-virtual"><scope>View</scope><name>view</name></member>
       <member refid="class_view_1a1f20f994975aff14d01c86de535ab80e" prot="public" virt="non-virtual"><scope>View</scope><name>View</name></member>
+      <member refid="class_view_1aa6656cb36ef7ea405798f94456509dc4" prot="private" virt="non-virtual"><scope>View</scope><name>view</name></member>
       <member refid="class_view_1a25efd59adc30472912be0345bd273761" prot="public" virt="non-virtual"><scope>View</scope><name>visible</name></member>
-      <member refid="class_view_1aa9ae34c5b6b7340c05547a716ee3da38" prot="public" virt="non-virtual"><scope>View</scope><name>window</name></member>
       <member refid="class_view_1a553f958a25683445088050a69d3de8e9" prot="private" virt="non-virtual"><scope>View</scope><name>Window</name></member>
+      <member refid="class_view_1aa9ae34c5b6b7340c05547a716ee3da38" prot="public" virt="non-virtual"><scope>View</scope><name>window</name></member>
       <member refid="class_view_1a03c7de75b3d338c79b0fd0100153ca1d" prot="public" virt="non-virtual"><scope>View</scope><name>~View</name></member>
     </listofallmembers>
   </compounddef>

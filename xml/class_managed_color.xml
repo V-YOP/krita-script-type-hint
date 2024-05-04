@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="class_managed_color" kind="class" language="C++" prot="public">
     <compoundname>ManagedColor</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
@@ -644,7 +644,7 @@
 <para><ref refid="class_krita" kindref="compound">Krita</ref> has two color management systems. LCMS and OCIO. LCMS is the one handling the ICC profile stuff, and the major one handling that <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> deals with. OCIO support is only in the display of the colors. <ref refid="class_managed_color" kindref="compound">ManagedColor</ref> has some support for it in <ref refid="class_managed_color_1a460edcb83e95e24931e559da793bbd00" kindref="member">colorForCanvas()</ref></para>
 <para>All colors in <ref refid="class_krita" kindref="compound">Krita</ref> are color managed. QColors are understood as RGB-type colors in the sRGB space.</para>
 <para>We recommend you make a color like this:</para>
-<para><programlisting><codeline><highlight class="normal">colorYellow<sp/>=<sp/><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>(</highlight><highlight class="stringliteral">&quot;RGBA&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;U8&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<para><programlisting><codeline><highlight class="normal">colorYellow<sp/>=<sp/><ref refid="class_managed_color_1a280deb3e0dafd4b759fa6b016e4bd54e" kindref="member">ManagedColor</ref>(</highlight><highlight class="stringliteral">&quot;RGBA&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;U8&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline><highlight class="normal">QVector&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;<sp/>yellowComponents<sp/>=<sp/>colorYellow.<ref refid="class_managed_color_1a428fe292713b264af5112ae98d74c29c" kindref="member">components</ref>()</highlight></codeline>
 <codeline><highlight class="normal">yellowComponents[0]<sp/>=<sp/>1.0</highlight></codeline>
 <codeline><highlight class="normal">yellowComponents[1]<sp/>=<sp/>1.0</highlight></codeline>

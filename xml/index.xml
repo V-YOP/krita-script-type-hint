@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
   <compound refid="class_canvas" kind="class"><name>Canvas</name>
     <member refid="class_canvas_1a944be00db0ae07d95f00efdc8db036e3" kind="friend"><name>ManagedColor</name></member>
     <member refid="class_canvas_1ae9df4750825a1d5873f5b58f2454e80a" kind="variable"><name>d</name></member>
@@ -811,6 +811,8 @@
     <member refid="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" kind="slot"><name>setPaintingOpacity</name></member>
     <member refid="class_view_1afde6199aea404549c344dd531c556a8c" kind="slot"><name>brushSize</name></member>
     <member refid="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" kind="slot"><name>setBrushSize</name></member>
+    <member refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kind="slot"><name>brushRotation</name></member>
+    <member refid="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" kind="slot"><name>setBrushRotation</name></member>
     <member refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" kind="slot"><name>paintingFlow</name></member>
     <member refid="class_view_1ab04ace4224618b8f46059f3d4a85a546" kind="slot"><name>setPaintingFlow</name></member>
     <member refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" kind="slot"><name>showFloatingMessage</name></member>
@@ -948,10 +950,6 @@
   <compound refid="_preset_chooser_8cpp" kind="file"><name>PresetChooser.cpp</name>
   </compound>
   <compound refid="_preset_chooser_8h" kind="file"><name>PresetChooser.h</name>
-  </compound>
-  <compound refid="res_8cpp" kind="file"><name>res.cpp</name>
-  </compound>
-  <compound refid="res_8hpp" kind="file"><name>res.hpp</name>
   </compound>
   <compound refid="_resource_8cpp" kind="file"><name>Resource.cpp</name>
   </compound>

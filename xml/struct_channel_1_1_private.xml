@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="struct_channel_1_1_private" kind="struct" language="C++" prot="public">
     <compoundname>Channel::Private</compoundname>
     <sectiondef kind="public-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.cpp" line="25" column="15" bodyfile="Channel.cpp" bodystart="25" bodyend="-1"/>
+        <location file="Channel.cpp" line="27" column="15" bodyfile="Channel.cpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_channel_1_1_private_1a270b50676bff1f61fa8ce7eab9aea4ca" prot="public" static="no" mutable="no">
         <type>KoChannelInfo *</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.cpp" line="26" column="19" bodyfile="Channel.cpp" bodystart="26" bodyend="26"/>
+        <location file="Channel.cpp" line="28" column="19" bodyfile="Channel.cpp" bodystart="28" bodyend="28"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -46,14 +46,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Channel.cpp" line="23" column="5" bodyfile="Channel.cpp" bodystart="23" bodyend="23"/>
+        <location file="Channel.cpp" line="25" column="5" bodyfile="Channel.cpp" bodystart="25" bodyend="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Channel.cpp" line="22" column="1" bodyfile="Channel.cpp" bodystart="22" bodyend="28"/>
+    <location file="Channel.cpp" line="24" column="1" bodyfile="Channel.cpp" bodystart="24" bodyend="30"/>
     <listofallmembers>
       <member refid="struct_channel_1_1_private_1a270b50676bff1f61fa8ce7eab9aea4ca" prot="public" virt="non-virtual"><scope>Channel::Private</scope><name>channel</name></member>
       <member refid="struct_channel_1_1_private_1ae8136eda82e98a18d9329cdf244a7a5d" prot="public" virt="non-virtual"><scope>Channel::Private</scope><name>node</name></member>

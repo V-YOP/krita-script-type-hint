@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="_selection_8cpp" kind="file" language="C++">
     <compoundname>Selection.cpp</compoundname>
     <includes refid="_selection_8h" local="yes">Selection.h</includes>
@@ -201,7 +201,7 @@
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><ref refid="class_selection" kindref="compound">Selection</ref><sp/>*<ref refid="class_selection_1a5632fc2a2a1c0837d105ee6964a2ca44" kindref="member">Selection::duplicate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="57"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_selection" kindref="compound">Selection</ref>(d-&gt;selection<sp/>?<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisSelection(*d-&gt;selection)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_selection_1a23af3e010cef9e92da2c71565e3919bb" kindref="member">Selection</ref>(d-&gt;selection<sp/>?<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisSelection(*d-&gt;selection)</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>new<sp/>KisSelection());</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
