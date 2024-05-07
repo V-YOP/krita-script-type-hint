@@ -1,39 +1,43 @@
-from typing import Protocol, List
+from typing import Protocol, List, Never
 from PyQt5.QtCore import QObject, QUuid, QByteArray, QRect, QVariant, QPointF, QRectF, QPoint, pyqtSignal
 from PyQt5.QtGui import QColor, QImage, QTransform, QIcon
 from PyQt5.QtWidgets import QDockWidget, QMainWindow, QWidget, QAction
 
-KoCanvasBase = QObject
-KisNodeSP = QObject
-KisLayerSP = QObject
-KoChannelInfo = QObject
-KisImage = QObject
-KisImageSP = QObject
-KisCloneLayerSP = QObject
-DockPosition = QObject
-KisDocument = QObject
-KisFileLayerSP = QObject
-KisColorizeMaskSP = QObject
-KisFilterMaskSP = QObject
-KisFilterConfigurationSP = QObject
-KisGeneratorLayerSP = QObject
-KisAdjustmentLayerSP = QObject
-KisGroupLayerSP = QObject
-KisShapeGroupSP = QObject
-KoShapeGroup = QObject
-KoColor = QObject
-KoResourceSP = QObject
-KisPropertiesConfigurationSP = QObject
-KisSelectionSP = QObject
-KisSelectionMaskSP = QObject
-KoShape = QObject
-KisTransformMaskSP = QObject
-KisTransparencyMaskSP = QObject
-KoShapeControllerBase = QObject
-KisView = QObject
-KisShapeLayerSP = QObject
-KisMainWindow = QObject
-class Canvas:
+KoCanvasBase = Never
+KisNodeSP = Never
+KisLayerSP = Never
+KoChannelInfo = Never
+KisImage = Never
+KisImageSP = Never
+KisCloneLayerSP = Never
+DockPosition = Never
+KisDocument = Never
+KisFileLayerSP = Never
+KisColorizeMaskSP = Never
+KisFilterMaskSP = Never
+KisFilterConfigurationSP = Never
+KisGeneratorLayerSP = Never
+KisAdjustmentLayerSP = Never
+KisGroupLayerSP = Never
+KisShapeGroupSP = Never
+KoShapeGroup = Never
+KoColor = Never
+KoResourceSP = Never
+KisPropertiesConfigurationSP = Never
+KisSelectionSP = Never
+KisSelectionMaskSP = Never
+KoShape = Never
+KisTransformMaskSP = Never
+KisTransparencyMaskSP = Never
+KoShapeControllerBase = Never
+KisView = Never
+KisShapeLayerSP = Never
+KisMainWindow = Never
+KoCanvasObserverBase = Never
+KoDockFactoryBase = Never
+KisPresetChooser = Never
+
+class Canvas(QObject):
 
   """
     
@@ -179,7 +183,7 @@ class Canvas:
     ...
   
 
-class Channel:
+class Channel(QObject):
 
   """
     
@@ -284,7 +288,7 @@ class Channel:
     ...
   
 
-class CloneLayer:
+class CloneLayer(Node):
 
   """
     The [CloneLayer](https://api.kde.org/krita/html/classCloneLayer.html) class A clone layer is a layer that takes a reference inside the image and shows the exact same pixeldata.
@@ -349,7 +353,7 @@ class CloneLayer:
     ...
   
 
-class ColorizeMask:
+class ColorizeMask(Node):
 
   """
     The [ColorizeMask](https://api.kde.org/krita/html/classColorizeMask.html) class A colorize mask is a mask type node that can be used to color in line art.
@@ -699,7 +703,7 @@ class ColorizeMask:
     ...
   
 
-class DockWidget:
+class DockWidget(QDockWidget, KoCanvasObserverBase):
 
   """
     
@@ -729,7 +733,7 @@ class DockWidget:
     ...
   
 
-class DockWidgetFactoryBase:
+class DockWidgetFactoryBase(KoDockFactoryBase):
 
   """
     The [DockWidgetFactoryBase](https://api.kde.org/krita/html/classDockWidgetFactoryBase.html) class is the base class for plugins that want to add a dock widget to every window. You do not need to implement this class yourself, but create a [DockWidget](https://api.kde.org/krita/html/classDockWidget.html) implementation and then add the DockWidgetFactory to the [Krita](https://api.kde.org/krita/html/classKrita.html) instance like this:
@@ -764,7 +768,7 @@ class DockWidgetFactoryBase:
     ...
   
 
-class Document:
+class Document(QObject):
 
   """
     
@@ -2268,7 +2272,7 @@ class Document:
     ...
   
 
-class Extension:
+class Extension(QObject):
 
   """
     
@@ -2326,7 +2330,7 @@ class Extension:
     ...
   
 
-class FileLayer:
+class FileLayer(Node):
 
   """
     The [FileLayer](https://api.kde.org/krita/html/classFileLayer.html) class A file layer is a layer that can reference an external image and show said reference in the layer stack.
@@ -2416,7 +2420,7 @@ class FileLayer:
     ...
   
 
-class FillLayer:
+class FillLayer(Node):
 
   """
     The [FillLayer](https://api.kde.org/krita/html/classFillLayer.html) class A fill layer is much like a filter layer in that it takes a name and filter. It however specializes in filters that fill the whole canvas, such as a pattern or full color fill.
@@ -2518,7 +2522,7 @@ class FillLayer:
     ...
   
 
-class Filter:
+class Filter(QObject):
 
   """
     
@@ -2635,7 +2639,7 @@ class Filter:
     ...
   
 
-class FilterLayer:
+class FilterLayer(Node):
 
   """
     The [FilterLayer](https://api.kde.org/krita/html/classFilterLayer.html) class A filter layer will, when compositing, take the composited image up to the point of the location of the filter layer in the stack, create a copy and apply a filter.
@@ -2678,7 +2682,7 @@ class FilterLayer:
     ...
   
 
-class FilterMask:
+class FilterMask(Node):
 
   """
     The [FilterMask](https://api.kde.org/krita/html/classFilterMask.html) class A filter mask, unlike a filter layer, will add a non-destructive filter to the composited image of the node it is attached to.
@@ -2735,7 +2739,7 @@ class FilterMask:
     ...
   
 
-class GroupLayer:
+class GroupLayer(Node):
 
   """
     The [GroupLayer](https://api.kde.org/krita/html/classGroupLayer.html) class A group layer is a layer that can contain other layers. In [Krita](https://api.kde.org/krita/html/classKrita.html), layers within a group layer are composited first before they are added into the composition code for where the group is in the stack. This has a significant effect on how it is interpreted for blending modes.
@@ -2795,7 +2799,7 @@ class GroupLayer:
     ...
   
 
-class GroupShape:
+class GroupShape(Shape):
 
   """
     The [GroupShape](https://api.kde.org/krita/html/classGroupShape.html) class A group shape is a vector object with child shapes.
@@ -2833,7 +2837,7 @@ class GroupShape:
     ...
   
 
-class InfoObject:
+class InfoObject(QObject):
 
   """
     
@@ -2893,7 +2897,7 @@ class InfoObject:
     ...
   
 
-class Krita:
+class Krita(QObject):
 
   """
     
@@ -3415,7 +3419,7 @@ class Krita:
     ...
   
 
-class ManagedColor:
+class ManagedColor(QObject):
 
   """
     The [ManagedColor](https://api.kde.org/krita/html/classManagedColor.html) class is a class to handle colors that are color managed. A managed color is a color of which we know the model(RGB, LAB, CMYK, etc), the bitdepth and the specific properties of its colorspace, such as the whitepoint, chromaticities, trc, etc, as represented by the color profile.
@@ -3677,7 +3681,7 @@ class ManagedColor:
     ...
   
 
-class Node:
+class Node(QObject):
 
   """
     
@@ -4607,7 +4611,7 @@ class Node:
     ...
   
 
-class Notifier:
+class Notifier(QObject):
 
   """
     
@@ -4724,7 +4728,7 @@ class Notifier:
   """
   
 
-class Palette:
+class Palette(QObject):
 
   """
     The [Palette](https://api.kde.org/krita/html/classPalette.html) class [Palette](https://api.kde.org/krita/html/classPalette.html) is a resource object that stores organised color data. It's purpose is to allow artists to save colors and store them.
@@ -4974,7 +4978,7 @@ class Palette:
     ...
   
 
-class PaletteView:
+class PaletteView(QWidget):
 
   """
     The [PaletteView](https://api.kde.org/krita/html/classPaletteView.html) class is a wrapper around a MVC method for handling palettes. This class shows a nice widget that can drag and drop, edit colors in a colorset and will handle adding and removing entries if you'd like it to.
@@ -5068,7 +5072,7 @@ class PaletteView:
   """
   
 
-class Preset:
+class Preset(QObject):
 
   """
     The [Preset](https://api.kde.org/krita/html/classPreset.html) class [Preset](https://api.kde.org/krita/html/classPreset.html) is a resource object that stores brush preset data.
@@ -5114,7 +5118,7 @@ class Preset:
     ...
   
 
-class PresetChooser:
+class PresetChooser(KisPresetChooser):
 
   """
     The [PresetChooser](https://api.kde.org/krita/html/classPresetChooser.html) widget wraps the KisPresetChooser widget. The widget provides for selecting brush presets. It has a tagging bar and a filter field. It is not automatically synchronized with the currently selected preset in the current Windows.
@@ -5161,7 +5165,7 @@ class PresetChooser:
   """
   
 
-class Resource:
+class Resource(QObject):
 
   """
     
@@ -5253,7 +5257,7 @@ class Resource:
     ...
   
 
-class Scratchpad:
+class Scratchpad(QWidget):
 
   """
     The [Scratchpad](https://api.kde.org/krita/html/classScratchpad.html) class A scratchpad is a type of blank canvas area that can be painted on with the normal painting devices.
@@ -5347,7 +5351,7 @@ class Scratchpad:
     ...
   
 
-class Selection:
+class Selection(QObject):
 
   """
     
@@ -5721,7 +5725,7 @@ class Selection:
     ...
   
 
-class SelectionMask:
+class SelectionMask(Node):
 
   """
     The [SelectionMask](https://api.kde.org/krita/html/classSelectionMask.html) class A selection mask is a mask type node that can be used to store selections. In the gui, these are referred to as local selections.
@@ -5763,7 +5767,7 @@ class SelectionMask:
     ...
   
 
-class Shape:
+class Shape(QObject):
 
   """
     The [Shape](https://api.kde.org/krita/html/classShape.html) class The shape class is a wrapper around [Krita](https://api.kde.org/krita/html/classKrita.html)'s vector objects.
@@ -6138,7 +6142,7 @@ class Swatch:
     ...
   
 
-class TransformMask:
+class TransformMask(Node):
 
   """
     The [TransformMask](https://api.kde.org/krita/html/classTransformMask.html) class A transform mask is a mask type node that can be used to store transformations.
@@ -6233,7 +6237,7 @@ class TransformMask:
     ...
   
 
-class TransparencyMask:
+class TransparencyMask(Node):
 
   """
     The [TransparencyMask](https://api.kde.org/krita/html/classTransparencyMask.html) class A transparency mask is a mask type node that can be used to show and hide parts of a layer.
@@ -6273,7 +6277,7 @@ class TransparencyMask:
     ...
   
 
-class VectorLayer:
+class VectorLayer(Node):
 
   """
     The [VectorLayer](https://api.kde.org/krita/html/classVectorLayer.html) class A vector layer is a special layer that stores and shows vector shapes.
@@ -6404,7 +6408,7 @@ class VectorLayer:
     ...
   
 
-class View:
+class View(QObject):
 
   """
     
@@ -6698,7 +6702,7 @@ class View:
     ...
   
 
-class Window:
+class Window(QObject):
 
   """
     

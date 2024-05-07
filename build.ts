@@ -451,41 +451,45 @@ function toPythonDef(def: ClassMember): string {
 
 ; (async () => {
     let result = ''
-    result += 'from typing import Protocol, List\n'
+    result += 'from typing import Protocol, List, Never\n'
     result += 'from PyQt5.QtCore import QObject, QUuid, QByteArray, QRect, QVariant, QPointF, QRectF, QPoint, pyqtSignal\n'
     result += 'from PyQt5.QtGui import QColor, QImage, QTransform, QIcon\n'
     result += 'from PyQt5.QtWidgets import QDockWidget, QMainWindow, QWidget, QAction\n\n'
     
-    result += `KoCanvasBase = QObject
-    KisNodeSP = QObject
-    KisLayerSP = QObject
-    KoChannelInfo = QObject
-    KisImage = QObject
-    KisImageSP = QObject
-    KisCloneLayerSP = QObject
-    DockPosition = QObject
-    KisDocument = QObject
-    KisFileLayerSP = QObject
-    KisColorizeMaskSP = QObject
-    KisFilterMaskSP = QObject
-    KisFilterConfigurationSP = QObject
-    KisGeneratorLayerSP = QObject
-    KisAdjustmentLayerSP = QObject
-    KisGroupLayerSP = QObject
-    KisShapeGroupSP = QObject
-    KoShapeGroup = QObject
-    KoColor = QObject
-    KoResourceSP = QObject
-    KisPropertiesConfigurationSP = QObject
-    KisSelectionSP = QObject
-    KisSelectionMaskSP = QObject
-    KoShape = QObject
-    KisTransformMaskSP = QObject
-    KisTransparencyMaskSP = QObject
-    KoShapeControllerBase = QObject
-    KisView = QObject
-    KisShapeLayerSP = QObject
-    KisMainWindow = QObject`.split(/\r?\n/g).map(x=>x.trim()).filter(x=>x).join('\n') + '\n'
+    result += `KoCanvasBase = Never
+    KisNodeSP = Never
+    KisLayerSP = Never
+    KoChannelInfo = Never
+    KisImage = Never
+    KisImageSP = Never
+    KisCloneLayerSP = Never
+    DockPosition = Never
+    KisDocument = Never
+    KisFileLayerSP = Never
+    KisColorizeMaskSP = Never
+    KisFilterMaskSP = Never
+    KisFilterConfigurationSP = Never
+    KisGeneratorLayerSP = Never
+    KisAdjustmentLayerSP = Never
+    KisGroupLayerSP = Never
+    KisShapeGroupSP = Never
+    KoShapeGroup = Never
+    KoColor = Never
+    KoResourceSP = Never
+    KisPropertiesConfigurationSP = Never
+    KisSelectionSP = Never
+    KisSelectionMaskSP = Never
+    KoShape = Never
+    KisTransformMaskSP = Never
+    KisTransparencyMaskSP = Never
+    KoShapeControllerBase = Never
+    KisView = Never
+    KisShapeLayerSP = Never
+    KisMainWindow = Never
+    KoCanvasObserverBase = Never
+    KoDockFactoryBase = Never
+    KisPresetChooser = Never`
+        .split(/\r?\n/g).map(x=>x.trim()).filter(x=>x).join('\n') + '\n\n'
 
     for (const xmlPath of xmlPaths) {
         const xml = await toXML(fs.readFileSync(xmlPath, 'utf-8'))
@@ -501,15 +505,18 @@ function toPythonDef(def: ClassMember): string {
             returnType: 'None',
         }
 
+        const parents = 
+            querySelectorsAll(xml, x => x.tag === 'basecompoundref' && x.parent!.tag === 'compounddef')
+                .map(elem => xmlsLiteral(elem.childs ?? []).trim())
         const classDocStr = getDocstr(mockClassMember)
         
-        result += `class ${className}:\n\n`
+        result += `class ${className}${parents.length === 0 ? '' : `(${parents.map(x => `${x}`).join(', ')})`}:\n\n`
         result += addIndent('"""', 2) + '\n'
         result += addIndent(classDocStr, 4) + '\n'
         result += addIndent('"""', 2) + '\n\n'
 
         // // 处理signal，创建一个假的__init__去绑定signal
-        // result += addIndent('def __init__(self, DO_NOT_CALL_ME: NoReturn):', 2) + '\n'
+        // result += addIndent('def __init__(self, DO_NOT_CALL_ME: Never):', 2) + '\n'
         // result += addIndent('"""', 4) + '\n'
         // result += addIndent('仅用来标识signal，不要调用它', 6) + '\n'
         // result += addIndent('"""', 4) + '\n'
