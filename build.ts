@@ -180,7 +180,7 @@ function extractDefs(root: XMLElement): [string, ClassMember[]] {
 
             // console.log('F', name, `(${params.map(([t, n, v]) => `${n}: ${t}${v !== undefined ? ` = ${v}` : ''}`).join(', ')}): ${retType}`)
             return [{
-                type: retType === className ? 'constructor_' : 'function',
+                type: name === className ? 'constructor_' : 'function',
                 name,
                 isStatic: def.attrs.static === 'yes',
                 params,

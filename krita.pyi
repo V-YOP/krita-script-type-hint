@@ -825,7 +825,7 @@ class Document(QObject):
     ...
   
 
-  def __init__(self) -> None:
+  def clone(self) -> "Document":
     """
       clone create a shallow clone of this document.
       
@@ -3382,7 +3382,8 @@ class Krita(QObject):
     ...
   
 
-  def __init__(self) -> None:
+  @staticmethod
+  def instance() -> "Krita":
     """
       instance retrieve the singleton instance of the Application object.
     """
@@ -3660,7 +3661,8 @@ class ManagedColor(QObject):
     ...
   
 
-  def __init__(self, qcolor: QColor, canvas: Canvas = None) -> None:
+  @staticmethod
+  def fromQColor(qcolor: QColor, canvas: Canvas = None) -> "ManagedColor":
     """
       fromQColor is the (approximate) reverse of [colorForCanvas()](https://api.kde.org/krita/html/classcolorForCanvas().html)
       
@@ -3689,12 +3691,13 @@ class Node(QObject):
     [Node](https://api.kde.org/krita/html/classNode.html) represents a layer or mask in a [Krita](https://api.kde.org/krita/html/classKrita.html) image's [Node](https://api.kde.org/krita/html/classNode.html) hierarchy. Group layers can contain other layers and masks; layers can contain masks.
   """
 
-  def __init__(self, image: KisImageSP, node: KisNodeSP, parent: QObject = None) -> None:
+  @staticmethod
+  def createNode(image: KisImageSP, node: KisNodeSP, parent: QObject = None) -> "Node":
   
     ...
   
 
-  def __init__(self) -> None:
+  def clone(self) -> "Node":
     """
       clone clone the current node. The node is not associated with any image.
     """
@@ -4122,7 +4125,7 @@ class Node(QObject):
     ...
   
 
-  def __init__(self) -> None:
+  def parentNode(self) -> "Node":
     """
       
       
@@ -4410,7 +4413,7 @@ class Node(QObject):
     ...
   
 
-  def __init__(self) -> None:
+  def duplicate(self) -> "Node":
     """
       duplicate returns a full copy of the current node. The node is not inserted in the graphic
       
@@ -4454,7 +4457,7 @@ class Node(QObject):
     ...
   
 
-  def __init__(self) -> None:
+  def mergeDown(self) -> "Node":
     """
       mergeDown merges the given node with the first visible node underneath this node in the layerstack. This will drop all per-layer metadata.
     """
@@ -5388,7 +5391,7 @@ class Selection(QObject):
     ...
   
 
-  def __init__(self) -> None:
+  def duplicate(self) -> "Selection":
     """
       
       
@@ -6068,7 +6071,7 @@ class Shape(QObject):
     ...
   
 
-  def __init__(self) -> None:
+  def parentShape(self) -> "Shape":
     """
       parentShape
       
